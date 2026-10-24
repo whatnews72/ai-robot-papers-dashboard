@@ -1,0 +1,1071 @@
+{
+  "updatedAt": "2026-10-24T21:17:00.121Z",
+  "queries": [
+    "AI scientist autonomous research",
+    "robot scientist",
+    "self-driving laboratory",
+    "autonomous experimentation robot",
+    "agentic AI scientific discovery",
+    "embodied AI laboratory automation",
+    "LLM agent research automation",
+    "automated scientific experiment robotics"
+  ],
+  "papers": [
+    {
+      "id": "2610.28887",
+      "title": "Building AI Research Teams for Autonomous Discovery of Linear Attention Architectures",
+      "authors": [
+        "Yujian Liu",
+        "Li An",
+        "Zelin He",
+        "Jacob Helwig",
+        "Jiabao Ji",
+        "Rohit Jain",
+        "Siyu Zhu",
+        "Shiyu Chang"
+      ],
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "upvotes": 34,
+      "keywords": [],
+      "categories": [
+        "AI 과학자"
+      ],
+      "aiSummary": {
+        "en": "",
+        "ko": ""
+      },
+      "abstract": {
+        "en": "Autonomous agents can increasingly propose ideas, modify code, and run experiments, creating an opportunity to accelerate scientific discovery using teams of collaborative AI researchers. To escape local minima in the discovery, we propose to encourage orthogonal exploration by constructing the team using agents with varying expertise. However, realizing this design requires more than diverse backgrounds. When experiments are costly, a team can test only a limited number of ideas, thereby creating the need to balance exploration and exploitation when selecting a subset of researchers to propose and execute new experiments. Furthermore, each result should shape what the team tries next. We therefore ask how AI researchers with different scientific backgrounds can build on one another's findings and sustain progress under a limited experimental budget. To address these challenges, we build a team of persistent AI researchers, each grounded in a different discipline, who keep private research histories, share experimental evidence, and receive research opportunities through adaptive allocation. We demonstrate the effectiveness of this design by deploying the team to search for linear attention architectures, where it outperforms GDN2 at 1.3B scale on language modeling, common-sense reasoning, and synthetic and real-world retrieval tasks. In controlled comparisons, removing any single organizational component from our design yields markedly weaker discoveries: without disciplinary backgrounds, the search plateaus early; without private histories, researchers make less progress despite identical shared evidence; and uniform selection falls short of adaptive allocation within the same budget. These results suggest that sustained autonomous discovery depends not only on stronger agents, but also on who explores, what they remember, and how research effort is allocated.",
+        "ko": "자율 에이전트는 점점 더 많은 아이디어를 제안하고, 코드를 수정하고, 실험을 실행하여 협업 AI 연구원 팀을 사용하여 과학적 발견을 가속화할 수 있는 기회를 창출할 수 있습니다. 발견에서 현지 미니마를 탈출하기 위해 다양한 전문 지식을 갖춘 에이전트를 사용하여 팀을 구성하여 직교 탐사를 장려하는 것이 좋습니다. 그러나 이 디자인을 실현하려면 다양한 배경 이상이 필요합니다. 실험 비용이 많이 드는 경우, 팀은 제한된 수의 아이디어만 테스트할 수 있으므로 새로운 실험을 제안하고 실행할 연구자의 하위 집합을 선택할 때 탐구와 활용의 균형을 맞출 필요가 있습니다. 또한, 각 결과는 팀이 다음에 시도하는 것을 형성해야 합니다. 따라서 우리는 서로 다른 과학적 배경을 가진 AI 연구자들이 어떻게 서로의 연구 결과를 바탕으로 제한된 실험 예산 하에서 진행 상황을 유지할 수 있는지 묻습니다. 이러한 문제를 해결하기 위해 우리는 서로 다른 분야에 기반을 둔 끈질긴 AI 연구원 팀을 구성하여 개인 연구 기록을 유지하고 실험적 증거를 공유하며 적응형 할당을 통해 연구 기회를 얻습니다. 우리는 언어 모델링, 상식적 추론 및 합성 및 실제 검색 작업에서 1.3B 규모의 GDN2를 능가하는 선형 주의 아키텍처를 검색하기 위해 팀을 배치하여 이 설계의 효과를 입증합니다. 통제된 비교에서, 우리의 설계에서 단일 조직 구성 요소를 제거하는 것은 현저하게 약한 발견을 산출합니다: 징계 배경이 없으면, 조기에 검색이 이루어집니다; 개인 이력이 없으면, 연구자들은 동일한 공유된 증거에도 불구하고 더 적은 진전을 이룹니다; 그리고 균일한 선택은 동일한 예산 내에서 적응형 할당에 미치지 못합니다. 이러한 결과는 지속적인 자율적 발견이 더 강력한 에이전트뿐만 아니라 누가 탐색하고, 무엇을 기억하고, 연구 노력이 어떻게 할당되는지에 달려 있음을 시사합니다."
+      },
+      "sentences": [
+        {
+          "en": "Autonomous agents can increasingly propose ideas, modify code, and run experiments, creating an opportunity to accelerate scientific discovery using teams of collaborative AI researchers.",
+          "ko": "자율 에이전트는 점점 더 많은 아이디어를 제안하고, 코드를 수정하고, 실험을 실행하여 협업 AI 연구원 팀을 사용하여 과학적 발견을 가속화할 수 있는 기회를 창출할 수 있습니다."
+        },
+        {
+          "en": "To escape local minima in the discovery, we propose to encourage orthogonal exploration by constructing the team using agents with varying expertise.",
+          "ko": "발견에서 현지 미니마를 탈출하기 위해 다양한 전문 지식을 갖춘 에이전트를 사용하여 팀을 구성하여 직교 탐사를 장려하는 것이 좋습니다."
+        },
+        {
+          "en": "However, realizing this design requires more than diverse backgrounds.",
+          "ko": "그러나 이 디자인을 실현하려면 다양한 배경 이상이 필요합니다."
+        },
+        {
+          "en": "When experiments are costly, a team can test only a limited number of ideas, thereby creating the need to balance exploration and exploitation when selecting a subset of researchers to propose and execute new experiments.",
+          "ko": "실험 비용이 많이 드는 경우, 팀은 제한된 수의 아이디어만 테스트할 수 있으므로 새로운 실험을 제안하고 실행할 연구자의 하위 집합을 선택할 때 탐구와 활용의 균형을 맞출 필요가 있습니다."
+        },
+        {
+          "en": "Furthermore, each result should shape what the team tries next.",
+          "ko": "또한, 각 결과는 팀이 다음에 시도하는 것을 형성해야 합니다."
+        },
+        {
+          "en": "We therefore ask how AI researchers with different scientific backgrounds can build on one another's findings and sustain progress under a limited experimental budget.",
+          "ko": "따라서 우리는 서로 다른 과학적 배경을 가진 AI 연구자들이 어떻게 서로의 연구 결과를 바탕으로 제한된 실험 예산 하에서 진행 상황을 유지할 수 있는지 묻습니다."
+        },
+        {
+          "en": "To address these challenges, we build a team of persistent AI researchers, each grounded in a different discipline, who keep private research histories, share experimental evidence, and receive research opportunities through adaptive allocation.",
+          "ko": "이러한 문제를 해결하기 위해 우리는 서로 다른 분야에 기반을 둔 끈질긴 AI 연구원 팀을 구성하여 개인 연구 기록을 유지하고 실험적 증거를 공유하며 적응형 할당을 통해 연구 기회를 얻습니다."
+        },
+        {
+          "en": "We demonstrate the effectiveness of this design by deploying the team to search for linear attention architectures, where it outperforms GDN2 at 1.3B scale on language modeling, common-sense reasoning, and synthetic and real-world retrieval tasks.",
+          "ko": "우리는 언어 모델링, 상식적 추론 및 합성 및 실제 검색 작업에서 1.3B 규모의 GDN2를 능가하는 선형 주의 아키텍처를 검색하기 위해 팀을 배치하여 이 설계의 효과를 입증합니다."
+        },
+        {
+          "en": "In controlled comparisons, removing any single organizational component from our design yields markedly weaker discoveries: without disciplinary backgrounds, the search plateaus early; without private histories, researchers make less progress despite identical shared evidence; and uniform selection falls short of adaptive allocation within the same budget.",
+          "ko": "통제된 비교에서, 우리의 설계에서 단일 조직 구성 요소를 제거하는 것은 현저하게 약한 발견을 산출합니다: 징계 배경이 없으면, 조기에 검색이 이루어집니다; 개인 이력이 없으면, 연구자들은 동일한 공유된 증거에도 불구하고 더 적은 진전을 이룹니다; 그리고 균일한 선택은 동일한 예산 내에서 적응형 할당에 미치지 못합니다."
+        },
+        {
+          "en": "These results suggest that sustained autonomous discovery depends not only on stronger agents, but also on who explores, what they remember, and how research effort is allocated.",
+          "ko": "이러한 결과는 지속적인 자율적 발견이 더 강력한 에이전트뿐만 아니라 누가 탐색하고, 무엇을 기억하고, 연구 노력이 어떻게 할당되는지에 달려 있음을 시사합니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Autonomous agents can increasingly propose ideas, modify code, and run experiments, creating an opportunity to accelerate scientific discovery using teams of collaborative AI researchers.",
+            "ko": "자율 에이전트는 점점 더 많은 아이디어를 제안하고, 코드를 수정하고, 실험을 실행하여 협업 AI 연구원 팀을 사용하여 과학적 발견을 가속화할 수 있는 기회를 창출할 수 있습니다."
+          },
+          {
+            "en": "However, realizing this design requires more than diverse backgrounds.",
+            "ko": "그러나 이 디자인을 실현하려면 다양한 배경 이상이 필요합니다."
+          },
+          {
+            "en": "When experiments are costly, a team can test only a limited number of ideas, thereby creating the need to balance exploration and exploitation when selecting a subset of researchers to propose and execute new experiments.",
+            "ko": "실험 비용이 많이 드는 경우, 팀은 제한된 수의 아이디어만 테스트할 수 있으므로 새로운 실험을 제안하고 실행할 연구자의 하위 집합을 선택할 때 탐구와 활용의 균형을 맞출 필요가 있습니다."
+          },
+          {
+            "en": "Furthermore, each result should shape what the team tries next.",
+            "ko": "또한, 각 결과는 팀이 다음에 시도하는 것을 형성해야 합니다."
+          },
+          {
+            "en": "We therefore ask how AI researchers with different scientific backgrounds can build on one another's findings and sustain progress under a limited experimental budget.",
+            "ko": "따라서 우리는 서로 다른 과학적 배경을 가진 AI 연구자들이 어떻게 서로의 연구 결과를 바탕으로 제한된 실험 예산 하에서 진행 상황을 유지할 수 있는지 묻습니다."
+          },
+          {
+            "en": "In controlled comparisons, removing any single organizational component from our design yields markedly weaker discoveries: without disciplinary backgrounds, the search plateaus early; without private histories, researchers make less progress despite identical shared evidence; and uniform selection falls short of adaptive allocation within the same budget.",
+            "ko": "통제된 비교에서, 우리의 설계에서 단일 조직 구성 요소를 제거하는 것은 현저하게 약한 발견을 산출합니다: 징계 배경이 없으면, 조기에 검색이 이루어집니다; 개인 이력이 없으면, 연구자들은 동일한 공유된 증거에도 불구하고 더 적은 진전을 이룹니다; 그리고 균일한 선택은 동일한 예산 내에서 적응형 할당에 미치지 못합니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "To escape local minima in the discovery, we propose to encourage orthogonal exploration by constructing the team using agents with varying expertise.",
+            "ko": "발견에서 현지 미니마를 탈출하기 위해 다양한 전문 지식을 갖춘 에이전트를 사용하여 팀을 구성하여 직교 탐사를 장려하는 것이 좋습니다."
+          },
+          {
+            "en": "To address these challenges, we build a team of persistent AI researchers, each grounded in a different discipline, who keep private research histories, share experimental evidence, and receive research opportunities through adaptive allocation.",
+            "ko": "이러한 문제를 해결하기 위해 우리는 서로 다른 분야에 기반을 둔 끈질긴 AI 연구원 팀을 구성하여 개인 연구 기록을 유지하고 실험적 증거를 공유하며 적응형 할당을 통해 연구 기회를 얻습니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "We demonstrate the effectiveness of this design by deploying the team to search for linear attention architectures, where it outperforms GDN2 at 1.3B scale on language modeling, common-sense reasoning, and synthetic and real-world retrieval tasks.",
+            "ko": "우리는 언어 모델링, 상식적 추론 및 합성 및 실제 검색 작업에서 1.3B 규모의 GDN2를 능가하는 선형 주의 아키텍처를 검색하기 위해 팀을 배치하여 이 설계의 효과를 입증합니다."
+          },
+          {
+            "en": "These results suggest that sustained autonomous discovery depends not only on stronger agents, but also on who explores, what they remember, and how research effort is allocated.",
+            "ko": "이러한 결과는 지속적인 자율적 발견이 더 강력한 에이전트뿐만 아니라 누가 탐색하고, 무엇을 기억하고, 연구 노력이 어떻게 할당되는지에 달려 있음을 시사합니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "collaborative",
+          "ko": "협력 정신",
+          "sentence": "Autonomous agents can increasingly propose ideas, modify code, and run experiments, creating an opportunity to accelerate scientific discovery using teams of collaborative AI researchers.",
+          "sentenceKo": "자율 에이전트는 점점 더 많은 아이디어를 제안하고, 코드를 수정하고, 실험을 실행하여 협업 AI 연구원 팀을 사용하여 과학적 발견을 가속화할 수 있는 기회를 창출할 수 있습니다."
+        },
+        {
+          "word": "exploration",
+          "ko": "탐험",
+          "sentence": "To escape local minima in the discovery, we propose to encourage orthogonal exploration by constructing the team using agents with varying expertise.",
+          "sentenceKo": "발견에서 현지 미니마를 탈출하기 위해 다양한 전문 지식을 갖춘 에이전트를 사용하여 팀을 구성하여 직교 탐사를 장려하는 것이 좋습니다."
+        },
+        {
+          "word": "autonomous",
+          "ko": "autonomous",
+          "sentence": "Autonomous agents can increasingly propose ideas, modify code, and run experiments, creating an opportunity to accelerate scientific discovery using teams of collaborative AI researchers.",
+          "sentenceKo": "자율 에이전트는 점점 더 많은 아이디어를 제안하고, 코드를 수정하고, 실험을 실행하여 협업 AI 연구원 팀을 사용하여 과학적 발견을 가속화할 수 있는 기회를 창출할 수 있습니다."
+        },
+        {
+          "word": "experiments",
+          "ko": "실험",
+          "sentence": "Autonomous agents can increasingly propose ideas, modify code, and run experiments, creating an opportunity to accelerate scientific discovery using teams of collaborative AI researchers.",
+          "sentenceKo": "자율 에이전트는 점점 더 많은 아이디어를 제안하고, 코드를 수정하고, 실험을 실행하여 협업 AI 연구원 팀을 사용하여 과학적 발견을 가속화할 수 있는 기회를 창출할 수 있습니다."
+        },
+        {
+          "word": "backgrounds",
+          "ko": "배경",
+          "sentence": "However, realizing this design requires more than diverse backgrounds.",
+          "sentenceKo": "그러나 이 디자인을 실현하려면 다양한 배경 이상이 필요합니다."
+        },
+        {
+          "word": "exploitation",
+          "ko": "개발",
+          "sentence": "When experiments are costly, a team can test only a limited number of ideas, thereby creating the need to balance exploration and exploitation when selecting a subset of researchers to propose and execute new experiments.",
+          "sentenceKo": "실험 비용이 많이 드는 경우, 팀은 제한된 수의 아이디어만 테스트할 수 있으므로 새로운 실험을 제안하고 실행할 연구자의 하위 집합을 선택할 때 탐구와 활용의 균형을 맞출 필요가 있습니다."
+        },
+        {
+          "word": "allocation",
+          "ko": "할당",
+          "sentence": "To address these challenges, we build a team of persistent AI researchers, each grounded in a different discipline, who keep private research histories, share experimental evidence, and receive research opportunities through adaptive allocation.",
+          "sentenceKo": "이러한 문제를 해결하기 위해 우리는 서로 다른 분야에 기반을 둔 끈질긴 AI 연구원 팀을 구성하여 개인 연구 기록을 유지하고 실험적 증거를 공유하며 적응형 할당을 통해 연구 기회를 얻습니다."
+        },
+        {
+          "word": "opportunity",
+          "ko": "기회",
+          "sentence": "Autonomous agents can increasingly propose ideas, modify code, and run experiments, creating an opportunity to accelerate scientific discovery using teams of collaborative AI researchers.",
+          "sentenceKo": "자율 에이전트는 점점 더 많은 아이디어를 제안하고, 코드를 수정하고, 실험을 실행하여 협업 AI 연구원 팀을 사용하여 과학적 발견을 가속화할 수 있는 기회를 창출할 수 있습니다."
+        },
+        {
+          "word": "discovery",
+          "ko": "발견",
+          "sentence": "Autonomous agents can increasingly propose ideas, modify code, and run experiments, creating an opportunity to accelerate scientific discovery using teams of collaborative AI researchers.",
+          "sentenceKo": "자율 에이전트는 점점 더 많은 아이디어를 제안하고, 코드를 수정하고, 실험을 실행하여 협업 AI 연구원 팀을 사용하여 과학적 발견을 가속화할 수 있는 기회를 창출할 수 있습니다."
+        },
+        {
+          "word": "evidence",
+          "ko": "증거",
+          "sentence": "To address these challenges, we build a team of persistent AI researchers, each grounded in a different discipline, who keep private research histories, share experimental evidence, and receive research opportunities through adaptive allocation.",
+          "sentenceKo": "이러한 문제를 해결하기 위해 우리는 서로 다른 분야에 기반을 둔 끈질긴 AI 연구원 팀을 구성하여 개인 연구 기록을 유지하고 실험적 증거를 공유하며 적응형 할당을 통해 연구 기회를 얻습니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.28887",
+        "arxiv": "https://arxiv.org/abs/2610.28887",
+        "pdf": "https://arxiv.org/pdf/2610.28887",
+        "github": null
+      },
+      "githubStars": null,
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
+    {
+      "id": "2610.28578",
+      "title": "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
+      "authors": [
+        "Wenjie Lou",
+        "Tianshuo Peng",
+        "Shiyang Feng",
+        "Shengji Tang",
+        "Runmin Ma",
+        "Ruizhe Chen",
+        "Jinxin Shi",
+        "Haoyang Peng",
+        "Fangchen Yu",
+        "Zhijie Zhong",
+        "Yuhao Zhou",
+        "Yue Fan",
+        "Yixin Chen",
+        "Yiming Wu",
+        "Yiheng Wang",
+        "Yigeng Jiang",
+        "Yichen Jiang",
+        "Yi Xie",
+        "Xu Guo",
+        "Xiaohan He",
+        "Tao Hu",
+        "Songtao Huang",
+        "Siyu Zhou",
+        "Shuaiyu Zhang",
+        "Shangheng Du",
+        "Qinglong Cao",
+        "Kun Li",
+        "Jingqi Ye",
+        "Hongbin Zhou",
+        "Guohang Yan",
+        "Zongsheng Cao",
+        "Ziyi Wang",
+        "Zhuo Liu",
+        "Zhiyin Yu",
+        "Zhiwang Zhou",
+        "Zelin Tan",
+        "Yuqing Zhu",
+        "Yaoze Zhang",
+        "Yang Chen",
+        "Xuming He",
+        "Xiuliang Liang",
+        "Xingjian Guo",
+        "Xiang Zhuang",
+        "Weiping Shen",
+        "Weida Wang",
+        "Tianyuan Zhou",
+        "Tianlin Ye",
+        "Tengyuan Fan",
+        "Siyu Yan",
+        "Shuo Li",
+        "Shuchen Pu",
+        "Shengyuan Xu",
+        "Shao Zhang",
+        "Ran Wei",
+        "Qinyuan Qin",
+        "Qingyu Yang",
+        "Nianchen Deng",
+        "Meng Dai",
+        "Kuikun Liu",
+        "Kaitao Chen",
+        "Juncheng Xiao",
+        "Jiangning Liu",
+        "Jianbiao Mei",
+        "Jia Yu",
+        "Haonan He",
+        "Hangfan Zhang",
+        "Cheng Yang",
+        "Chen Zhang",
+        "Bihao Zhan",
+        "Benteng Cheng",
+        "Yuqiang Li",
+        "Yihao Liu",
+        "Yang Yang",
+        "Xujun Fu",
+        "Xiaosong Wang",
+        "Xiangyu Yue",
+        "Wenwei Zhang",
+        "Shuyue Hu",
+        "Pinlong Cai",
+        "Mianxin Liu",
+        "Lei Bai",
+        "Jie Zhou",
+        "Jie Hou",
+        "Jiamin Wu",
+        "Hui Wang",
+        "Haijun Li",
+        "Guangyu Wang",
+        "Dongzhan Zhou",
+        "Chunfeng Song",
+        "Chao Yang",
+        "Biqing Qi",
+        "Xing Xie",
+        "Dahua Lin",
+        "Bowen Zhou",
+        "Xiangchao Yan",
+        "Wenlong Zhang",
+        "Shufei Zhang",
+        "Peng Ye",
+        "Bo Zhang"
+      ],
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "upvotes": 72,
+      "keywords": [
+        "Mixture-of-Experts",
+        "agentic model",
+        "agentic orchestration",
+        "agentic verification",
+        "open scientific discovery"
+      ],
+      "categories": [
+        "AI 과학자",
+        "LLM 에이전트"
+      ],
+      "aiSummary": {
+        "en": "Sage-A1.5 is a 35B mixture-of-experts agentic model that improves long-horizon problem solving via adaptive task delegation, verification, and open scientific exploration.",
+        "ko": "Sage-A1.5는 적응형 작업 위임, 검증 및 개방형 과학 탐구를 통해 긴 수평선 문제 해결을 개선하는 35B 전문가 혼합 에이전트 모델입니다."
+      },
+      "abstract": {
+        "en": "In this report, we introduce Sage-A1.5, a 35B Mixture-of-Experts agentic model that builds on A1 to advance long-horizon problem solving through adaptive capability composition. Compared with A1, Sage-A1.5 learns not only to solve individual tasks, but also to organize work and revise its approach during execution. Sage-A1.5 highlights three improvements: agentic orchestration, verification, and open scientific discovery. First, agentic orchestration extends single-agent execution through task delegation and parallel collaboration among subagents with isolated contexts, enabling complex tasks to be decomposed and addressed concurrently and supporting efficient execution while reducing interference across concurrent subagents. Second, agentic verification strengthens long-horizon reliability through progress checking, evidence validation, and reflective strategy revision, allowing the agent to recognize unproductive search paths and pursue alternative approaches. Third, open scientific discovery extends agentic capabilities beyond answering predefined questions to conducting exploratory research, connecting scientific inquiry with interactive analysis and inspectable research artifacts. We showcase these capabilities through complicated agentic tasks and multidisciplinary scientific applications. Besides, we hope Sage-A1.5 provides the community with an accessible foundation for open scientific discovery, offering a practical path from long-horizon task execution to collaborative, verifiable, and inspectable scientific exploration.",
+        "ko": "이 보고서에서는 적응형 역량 구성을 통한 장시간 문제 해결을 발전시키기 위해 A1을 기반으로 하는 35B 전문가 혼합 에이전트 모델인 Sage-A1.5를 소개합니다. A1과 비교하여 Sage-A1.5는 개별 작업을 해결하는 것뿐만 아니라 작업을 구성하고 실행 중에 접근 방식을 수정하는 방법을 배웁니다. Sage-A1.5는 에이전트 오케스트레이션, 검증 및 개방형 과학적 발견이라는 세 가지 개선 사항을 강조합니다. 첫째, 에이전트 오케스트레이션은 격리된 컨텍스트를 가진 하위 에이전트 간의 작업 위임 및 병렬 협업을 통해 단일 에이전트 실행을 확장하여 복잡한 작업을 동시에 분해 및 처리하고 동시 하위 에이전트 간의 간섭을 줄이면서 효율적인 실행을 지원합니다. 둘째, 상담원 검증은 진행 상황 확인, 증거 검증 및 반사 전략 수정을 통해 긴 수평선 신뢰성을 강화하여 상담원이 비생산적인 검색 경로를 인식하고 대안적인 접근 방식을 추구할 수 있도록 합니다. 셋째, 개방형 과학적 발견은 사전 정의된 질문에 답하는 것을 넘어 탐색적 연구를 수행하고, 과학적 탐구를 대화형 분석 및 검사 가능한 연구 유물로 연결하는 에이전트 기능을 확장합니다. 당사는 복잡한 에이전트 작업과 다학제적 과학적 응용을 통해 이러한 역량을 선보입니다. 또한, Sage-A1.5가 커뮤니티에 개방적인 과학적 발견을 위한 접근 가능한 기반을 제공하여 긴 수평선 과제 실행에서 협력적이고 검증 가능하며 검사 가능한 과학적 탐구에 이르기까지 실질적인 경로를 제공하기를 바랍니다."
+      },
+      "sentences": [
+        {
+          "en": "In this report, we introduce Sage-A1.5, a 35B Mixture-of-Experts agentic model that builds on A1 to advance long-horizon problem solving through adaptive capability composition.",
+          "ko": "이 보고서에서는 적응형 역량 구성을 통한 장시간 문제 해결을 발전시키기 위해 A1을 기반으로 하는 35B 전문가 혼합 에이전트 모델인 Sage-A1.5를 소개합니다."
+        },
+        {
+          "en": "Compared with A1, Sage-A1.5 learns not only to solve individual tasks, but also to organize work and revise its approach during execution.",
+          "ko": "A1과 비교하여 Sage-A1.5는 개별 작업을 해결하는 것뿐만 아니라 작업을 구성하고 실행 중에 접근 방식을 수정하는 방법을 배웁니다."
+        },
+        {
+          "en": "Sage-A1.5 highlights three improvements: agentic orchestration, verification, and open scientific discovery.",
+          "ko": "Sage-A1.5는 에이전트 오케스트레이션, 검증 및 개방형 과학적 발견이라는 세 가지 개선 사항을 강조합니다."
+        },
+        {
+          "en": "First, agentic orchestration extends single-agent execution through task delegation and parallel collaboration among subagents with isolated contexts, enabling complex tasks to be decomposed and addressed concurrently and supporting efficient execution while reducing interference across concurrent subagents.",
+          "ko": "첫째, 에이전트 오케스트레이션은 격리된 컨텍스트를 가진 하위 에이전트 간의 작업 위임 및 병렬 협업을 통해 단일 에이전트 실행을 확장하여 복잡한 작업을 동시에 분해 및 처리하고 동시 하위 에이전트 간의 간섭을 줄이면서 효율적인 실행을 지원합니다."
+        },
+        {
+          "en": "Second, agentic verification strengthens long-horizon reliability through progress checking, evidence validation, and reflective strategy revision, allowing the agent to recognize unproductive search paths and pursue alternative approaches.",
+          "ko": "둘째, 상담원 검증은 진행 상황 확인, 증거 검증 및 반사 전략 수정을 통해 긴 수평선 신뢰성을 강화하여 상담원이 비생산적인 검색 경로를 인식하고 대안적인 접근 방식을 추구할 수 있도록 합니다."
+        },
+        {
+          "en": "Third, open scientific discovery extends agentic capabilities beyond answering predefined questions to conducting exploratory research, connecting scientific inquiry with interactive analysis and inspectable research artifacts.",
+          "ko": "셋째, 개방형 과학적 발견은 사전 정의된 질문에 답하는 것을 넘어 탐색적 연구를 수행하고, 과학적 탐구를 대화형 분석 및 검사 가능한 연구 유물로 연결하는 에이전트 기능을 확장합니다."
+        },
+        {
+          "en": "We showcase these capabilities through complicated agentic tasks and multidisciplinary scientific applications.",
+          "ko": "당사는 복잡한 에이전트 작업과 다학제적 과학적 응용을 통해 이러한 역량을 선보입니다."
+        },
+        {
+          "en": "Besides, we hope Sage-A1.5 provides the community with an accessible foundation for open scientific discovery, offering a practical path from long-horizon task execution to collaborative, verifiable, and inspectable scientific exploration.",
+          "ko": "또한, Sage-A1.5가 커뮤니티에 개방적인 과학적 발견을 위한 접근 가능한 기반을 제공하여 긴 수평선 과제 실행에서 협력적이고 검증 가능하며 검사 가능한 과학적 탐구에 이르기까지 실질적인 경로를 제공하기를 바랍니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Third, open scientific discovery extends agentic capabilities beyond answering predefined questions to conducting exploratory research, connecting scientific inquiry with interactive analysis and inspectable research artifacts.",
+            "ko": "셋째, 개방형 과학적 발견은 사전 정의된 질문에 답하는 것을 넘어 탐색적 연구를 수행하고, 과학적 탐구를 대화형 분석 및 검사 가능한 연구 유물로 연결하는 에이전트 기능을 확장합니다."
+          },
+          {
+            "en": "Besides, we hope Sage-A1.5 provides the community with an accessible foundation for open scientific discovery, offering a practical path from long-horizon task execution to collaborative, verifiable, and inspectable scientific exploration.",
+            "ko": "또한, Sage-A1.5가 커뮤니티에 개방적인 과학적 발견을 위한 접근 가능한 기반을 제공하여 긴 수평선 과제 실행에서 협력적이고 검증 가능하며 검사 가능한 과학적 탐구에 이르기까지 실질적인 경로를 제공하기를 바랍니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "In this report, we introduce Sage-A1.5, a 35B Mixture-of-Experts agentic model that builds on A1 to advance long-horizon problem solving through adaptive capability composition.",
+            "ko": "이 보고서에서는 적응형 역량 구성을 통한 장시간 문제 해결을 발전시키기 위해 A1을 기반으로 하는 35B 전문가 혼합 에이전트 모델인 Sage-A1.5를 소개합니다."
+          },
+          {
+            "en": "Compared with A1, Sage-A1.5 learns not only to solve individual tasks, but also to organize work and revise its approach during execution.",
+            "ko": "A1과 비교하여 Sage-A1.5는 개별 작업을 해결하는 것뿐만 아니라 작업을 구성하고 실행 중에 접근 방식을 수정하는 방법을 배웁니다."
+          },
+          {
+            "en": "Second, agentic verification strengthens long-horizon reliability through progress checking, evidence validation, and reflective strategy revision, allowing the agent to recognize unproductive search paths and pursue alternative approaches.",
+            "ko": "둘째, 상담원 검증은 진행 상황 확인, 증거 검증 및 반사 전략 수정을 통해 긴 수평선 신뢰성을 강화하여 상담원이 비생산적인 검색 경로를 인식하고 대안적인 접근 방식을 추구할 수 있도록 합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "Sage-A1.5 highlights three improvements: agentic orchestration, verification, and open scientific discovery.",
+            "ko": "Sage-A1.5는 에이전트 오케스트레이션, 검증 및 개방형 과학적 발견이라는 세 가지 개선 사항을 강조합니다."
+          },
+          {
+            "en": "First, agentic orchestration extends single-agent execution through task delegation and parallel collaboration among subagents with isolated contexts, enabling complex tasks to be decomposed and addressed concurrently and supporting efficient execution while reducing interference across concurrent subagents.",
+            "ko": "첫째, 에이전트 오케스트레이션은 격리된 컨텍스트를 가진 하위 에이전트 간의 작업 위임 및 병렬 협업을 통해 단일 에이전트 실행을 확장하여 복잡한 작업을 동시에 분해 및 처리하고 동시 하위 에이전트 간의 간섭을 줄이면서 효율적인 실행을 지원합니다."
+          },
+          {
+            "en": "We showcase these capabilities through complicated agentic tasks and multidisciplinary scientific applications.",
+            "ko": "당사는 복잡한 에이전트 작업과 다학제적 과학적 응용을 통해 이러한 역량을 선보입니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "scientific",
+          "ko": "과학 분야",
+          "sentence": "Sage-A1.5 highlights three improvements: agentic orchestration, verification, and open scientific discovery.",
+          "sentenceKo": "Sage-A1.5는 에이전트 오케스트레이션, 검증 및 개방형 과학적 발견이라는 세 가지 개선 사항을 강조합니다."
+        },
+        {
+          "word": "orchestration",
+          "ko": "Orchestration",
+          "sentence": "Sage-A1.5 highlights three improvements: agentic orchestration, verification, and open scientific discovery.",
+          "sentenceKo": "Sage-A1.5는 에이전트 오케스트레이션, 검증 및 개방형 과학적 발견이라는 세 가지 개선 사항을 강조합니다."
+        },
+        {
+          "word": "agentic",
+          "ko": "agentic",
+          "sentence": "In this report, we introduce Sage-A1.5, a 35B Mixture-of-Experts agentic model that builds on A1 to advance long-horizon problem solving through adaptive capability composition.",
+          "sentenceKo": "이 보고서에서는 적응형 역량 구성을 통한 장시간 문제 해결을 발전시키기 위해 A1을 기반으로 하는 35B 전문가 혼합 에이전트 모델인 Sage-A1.5를 소개합니다."
+        },
+        {
+          "word": "verification",
+          "ko": "인증",
+          "sentence": "Sage-A1.5 highlights three improvements: agentic orchestration, verification, and open scientific discovery.",
+          "sentenceKo": "Sage-A1.5는 에이전트 오케스트레이션, 검증 및 개방형 과학적 발견이라는 세 가지 개선 사항을 강조합니다."
+        },
+        {
+          "word": "discovery",
+          "ko": "발견",
+          "sentence": "Sage-A1.5 highlights three improvements: agentic orchestration, verification, and open scientific discovery.",
+          "sentenceKo": "Sage-A1.5는 에이전트 오케스트레이션, 검증 및 개방형 과학적 발견이라는 세 가지 개선 사항을 강조합니다."
+        },
+        {
+          "word": "execution",
+          "ko": "법적 처형",
+          "sentence": "Compared with A1, Sage-A1.5 learns not only to solve individual tasks, but also to organize work and revise its approach during execution.",
+          "sentenceKo": "A1과 비교하여 Sage-A1.5는 개별 작업을 해결하는 것뿐만 아니라 작업을 구성하고 실행 중에 접근 방식을 수정하는 방법을 배웁니다."
+        },
+        {
+          "word": "long-horizon",
+          "ko": "롱 호라이즌",
+          "sentence": "In this report, we introduce Sage-A1.5, a 35B Mixture-of-Experts agentic model that builds on A1 to advance long-horizon problem solving through adaptive capability composition.",
+          "sentenceKo": "이 보고서에서는 적응형 역량 구성을 통한 장시간 문제 해결을 발전시키기 위해 A1을 기반으로 하는 35B 전문가 혼합 에이전트 모델인 Sage-A1.5를 소개합니다."
+        },
+        {
+          "word": "collaboration",
+          "ko": "협업",
+          "sentence": "First, agentic orchestration extends single-agent execution through task delegation and parallel collaboration among subagents with isolated contexts, enabling complex tasks to be decomposed and addressed concurrently and supporting efficient execution while reducing interference across concurrent subagents.",
+          "sentenceKo": "첫째, 에이전트 오케스트레이션은 격리된 컨텍스트를 가진 하위 에이전트 간의 작업 위임 및 병렬 협업을 통해 단일 에이전트 실행을 확장하여 복잡한 작업을 동시에 분해 및 처리하고 동시 하위 에이전트 간의 간섭을 줄이면서 효율적인 실행을 지원합니다."
+        },
+        {
+          "word": "interference",
+          "ko": "간섭Name",
+          "sentence": "First, agentic orchestration extends single-agent execution through task delegation and parallel collaboration among subagents with isolated contexts, enabling complex tasks to be decomposed and addressed concurrently and supporting efficient execution while reducing interference across concurrent subagents.",
+          "sentenceKo": "첫째, 에이전트 오케스트레이션은 격리된 컨텍스트를 가진 하위 에이전트 간의 작업 위임 및 병렬 협업을 통해 단일 에이전트 실행을 확장하여 복잡한 작업을 동시에 분해 및 처리하고 동시 하위 에이전트 간의 간섭을 줄이면서 효율적인 실행을 지원합니다."
+        },
+        {
+          "word": "unproductive",
+          "ko": "비생산적",
+          "sentence": "Second, agentic verification strengthens long-horizon reliability through progress checking, evidence validation, and reflective strategy revision, allowing the agent to recognize unproductive search paths and pursue alternative approaches.",
+          "sentenceKo": "둘째, 상담원 검증은 진행 상황 확인, 증거 검증 및 반사 전략 수정을 통해 긴 수평선 신뢰성을 강화하여 상담원이 비생산적인 검색 경로를 인식하고 대안적인 접근 방식을 추구할 수 있도록 합니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.28578",
+        "arxiv": "https://arxiv.org/abs/2610.28578",
+        "pdf": "https://arxiv.org/pdf/2610.28578",
+        "github": "https://github.com/InternScience/Agents-A1"
+      },
+      "githubStars": 584,
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
+    {
+      "id": "2610.23845",
+      "title": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
+      "authors": [
+        "Shicheng Liu",
+        "Krista Opsahl-Ong",
+        "Andrew Drozdov",
+        "Julian Killingback",
+        "Arnav Singhvi",
+        "Ronak Pradeep",
+        "Michael Bendersky",
+        "James C. Dickerson",
+        "Monica S. Lam"
+      ],
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "upvotes": 0,
+      "keywords": [
+        "LLM agents",
+        "SEER-Repro",
+        "atomic claims",
+        "agentic analysis pipeline",
+        "robustness analysis",
+        "analytical choices"
+      ],
+      "categories": [
+        "AI 과학자",
+        "LLM 에이전트",
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "LLM agents automate reproduction and robustness testing of medical findings from a cancer registry benchmark, reproducing most claims and flagging consequential analytical choices for review.",
+        "ko": "LLM 에이전트는 암 레지스트리 벤치마크에서 의학적 소견의 재생산 및 견고성 검사를 자동화하여 대부분의 주장을 재현하고 검토를 위해 결과적 분석 선택을 표시합니다."
+      },
+      "abstract": {
+        "en": "Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort. We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) database, a widely used U.S. cancer registry underlying tens of thousands of published studies. First, we introduce SEER-Repro, a benchmark of 20 published SEER-based papers together with the data and resources required to reproduce their findings. Second, we create an AI agent that successfully reproduces 77.4% of 2,190 atomic claims, while providing executable baselines for further analysis. Third, we develop an agentic analysis pipeline to test the robustness of the medical findings by identifying analytical choices underlying each finding, proposing defensible alternatives, and rerunning the analysis to determine whether those choices affect the conclusion. Across published papers in SEER-Repro, our pipeline identifies potentially consequential analytical choices in 9.5% of fully reproduced findings and flags them for expert review. These results show how LLM agents can support scientific review by reproducing findings, systematically testing their robustness, and directing expert attention toward potentially consequential analytical choices.",
+        "ko": "재현 가능하고 분석적으로 견고한 연구 결과는 과학적 진보에 필수적이지만, 이러한 특성을 평가하려면 일반적으로 비용이 많이 드는 수작업이 필요합니다. 당사는 수만 건의 발표된 연구의 기초가 되는 널리 사용되는 미국 암 등록기관인 SEER (Surveillance, Epidemiology, and End Results) 데이터베이스에 기반을 둔 의학 사례 연구를 사용하여 LLM 제제가 재생산 및 견고성 분석을 자동화하는 데 도움이 될 수 있는지 여부를 조사합니다. 먼저, 20편의 발표된 SEER 기반 논문의 벤치마크인 SEER-Repro와 그 결과를 재현하는 데 필요한 데이터 및 리소스를 소개합니다. 둘째, 2,190건의 원자 클레임 중 77.4% 를 성공적으로 재현하는 AI 에이전트를 생성하는 동시에 추가 분석을 위한 실행 가능한 기준선을 제공합니다. 셋째, 각 발견의 기초가 되는 분석적 선택을 확인하고, 방어 가능한 대안을 제안하고, 분석을 재실행하여 그 선택이 결론에 영향을 미치는지 여부를 결정함으로써 의학적 발견의 견고성을 테스트하기 위한 에이전트 분석 파이프라인을 개발합니다. SEER-Repro에 게재된 논문 전반에 걸쳐, 당사의 파이프라인은 완전히 재현된 연구 결과의 9.5% 에서 잠재적으로 결과적인 분석적 선택을 식별하고 전문가 검토를 위해 플래그를 지정합니다. 이러한 결과는 LLM 에이전트가 결과를 재현하고, 견고성을 체계적으로 테스트하고, 전문가의 관심을 잠재적으로 결과적인 분석적 선택으로 유도함으로써 과학적 검토를 지원할 수 있는 방법을 보여줍니다."
+      },
+      "sentences": [
+        {
+          "en": "Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort.",
+          "ko": "재현 가능하고 분석적으로 견고한 연구 결과는 과학적 진보에 필수적이지만, 이러한 특성을 평가하려면 일반적으로 비용이 많이 드는 수작업이 필요합니다."
+        },
+        {
+          "en": "We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) database, a widely used U.S. cancer registry underlying tens of thousands of published studies.",
+          "ko": "당사는 수만 건의 발표된 연구의 기초가 되는 널리 사용되는 미국 암 등록기관인 SEER (Surveillance, Epidemiology, and End Results) 데이터베이스에 기반을 둔 의학 사례 연구를 사용하여 LLM 제제가 재생산 및 견고성 분석을 자동화하는 데 도움이 될 수 있는지 여부를 조사합니다."
+        },
+        {
+          "en": "First, we introduce SEER-Repro, a benchmark of 20 published SEER-based papers together with the data and resources required to reproduce their findings.",
+          "ko": "먼저, 20편의 발표된 SEER 기반 논문의 벤치마크인 SEER-Repro와 그 결과를 재현하는 데 필요한 데이터 및 리소스를 소개합니다."
+        },
+        {
+          "en": "Second, we create an AI agent that successfully reproduces 77.4% of 2,190 atomic claims, while providing executable baselines for further analysis.",
+          "ko": "둘째, 2,190건의 원자 클레임 중 77.4% 를 성공적으로 재현하는 AI 에이전트를 생성하는 동시에 추가 분석을 위한 실행 가능한 기준선을 제공합니다."
+        },
+        {
+          "en": "Third, we develop an agentic analysis pipeline to test the robustness of the medical findings by identifying analytical choices underlying each finding, proposing defensible alternatives, and rerunning the analysis to determine whether those choices affect the conclusion.",
+          "ko": "셋째, 각 발견의 기초가 되는 분석적 선택을 확인하고, 방어 가능한 대안을 제안하고, 분석을 재실행하여 그 선택이 결론에 영향을 미치는지 여부를 결정함으로써 의학적 발견의 견고성을 테스트하기 위한 에이전트 분석 파이프라인을 개발합니다."
+        },
+        {
+          "en": "Across published papers in SEER-Repro, our pipeline identifies potentially consequential analytical choices in 9.5% of fully reproduced findings and flags them for expert review.",
+          "ko": "SEER-Repro에 게재된 논문 전반에 걸쳐, 당사의 파이프라인은 완전히 재현된 연구 결과의 9.5% 에서 잠재적으로 결과적인 분석적 선택을 식별하고 전문가 검토를 위해 플래그를 지정합니다."
+        },
+        {
+          "en": "These results show how LLM agents can support scientific review by reproducing findings, systematically testing their robustness, and directing expert attention toward potentially consequential analytical choices.",
+          "ko": "이러한 결과는 LLM 에이전트가 결과를 재현하고, 견고성을 체계적으로 테스트하고, 전문가의 관심을 잠재적으로 결과적인 분석적 선택으로 유도함으로써 과학적 검토를 지원할 수 있는 방법을 보여줍니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort.",
+            "ko": "재현 가능하고 분석적으로 견고한 연구 결과는 과학적 진보에 필수적이지만, 이러한 특성을 평가하려면 일반적으로 비용이 많이 드는 수작업이 필요합니다."
+          },
+          {
+            "en": "We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) database, a widely used U.S. cancer registry underlying tens of thousands of published studies.",
+            "ko": "당사는 수만 건의 발표된 연구의 기초가 되는 널리 사용되는 미국 암 등록기관인 SEER (Surveillance, Epidemiology, and End Results) 데이터베이스에 기반을 둔 의학 사례 연구를 사용하여 LLM 제제가 재생산 및 견고성 분석을 자동화하는 데 도움이 될 수 있는지 여부를 조사합니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "First, we introduce SEER-Repro, a benchmark of 20 published SEER-based papers together with the data and resources required to reproduce their findings.",
+            "ko": "먼저, 20편의 발표된 SEER 기반 논문의 벤치마크인 SEER-Repro와 그 결과를 재현하는 데 필요한 데이터 및 리소스를 소개합니다."
+          },
+          {
+            "en": "Third, we develop an agentic analysis pipeline to test the robustness of the medical findings by identifying analytical choices underlying each finding, proposing defensible alternatives, and rerunning the analysis to determine whether those choices affect the conclusion.",
+            "ko": "셋째, 각 발견의 기초가 되는 분석적 선택을 확인하고, 방어 가능한 대안을 제안하고, 분석을 재실행하여 그 선택이 결론에 영향을 미치는지 여부를 결정함으로써 의학적 발견의 견고성을 테스트하기 위한 에이전트 분석 파이프라인을 개발합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "Second, we create an AI agent that successfully reproduces 77.4% of 2,190 atomic claims, while providing executable baselines for further analysis.",
+            "ko": "둘째, 2,190건의 원자 클레임 중 77.4% 를 성공적으로 재현하는 AI 에이전트를 생성하는 동시에 추가 분석을 위한 실행 가능한 기준선을 제공합니다."
+          },
+          {
+            "en": "Across published papers in SEER-Repro, our pipeline identifies potentially consequential analytical choices in 9.5% of fully reproduced findings and flags them for expert review.",
+            "ko": "SEER-Repro에 게재된 논문 전반에 걸쳐, 당사의 파이프라인은 완전히 재현된 연구 결과의 9.5% 에서 잠재적으로 결과적인 분석적 선택을 식별하고 전문가 검토를 위해 플래그를 지정합니다."
+          },
+          {
+            "en": "These results show how LLM agents can support scientific review by reproducing findings, systematically testing their robustness, and directing expert attention toward potentially consequential analytical choices.",
+            "ko": "이러한 결과는 LLM 에이전트가 결과를 재현하고, 견고성을 체계적으로 테스트하고, 전문가의 관심을 잠재적으로 결과적인 분석적 선택으로 유도함으로써 과학적 검토를 지원할 수 있는 방법을 보여줍니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "analytical",
+          "ko": "분석 ",
+          "sentence": "Third, we develop an agentic analysis pipeline to test the robustness of the medical findings by identifying analytical choices underlying each finding, proposing defensible alternatives, and rerunning the analysis to determine whether those choices affect the conclusion.",
+          "sentenceKo": "셋째, 각 발견의 기초가 되는 분석적 선택을 확인하고, 방어 가능한 대안을 제안하고, 분석을 재실행하여 그 선택이 결론에 영향을 미치는지 여부를 결정함으로써 의학적 발견의 견고성을 테스트하기 위한 에이전트 분석 파이프라인을 개발합니다."
+        },
+        {
+          "word": "robustness",
+          "ko": "강건성",
+          "sentence": "We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) database, a widely used U.S. cancer registry underlying tens of thousands of published studies.",
+          "sentenceKo": "당사는 수만 건의 발표된 연구의 기초가 되는 널리 사용되는 미국 암 등록기관인 SEER (Surveillance, Epidemiology, and End Results) 데이터베이스에 기반을 둔 의학 사례 연구를 사용하여 LLM 제제가 재생산 및 견고성 분석을 자동화하는 데 도움이 될 수 있는지 여부를 조사합니다."
+        },
+        {
+          "word": "analysis",
+          "ko": "분석",
+          "sentence": "We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) database, a widely used U.S. cancer registry underlying tens of thousands of published studies.",
+          "sentenceKo": "당사는 수만 건의 발표된 연구의 기초가 되는 널리 사용되는 미국 암 등록기관인 SEER (Surveillance, Epidemiology, and End Results) 데이터베이스에 기반을 둔 의학 사례 연구를 사용하여 LLM 제제가 재생산 및 견고성 분석을 자동화하는 데 도움이 될 수 있는지 여부를 조사합니다."
+        },
+        {
+          "word": "choices",
+          "ko": "선택하기",
+          "sentence": "Third, we develop an agentic analysis pipeline to test the robustness of the medical findings by identifying analytical choices underlying each finding, proposing defensible alternatives, and rerunning the analysis to determine whether those choices affect the conclusion.",
+          "sentenceKo": "셋째, 각 발견의 기초가 되는 분석적 선택을 확인하고, 방어 가능한 대안을 제안하고, 분석을 재실행하여 그 선택이 결론에 영향을 미치는지 여부를 결정함으로써 의학적 발견의 견고성을 테스트하기 위한 에이전트 분석 파이프라인을 개발합니다."
+        },
+        {
+          "word": "findings",
+          "ko": "확인내용",
+          "sentence": "Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort.",
+          "sentenceKo": "재현 가능하고 분석적으로 견고한 연구 결과는 과학적 진보에 필수적이지만, 이러한 특성을 평가하려면 일반적으로 비용이 많이 드는 수작업이 필요합니다."
+        },
+        {
+          "word": "pipeline",
+          "ko": "파이프라인",
+          "sentence": "Third, we develop an agentic analysis pipeline to test the robustness of the medical findings by identifying analytical choices underlying each finding, proposing defensible alternatives, and rerunning the analysis to determine whether those choices affect the conclusion.",
+          "sentenceKo": "셋째, 각 발견의 기초가 되는 분석적 선택을 확인하고, 방어 가능한 대안을 제안하고, 분석을 재실행하여 그 선택이 결론에 영향을 미치는지 여부를 결정함으로써 의학적 발견의 견고성을 테스트하기 위한 에이전트 분석 파이프라인을 개발합니다."
+        },
+        {
+          "word": "reproduction",
+          "ko": "생식",
+          "sentence": "We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) database, a widely used U.S. cancer registry underlying tens of thousands of published studies.",
+          "sentenceKo": "당사는 수만 건의 발표된 연구의 기초가 되는 널리 사용되는 미국 암 등록기관인 SEER (Surveillance, Epidemiology, and End Results) 데이터베이스에 기반을 둔 의학 사례 연구를 사용하여 LLM 제제가 재생산 및 견고성 분석을 자동화하는 데 도움이 될 수 있는지 여부를 조사합니다."
+        },
+        {
+          "word": "surveillance",
+          "ko": "감시",
+          "sentence": "We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) database, a widely used U.S. cancer registry underlying tens of thousands of published studies.",
+          "sentenceKo": "당사는 수만 건의 발표된 연구의 기초가 되는 널리 사용되는 미국 암 등록기관인 SEER (Surveillance, Epidemiology, and End Results) 데이터베이스에 기반을 둔 의학 사례 연구를 사용하여 LLM 제제가 재생산 및 견고성 분석을 자동화하는 데 도움이 될 수 있는지 여부를 조사합니다."
+        },
+        {
+          "word": "epidemiology",
+          "ko": "역학",
+          "sentence": "We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) database, a widely used U.S. cancer registry underlying tens of thousands of published studies.",
+          "sentenceKo": "당사는 수만 건의 발표된 연구의 기초가 되는 널리 사용되는 미국 암 등록기관인 SEER (Surveillance, Epidemiology, and End Results) 데이터베이스에 기반을 둔 의학 사례 연구를 사용하여 LLM 제제가 재생산 및 견고성 분석을 자동화하는 데 도움이 될 수 있는지 여부를 조사합니다."
+        },
+        {
+          "word": "consequential",
+          "ko": "consequential",
+          "sentence": "Across published papers in SEER-Repro, our pipeline identifies potentially consequential analytical choices in 9.5% of fully reproduced findings and flags them for expert review.",
+          "sentenceKo": "SEER-Repro에 게재된 논문 전반에 걸쳐, 당사의 파이프라인은 완전히 재현된 연구 결과의 9.5% 에서 잠재적으로 결과적인 분석적 선택을 식별하고 전문가 검토를 위해 플래그를 지정합니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.23845",
+        "arxiv": "https://arxiv.org/abs/2610.23845",
+        "pdf": "https://arxiv.org/pdf/2610.23845",
+        "github": null
+      },
+      "githubStars": null,
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
+    {
+      "id": "2610.20442",
+      "title": "Towards Agentic Robots: Model, Data, Environment, and Harness",
+      "authors": [
+        "Chonghan Qin",
+        "Dongming Wu",
+        "Kaituo Feng",
+        "Jiaxu Wang",
+        "Xinlei Yu",
+        "Peiwen Sun",
+        "Yijia Fan",
+        "Xilin He",
+        "Bingao Chen",
+        "Weitong Lian",
+        "Ryan Ji",
+        "Wenqi Ren",
+        "Xiaobin Hu",
+        "Dahua Lin",
+        "Yu-Gang Jiang",
+        "Xiangyu Yue"
+      ],
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "upvotes": 43,
+      "keywords": [
+        "vision-language-action models",
+        "world models",
+        "world-action models"
+      ],
+      "categories": [
+        "로봇 조작",
+        "LLM 에이전트"
+      ],
+      "aiSummary": {
+        "en": "This survey unifies research on agentic robots by tracing the evolution from robot policies to integrated systems using vision-language-action models, world models, and structured functional domains.",
+        "ko": "이 설문조사는 비전 언어 행동 모델, 세계 모델 및 구조화된 기능 도메인을 사용하여 로봇 정책에서 통합 시스템으로의 진화를 추적함으로써 에이전트 로봇에 대한 연구를 통합합니다."
+      },
+      "abstract": {
+        "en": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution. We characterize this emerging paradigm as an agentic robots, in which agents reason over human instructions, interact with robotic environments, rectify execution errors autonomously, and dynamically adjust operational strategies. Although this field develops fast, current studies are not well connected. Researchers have no consistent view of how to combine different agentic functions into a complete robot system. This paper provides a unified overview of existing research on agentic robots. We first trace the development from robot policies to agentic systems, covering vision-language-action models, world models, and world-action models. We then clarify the definition and scope of agentic robots and organize existing research into seventeen categories across four functional domains: Model, Data, Environment, and Harness. Across these domains, we examine how agents shape model learning and robot decisions, collect and curate robot data, construct worlds, tasks, and tests for learning and evaluation, and organize capabilities for robot use. Finally, we discuss open challenges and outline directions for future research. Looking forward, we hope this work contributes to a clearer understanding of agentic robots and supports new approaches to making them more capable, reliable, and adaptive.",
+        "ko": "기초 모델은 낮은 수준의 행동 예측을 넘어 데이터 수집, 모델 교육, 작업 계획 및 실제 실행의 목표 지향적 조율로 로봇 지능의 패러다임 변화를 주도하고 있습니다. 우리는 이러한 새로운 패러다임을 에이전트 로봇으로 특징짓습니다. 에이전트는 인간의 지시를 추론하고, 로봇 환경과 상호 작용하며, 실행 오류를 자율적으로 수정하고, 운영 전략을 동적으로 조정합니다. 이 분야는 빠르게 발전하지만, 현재의 연구는 잘 연결되어 있지 않습니다. 연구자들은 다양한 제제 기능을 완전한 로봇 시스템으로 결합하는 방법에 대해 일관된 견해를 가지고 있지 않습니다. 이 논문은 에이전트 로봇에 대한 기존 연구에 대한 통일된 개요를 제공합니다. 우리는 먼저 로봇 정책에서 에이전트 시스템에 이르기까지 비전 언어 행동 모델, 세계 모델 및 세계 행동 모델을 다루는 개발을 추적합니다. 그런 다음 에이전트 로봇의 정의와 범위를 명확히 하고 기존 연구를 모델, 데이터, 환경 및 하네스라는 네 가지 기능 영역에 걸쳐 17가지 범주로 구성합니다. 이러한 영역에서 에이전트가 모델 학습 및 로봇 결정을 형성하는 방법을 검토하고, 로봇 데이터를 수집 및 큐레이션하고, 학습 및 평가를 위한 세계, 작업 및 테스트를 구성하고, 로봇 사용을 위한 기능을 구성합니다. 마지막으로, 개방형 과제에 대해 논의하고 향후 연구를 위한 방향을 설명합니다. 앞으로 이 작업이 에이전트 로봇에 대한 더 명확한 이해에 기여하고 더 능력 있고 신뢰할 수 있으며 적응력 있는 로봇을 만들기 위한 새로운 접근 방식을 지원하는 데 도움이 되기를 바랍니다."
+      },
+      "sentences": [
+        {
+          "en": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution.",
+          "ko": "기초 모델은 낮은 수준의 행동 예측을 넘어 데이터 수집, 모델 교육, 작업 계획 및 실제 실행의 목표 지향적 조율로 로봇 지능의 패러다임 변화를 주도하고 있습니다."
+        },
+        {
+          "en": "We characterize this emerging paradigm as an agentic robots, in which agents reason over human instructions, interact with robotic environments, rectify execution errors autonomously, and dynamically adjust operational strategies.",
+          "ko": "우리는 이러한 새로운 패러다임을 에이전트 로봇으로 특징짓습니다. 에이전트는 인간의 지시를 추론하고, 로봇 환경과 상호 작용하며, 실행 오류를 자율적으로 수정하고, 운영 전략을 동적으로 조정합니다."
+        },
+        {
+          "en": "Although this field develops fast, current studies are not well connected.",
+          "ko": "이 분야는 빠르게 발전하지만, 현재의 연구는 잘 연결되어 있지 않습니다."
+        },
+        {
+          "en": "Researchers have no consistent view of how to combine different agentic functions into a complete robot system.",
+          "ko": "연구자들은 다양한 제제 기능을 완전한 로봇 시스템으로 결합하는 방법에 대해 일관된 견해를 가지고 있지 않습니다."
+        },
+        {
+          "en": "This paper provides a unified overview of existing research on agentic robots.",
+          "ko": "이 논문은 에이전트 로봇에 대한 기존 연구에 대한 통일된 개요를 제공합니다."
+        },
+        {
+          "en": "We first trace the development from robot policies to agentic systems, covering vision-language-action models, world models, and world-action models.",
+          "ko": "우리는 먼저 로봇 정책에서 에이전트 시스템에 이르기까지 비전 언어 행동 모델, 세계 모델 및 세계 행동 모델을 다루는 개발을 추적합니다."
+        },
+        {
+          "en": "We then clarify the definition and scope of agentic robots and organize existing research into seventeen categories across four functional domains: Model, Data, Environment, and Harness.",
+          "ko": "그런 다음 에이전트 로봇의 정의와 범위를 명확히 하고 기존 연구를 모델, 데이터, 환경 및 하네스라는 네 가지 기능 영역에 걸쳐 17가지 범주로 구성합니다."
+        },
+        {
+          "en": "Across these domains, we examine how agents shape model learning and robot decisions, collect and curate robot data, construct worlds, tasks, and tests for learning and evaluation, and organize capabilities for robot use.",
+          "ko": "이러한 영역에서 에이전트가 모델 학습 및 로봇 결정을 형성하는 방법을 검토하고, 로봇 데이터를 수집 및 큐레이션하고, 학습 및 평가를 위한 세계, 작업 및 테스트를 구성하고, 로봇 사용을 위한 기능을 구성합니다."
+        },
+        {
+          "en": "Finally, we discuss open challenges and outline directions for future research.",
+          "ko": "마지막으로, 개방형 과제에 대해 논의하고 향후 연구를 위한 방향을 설명합니다."
+        },
+        {
+          "en": "Looking forward, we hope this work contributes to a clearer understanding of agentic robots and supports new approaches to making them more capable, reliable, and adaptive.",
+          "ko": "앞으로 이 작업이 에이전트 로봇에 대한 더 명확한 이해에 기여하고 더 능력 있고 신뢰할 수 있으며 적응력 있는 로봇을 만들기 위한 새로운 접근 방식을 지원하는 데 도움이 되기를 바랍니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution.",
+            "ko": "기초 모델은 낮은 수준의 행동 예측을 넘어 데이터 수집, 모델 교육, 작업 계획 및 실제 실행의 목표 지향적 조율로 로봇 지능의 패러다임 변화를 주도하고 있습니다."
+          },
+          {
+            "en": "We characterize this emerging paradigm as an agentic robots, in which agents reason over human instructions, interact with robotic environments, rectify execution errors autonomously, and dynamically adjust operational strategies.",
+            "ko": "우리는 이러한 새로운 패러다임을 에이전트 로봇으로 특징짓습니다. 에이전트는 인간의 지시를 추론하고, 로봇 환경과 상호 작용하며, 실행 오류를 자율적으로 수정하고, 운영 전략을 동적으로 조정합니다."
+          },
+          {
+            "en": "Although this field develops fast, current studies are not well connected.",
+            "ko": "이 분야는 빠르게 발전하지만, 현재의 연구는 잘 연결되어 있지 않습니다."
+          },
+          {
+            "en": "Researchers have no consistent view of how to combine different agentic functions into a complete robot system.",
+            "ko": "연구자들은 다양한 제제 기능을 완전한 로봇 시스템으로 결합하는 방법에 대해 일관된 견해를 가지고 있지 않습니다."
+          },
+          {
+            "en": "This paper provides a unified overview of existing research on agentic robots.",
+            "ko": "이 논문은 에이전트 로봇에 대한 기존 연구에 대한 통일된 개요를 제공합니다."
+          },
+          {
+            "en": "We first trace the development from robot policies to agentic systems, covering vision-language-action models, world models, and world-action models.",
+            "ko": "우리는 먼저 로봇 정책에서 에이전트 시스템에 이르기까지 비전 언어 행동 모델, 세계 모델 및 세계 행동 모델을 다루는 개발을 추적합니다."
+          },
+          {
+            "en": "We then clarify the definition and scope of agentic robots and organize existing research into seventeen categories across four functional domains: Model, Data, Environment, and Harness.",
+            "ko": "그런 다음 에이전트 로봇의 정의와 범위를 명확히 하고 기존 연구를 모델, 데이터, 환경 및 하네스라는 네 가지 기능 영역에 걸쳐 17가지 범주로 구성합니다."
+          },
+          {
+            "en": "Across these domains, we examine how agents shape model learning and robot decisions, collect and curate robot data, construct worlds, tasks, and tests for learning and evaluation, and organize capabilities for robot use.",
+            "ko": "이러한 영역에서 에이전트가 모델 학습 및 로봇 결정을 형성하는 방법을 검토하고, 로봇 데이터를 수집 및 큐레이션하고, 학습 및 평가를 위한 세계, 작업 및 테스트를 구성하고, 로봇 사용을 위한 기능을 구성합니다."
+          },
+          {
+            "en": "Finally, we discuss open challenges and outline directions for future research.",
+            "ko": "마지막으로, 개방형 과제에 대해 논의하고 향후 연구를 위한 방향을 설명합니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "Looking forward, we hope this work contributes to a clearer understanding of agentic robots and supports new approaches to making them more capable, reliable, and adaptive.",
+            "ko": "앞으로 이 작업이 에이전트 로봇에 대한 더 명확한 이해에 기여하고 더 능력 있고 신뢰할 수 있으며 적응력 있는 로봇을 만들기 위한 새로운 접근 방식을 지원하는 데 도움이 되기를 바랍니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "Looking forward, we hope this work contributes to a clearer understanding of agentic robots and supports new approaches to making them more capable, reliable, and adaptive.",
+            "ko": "앞으로 이 작업이 에이전트 로봇에 대한 더 명확한 이해에 기여하고 더 능력 있고 신뢰할 수 있으며 적응력 있는 로봇을 만들기 위한 새로운 접근 방식을 지원하는 데 도움이 되기를 바랍니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "action",
+          "ko": "동작",
+          "sentence": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution.",
+          "sentenceKo": "기초 모델은 낮은 수준의 행동 예측을 넘어 데이터 수집, 모델 교육, 작업 계획 및 실제 실행의 목표 지향적 조율로 로봇 지능의 패러다임 변화를 주도하고 있습니다."
+        },
+        {
+          "word": "agentic",
+          "ko": "",
+          "sentence": "We characterize this emerging paradigm as an agentic robots, in which agents reason over human instructions, interact with robotic environments, rectify execution errors autonomously, and dynamically adjust operational strategies.",
+          "sentenceKo": "우리는 이러한 새로운 패러다임을 에이전트 로봇으로 특징짓습니다. 에이전트는 인간의 지시를 추론하고, 로봇 환경과 상호 작용하며, 실행 오류를 자율적으로 수정하고, 운영 전략을 동적으로 조정합니다."
+        },
+        {
+          "word": "orchestration",
+          "ko": "",
+          "sentence": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution.",
+          "sentenceKo": "기초 모델은 낮은 수준의 행동 예측을 넘어 데이터 수집, 모델 교육, 작업 계획 및 실제 실행의 목표 지향적 조율로 로봇 지능의 패러다임 변화를 주도하고 있습니다."
+        },
+        {
+          "word": "intelligence",
+          "ko": "뉴스",
+          "sentence": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution.",
+          "sentenceKo": "기초 모델은 낮은 수준의 행동 예측을 넘어 데이터 수집, 모델 교육, 작업 계획 및 실제 실행의 목표 지향적 조율로 로봇 지능의 패러다임 변화를 주도하고 있습니다."
+        },
+        {
+          "word": "characterize",
+          "ko": "칭호에 있다",
+          "sentence": "We characterize this emerging paradigm as an agentic robots, in which agents reason over human instructions, interact with robotic environments, rectify execution errors autonomously, and dynamically adjust operational strategies.",
+          "sentenceKo": "우리는 이러한 새로운 패러다임을 에이전트 로봇으로 특징짓습니다. 에이전트는 인간의 지시를 추론하고, 로봇 환경과 상호 작용하며, 실행 오류를 자율적으로 수정하고, 운영 전략을 동적으로 조정합니다."
+        },
+        {
+          "word": "world-action",
+          "ko": "",
+          "sentence": "We first trace the development from robot policies to agentic systems, covering vision-language-action models, world models, and world-action models.",
+          "sentenceKo": "우리는 먼저 로봇 정책에서 에이전트 시스템에 이르기까지 비전 언어 행동 모델, 세계 모델 및 세계 행동 모델을 다루는 개발을 추적합니다."
+        },
+        {
+          "word": "execution",
+          "ko": "법적 처형",
+          "sentence": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution.",
+          "sentenceKo": "기초 모델은 낮은 수준의 행동 예측을 넘어 데이터 수집, 모델 교육, 작업 계획 및 실제 실행의 목표 지향적 조율로 로봇 지능의 패러다임 변화를 주도하고 있습니다."
+        },
+        {
+          "word": "development",
+          "ko": "발전 ",
+          "sentence": "We first trace the development from robot policies to agentic systems, covering vision-language-action models, world models, and world-action models.",
+          "sentenceKo": "우리는 먼저 로봇 정책에서 에이전트 시스템에 이르기까지 비전 언어 행동 모델, 세계 모델 및 세계 행동 모델을 다루는 개발을 추적합니다."
+        },
+        {
+          "word": "environment",
+          "ko": "환경",
+          "sentence": "We then clarify the definition and scope of agentic robots and organize existing research into seventeen categories across four functional domains: Model, Data, Environment, and Harness.",
+          "sentenceKo": "그런 다음 에이전트 로봇의 정의와 범위를 명확히 하고 기존 연구를 모델, 데이터, 환경 및 하네스라는 네 가지 기능 영역에 걸쳐 17가지 범주로 구성합니다."
+        },
+        {
+          "word": "foundation",
+          "ko": "설립",
+          "sentence": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution.",
+          "sentenceKo": "기초 모델은 낮은 수준의 행동 예측을 넘어 데이터 수집, 모델 교육, 작업 계획 및 실제 실행의 목표 지향적 조율로 로봇 지능의 패러다임 변화를 주도하고 있습니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.20442",
+        "arxiv": "https://arxiv.org/abs/2610.20442",
+        "pdf": "https://arxiv.org/pdf/2610.20442",
+        "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
+      },
+      "githubStars": 126,
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
+    {
+      "id": "2610.18933",
+      "title": "The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery",
+      "authors": [
+        "Robert Tjarko Lange",
+        "Luca Grillotti",
+        "Yutaro Yamada",
+        "Rujikorn Charakorn",
+        "David Ha"
+      ],
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "upvotes": 1,
+      "keywords": [
+        "coding agents",
+        "agentic self-verification",
+        "meta-controller",
+        "parallel research agents",
+        "rubric verification",
+        "cross-agent orchestration",
+        "sandboxed experimentation",
+        "ablation construction"
+      ],
+      "categories": [
+        "AI 과학자",
+        "가설·문헌 생성",
+        "LLM 에이전트"
+      ],
+      "aiSummary": {
+        "en": "The Agentic Scientist is a distributed pipeline that integrates coding agents with human researchers to automate computational research stages from ideation to reporting, using meta-controlled orchestration and self-verification.",
+        "ko": "Agentic Scientist는 코딩 에이전트를 인간 연구자와 통합하여 메타 제어 오케스트레이션 및 자체 검증을 사용하여 아이디어 구상에서 보고에 이르는 계산 연구 단계를 자동화하는 분산 파이프라인입니다."
+      },
+      "abstract": {
+        "en": "Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons. Despite these developments, fully autonomous research agents suffer from a limited ideation radius and myopic hill-climbing search dynamics. To bridge this gap, we introduce The Agentic Scientist, an end-to-end distributed pipeline for human researchers to conduct computational research alongside modern coding agents. Building on its predecessor, our system decomposes research into task drafting, idea generation, planning, sandboxed experimentation, result aggregation, baseline and ablation construction, post-hoc analysis, and report writing. Importantly, each step in the pipeline is powered by the next generation of coding agents and leverages agentic self-verification. The overall research process is driven by a meta-controller that manages parallel research agents and enforces rubric verification at each stage. This design enables the same orchestration layer to be reused across heterogeneous domains with different execution environments, agentic coding harnesses, and evaluation metrics. Our system can be used across a spectrum of autonomy: either as a co-scientist tool or to perform end-to-end scientific investigation. Within the co-scientist setting, we leveraged a development version of our system to submit a single research paper, which got accepted for publication at ALIFE 2026. We further apply The Agentic Scientist fully autonomously to open problem-solving tasks in machine learning, and demonstrate the system's capability of scientific discovery across different domains of computational research. Our ablations suggest that reliable scientific autonomy depends not only on base model capabilities, but also on the cross-agent orchestration layer.",
+        "ko": "현대의 코딩 에이전트는 컴퓨팅 연구를 위한 인간 입력의 역할을 근본적으로 재구성하고 있습니다. 코드를 작성하고, 실리콘 실험을 시작하고, 결과를 분석하고, 끊임없이 증가하는 시야로 자율적으로 작동합니다. 이러한 발전에도 불구하고, 완전 자율 연구 요원은 제한된 이데아 반경과 근시안적인 언덕 오르기 검색 역학에 시달리고 있습니다. 이러한 격차를 해소하기 위해 인간 연구자가 최신 코딩 에이전트와 함께 전산 연구를 수행할 수 있는 엔드 투 엔드 분산 파이프라인인 The Agentic Scientist를 소개합니다. 이전 시스템을 기반으로 작업 초안 작성, 아이디어 생성, 계획, 샌드박스 실험, 결과 집계, 기준선 및 제거 구성, 사후 분석 및 보고서 작성에 대한 연구를 분해합니다. 중요한 것은 파이프라인의 각 단계는 차세대 코딩 에이전트에 의해 구동되며 에이전트 자체 검증을 활용합니다. 전반적인 연구 프로세스는 병렬 연구 에이전트를 관리하고 각 단계에서 채점표 검증을 시행하는 메타 컨트롤러에 의해 구동됩니다. 이 설계를 사용하면 실행 환경, 에이전트 코딩 하네스 및 평가 메트릭이 다른 이기종 도메인에서 동일한 오케스트레이션 계층을 재사용할 수 있습니다. 우리의 시스템은 자율성의 스펙트럼에 걸쳐 사용될 수 있습니다: 공동 과학자 도구로 또는 엔드 투 엔드 과학 조사를 수행하기 위해. 공동 과학자 환경 내에서 우리는 시스템의 개발 버전을 활용하여 단일 연구 논문을 제출했으며, Alife 2026에서 출판이 승인되었습니다. 또한 The Agentic Scientist를 완전히 자율적으로 적용하여 기계 학습에서 문제 해결 과제를 열고 다양한 계산 연구 영역에서 시스템의 과학적 발견 능력을 입증합니다. 우리의 절제는 신뢰할 수 있는 과학적 자율성이 기본 모델 기능뿐만 아니라 교차 에이전트 오케스트레이션 계층에도 달려 있음을 시사합니다."
+      },
+      "sentences": [
+        {
+          "en": "Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons.",
+          "ko": "현대의 코딩 에이전트는 컴퓨팅 연구를 위한 인간 입력의 역할을 근본적으로 재구성하고 있습니다. 코드를 작성하고, 실리콘 실험을 시작하고, 결과를 분석하고, 끊임없이 증가하는 시야로 자율적으로 작동합니다."
+        },
+        {
+          "en": "Despite these developments, fully autonomous research agents suffer from a limited ideation radius and myopic hill-climbing search dynamics.",
+          "ko": "이러한 발전에도 불구하고, 완전 자율 연구 요원은 제한된 이데아 반경과 근시안적인 언덕 오르기 검색 역학에 시달리고 있습니다."
+        },
+        {
+          "en": "To bridge this gap, we introduce The Agentic Scientist, an end-to-end distributed pipeline for human researchers to conduct computational research alongside modern coding agents.",
+          "ko": "이러한 격차를 해소하기 위해 인간 연구자가 최신 코딩 에이전트와 함께 전산 연구를 수행할 수 있는 엔드 투 엔드 분산 파이프라인인 The Agentic Scientist를 소개합니다."
+        },
+        {
+          "en": "Building on its predecessor, our system decomposes research into task drafting, idea generation, planning, sandboxed experimentation, result aggregation, baseline and ablation construction, post-hoc analysis, and report writing.",
+          "ko": "이전 시스템을 기반으로 작업 초안 작성, 아이디어 생성, 계획, 샌드박스 실험, 결과 집계, 기준선 및 제거 구성, 사후 분석 및 보고서 작성에 대한 연구를 분해합니다."
+        },
+        {
+          "en": "Importantly, each step in the pipeline is powered by the next generation of coding agents and leverages agentic self-verification.",
+          "ko": "중요한 것은 파이프라인의 각 단계는 차세대 코딩 에이전트에 의해 구동되며 에이전트 자체 검증을 활용합니다."
+        },
+        {
+          "en": "The overall research process is driven by a meta-controller that manages parallel research agents and enforces rubric verification at each stage.",
+          "ko": "전반적인 연구 프로세스는 병렬 연구 에이전트를 관리하고 각 단계에서 채점표 검증을 시행하는 메타 컨트롤러에 의해 구동됩니다."
+        },
+        {
+          "en": "This design enables the same orchestration layer to be reused across heterogeneous domains with different execution environments, agentic coding harnesses, and evaluation metrics.",
+          "ko": "이 설계를 사용하면 실행 환경, 에이전트 코딩 하네스 및 평가 메트릭이 다른 이기종 도메인에서 동일한 오케스트레이션 계층을 재사용할 수 있습니다."
+        },
+        {
+          "en": "Our system can be used across a spectrum of autonomy: either as a co-scientist tool or to perform end-to-end scientific investigation.",
+          "ko": "우리의 시스템은 자율성의 스펙트럼에 걸쳐 사용될 수 있습니다: 공동 과학자 도구로 또는 엔드 투 엔드 과학 조사를 수행하기 위해."
+        },
+        {
+          "en": "Within the co-scientist setting, we leveraged a development version of our system to submit a single research paper, which got accepted for publication at ALIFE 2026.",
+          "ko": "공동 과학자 환경 내에서 우리는 시스템의 개발 버전을 활용하여 단일 연구 논문을 제출했으며, Alife 2026에서 출판이 승인되었습니다."
+        },
+        {
+          "en": "We further apply The Agentic Scientist fully autonomously to open problem-solving tasks in machine learning, and demonstrate the system's capability of scientific discovery across different domains of computational research.",
+          "ko": "또한 The Agentic Scientist를 완전히 자율적으로 적용하여 기계 학습에서 문제 해결 과제를 열고 다양한 계산 연구 영역에서 시스템의 과학적 발견 능력을 입증합니다."
+        },
+        {
+          "en": "Our ablations suggest that reliable scientific autonomy depends not only on base model capabilities, but also on the cross-agent orchestration layer.",
+          "ko": "우리의 절제는 신뢰할 수 있는 과학적 자율성이 기본 모델 기능뿐만 아니라 교차 에이전트 오케스트레이션 계층에도 달려 있음을 시사합니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons.",
+            "ko": "현대의 코딩 에이전트는 컴퓨팅 연구를 위한 인간 입력의 역할을 근본적으로 재구성하고 있습니다. 코드를 작성하고, 실리콘 실험을 시작하고, 결과를 분석하고, 끊임없이 증가하는 시야로 자율적으로 작동합니다."
+          },
+          {
+            "en": "Despite these developments, fully autonomous research agents suffer from a limited ideation radius and myopic hill-climbing search dynamics.",
+            "ko": "이러한 발전에도 불구하고, 완전 자율 연구 요원은 제한된 이데아 반경과 근시안적인 언덕 오르기 검색 역학에 시달리고 있습니다."
+          },
+          {
+            "en": "The overall research process is driven by a meta-controller that manages parallel research agents and enforces rubric verification at each stage.",
+            "ko": "전반적인 연구 프로세스는 병렬 연구 에이전트를 관리하고 각 단계에서 채점표 검증을 시행하는 메타 컨트롤러에 의해 구동됩니다."
+          },
+          {
+            "en": "Our ablations suggest that reliable scientific autonomy depends not only on base model capabilities, but also on the cross-agent orchestration layer.",
+            "ko": "우리의 절제는 신뢰할 수 있는 과학적 자율성이 기본 모델 기능뿐만 아니라 교차 에이전트 오케스트레이션 계층에도 달려 있음을 시사합니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "To bridge this gap, we introduce The Agentic Scientist, an end-to-end distributed pipeline for human researchers to conduct computational research alongside modern coding agents.",
+            "ko": "이러한 격차를 해소하기 위해 인간 연구자가 최신 코딩 에이전트와 함께 전산 연구를 수행할 수 있는 엔드 투 엔드 분산 파이프라인인 The Agentic Scientist를 소개합니다."
+          },
+          {
+            "en": "Building on its predecessor, our system decomposes research into task drafting, idea generation, planning, sandboxed experimentation, result aggregation, baseline and ablation construction, post-hoc analysis, and report writing.",
+            "ko": "이전 시스템을 기반으로 작업 초안 작성, 아이디어 생성, 계획, 샌드박스 실험, 결과 집계, 기준선 및 제거 구성, 사후 분석 및 보고서 작성에 대한 연구를 분해합니다."
+          },
+          {
+            "en": "Importantly, each step in the pipeline is powered by the next generation of coding agents and leverages agentic self-verification.",
+            "ko": "중요한 것은 파이프라인의 각 단계는 차세대 코딩 에이전트에 의해 구동되며 에이전트 자체 검증을 활용합니다."
+          },
+          {
+            "en": "Our system can be used across a spectrum of autonomy: either as a co-scientist tool or to perform end-to-end scientific investigation.",
+            "ko": "우리의 시스템은 자율성의 스펙트럼에 걸쳐 사용될 수 있습니다: 공동 과학자 도구로 또는 엔드 투 엔드 과학 조사를 수행하기 위해."
+          },
+          {
+            "en": "Within the co-scientist setting, we leveraged a development version of our system to submit a single research paper, which got accepted for publication at ALIFE 2026.",
+            "ko": "공동 과학자 환경 내에서 우리는 시스템의 개발 버전을 활용하여 단일 연구 논문을 제출했으며, Alife 2026에서 출판이 승인되었습니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "This design enables the same orchestration layer to be reused across heterogeneous domains with different execution environments, agentic coding harnesses, and evaluation metrics.",
+            "ko": "이 설계를 사용하면 실행 환경, 에이전트 코딩 하네스 및 평가 메트릭이 다른 이기종 도메인에서 동일한 오케스트레이션 계층을 재사용할 수 있습니다."
+          },
+          {
+            "en": "We further apply The Agentic Scientist fully autonomously to open problem-solving tasks in machine learning, and demonstrate the system's capability of scientific discovery across different domains of computational research.",
+            "ko": "또한 The Agentic Scientist를 완전히 자율적으로 적용하여 기계 학습에서 문제 해결 과제를 열고 다양한 계산 연구 영역에서 시스템의 과학적 발견 능력을 입증합니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "orchestration",
+          "ko": "",
+          "sentence": "This design enables the same orchestration layer to be reused across heterogeneous domains with different execution environments, agentic coding harnesses, and evaluation metrics.",
+          "sentenceKo": "이 설계를 사용하면 실행 환경, 에이전트 코딩 하네스 및 평가 메트릭이 다른 이기종 도메인에서 동일한 오케스트레이션 계층을 재사용할 수 있습니다."
+        },
+        {
+          "word": "experimentation",
+          "ko": "실험",
+          "sentence": "Building on its predecessor, our system decomposes research into task drafting, idea generation, planning, sandboxed experimentation, result aggregation, baseline and ablation construction, post-hoc analysis, and report writing.",
+          "sentenceKo": "이전 시스템을 기반으로 작업 초안 작성, 아이디어 생성, 계획, 샌드박스 실험, 결과 집계, 기준선 및 제거 구성, 사후 분석 및 보고서 작성에 대한 연구를 분해합니다."
+        },
+        {
+          "word": "construction",
+          "ko": "건설",
+          "sentence": "Building on its predecessor, our system decomposes research into task drafting, idea generation, planning, sandboxed experimentation, result aggregation, baseline and ablation construction, post-hoc analysis, and report writing.",
+          "sentenceKo": "이전 시스템을 기반으로 작업 초안 작성, 아이디어 생성, 계획, 샌드박스 실험, 결과 집계, 기준선 및 제거 구성, 사후 분석 및 보고서 작성에 대한 연구를 분해합니다."
+        },
+        {
+          "word": "verification",
+          "ko": "인증",
+          "sentence": "The overall research process is driven by a meta-controller that manages parallel research agents and enforces rubric verification at each stage.",
+          "sentenceKo": "전반적인 연구 프로세스는 병렬 연구 에이전트를 관리하고 각 단계에서 채점표 검증을 시행하는 메타 컨트롤러에 의해 구동됩니다."
+        },
+        {
+          "word": "agents",
+          "ko": "담당자",
+          "sentence": "Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons.",
+          "sentenceKo": "현대의 코딩 에이전트는 컴퓨팅 연구를 위한 인간 입력의 역할을 근본적으로 재구성하고 있습니다. 코드를 작성하고, 실리콘 실험을 시작하고, 결과를 분석하고, 끊임없이 증가하는 시야로 자율적으로 작동합니다."
+        },
+        {
+          "word": "agentic",
+          "ko": "",
+          "sentence": "To bridge this gap, we introduce The Agentic Scientist, an end-to-end distributed pipeline for human researchers to conduct computational research alongside modern coding agents.",
+          "sentenceKo": "이러한 격차를 해소하기 위해 인간 연구자가 최신 코딩 에이전트와 함께 전산 연구를 수행할 수 있는 엔드 투 엔드 분산 파이프라인인 The Agentic Scientist를 소개합니다."
+        },
+        {
+          "word": "coding",
+          "ko": "코딩:",
+          "sentence": "Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons.",
+          "sentenceKo": "현대의 코딩 에이전트는 컴퓨팅 연구를 위한 인간 입력의 역할을 근본적으로 재구성하고 있습니다. 코드를 작성하고, 실리콘 실험을 시작하고, 결과를 분석하고, 끊임없이 증가하는 시야로 자율적으로 작동합니다."
+        },
+        {
+          "word": "computational",
+          "ko": "계산",
+          "sentence": "Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons.",
+          "sentenceKo": "현대의 코딩 에이전트는 컴퓨팅 연구를 위한 인간 입력의 역할을 근본적으로 재구성하고 있습니다. 코드를 작성하고, 실리콘 실험을 시작하고, 결과를 분석하고, 끊임없이 증가하는 시야로 자율적으로 작동합니다."
+        },
+        {
+          "word": "ablation",
+          "ko": "",
+          "sentence": "Building on its predecessor, our system decomposes research into task drafting, idea generation, planning, sandboxed experimentation, result aggregation, baseline and ablation construction, post-hoc analysis, and report writing.",
+          "sentenceKo": "이전 시스템을 기반으로 작업 초안 작성, 아이디어 생성, 계획, 샌드박스 실험, 결과 집계, 기준선 및 제거 구성, 사후 분석 및 보고서 작성에 대한 연구를 분해합니다."
+        },
+        {
+          "word": "self-verification",
+          "ko": "자가 인증",
+          "sentence": "Importantly, each step in the pipeline is powered by the next generation of coding agents and leverages agentic self-verification.",
+          "sentenceKo": "중요한 것은 파이프라인의 각 단계는 차세대 코딩 에이전트에 의해 구동되며 에이전트 자체 검증을 활용합니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.18933",
+        "arxiv": "https://arxiv.org/abs/2610.18933",
+        "pdf": "https://arxiv.org/pdf/2610.18933",
+        "github": null
+      },
+      "githubStars": null,
+      "citations": {
+        "count": 1,
+        "source": "Semantic Scholar"
+      }
+    }
+  ]
+}

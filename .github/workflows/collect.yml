@@ -1,0 +1,41 @@
+# 매일 오전 9시(KST) Hugging Face Papers 논문 수집 → papers.json 커밋 → Vercel 자동 재배포
+name: 논문 자동 수집
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # UTC 00:00 = KST 09:00
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 논문 수집·분석·번역
+        run: node scripts/collect.mjs
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+          S2_API_KEY: ${{ secrets.S2_API_KEY }}
+          MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}
+      - name: 변경 사항 커밋
+        run: |
+          if git diff --quiet -- public/data/papers.json; then
+            echo "변경 없음"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/papers.json
+          git commit -m "데이터: 논문 자동 수집 $(TZ=Asia/Seoul date +'%Y-%m-%d')"
+          git push

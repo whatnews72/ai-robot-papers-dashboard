@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "public",
+  "functions": {
+    "api/chat.js": { "includeFiles": "public/data/papers.json", "maxDuration": 120 },
+    "api/translate.js": { "includeFiles": "lib/**", "maxDuration": 15 }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ai-robot-papers-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Hugging Face Papers의 AI·로봇 연구 자동화 논문 대시보드",
+  "scripts": {
+    "collect": "node --env-file-if-exists=.env scripts/collect.mjs",
+    "dev": "node --env-file-if-exists=.env scripts/dev.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
