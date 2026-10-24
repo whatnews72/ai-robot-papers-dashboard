@@ -14,14 +14,14 @@
 | 채팅 | 선택한 논문을 컨텍스트로 Google Gemini 무료 API에 질문 (한국어 답변, 스트리밍) |
 
 - TTS는 브라우저 내장 Web Speech API를 사용하므로 별도 키가 필요 없습니다 (Chrome/Edge 권장).
-- 번역은 DeepL API Free를 사용하고, 키가 없거나 실패하면 MyMemory 무료 API로 대체합니다.
+- 번역은 Gemini 무료 API(채팅과 같은 키)를 사용하고, 실패하면 DeepL(키가 있을 때) → MyMemory 무료 API 순으로 대체합니다.
 
 ## 구조
 ```
 scripts/collect.mjs   논문 검색·분석·번역·인용수 → public/data/papers.json
 scripts/dev.mjs       로컬 개발 서버
 lib/analyze.mjs       문장 분리, 섹션 분류, 주제 태그, 영단어 추출
-lib/translate.mjs     DeepL / MyMemory 번역
+lib/translate.mjs     Gemini / DeepL / MyMemory 번역
 api/chat.js           논문 채팅 - Gemini (Vercel 서버리스 함수)
 api/translate.js      번역 프록시 (Vercel 서버리스 함수)
 public/               대시보드 화면 (HTML/CSS/JS, 의존성 없음)
@@ -45,10 +45,10 @@ Node.js 20.6 이상이 필요합니다. 외부 패키지는 사용하지 않습�
    git push -u origin main
    ```
 2. **GitHub Secrets 등록** — 저장소 Settings → Secrets and variables → Actions
-   - `DEEPL_API_KEY` (필수 권장), `S2_API_KEY`·`MYMEMORY_EMAIL` (선택)
+   - `GEMINI_API_KEY` (번역용, 필수), `DEEPL_API_KEY`·`S2_API_KEY`·`MYMEMORY_EMAIL` (선택)
 3. **Vercel 연결** — [vercel.com/new](https://vercel.com/new)에서 저장소 Import
    - Framework Preset: `Other`, Build Command 비움 (`vercel.json`이 `public/`을 출력 폴더로 지정)
-   - Environment Variables: `GEMINI_API_KEY`, `DEEPL_API_KEY` (선택 `CHAT_MODEL`)
+   - Environment Variables: `GEMINI_API_KEY` (채팅·번역 공용, 선택 `CHAT_MODEL`)
 4. **첫 수집 실행** — GitHub Actions 탭 → "논문 자동 수집" → Run workflow
    - 이후 매일 09:00(KST)에 자동 실행되고, `papers.json`이 바뀌면 커밋되어 Vercel이 자동 재배포합니다.
 

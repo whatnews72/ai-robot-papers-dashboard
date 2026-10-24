@@ -99,7 +99,7 @@ async function analyzePaper(p) {
 
   // 문장·요약·단어를 한 번에 번역 (문장 번역을 섹션/예문에서 재사용)
   const words = vocab.map((v) => v.word);
-  const translated = await translateMany([...sentences, aiSummary, ...words]);
+  const { texts: translated, engine } = await translateMany([...sentences, aiSummary, ...words]);
   const ko = new Map(sentences.map((s, i) => [s, translated[i]]));
   const aiSummaryKo = translated[sentences.length];
   // 번역기가 단어를 그대로 돌려준 경우는 뜻 없음으로 처리
@@ -130,7 +130,14 @@ async function analyzePaper(p) {
       github: p.githubRepo || null,
     },
     githubStars: p.githubStars ?? null,
+    translatedBy: engine,
   };
+}
+
+// 이전 번역을 재사용할 수 있는지: Gemini 키가 있으면 Gemini 번역본만 재사용(품질 낮은 번역은 다시 번역)
+function canReuse(prev) {
+  if (!prev?.abstract?.ko) return false;
+  return !process.env.GEMINI_API_KEY || prev.translatedBy === 'gemini';
 }
 
 async function main() {
@@ -145,7 +152,7 @@ async function main() {
   for (const p of found) {
     const prev = prevById.get(p.id);
     // 이미 번역된 논문은 재번역하지 않고 업보트 등 메타만 갱신 (번역 한도 절약)
-    if (prev && prev.abstract?.ko) {
+    if (canReuse(prev)) {
       papers.push({ ...prev, upvotes: p.upvotes ?? prev.upvotes, githubStars: p.githubStars ?? prev.githubStars });
       continue;
     }

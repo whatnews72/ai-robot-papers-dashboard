@@ -1,4 +1,4 @@
-// 임의 영어 텍스트 → 한국어 번역 (DeepL 키는 서버에만 보관)
+// 임의 영어 텍스트 → 한국어 번역 (Gemini·DeepL 키는 서버에만 보관)
 
 import { translateOne } from '../lib/translate.mjs';
 

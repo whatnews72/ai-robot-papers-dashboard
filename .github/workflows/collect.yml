@@ -25,6 +25,7 @@ jobs:
       - name: 논문 수집·분석·번역
         run: node scripts/collect.mjs
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
           S2_API_KEY: ${{ secrets.S2_API_KEY }}
           MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}
