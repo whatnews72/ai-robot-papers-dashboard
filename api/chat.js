@@ -6,7 +6,9 @@ import { join } from 'node:path';
 
 const CHAT_URL = process.env.CHAT_API_URL || 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions';
 const CHAT_KEY = process.env.CHAT_API_KEY || process.env.GEMINI_API_KEY;
-const CHAT_MODEL = process.env.CHAT_MODEL || 'gemini-flash-latest';
+// flash-lite가 무료 티어에서 가장 빠르고 안정적(약 6초). 혼잡(503) 시 대체 모델로 전환
+const CHAT_MODEL = process.env.CHAT_MODEL || 'gemini-flash-lite-latest';
+const FALLBACK_MODEL = process.env.CHAT_FALLBACK_MODEL || 'gemini-2.5-flash';
 let papersCache = null;
 
 async function findPaper(id) {
@@ -52,11 +54,11 @@ export default async function handler(req, res) {
     .map((m) => ({ role: m.role, content: m.content.slice(0, 4000) }));
   if (!history.length) return sendError(res, 400, '메시지가 비어 있습니다.');
 
-  const request = () => fetch(CHAT_URL, {
+  const request = (model) => fetch(CHAT_URL, {
     method: 'POST',
     headers: { Authorization: `Bearer ${CHAT_KEY}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      model: CHAT_MODEL,
+      model,
       messages: [{ role: 'system', content: systemPrompt(paper) }, ...history],
       max_tokens: 2048,
       temperature: 0.4,
@@ -65,11 +67,12 @@ export default async function handler(req, res) {
       ...(CHAT_URL.includes('generativelanguage.googleapis.com') && { reasoning_effort: 'low' }),
     }),
   });
-  // 무료 티어는 혼잡 시 503을 자주 반환하므로 최대 2회 재시도
-  let upstream = await request();
-  for (let attempt = 1; upstream.status === 503 && attempt <= 2; attempt++) {
-    await new Promise((r) => setTimeout(r, 1500 * attempt));
-    upstream = await request();
+  // 무료 티어는 혼잡 시 503을 자주 반환하므로 대체 모델 → 기본 모델 순으로 재시도
+  let upstream = await request(CHAT_MODEL);
+  for (const [i, model] of [FALLBACK_MODEL, CHAT_MODEL].entries()) {
+    if (upstream.status !== 503) break;
+    await new Promise((r) => setTimeout(r, 1000 * (i + 1)));
+    upstream = await request(model);
   }
   if (!upstream.ok || !upstream.body) {
     const detail = (await upstream.text()).slice(0, 300);
