@@ -351,3 +351,22 @@ init();
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js').catch(() => {}));
 }
+
+// 앱 설치 버튼: Chrome이 설치 가능하다고 알릴 때만 표시 (이미 설치했거나 앱으로 실행 중이면 숨김)
+let installPrompt = null;
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  installPrompt = e;
+  $('#installBtn').hidden = false;
+});
+$('#installBtn').addEventListener('click', async () => {
+  if (!installPrompt) return;
+  installPrompt.prompt();
+  await installPrompt.userChoice.catch(() => null);
+  installPrompt = null; // 프롬프트는 한 번만 쓸 수 있음
+  $('#installBtn').hidden = true;
+});
+window.addEventListener('appinstalled', () => {
+  installPrompt = null;
+  $('#installBtn').hidden = true;
+});

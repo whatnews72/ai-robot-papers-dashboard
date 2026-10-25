@@ -65,6 +65,11 @@ a:hover { text-decoration: underline; }
   height: 36px; padding: 0 12px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface-2);
 }
 .controls input { width: 220px; }
+.install-btn {
+  height: 36px; padding: 0 14px; border: 0; border-radius: 10px; background: var(--accent); color: #fff;
+  font-weight: 500; cursor: pointer; white-space: nowrap;
+}
+.install-btn[hidden] { display: none; }
 .rate { display: flex; gap: 6px; align-items: center; font-size: 13px; color: var(--text-2); }
 
 .chips { display: flex; gap: 8px; overflow-x: auto; padding: 10px 20px; scrollbar-width: none; }
