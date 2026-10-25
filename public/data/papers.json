@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T22:28:41.505Z",
+  "updatedAt": "2026-10-25T04:04:45.908Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -25,7 +25,7 @@
         "Shiyu Chang"
       ],
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "upvotes": 36,
+      "upvotes": 38,
       "keywords": [],
       "categories": [
         "AI 과학자"
@@ -470,7 +470,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28578",
         "github": "https://github.com/InternScience/Agents-A1"
       },
-      "githubStars": 584,
+      "githubStars": 585,
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
