@@ -6,7 +6,8 @@
   "description": "Hugging Face Papers의 AI·로봇 연구 자동화 논문 대시보드",
   "scripts": {
     "collect": "node --env-file-if-exists=.env scripts/collect.mjs",
-    "dev": "node --env-file-if-exists=.env scripts/dev.mjs"
+    "dev": "node --env-file-if-exists=.env scripts/dev.mjs",
+    "icons": "node scripts/make-icons.mjs"
   },
   "engines": {
     "node": ">=20"

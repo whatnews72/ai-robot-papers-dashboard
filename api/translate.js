@@ -1,8 +1,10 @@
 // 임의 영어 텍스트 → 한국어 번역 (Gemini·DeepL 키는 서버에만 보관)
 
 import { translateOne } from '../lib/translate.mjs';
+import { checkAccess } from '../lib/auth.mjs';
 
 export default async function handler(req, res) {
+  if (!checkAccess(req, res)) return;
   res.setHeader('Content-Type', 'application/json; charset=utf-8');
   const text = req.method === 'POST' ? req.body?.text : null;
   if (typeof text !== 'string' || !text.trim()) {

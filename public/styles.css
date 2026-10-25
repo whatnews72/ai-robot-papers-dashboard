@@ -184,6 +184,19 @@ a:hover { text-decoration: underline; }
   border: 0; border-radius: 10px; padding: 0 16px; background: var(--accent); color: #fff; cursor: pointer; font-weight: 500;
 }
 .chat-form button:disabled { opacity: .5; cursor: default; }
+.passcode-form { padding: 12px; border-top: 1px solid var(--border); background: var(--accent-soft); }
+.passcode-form[hidden] { display: none; }
+.passcode-form p { margin: 0 0 8px; font-size: 13px; color: var(--text-2); }
+.passcode-form div { display: flex; gap: 8px; }
+.passcode-form input { flex: 1; height: 36px; padding: 0 10px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); }
+.passcode-form button { border: 0; border-radius: 10px; padding: 0 16px; background: var(--accent); color: #fff; cursor: pointer; font-weight: 500; }
+
+/* 설치된 앱(PWA): 노치·제스처 바 영역 피하기, 당겨서 튕김 방지 */
+.topbar { padding-top: max(14px, env(safe-area-inset-top)); }
+.chat-form { padding-bottom: max(12px, env(safe-area-inset-bottom)); }
+@media (display-mode: standalone) {
+  html, body { overscroll-behavior: none; }
+}
 
 .mobile-only { display: none; }
 
@@ -197,7 +210,7 @@ a:hover { text-decoration: underline; }
   .chat.open { display: flex; }
   .mobile-only { display: grid; }
   .chat-fab {
-    position: fixed; right: 20px; bottom: 20px; width: 56px; height: 56px; border-radius: 50%; border: 0;
+    position: fixed; right: 20px; bottom: calc(20px + env(safe-area-inset-bottom)); width: 56px; height: 56px; border-radius: 50%; border: 0;
     background: var(--accent); color: #fff; font-size: 24px; place-items: center; cursor: pointer; z-index: 10;
     box-shadow: 0 6px 20px rgba(49, 130, 246, .4);
   }

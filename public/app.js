@@ -22,6 +22,27 @@ const md = (s) =>
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/`([^`]+)`/g, '<code>$1</code>')
     .replace(/\n{3,}/g, '\n\n');
+/* ---------- API 접근 코드 ---------- */
+// 이 기기에 접근 코드를 저장해 두고 /api 요청 헤더에 붙임 (저장소를 못 쓰면 메모리에만 보관)
+const store = {
+  get: (k) => { try { return localStorage.getItem(k); } catch { return null; } },
+  set: (k, v) => { try { localStorage.setItem(k, v); } catch { /* 무시 */ } },
+};
+let passcode = store.get('passcode') || '';
+let afterPasscode = null; // 코드 저장 후 다시 시도할 동작
+const apiFetch = (url, body) => fetch(url, {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json', 'X-App-Passcode': encodeURIComponent(passcode) },
+  body: JSON.stringify(body),
+});
+function askPasscode(retry) {
+  afterPasscode = retry;
+  $('#passcodeHint').textContent = passcode ? '접근 코드가 맞지 않습니다. 다시 입력하세요.' : '채팅·번역을 쓰려면 접근 코드를 입력하세요. 이 기기에 저장됩니다.';
+  $('#passcodeForm').hidden = false;
+  $('#chat').classList.add('open');
+  $('#passcodeInput').focus();
+}
+
 const fmtDate =(iso) => (iso ? new Date(iso).toLocaleDateString('ko-KR', { year: 'numeric', month: 'short', day: 'numeric' }) : '-');
 
 /* ---------- TTS (Web Speech API) ---------- */
@@ -217,11 +238,13 @@ async function ask(question) {
   }, 1000);
 
   try {
-    const res = await fetch('/api/chat', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ paperId, messages: log.filter((m) => m !== reply && !m.error) }),
-    });
+    const res = await apiFetch('/api/chat', { paperId, messages: log.filter((m) => m !== reply && !m.error) });
+    if (res.status === 401) {
+      // 방금 질문을 지우고, 접근 코드 입력 후 같은 질문으로 다시 시도
+      log.splice(log.indexOf(reply) - 1, 2);
+      askPasscode(() => ask(question));
+      return;
+    }
     if (!res.ok) throw new Error((await res.json().catch(() => ({}))).error || `오류 ${res.status}`);
     const reader = res.body.getReader();
     const decoder = new TextDecoder();
@@ -268,7 +291,12 @@ document.addEventListener('click', async (e) => {
     t.disabled = true;
     t.textContent = '번역 중…';
     try {
-      const res = await fetch('/api/translate', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text: t.dataset.translate }) });
+      const res = await apiFetch('/api/translate', { text: t.dataset.translate });
+      if (res.status === 401) {
+        t.textContent = '한국어 번역';
+        t.disabled = false;
+        return askPasscode(() => t.click());
+      }
       const data = await res.json();
       t.parentElement.textContent = data.ko || data.error || '번역 실패';
     } catch { t.textContent = '번역 실패'; t.disabled = false; }
@@ -285,6 +313,18 @@ $('#chatForm').addEventListener('submit', (e) => {
 });
 $('#chatInput').addEventListener('keydown', (e) => {
   if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) { e.preventDefault(); $('#chatForm').requestSubmit(); }
+});
+$('#passcodeForm').addEventListener('submit', (e) => {
+  e.preventDefault();
+  const value = $('#passcodeInput').value.trim();
+  if (!value) return;
+  passcode = value;
+  store.set('passcode', value);
+  $('#passcodeInput').value = '';
+  $('#passcodeForm').hidden = true;
+  const retry = afterPasscode;
+  afterPasscode = null;
+  retry?.();
 });
 $('#chatOpen').addEventListener('click', () => $('#chat').classList.add('open'));
 $('#chatClose').addEventListener('click', () => $('#chat').classList.remove('open'));
@@ -306,3 +346,8 @@ async function init() {
   else renderList();
 }
 init();
+
+// 앱 설치(PWA)·오프라인 실행용 서비스 워커
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js').catch(() => {}));
+}

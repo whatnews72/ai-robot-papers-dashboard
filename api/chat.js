@@ -3,6 +3,7 @@
 
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
+import { checkAccess } from '../lib/auth.mjs';
 
 const CHAT_URL = process.env.CHAT_API_URL || 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions';
 const CHAT_KEY = process.env.CHAT_API_KEY || process.env.GEMINI_API_KEY;
@@ -42,6 +43,7 @@ function sendError(res, status, message) {
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return sendError(res, 405, 'POST만 지원합니다.');
+  if (!checkAccess(req, res)) return;
   if (!CHAT_KEY) return sendError(res, 500, 'GEMINI_API_KEY 환경변수가 설정되지 않았습니다.');
 
   const { paperId, messages } = req.body || {};

@@ -6,3 +6,4 @@ node_modules/
 
 # 개인 스크린샷
 *.png
+!public/icons/*.png

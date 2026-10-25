@@ -2,8 +2,12 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>AI·로봇 연구 논문 대시보드</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png" />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#181c22" media="(prefers-color-scheme: dark)" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
@@ -53,6 +57,13 @@
       </div>
       <div class="chat-suggest" id="chatSuggest"></div>
       <div class="chat-log" id="chatLog"></div>
+      <form class="passcode-form" id="passcodeForm" hidden>
+        <p id="passcodeHint">🔒 접근 코드를 입력하세요.</p>
+        <div>
+          <input id="passcodeInput" type="password" autocomplete="current-password" placeholder="접근 코드" aria-label="접근 코드" />
+          <button type="submit">저장</button>
+        </div>
+      </form>
       <form class="chat-form" id="chatForm">
         <textarea id="chatInput" rows="2" placeholder="이 논문에 대해 질문하세요 (Enter 전송)"></textarea>
         <button type="submit" id="chatSend">전송</button>
