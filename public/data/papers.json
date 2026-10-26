@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T04:04:45.908Z",
+  "updatedAt": "2026-10-26T04:08:48.950Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -25,7 +25,7 @@
         "Shiyu Chang"
       ],
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "upvotes": 38,
+      "upvotes": 45,
       "keywords": [],
       "categories": [
         "AI 과학자"
@@ -308,7 +308,7 @@
         "Bo Zhang"
       ],
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "upvotes": 72,
+      "upvotes": 73,
       "keywords": [
         "Mixture-of-Experts",
         "agentic model",
@@ -470,7 +470,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28578",
         "github": "https://github.com/InternScience/Agents-A1"
       },
-      "githubStars": 585,
+      "githubStars": 598,
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
@@ -646,6 +646,200 @@
         "hf": "https://huggingface.co/papers/2610.23845",
         "arxiv": "https://arxiv.org/abs/2610.23845",
         "pdf": "https://arxiv.org/pdf/2610.23845",
+        "github": null
+      },
+      "githubStars": null,
+      "translatedBy": "gemini",
+      "citations": {
+        "count": 0,
+        "source": "OpenAlex"
+      }
+    },
+    {
+      "id": "2610.13643",
+      "title": "DexBioLab: Benchmarking Dexterous Manipulation with Dynamic Experimental Phenomena in Realistic Laboratories",
+      "authors": [
+        "Xuanye Wu",
+        "Yue Shi",
+        "Yongcan Yang",
+        "Yiqun Wang",
+        "Zhaoqi Wan",
+        "Dayu Xia",
+        "Yanming Shao",
+        "Jiezhang Cao",
+        "Xiangfei Li",
+        "Yao Mu",
+        "Guangtao Zhai"
+      ],
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "upvotes": 0,
+      "keywords": [
+        "Gaussian-splatting",
+        "closed-loop policy",
+        "sim-to-real gap",
+        "manipulation policies"
+      ],
+      "categories": [
+        "자율 실험실",
+        "로봇 조작",
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "DexBioLab is a simulation benchmark for dexterous robot manipulation in realistic biological labs, featuring dynamic phenomena, hybrid Gaussian-splatting rendering, and parallel evaluation frameworks.",
+        "ko": "DexBioLab은 동적 현상, 하이브리드 가우스 스플래팅 렌더링, 병렬 평가 프레임워크를 특징으로 하는 현실적인 생물학 실험실 내 정교한 로봇 조작을 위한 시뮬레이션 벤치마크입니다."
+      },
+      "abstract": {
+        "en": "Automating biological laboratories requires robots to perform dexterous tool interactions under realistic visual conditions while handling dynamic experimental phenomena, presenting significant challenges for robotic manipulation. To enable systematic evaluation under these conditions, we introduce DexBioLab, a simulation benchmark and framework for dexterous manipulation in realistic biological laboratory environments. DexBioLab comprises 14 tasks across 4 robot embodiments, spanning functional tool use, precision manipulation, language-conditioned visual grounding, and instrument operation. We introduce controllable dynamic experimental phenomena, including flames, vapor, and bubbles, to capture the evolving visual conditions of laboratory procedures. To further enhance environmental realism, we develop a hybrid rendering pipeline that integrates interactive simulated foreground objects with Gaussian-splatting backgrounds reconstructed from 6 real laboratory scenes. For efficient large-scale data generation and evaluation, we further build a parallel simulation framework on top of mjlab, proposing Parallel Finite-State Machine (PFSM) and integrating batched rendering with decoupled trajectory replay for demonstration generation and model-independent closed-loop policy evaluation. Our evaluation reveals substantial variation in policy performance across tasks, exposing distinct strengths and weaknesses of current manipulation policies. Real-world experiments further demonstrate a reduced sim-to-real gap, supporting the validity of AutoBio+ for realistic manipulation evaluation. Supplementary materials are available at https://cumulusalpha.github.io/DexBioLabWebPage.",
+        "ko": "생물학 실험실의 자동화는 로봇이 현실적인 시각 조건 하에서 역동적인 실험 현상을 처리하면서 능숙한 도구 상호작용을 수행할 것을 요구하며, 이는 로봇 조작에 상당한 과제를 제시합니다. 이러한 조건 하에서 체계적인 평가를 가능하게 하기 위해, 저희는 현실적인 생물학 실험실 환경에서의 정교한 조작을 위한 시뮬레이션 벤치마크이자 프레임워크인 DexBioLab을 소개합니다. DexBioLab은 기능적 도구 사용, 정밀 조작, 언어 조건화 시각 그라운딩(visual grounding), 그리고 장비 조작에 걸쳐 4가지 로봇 형태학(embodiment)을 아우르는 14가지 태스크로 구성됩니다. 저희는 실험실 절차의 진화하는 시각적 조건을 포착하기 위해 불꽃, 증기, 기포를 포함한 제어 가능한 동적 실험 현상을 도입합니다. 환경의 사실감을 더욱 높이기 위해, 6개의 실제 실험실 장면에서 재구성된 가우스 스플래팅(Gaussian-splatting) 배경과 상호작용형 시뮬레이션 전경 객체를 통합한 하이브리드 렌더링 파이프라인을 개발합니다. 효율적인 대규모 데이터 생성 및 평가를 위해, mjlab을 기반으로 병렬 시뮬레이션 파이프라인을 구축하고 병렬 유한 상태 머신(PFSM)을 제어하며, 시연 생성 및 모델 독립적인 폐루프 정책 평가를 위해 분리된 궤적 재생과 일괄 렌더링을 통합합니다. 우리의 평가는 태스크 전반에 걸쳐 정책 성능의 상당한 편차를 드러내며, 현재 조작 정책의 뚜렷한 강점과 약점을 노출합니다. 실세계 실험을 통해 심투실(sim-to-real) 간극이 줄어들었음을 추가로 입증하며, 현실적인 조작 평가를 위한 AutoBio+의 타당성을 뒷받침합니다. 보충 자료는 https://cumulusalpha.github.io/DexBioLabWebPage에서 확인할 수 있습니다."
+      },
+      "sentences": [
+        {
+          "en": "Automating biological laboratories requires robots to perform dexterous tool interactions under realistic visual conditions while handling dynamic experimental phenomena, presenting significant challenges for robotic manipulation.",
+          "ko": "생물학 실험실의 자동화는 로봇이 현실적인 시각 조건 하에서 역동적인 실험 현상을 처리하면서 능숙한 도구 상호작용을 수행할 것을 요구하며, 이는 로봇 조작에 상당한 과제를 제시합니다."
+        },
+        {
+          "en": "To enable systematic evaluation under these conditions, we introduce DexBioLab, a simulation benchmark and framework for dexterous manipulation in realistic biological laboratory environments.",
+          "ko": "이러한 조건 하에서 체계적인 평가를 가능하게 하기 위해, 저희는 현실적인 생물학 실험실 환경에서의 정교한 조작을 위한 시뮬레이션 벤치마크이자 프레임워크인 DexBioLab을 소개합니다."
+        },
+        {
+          "en": "DexBioLab comprises 14 tasks across 4 robot embodiments, spanning functional tool use, precision manipulation, language-conditioned visual grounding, and instrument operation.",
+          "ko": "DexBioLab은 기능적 도구 사용, 정밀 조작, 언어 조건화 시각 그라운딩(visual grounding), 그리고 장비 조작에 걸쳐 4가지 로봇 형태학(embodiment)을 아우르는 14가지 태스크로 구성됩니다."
+        },
+        {
+          "en": "We introduce controllable dynamic experimental phenomena, including flames, vapor, and bubbles, to capture the evolving visual conditions of laboratory procedures.",
+          "ko": "저희는 실험실 절차의 진화하는 시각적 조건을 포착하기 위해 불꽃, 증기, 기포를 포함한 제어 가능한 동적 실험 현상을 도입합니다."
+        },
+        {
+          "en": "To further enhance environmental realism, we develop a hybrid rendering pipeline that integrates interactive simulated foreground objects with Gaussian-splatting backgrounds reconstructed from 6 real laboratory scenes.",
+          "ko": "환경의 사실감을 더욱 높이기 위해, 6개의 실제 실험실 장면에서 재구성된 가우스 스플래팅(Gaussian-splatting) 배경과 상호작용형 시뮬레이션 전경 객체를 통합한 하이브리드 렌더링 파이프라인을 개발합니다."
+        },
+        {
+          "en": "For efficient large-scale data generation and evaluation, we further build a parallel simulation framework on top of mjlab, proposing Parallel Finite-State Machine (PFSM) and integrating batched rendering with decoupled trajectory replay for demonstration generation and model-independent closed-loop policy evaluation.",
+          "ko": "효율적인 대규모 데이터 생성 및 평가를 위해, mjlab을 기반으로 병렬 시뮬레이션 파이프라인을 구축하고 병렬 유한 상태 머신(PFSM)을 제어하며, 시연 생성 및 모델 독립적인 폐루프 정책 평가를 위해 분리된 궤적 재생과 일괄 렌더링을 통합합니다."
+        },
+        {
+          "en": "Our evaluation reveals substantial variation in policy performance across tasks, exposing distinct strengths and weaknesses of current manipulation policies.",
+          "ko": "우리의 평가는 태스크 전반에 걸쳐 정책 성능의 상당한 편차를 드러내며, 현재 조작 정책의 뚜렷한 강점과 약점을 노출합니다."
+        },
+        {
+          "en": "Real-world experiments further demonstrate a reduced sim-to-real gap, supporting the validity of AutoBio+ for realistic manipulation evaluation.",
+          "ko": "실세계 실험을 통해 심투실(sim-to-real) 간극이 줄어들었음을 추가로 입증하며, 현실적인 조작 평가를 위한 AutoBio+의 타당성을 뒷받침합니다."
+        },
+        {
+          "en": "Supplementary materials are available at https://cumulusalpha.github.io/DexBioLabWebPage.",
+          "ko": "보충 자료는 https://cumulusalpha.github.io/DexBioLabWebPage에서 확인할 수 있습니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Automating biological laboratories requires robots to perform dexterous tool interactions under realistic visual conditions while handling dynamic experimental phenomena, presenting significant challenges for robotic manipulation.",
+            "ko": "생물학 실험실의 자동화는 로봇이 현실적인 시각 조건 하에서 역동적인 실험 현상을 처리하면서 능숙한 도구 상호작용을 수행할 것을 요구하며, 이는 로봇 조작에 상당한 과제를 제시합니다."
+          },
+          {
+            "en": "Our evaluation reveals substantial variation in policy performance across tasks, exposing distinct strengths and weaknesses of current manipulation policies.",
+            "ko": "우리의 평가는 태스크 전반에 걸쳐 정책 성능의 상당한 편차를 드러내며, 현재 조작 정책의 뚜렷한 강점과 약점을 노출합니다."
+          },
+          {
+            "en": "Supplementary materials are available at https://cumulusalpha.github.io/DexBioLabWebPage.",
+            "ko": "보충 자료는 https://cumulusalpha.github.io/DexBioLabWebPage에서 확인할 수 있습니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "To enable systematic evaluation under these conditions, we introduce DexBioLab, a simulation benchmark and framework for dexterous manipulation in realistic biological laboratory environments.",
+            "ko": "이러한 조건 하에서 체계적인 평가를 가능하게 하기 위해, 저희는 현실적인 생물학 실험실 환경에서의 정교한 조작을 위한 시뮬레이션 벤치마크이자 프레임워크인 DexBioLab을 소개합니다."
+          },
+          {
+            "en": "DexBioLab comprises 14 tasks across 4 robot embodiments, spanning functional tool use, precision manipulation, language-conditioned visual grounding, and instrument operation.",
+            "ko": "DexBioLab은 기능적 도구 사용, 정밀 조작, 언어 조건화 시각 그라운딩(visual grounding), 그리고 장비 조작에 걸쳐 4가지 로봇 형태학(embodiment)을 아우르는 14가지 태스크로 구성됩니다."
+          },
+          {
+            "en": "We introduce controllable dynamic experimental phenomena, including flames, vapor, and bubbles, to capture the evolving visual conditions of laboratory procedures.",
+            "ko": "저희는 실험실 절차의 진화하는 시각적 조건을 포착하기 위해 불꽃, 증기, 기포를 포함한 제어 가능한 동적 실험 현상을 도입합니다."
+          },
+          {
+            "en": "To further enhance environmental realism, we develop a hybrid rendering pipeline that integrates interactive simulated foreground objects with Gaussian-splatting backgrounds reconstructed from 6 real laboratory scenes.",
+            "ko": "환경의 사실감을 더욱 높이기 위해, 6개의 실제 실험실 장면에서 재구성된 가우스 스플래팅(Gaussian-splatting) 배경과 상호작용형 시뮬레이션 전경 객체를 통합한 하이브리드 렌더링 파이프라인을 개발합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "For efficient large-scale data generation and evaluation, we further build a parallel simulation framework on top of mjlab, proposing Parallel Finite-State Machine (PFSM) and integrating batched rendering with decoupled trajectory replay for demonstration generation and model-independent closed-loop policy evaluation.",
+            "ko": "효율적인 대규모 데이터 생성 및 평가를 위해, mjlab을 기반으로 병렬 시뮬레이션 파이프라인을 구축하고 병렬 유한 상태 머신(PFSM)을 제어하며, 시연 생성 및 모델 독립적인 폐루프 정책 평가를 위해 분리된 궤적 재생과 일괄 렌더링을 통합합니다."
+          },
+          {
+            "en": "Real-world experiments further demonstrate a reduced sim-to-real gap, supporting the validity of AutoBio+ for realistic manipulation evaluation.",
+            "ko": "실세계 실험을 통해 심투실(sim-to-real) 간극이 줄어들었음을 추가로 입증하며, 현실적인 조작 평가를 위한 AutoBio+의 타당성을 뒷받침합니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "manipulation",
+          "ko": "조작",
+          "sentence": "Automating biological laboratories requires robots to perform dexterous tool interactions under realistic visual conditions while handling dynamic experimental phenomena, presenting significant challenges for robotic manipulation.",
+          "sentenceKo": "생물학 실험실의 자동화는 로봇이 현실적인 시각 조건 하에서 역동적인 실험 현상을 처리하면서 능숙한 도구 상호작용을 수행할 것을 요구하며, 이는 로봇 조작에 상당한 과제를 제시합니다."
+        },
+        {
+          "word": "evaluation",
+          "ko": "평가",
+          "sentence": "To enable systematic evaluation under these conditions, we introduce DexBioLab, a simulation benchmark and framework for dexterous manipulation in realistic biological laboratory environments.",
+          "sentenceKo": "이러한 조건 하에서 체계적인 평가를 가능하게 하기 위해, 저희는 현실적인 생물학 실험실 환경에서의 정교한 조작을 위한 시뮬레이션 벤치마크이자 프레임워크인 DexBioLab을 소개합니다."
+        },
+        {
+          "word": "demonstration",
+          "ko": "시연",
+          "sentence": "For efficient large-scale data generation and evaluation, we further build a parallel simulation framework on top of mjlab, proposing Parallel Finite-State Machine (PFSM) and integrating batched rendering with decoupled trajectory replay for demonstration generation and model-independent closed-loop policy evaluation.",
+          "sentenceKo": "효율적인 대규모 데이터 생성 및 평가를 위해, mjlab을 기반으로 병렬 시뮬레이션 파이프라인을 구축하고 병렬 유한 상태 머신(PFSM)을 제어하며, 시연 생성 및 모델 독립적인 폐루프 정책 평가를 위해 분리된 궤적 재생과 일괄 렌더링을 통합합니다."
+        },
+        {
+          "word": "biological",
+          "ko": "생물학적인",
+          "sentence": "Automating biological laboratories requires robots to perform dexterous tool interactions under realistic visual conditions while handling dynamic experimental phenomena, presenting significant challenges for robotic manipulation.",
+          "sentenceKo": "생물학 실험실의 자동화는 로봇이 현실적인 시각 조건 하에서 역동적인 실험 현상을 처리하면서 능숙한 도구 상호작용을 수행할 것을 요구하며, 이는 로봇 조작에 상당한 과제를 제시합니다."
+        },
+        {
+          "word": "simulation",
+          "ko": "시뮬레이션",
+          "sentence": "To enable systematic evaluation under these conditions, we introduce DexBioLab, a simulation benchmark and framework for dexterous manipulation in realistic biological laboratory environments.",
+          "sentenceKo": "이러한 조건 하에서 체계적인 평가를 가능하게 하기 위해, 저희는 현실적인 생물학 실험실 환경에서의 정교한 조작을 위한 시뮬레이션 벤치마크이자 프레임워크인 DexBioLab을 소개합니다."
+        },
+        {
+          "word": "generation",
+          "ko": "생성",
+          "sentence": "For efficient large-scale data generation and evaluation, we further build a parallel simulation framework on top of mjlab, proposing Parallel Finite-State Machine (PFSM) and integrating batched rendering with decoupled trajectory replay for demonstration generation and model-independent closed-loop policy evaluation.",
+          "sentenceKo": "효율적인 대규모 데이터 생성 및 평가를 위해, mjlab을 기반으로 병렬 시뮬레이션 파이프라인을 구축하고 병렬 유한 상태 머신(PFSM)을 제어하며, 시연 생성 및 모델 독립적인 폐루프 정책 평가를 위해 분리된 궤적 재생과 일괄 렌더링을 통합합니다."
+        },
+        {
+          "word": "dexterous",
+          "ko": "능숙한",
+          "sentence": "Automating biological laboratories requires robots to perform dexterous tool interactions under realistic visual conditions while handling dynamic experimental phenomena, presenting significant challenges for robotic manipulation.",
+          "sentenceKo": "생물학 실험실의 자동화는 로봇이 현실적인 시각 조건 하에서 역동적인 실험 현상을 처리하면서 능숙한 도구 상호작용을 수행할 것을 요구하며, 이는 로봇 조작에 상당한 과제를 제시합니다."
+        },
+        {
+          "word": "conditions",
+          "ko": "조건",
+          "sentence": "Automating biological laboratories requires robots to perform dexterous tool interactions under realistic visual conditions while handling dynamic experimental phenomena, presenting significant challenges for robotic manipulation.",
+          "sentenceKo": "생물학 실험실의 자동화는 로봇이 현실적인 시각 조건 하에서 역동적인 실험 현상을 처리하면서 능숙한 도구 상호작용을 수행할 것을 요구하며, 이는 로봇 조작에 상당한 과제를 제시합니다."
+        },
+        {
+          "word": "experimental",
+          "ko": "실험적인",
+          "sentence": "Automating biological laboratories requires robots to perform dexterous tool interactions under realistic visual conditions while handling dynamic experimental phenomena, presenting significant challenges for robotic manipulation.",
+          "sentenceKo": "생물학 실험실의 자동화는 로봇이 현실적인 시각 조건 하에서 역동적인 실험 현상을 처리하면서 능숙한 도구 상호작용을 수행할 것을 요구하며, 이는 로봇 조작에 상당한 과제를 제시합니다."
+        },
+        {
+          "word": "laboratory",
+          "ko": "실험실",
+          "sentence": "To enable systematic evaluation under these conditions, we introduce DexBioLab, a simulation benchmark and framework for dexterous manipulation in realistic biological laboratory environments.",
+          "sentenceKo": "이러한 조건 하에서 체계적인 평가를 가능하게 하기 위해, 저희는 현실적인 생물학 실험실 환경에서의 정교한 조작을 위한 시뮬레이션 벤치마크이자 프레임워크인 DexBioLab을 소개합니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.13643",
+        "arxiv": "https://arxiv.org/abs/2610.13643",
+        "pdf": "https://arxiv.org/pdf/2610.13643",
         "github": null
       },
       "githubStars": null,
@@ -858,214 +1052,6 @@
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
       "githubStars": 126,
-      "translatedBy": "gemini",
-      "citations": {
-        "count": 0,
-        "source": "OpenAlex"
-      }
-    },
-    {
-      "id": "2610.18933",
-      "title": "The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery",
-      "authors": [
-        "Robert Tjarko Lange",
-        "Luca Grillotti",
-        "Yutaro Yamada",
-        "Rujikorn Charakorn",
-        "David Ha"
-      ],
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "upvotes": 1,
-      "keywords": [
-        "coding agents",
-        "agentic self-verification",
-        "meta-controller",
-        "parallel research agents",
-        "rubric verification",
-        "cross-agent orchestration",
-        "sandboxed experimentation",
-        "ablation construction"
-      ],
-      "categories": [
-        "AI 과학자",
-        "가설·문헌 생성",
-        "LLM 에이전트"
-      ],
-      "aiSummary": {
-        "en": "The Agentic Scientist is a distributed pipeline that integrates coding agents with human researchers to automate computational research stages from ideation to reporting, using meta-controlled orchestration and self-verification.",
-        "ko": "The Agentic Scientist는 메타 제어 오케스트레이션과 자가 검증을 사용하여 아이디어 도출부터 보고에 이르기까지 계산 연구 단계를 자동화하기 위해 코딩 에이전트를 인간 연구자와 통합하는 분산 파이프라인입니다."
-      },
-      "abstract": {
-        "en": "Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons. Despite these developments, fully autonomous research agents suffer from a limited ideation radius and myopic hill-climbing search dynamics. To bridge this gap, we introduce The Agentic Scientist, an end-to-end distributed pipeline for human researchers to conduct computational research alongside modern coding agents. Building on its predecessor, our system decomposes research into task drafting, idea generation, planning, sandboxed experimentation, result aggregation, baseline and ablation construction, post-hoc analysis, and report writing. Importantly, each step in the pipeline is powered by the next generation of coding agents and leverages agentic self-verification. The overall research process is driven by a meta-controller that manages parallel research agents and enforces rubric verification at each stage. This design enables the same orchestration layer to be reused across heterogeneous domains with different execution environments, agentic coding harnesses, and evaluation metrics. Our system can be used across a spectrum of autonomy: either as a co-scientist tool or to perform end-to-end scientific investigation. Within the co-scientist setting, we leveraged a development version of our system to submit a single research paper, which got accepted for publication at ALIFE 2026. We further apply The Agentic Scientist fully autonomously to open problem-solving tasks in machine learning, and demonstrate the system's capability of scientific discovery across different domains of computational research. Our ablations suggest that reliable scientific autonomy depends not only on base model capabilities, but also on the cross-agent orchestration layer.",
-        "ko": "현대 코딩 에이전트는 계산 연구에서 인간 입력의 역할을 근본적으로 재정형하고 있습니다. 이들은 코드를 작성하고, 인 실리코(in silico) 실험을 실행하며, 결과를 분석하고, 점점 더 늘어나는 시간 지평 속에서 자율적으로 작동합니다. 이러한 발전에도 불구하고, 완전 자율 연구 에이전트는 제한된 아이디어 도출 반경과 근시안적인 언덕 오르기 탐색 역학으로 고통받습니다. 이러한 격차를 해소하기 위해, 저희는 인간 연구자가 현대 코딩 에이전트와 함께 계산 연구를 수행할 수 있도록 지원하는 엔드투엔드 분산 파이프라인인 'The Agentic Scientist'를 소개합니다. 전작을 바탕으로, 우리 시스템은 연구를 작업 기획, 아이디어 생성, 계획, 샌드박스 실험, 결과 집합, 베이스라인 및 절제(ablation) 구축, 사후 분석, 보고서 작성으로 분해합니다. 중요하게도, 파이프라인의 각 단계는 차세대 코딩 에이전트에 의해 구동되며 에이전트 자가 검증(agentic self-verification)을 활용합니다. 전체 연구 과정은 병렬 연구 에이전트를 관리하고 각 단계에서 루브릭 검증을 시행하는 메타 컨트롤러에 의해 구동됩니다. 이러한 설계는 동일한 오케스트레이션 레이어가 서로 다른 실행 환경, 에이전트 코딩 하네스, 평가 지표를 가진 이질적인 도메인 전반에 걸쳐 재사용될 수 있도록 합니다. 우리 시스템은 공동 과학자 도구로서든 혹은 엔드투엔드 과학적 조사를 수행하기 위해서든 자율성의 스펙트럼 전반에 걸쳐 사용될 수 있습니다. 공동 과학자 설정 내에서, 우리는 ALIFE 2026에 게재가 수락된 단편의 연구 논문을 제출하기 위해 우리 시스템의 개발 버전을 활용했습니다. 나아가 우리는 기계 학습의 개방형 문제 해결 작업에 The Agentic Scientist를 완전 자율적으로 적용하며, 다양한 계산 연구 도메인에 걸쳐 과학적 발견을 수행하는 시스템의 능력을 입증합니다. 우리의 절제 연구(ablation)는 신뢰할 수 있는 과학적 자율성이 기반 모델의 능력뿐만 아니라 교차 에이전트 오케스트레이션 레이어에도 의존함을 시사합니다."
-      },
-      "sentences": [
-        {
-          "en": "Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons.",
-          "ko": "현대 코딩 에이전트는 계산 연구에서 인간 입력의 역할을 근본적으로 재정형하고 있습니다. 이들은 코드를 작성하고, 인 실리코(in silico) 실험을 실행하며, 결과를 분석하고, 점점 더 늘어나는 시간 지평 속에서 자율적으로 작동합니다."
-        },
-        {
-          "en": "Despite these developments, fully autonomous research agents suffer from a limited ideation radius and myopic hill-climbing search dynamics.",
-          "ko": "이러한 발전에도 불구하고, 완전 자율 연구 에이전트는 제한된 아이디어 도출 반경과 근시안적인 언덕 오르기 탐색 역학으로 고통받습니다."
-        },
-        {
-          "en": "To bridge this gap, we introduce The Agentic Scientist, an end-to-end distributed pipeline for human researchers to conduct computational research alongside modern coding agents.",
-          "ko": "이러한 격차를 해소하기 위해, 저희는 인간 연구자가 현대 코딩 에이전트와 함께 계산 연구를 수행할 수 있도록 지원하는 엔드투엔드 분산 파이프라인인 'The Agentic Scientist'를 소개합니다."
-        },
-        {
-          "en": "Building on its predecessor, our system decomposes research into task drafting, idea generation, planning, sandboxed experimentation, result aggregation, baseline and ablation construction, post-hoc analysis, and report writing.",
-          "ko": "전작을 바탕으로, 우리 시스템은 연구를 작업 기획, 아이디어 생성, 계획, 샌드박스 실험, 결과 집합, 베이스라인 및 절제(ablation) 구축, 사후 분석, 보고서 작성으로 분해합니다."
-        },
-        {
-          "en": "Importantly, each step in the pipeline is powered by the next generation of coding agents and leverages agentic self-verification.",
-          "ko": "중요하게도, 파이프라인의 각 단계는 차세대 코딩 에이전트에 의해 구동되며 에이전트 자가 검증(agentic self-verification)을 활용합니다."
-        },
-        {
-          "en": "The overall research process is driven by a meta-controller that manages parallel research agents and enforces rubric verification at each stage.",
-          "ko": "전체 연구 과정은 병렬 연구 에이전트를 관리하고 각 단계에서 루브릭 검증을 시행하는 메타 컨트롤러에 의해 구동됩니다."
-        },
-        {
-          "en": "This design enables the same orchestration layer to be reused across heterogeneous domains with different execution environments, agentic coding harnesses, and evaluation metrics.",
-          "ko": "이러한 설계는 동일한 오케스트레이션 레이어가 서로 다른 실행 환경, 에이전트 코딩 하네스, 평가 지표를 가진 이질적인 도메인 전반에 걸쳐 재사용될 수 있도록 합니다."
-        },
-        {
-          "en": "Our system can be used across a spectrum of autonomy: either as a co-scientist tool or to perform end-to-end scientific investigation.",
-          "ko": "우리 시스템은 공동 과학자 도구로서든 혹은 엔드투엔드 과학적 조사를 수행하기 위해서든 자율성의 스펙트럼 전반에 걸쳐 사용될 수 있습니다."
-        },
-        {
-          "en": "Within the co-scientist setting, we leveraged a development version of our system to submit a single research paper, which got accepted for publication at ALIFE 2026.",
-          "ko": "공동 과학자 설정 내에서, 우리는 ALIFE 2026에 게재가 수락된 단편의 연구 논문을 제출하기 위해 우리 시스템의 개발 버전을 활용했습니다."
-        },
-        {
-          "en": "We further apply The Agentic Scientist fully autonomously to open problem-solving tasks in machine learning, and demonstrate the system's capability of scientific discovery across different domains of computational research.",
-          "ko": "나아가 우리는 기계 학습의 개방형 문제 해결 작업에 The Agentic Scientist를 완전 자율적으로 적용하며, 다양한 계산 연구 도메인에 걸쳐 과학적 발견을 수행하는 시스템의 능력을 입증합니다."
-        },
-        {
-          "en": "Our ablations suggest that reliable scientific autonomy depends not only on base model capabilities, but also on the cross-agent orchestration layer.",
-          "ko": "우리의 절제 연구(ablation)는 신뢰할 수 있는 과학적 자율성이 기반 모델의 능력뿐만 아니라 교차 에이전트 오케스트레이션 레이어에도 의존함을 시사합니다."
-        }
-      ],
-      "sections": {
-        "background": [
-          {
-            "en": "Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons.",
-            "ko": "현대 코딩 에이전트는 계산 연구에서 인간 입력의 역할을 근본적으로 재정형하고 있습니다. 이들은 코드를 작성하고, 인 실리코(in silico) 실험을 실행하며, 결과를 분석하고, 점점 더 늘어나는 시간 지평 속에서 자율적으로 작동합니다."
-          },
-          {
-            "en": "Despite these developments, fully autonomous research agents suffer from a limited ideation radius and myopic hill-climbing search dynamics.",
-            "ko": "이러한 발전에도 불구하고, 완전 자율 연구 에이전트는 제한된 아이디어 도출 반경과 근시안적인 언덕 오르기 탐색 역학으로 고통받습니다."
-          },
-          {
-            "en": "The overall research process is driven by a meta-controller that manages parallel research agents and enforces rubric verification at each stage.",
-            "ko": "전체 연구 과정은 병렬 연구 에이전트를 관리하고 각 단계에서 루브릭 검증을 시행하는 메타 컨트롤러에 의해 구동됩니다."
-          },
-          {
-            "en": "Our ablations suggest that reliable scientific autonomy depends not only on base model capabilities, but also on the cross-agent orchestration layer.",
-            "ko": "우리의 절제 연구(ablation)는 신뢰할 수 있는 과학적 자율성이 기반 모델의 능력뿐만 아니라 교차 에이전트 오케스트레이션 레이어에도 의존함을 시사합니다."
-          }
-        ],
-        "methodology": [
-          {
-            "en": "To bridge this gap, we introduce The Agentic Scientist, an end-to-end distributed pipeline for human researchers to conduct computational research alongside modern coding agents.",
-            "ko": "이러한 격차를 해소하기 위해, 저희는 인간 연구자가 현대 코딩 에이전트와 함께 계산 연구를 수행할 수 있도록 지원하는 엔드투엔드 분산 파이프라인인 'The Agentic Scientist'를 소개합니다."
-          },
-          {
-            "en": "Building on its predecessor, our system decomposes research into task drafting, idea generation, planning, sandboxed experimentation, result aggregation, baseline and ablation construction, post-hoc analysis, and report writing.",
-            "ko": "전작을 바탕으로, 우리 시스템은 연구를 작업 기획, 아이디어 생성, 계획, 샌드박스 실험, 결과 집합, 베이스라인 및 절제(ablation) 구축, 사후 분석, 보고서 작성으로 분해합니다."
-          },
-          {
-            "en": "Importantly, each step in the pipeline is powered by the next generation of coding agents and leverages agentic self-verification.",
-            "ko": "중요하게도, 파이프라인의 각 단계는 차세대 코딩 에이전트에 의해 구동되며 에이전트 자가 검증(agentic self-verification)을 활용합니다."
-          },
-          {
-            "en": "Our system can be used across a spectrum of autonomy: either as a co-scientist tool or to perform end-to-end scientific investigation.",
-            "ko": "우리 시스템은 공동 과학자 도구로서든 혹은 엔드투엔드 과학적 조사를 수행하기 위해서든 자율성의 스펙트럼 전반에 걸쳐 사용될 수 있습니다."
-          },
-          {
-            "en": "Within the co-scientist setting, we leveraged a development version of our system to submit a single research paper, which got accepted for publication at ALIFE 2026.",
-            "ko": "공동 과학자 설정 내에서, 우리는 ALIFE 2026에 게재가 수락된 단편의 연구 논문을 제출하기 위해 우리 시스템의 개발 버전을 활용했습니다."
-          }
-        ],
-        "results": [
-          {
-            "en": "This design enables the same orchestration layer to be reused across heterogeneous domains with different execution environments, agentic coding harnesses, and evaluation metrics.",
-            "ko": "이러한 설계는 동일한 오케스트레이션 레이어가 서로 다른 실행 환경, 에이전트 코딩 하네스, 평가 지표를 가진 이질적인 도메인 전반에 걸쳐 재사용될 수 있도록 합니다."
-          },
-          {
-            "en": "We further apply The Agentic Scientist fully autonomously to open problem-solving tasks in machine learning, and demonstrate the system's capability of scientific discovery across different domains of computational research.",
-            "ko": "나아가 우리는 기계 학습의 개방형 문제 해결 작업에 The Agentic Scientist를 완전 자율적으로 적용하며, 다양한 계산 연구 도메인에 걸쳐 과학적 발견을 수행하는 시스템의 능력을 입증합니다."
-          }
-        ]
-      },
-      "vocab": [
-        {
-          "word": "orchestration",
-          "ko": "오케스트레이션",
-          "sentence": "This design enables the same orchestration layer to be reused across heterogeneous domains with different execution environments, agentic coding harnesses, and evaluation metrics.",
-          "sentenceKo": "이러한 설계는 동일한 오케스트레이션 레이어가 서로 다른 실행 환경, 에이전트 코딩 하네스, 평가 지표를 가진 이질적인 도메인 전반에 걸쳐 재사용될 수 있도록 합니다."
-        },
-        {
-          "word": "experimentation",
-          "ko": "실험",
-          "sentence": "Building on its predecessor, our system decomposes research into task drafting, idea generation, planning, sandboxed experimentation, result aggregation, baseline and ablation construction, post-hoc analysis, and report writing.",
-          "sentenceKo": "전작을 바탕으로, 우리 시스템은 연구를 작업 기획, 아이디어 생성, 계획, 샌드박스 실험, 결과 집합, 베이스라인 및 절제(ablation) 구축, 사후 분석, 보고서 작성으로 분해합니다."
-        },
-        {
-          "word": "construction",
-          "ko": "구축",
-          "sentence": "Building on its predecessor, our system decomposes research into task drafting, idea generation, planning, sandboxed experimentation, result aggregation, baseline and ablation construction, post-hoc analysis, and report writing.",
-          "sentenceKo": "전작을 바탕으로, 우리 시스템은 연구를 작업 기획, 아이디어 생성, 계획, 샌드박스 실험, 결과 집합, 베이스라인 및 절제(ablation) 구축, 사후 분석, 보고서 작성으로 분해합니다."
-        },
-        {
-          "word": "verification",
-          "ko": "검증",
-          "sentence": "The overall research process is driven by a meta-controller that manages parallel research agents and enforces rubric verification at each stage.",
-          "sentenceKo": "전체 연구 과정은 병렬 연구 에이전트를 관리하고 각 단계에서 루브릭 검증을 시행하는 메타 컨트롤러에 의해 구동됩니다."
-        },
-        {
-          "word": "agents",
-          "ko": "에이전트",
-          "sentence": "Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons.",
-          "sentenceKo": "현대 코딩 에이전트는 계산 연구에서 인간 입력의 역할을 근본적으로 재정형하고 있습니다. 이들은 코드를 작성하고, 인 실리코(in silico) 실험을 실행하며, 결과를 분석하고, 점점 더 늘어나는 시간 지평 속에서 자율적으로 작동합니다."
-        },
-        {
-          "word": "agentic",
-          "ko": "에이전트 기반의",
-          "sentence": "To bridge this gap, we introduce The Agentic Scientist, an end-to-end distributed pipeline for human researchers to conduct computational research alongside modern coding agents.",
-          "sentenceKo": "이러한 격차를 해소하기 위해, 저희는 인간 연구자가 현대 코딩 에이전트와 함께 계산 연구를 수행할 수 있도록 지원하는 엔드투엔드 분산 파이프라인인 'The Agentic Scientist'를 소개합니다."
-        },
-        {
-          "word": "coding",
-          "ko": "코딩",
-          "sentence": "Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons.",
-          "sentenceKo": "현대 코딩 에이전트는 계산 연구에서 인간 입력의 역할을 근본적으로 재정형하고 있습니다. 이들은 코드를 작성하고, 인 실리코(in silico) 실험을 실행하며, 결과를 분석하고, 점점 더 늘어나는 시간 지평 속에서 자율적으로 작동합니다."
-        },
-        {
-          "word": "computational",
-          "ko": "계산의",
-          "sentence": "Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons.",
-          "sentenceKo": "현대 코딩 에이전트는 계산 연구에서 인간 입력의 역할을 근본적으로 재정형하고 있습니다. 이들은 코드를 작성하고, 인 실리코(in silico) 실험을 실행하며, 결과를 분석하고, 점점 더 늘어나는 시간 지평 속에서 자율적으로 작동합니다."
-        },
-        {
-          "word": "ablation",
-          "ko": "절제",
-          "sentence": "Building on its predecessor, our system decomposes research into task drafting, idea generation, planning, sandboxed experimentation, result aggregation, baseline and ablation construction, post-hoc analysis, and report writing.",
-          "sentenceKo": "전작을 바탕으로, 우리 시스템은 연구를 작업 기획, 아이디어 생성, 계획, 샌드박스 실험, 결과 집합, 베이스라인 및 절제(ablation) 구축, 사후 분석, 보고서 작성으로 분해합니다."
-        },
-        {
-          "word": "self-verification",
-          "ko": "자가 검증",
-          "sentence": "Importantly, each step in the pipeline is powered by the next generation of coding agents and leverages agentic self-verification.",
-          "sentenceKo": "중요하게도, 파이프라인의 각 단계는 차세대 코딩 에이전트에 의해 구동되며 에이전트 자가 검증(agentic self-verification)을 활용합니다."
-        }
-      ],
-      "links": {
-        "hf": "https://huggingface.co/papers/2610.18933",
-        "arxiv": "https://arxiv.org/abs/2610.18933",
-        "pdf": "https://arxiv.org/pdf/2610.18933",
-        "github": null
-      },
-      "githubStars": null,
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
