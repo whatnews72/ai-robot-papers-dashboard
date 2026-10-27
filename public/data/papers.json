@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T04:08:48.950Z",
+  "updatedAt": "2026-10-27T04:28:31.378Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -11,6 +11,212 @@
     "automated scientific experiment robotics"
   ],
   "papers": [
+    {
+      "id": "2610.34649",
+      "title": "RobotAgentBench: Towards Open-world Robot Autonomy",
+      "authors": [
+        "Lingjun Mao",
+        "Jinglin Cao",
+        "Lukun He",
+        "Wenpeng Xu",
+        "Yuchen Yan",
+        "Hengyu Jin",
+        "Zijun Zhang",
+        "Jinzhou Tang",
+        "Songyao Jin",
+        "Ziche Liu",
+        "Yifei Shao",
+        "Junbo Huang",
+        "Fang Nan",
+        "Ruobing Han",
+        "Ziqiao Xi",
+        "Ziming Xu",
+        "Shuang Liang",
+        "Sibo Zhu",
+        "Wenyi Wu",
+        "Xinyue Wang",
+        "Yiming Huang",
+        "Xinkai Zou",
+        "Gao Zhu",
+        "Kun Zhou",
+        "Biwei Huang"
+      ],
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "upvotes": 0,
+      "keywords": [
+        "vision-language-action",
+        "world-action models",
+        "robot agents",
+        "RobotAgentBench",
+        "task discovery",
+        "context reasoning",
+        "failure recovery",
+        "open-ended scenarios",
+        "VLA",
+        "WAM"
+      ],
+      "categories": [
+        "로봇 조작",
+        "LLM 에이전트",
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "RobotAgentBench evaluates open-world robot autonomy through diverse household tasks and multi-level assessments of agentic architectures.",
+        "ko": "RobotAgentBench는 다양한 가정 내 작업과 에이전트 아키텍처에 대한 다단계 평가를 통해 개방형 세계 로봇 자율성을 평가합니다."
+      },
+      "abstract": {
+        "en": "Recent advances in vision-language-action (VLA) and world-action models (WAMs) have significantly improved robotic manipulation, yet deploying robots in the open world demands a higher level of autonomy beyond executing predefined tasks. Robot agents offer a promising paradigm for this transition, integrating task discovery, contextual reasoning, physical execution, and adaptive recovery into a closed interaction loop. However, existing benchmarks largely evaluate isolated capabilities, failing to capture the complexity of open-world robot autonomy. We introduce RobotAgentBench (RAB), a comprehensive benchmark for evaluating robot agents in realistic, open-world household environments. Through an agent-assisted, human-in-the-loop real-to-sim pipeline, RAB constructs 50 diverse household layouts with interactive objects and physically grounded tasks, encompassing 90 atomic tasks, 18 short-horizon tasks, 8 long-horizon tasks, and 4 open-ended scenarios. RAB provides a multi-level evaluation of robot agent capabilities: (1) task-level assessments systematically examine five complementary dimensions: task discovery, context reasoning, manipulation, failure recovery, and robustness; (2) scenario-level evaluation assesses how agents integrate these capabilities to autonomously fulfill high-level user needs. Furthermore, RAB enables systematic comparisons of standalone VLA/WAM models and diverse robot agent architectures under a unified planning-execution-verification framework. Extensive experiments reveal substantial gaps between manipulation and autonomy, demonstrate the advantages of agentic architectures and recursive self-improvement, and highlight the remaining challenges toward open-world robot autonomy.",
+        "ko": "시각-언어-행동(VLA) 모델과 월드-행동 모델(WAM)의 최근 발전은 로봇 조작 능력을 크게 향상시켰지만, 개방된 세계(open world)에 로봇을 배치하려면 미리 정의된 작업을 수행하는 것을 넘어 더 높은 수준의 자율성이 요구됩니다. 로봇 에이전트는 작업 발견, 맥락 추론, 물리적 실행, 적응형 복구를 폐쇄형 상호작용 루프(closed interaction loop)로 통합하여 이러한 전환을 위한 유망한 패러다임을 제시합니다. 그러나 기존의 벤치마크는 주로 고립된 능력만을 평가하며, 개방형 세계 로봇 자율성의 복잡성을 포착하지 못합니다. 저자들은 현실적이고 개방된 세계의 가정 환경에서 로봇 에이전트를 평가하기 위한 종합적인 벤치마크인 RobotAgentBench(RAB)를 소개합니다. RAB는 에이전트 지원 기반의 인간 참여형(human-in-the-loop) 현실-시뮬레이션 파이프라인을 통해 상호작용 가능한 객체와 물리적으로 기반한 작업이 포함된 50개의 다양한 가정 내 레이아웃을 구축하며, 90개의 원자적 작업, 18개의 단기 작업, 8개의 장기 작업, 4개의 개방형 시나리오를 아우릅니다. RAB는 로봇 에이전트 능력에 대한 다단계 평가를 제공합니다. (1) 작업 수준 평가는 작업 발견, 맥락 추론, 조작, 실패 복구, 강인성이라는 상호 보완적인 다섯 가지 차원을 체계적으로 검사하며, (2) 시나리오 수준 평가는 에이전트가 이러한 능력들을 통합하여 고수준의 사용자 요구를 자율적으로 충족하는지 평가합니다. 또한 RAB는 통합된 계획-실행-검증(planning-execution-verification) 프레임워크 하에서 단독 VLA/WAM 모델과 다양한 로봇 에이전트 아키텍처 간의 체계적인 비교를 가능하게 합니다. 광범위한 실험을 통해 조작 능력과 자율성 사이의 상당한 격차가 드러났으며, 에이전트 아키텍처와 재귀적 자기 개선(recursive self-improvement)의 장점이 입증되었고, 개방형 세계 로봇 자율성을 향해 남아있는 과제들이 강조되었습니다."
+      },
+      "sentences": [
+        {
+          "en": "Recent advances in vision-language-action (VLA) and world-action models (WAMs) have significantly improved robotic manipulation, yet deploying robots in the open world demands a higher level of autonomy beyond executing predefined tasks.",
+          "ko": "시각-언어-행동(VLA) 모델과 월드-행동 모델(WAM)의 최근 발전은 로봇 조작 능력을 크게 향상시켰지만, 개방된 세계(open world)에 로봇을 배치하려면 미리 정의된 작업을 수행하는 것을 넘어 더 높은 수준의 자율성이 요구됩니다."
+        },
+        {
+          "en": "Robot agents offer a promising paradigm for this transition, integrating task discovery, contextual reasoning, physical execution, and adaptive recovery into a closed interaction loop.",
+          "ko": "로봇 에이전트는 작업 발견, 맥락 추론, 물리적 실행, 적응형 복구를 폐쇄형 상호작용 루프(closed interaction loop)로 통합하여 이러한 전환을 위한 유망한 패러다임을 제시합니다."
+        },
+        {
+          "en": "However, existing benchmarks largely evaluate isolated capabilities, failing to capture the complexity of open-world robot autonomy.",
+          "ko": "그러나 기존의 벤치마크는 주로 고립된 능력만을 평가하며, 개방형 세계 로봇 자율성의 복잡성을 포착하지 못합니다."
+        },
+        {
+          "en": "We introduce RobotAgentBench (RAB), a comprehensive benchmark for evaluating robot agents in realistic, open-world household environments.",
+          "ko": "저자들은 현실적이고 개방된 세계의 가정 환경에서 로봇 에이전트를 평가하기 위한 종합적인 벤치마크인 RobotAgentBench(RAB)를 소개합니다."
+        },
+        {
+          "en": "Through an agent-assisted, human-in-the-loop real-to-sim pipeline, RAB constructs 50 diverse household layouts with interactive objects and physically grounded tasks, encompassing 90 atomic tasks, 18 short-horizon tasks, 8 long-horizon tasks, and 4 open-ended scenarios.",
+          "ko": "RAB는 에이전트 지원 기반의 인간 참여형(human-in-the-loop) 현실-시뮬레이션 파이프라인을 통해 상호작용 가능한 객체와 물리적으로 기반한 작업이 포함된 50개의 다양한 가정 내 레이아웃을 구축하며, 90개의 원자적 작업, 18개의 단기 작업, 8개의 장기 작업, 4개의 개방형 시나리오를 아우릅니다."
+        },
+        {
+          "en": "RAB provides a multi-level evaluation of robot agent capabilities: (1) task-level assessments systematically examine five complementary dimensions: task discovery, context reasoning, manipulation, failure recovery, and robustness; (2) scenario-level evaluation assesses how agents integrate these capabilities to autonomously fulfill high-level user needs.",
+          "ko": "RAB는 로봇 에이전트 능력에 대한 다단계 평가를 제공합니다. (1) 작업 수준 평가는 작업 발견, 맥락 추론, 조작, 실패 복구, 강인성이라는 상호 보완적인 다섯 가지 차원을 체계적으로 검사하며, (2) 시나리오 수준 평가는 에이전트가 이러한 능력들을 통합하여 고수준의 사용자 요구를 자율적으로 충족하는지 평가합니다."
+        },
+        {
+          "en": "Furthermore, RAB enables systematic comparisons of standalone VLA/WAM models and diverse robot agent architectures under a unified planning-execution-verification framework.",
+          "ko": "또한 RAB는 통합된 계획-실행-검증(planning-execution-verification) 프레임워크 하에서 단독 VLA/WAM 모델과 다양한 로봇 에이전트 아키텍처 간의 체계적인 비교를 가능하게 합니다."
+        },
+        {
+          "en": "Extensive experiments reveal substantial gaps between manipulation and autonomy, demonstrate the advantages of agentic architectures and recursive self-improvement, and highlight the remaining challenges toward open-world robot autonomy.",
+          "ko": "광범위한 실험을 통해 조작 능력과 자율성 사이의 상당한 격차가 드러났으며, 에이전트 아키텍처와 재귀적 자기 개선(recursive self-improvement)의 장점이 입증되었고, 개방형 세계 로봇 자율성을 향해 남아있는 과제들이 강조되었습니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "However, existing benchmarks largely evaluate isolated capabilities, failing to capture the complexity of open-world robot autonomy.",
+            "ko": "그러나 기존의 벤치마크는 주로 고립된 능력만을 평가하며, 개방형 세계 로봇 자율성의 복잡성을 포착하지 못합니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "Robot agents offer a promising paradigm for this transition, integrating task discovery, contextual reasoning, physical execution, and adaptive recovery into a closed interaction loop.",
+            "ko": "로봇 에이전트는 작업 발견, 맥락 추론, 물리적 실행, 적응형 복구를 폐쇄형 상호작용 루프(closed interaction loop)로 통합하여 이러한 전환을 위한 유망한 패러다임을 제시합니다."
+          },
+          {
+            "en": "We introduce RobotAgentBench (RAB), a comprehensive benchmark for evaluating robot agents in realistic, open-world household environments.",
+            "ko": "저자들은 현실적이고 개방된 세계의 가정 환경에서 로봇 에이전트를 평가하기 위한 종합적인 벤치마크인 RobotAgentBench(RAB)를 소개합니다."
+          },
+          {
+            "en": "Through an agent-assisted, human-in-the-loop real-to-sim pipeline, RAB constructs 50 diverse household layouts with interactive objects and physically grounded tasks, encompassing 90 atomic tasks, 18 short-horizon tasks, 8 long-horizon tasks, and 4 open-ended scenarios.",
+            "ko": "RAB는 에이전트 지원 기반의 인간 참여형(human-in-the-loop) 현실-시뮬레이션 파이프라인을 통해 상호작용 가능한 객체와 물리적으로 기반한 작업이 포함된 50개의 다양한 가정 내 레이아웃을 구축하며, 90개의 원자적 작업, 18개의 단기 작업, 8개의 장기 작업, 4개의 개방형 시나리오를 아우릅니다."
+          },
+          {
+            "en": "RAB provides a multi-level evaluation of robot agent capabilities: (1) task-level assessments systematically examine five complementary dimensions: task discovery, context reasoning, manipulation, failure recovery, and robustness; (2) scenario-level evaluation assesses how agents integrate these capabilities to autonomously fulfill high-level user needs.",
+            "ko": "RAB는 로봇 에이전트 능력에 대한 다단계 평가를 제공합니다. (1) 작업 수준 평가는 작업 발견, 맥락 추론, 조작, 실패 복구, 강인성이라는 상호 보완적인 다섯 가지 차원을 체계적으로 검사하며, (2) 시나리오 수준 평가는 에이전트가 이러한 능력들을 통합하여 고수준의 사용자 요구를 자율적으로 충족하는지 평가합니다."
+          },
+          {
+            "en": "Furthermore, RAB enables systematic comparisons of standalone VLA/WAM models and diverse robot agent architectures under a unified planning-execution-verification framework.",
+            "ko": "또한 RAB는 통합된 계획-실행-검증(planning-execution-verification) 프레임워크 하에서 단독 VLA/WAM 모델과 다양한 로봇 에이전트 아키텍처 간의 체계적인 비교를 가능하게 합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "Recent advances in vision-language-action (VLA) and world-action models (WAMs) have significantly improved robotic manipulation, yet deploying robots in the open world demands a higher level of autonomy beyond executing predefined tasks.",
+            "ko": "시각-언어-행동(VLA) 모델과 월드-행동 모델(WAM)의 최근 발전은 로봇 조작 능력을 크게 향상시켰지만, 개방된 세계(open world)에 로봇을 배치하려면 미리 정의된 작업을 수행하는 것을 넘어 더 높은 수준의 자율성이 요구됩니다."
+          },
+          {
+            "en": "Extensive experiments reveal substantial gaps between manipulation and autonomy, demonstrate the advantages of agentic architectures and recursive self-improvement, and highlight the remaining challenges toward open-world robot autonomy.",
+            "ko": "광범위한 실험을 통해 조작 능력과 자율성 사이의 상당한 격차가 드러났으며, 에이전트 아키텍처와 재귀적 자기 개선(recursive self-improvement)의 장점이 입증되었고, 개방형 세계 로봇 자율성을 향해 남아있는 과제들이 강조되었습니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "manipulation",
+          "ko": "조작",
+          "sentence": "Recent advances in vision-language-action (VLA) and world-action models (WAMs) have significantly improved robotic manipulation, yet deploying robots in the open world demands a higher level of autonomy beyond executing predefined tasks.",
+          "sentenceKo": "시각-언어-행동(VLA) 모델과 월드-행동 모델(WAM)의 최근 발전은 로봇 조작 능력을 크게 향상시켰지만, 개방된 세계(open world)에 로봇을 배치하려면 미리 정의된 작업을 수행하는 것을 넘어 더 높은 수준의 자율성이 요구됩니다."
+        },
+        {
+          "word": "discovery",
+          "ko": "발견",
+          "sentence": "Robot agents offer a promising paradigm for this transition, integrating task discovery, contextual reasoning, physical execution, and adaptive recovery into a closed interaction loop.",
+          "sentenceKo": "로봇 에이전트는 작업 발견, 맥락 추론, 물리적 실행, 적응형 복구를 폐쇄형 상호작용 루프(closed interaction loop)로 통합하여 이러한 전환을 위한 유망한 패러다임을 제시합니다."
+        },
+        {
+          "word": "reasoning",
+          "ko": "추론",
+          "sentence": "Robot agents offer a promising paradigm for this transition, integrating task discovery, contextual reasoning, physical execution, and adaptive recovery into a closed interaction loop.",
+          "sentenceKo": "로봇 에이전트는 작업 발견, 맥락 추론, 물리적 실행, 적응형 복구를 폐쇄형 상호작용 루프(closed interaction loop)로 통합하여 이러한 전환을 위한 유망한 패러다임을 제시합니다."
+        },
+        {
+          "word": "agents",
+          "ko": "에이전트",
+          "sentence": "Robot agents offer a promising paradigm for this transition, integrating task discovery, contextual reasoning, physical execution, and adaptive recovery into a closed interaction loop.",
+          "sentenceKo": "로봇 에이전트는 작업 발견, 맥락 추론, 물리적 실행, 적응형 복구를 폐쇄형 상호작용 루프(closed interaction loop)로 통합하여 이러한 전환을 위한 유망한 패러다임을 제시합니다."
+        },
+        {
+          "word": "recovery",
+          "ko": "복구",
+          "sentence": "Robot agents offer a promising paradigm for this transition, integrating task discovery, contextual reasoning, physical execution, and adaptive recovery into a closed interaction loop.",
+          "sentenceKo": "로봇 에이전트는 작업 발견, 맥락 추론, 물리적 실행, 적응형 복구를 폐쇄형 상호작용 루프(closed interaction loop)로 통합하여 이러한 전환을 위한 유망한 패러다임을 제시합니다."
+        },
+        {
+          "word": "capabilities",
+          "ko": "능력",
+          "sentence": "However, existing benchmarks largely evaluate isolated capabilities, failing to capture the complexity of open-world robot autonomy.",
+          "sentenceKo": "그러나 기존의 벤치마크는 주로 고립된 능력만을 평가하며, 개방형 세계 로봇 자율성의 복잡성을 포착하지 못합니다."
+        },
+        {
+          "word": "comprehensive",
+          "ko": "종합적인",
+          "sentence": "We introduce RobotAgentBench (RAB), a comprehensive benchmark for evaluating robot agents in realistic, open-world household environments.",
+          "sentenceKo": "저자들은 현실적이고 개방된 세계의 가정 환경에서 로봇 에이전트를 평가하기 위한 종합적인 벤치마크인 RobotAgentBench(RAB)를 소개합니다."
+        },
+        {
+          "word": "planning-execution",
+          "ko": "계획-실행",
+          "sentence": "Furthermore, RAB enables systematic comparisons of standalone VLA/WAM models and diverse robot agent architectures under a unified planning-execution-verification framework.",
+          "sentenceKo": "또한 RAB는 통합된 계획-실행-검증(planning-execution-verification) 프레임워크 하에서 단독 VLA/WAM 모델과 다양한 로봇 에이전트 아키텍처 간의 체계적인 비교를 가능하게 합니다."
+        },
+        {
+          "word": "self-improvement",
+          "ko": "자기 개선",
+          "sentence": "Extensive experiments reveal substantial gaps between manipulation and autonomy, demonstrate the advantages of agentic architectures and recursive self-improvement, and highlight the remaining challenges toward open-world robot autonomy.",
+          "sentenceKo": "광범위한 실험을 통해 조작 능력과 자율성 사이의 상당한 격차가 드러났으며, 에이전트 아키텍처와 재귀적 자기 개선(recursive self-improvement)의 장점이 입증되었고, 개방형 세계 로봇 자율성을 향해 남아있는 과제들이 강조되었습니다."
+        },
+        {
+          "word": "action",
+          "ko": "행동",
+          "sentence": "Recent advances in vision-language-action (VLA) and world-action models (WAMs) have significantly improved robotic manipulation, yet deploying robots in the open world demands a higher level of autonomy beyond executing predefined tasks.",
+          "sentenceKo": "시각-언어-행동(VLA) 모델과 월드-행동 모델(WAM)의 최근 발전은 로봇 조작 능력을 크게 향상시켰지만, 개방된 세계(open world)에 로봇을 배치하려면 미리 정의된 작업을 수행하는 것을 넘어 더 높은 수준의 자율성이 요구됩니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.34649",
+        "arxiv": "https://arxiv.org/abs/2610.34649",
+        "pdf": "https://arxiv.org/pdf/2610.34649",
+        "github": null
+      },
+      "githubStars": null,
+      "translatedBy": "gemini",
+      "citations": {
+        "count": null,
+        "source": null
+      }
+    },
     {
       "id": "2610.28887",
       "title": "Building AI Research Teams for Autonomous Discovery of Linear Attention Architectures",
@@ -470,7 +676,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28578",
         "github": "https://github.com/InternScience/Agents-A1"
       },
-      "githubStars": 598,
+      "githubStars": 600,
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
@@ -843,215 +1049,6 @@
         "github": null
       },
       "githubStars": null,
-      "translatedBy": "gemini",
-      "citations": {
-        "count": 0,
-        "source": "OpenAlex"
-      }
-    },
-    {
-      "id": "2610.20442",
-      "title": "Towards Agentic Robots: Model, Data, Environment, and Harness",
-      "authors": [
-        "Chonghan Qin",
-        "Dongming Wu",
-        "Kaituo Feng",
-        "Jiaxu Wang",
-        "Xinlei Yu",
-        "Peiwen Sun",
-        "Yijia Fan",
-        "Xilin He",
-        "Bingao Chen",
-        "Weitong Lian",
-        "Ryan Ji",
-        "Wenqi Ren",
-        "Xiaobin Hu",
-        "Dahua Lin",
-        "Yu-Gang Jiang",
-        "Xiangyu Yue"
-      ],
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "upvotes": 43,
-      "keywords": [
-        "vision-language-action models",
-        "world models",
-        "world-action models"
-      ],
-      "categories": [
-        "로봇 조작",
-        "LLM 에이전트"
-      ],
-      "aiSummary": {
-        "en": "This survey unifies research on agentic robots by tracing the evolution from robot policies to integrated systems using vision-language-action models, world models, and structured functional domains.",
-        "ko": "본 서베이는 비전-언어-행동 모델, 세계 모델, 구조화된 기능 영역을 사용하여 로봇 정책에서 통합 시스템으로의 진화를 추적함으로써 에이전트 로봇에 관한 연구를 통합합니다."
-      },
-      "abstract": {
-        "en": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution. We characterize this emerging paradigm as an agentic robots, in which agents reason over human instructions, interact with robotic environments, rectify execution errors autonomously, and dynamically adjust operational strategies. Although this field develops fast, current studies are not well connected. Researchers have no consistent view of how to combine different agentic functions into a complete robot system. This paper provides a unified overview of existing research on agentic robots. We first trace the development from robot policies to agentic systems, covering vision-language-action models, world models, and world-action models. We then clarify the definition and scope of agentic robots and organize existing research into seventeen categories across four functional domains: Model, Data, Environment, and Harness. Across these domains, we examine how agents shape model learning and robot decisions, collect and curate robot data, construct worlds, tasks, and tests for learning and evaluation, and organize capabilities for robot use. Finally, we discuss open challenges and outline directions for future research. Looking forward, we hope this work contributes to a clearer understanding of agentic robots and supports new approaches to making them more capable, reliable, and adaptive.",
-        "ko": "기반 모델(foundation model)은 저수준 행동 예측을 넘어 데이터 수집, 모델 학습, 작업 계획, 실세계 실행의 목표 지향적 조율로 나아가며 로봇 지능의 패러다임 전환을 이끌고 있습니다. 저희는 이러한 신흥 패러다임을 에이전트 로봇(agentic robot)으로 정의하며, 이 에이전트는 인간의 지시에 대해 추론하고, 로봇 환경과 상호작용하며, 실행 오류를 자율적으로 바로잡고, 운영 전략을 동적으로 조정합니다. 이 분야가 빠르게 발전하고 있음에도 불구하고, 현재의 연구들은 상호 연계가 부족합니다. 연구자들은 다양한 에이전트 기능을 완전한 로봇 시스템으로 결합하는 방법에 대해 일관된시각을 가지고 있지 않습니다. 본 논문은 에이전트 로봇에 관한 기존 연구의 통합된 개요를 제공합니다. 우먼 먼저 로봇 정책(robot policy)에서 에이전트 시스템으로의 발전 과정을 추적하며, 비전-언어-행동 모델(vision-language-action models), 세계 모델(world models), 세계-행동 모델(world-action models)을 다룹니다. 이어 에이전트 로봇의 정의와 범위를 명확히 하고, 모델(Model), 데이터(Data), 환경(Environment), 하네스(Harness)의 4가지 기능 영역에 걸쳐 기존 연구를 17가지 범주로 체계화합니다. 이러한 영역에 걸쳐 우리는 에이전트가 모델 학습과 로봇 결정을 구체화하고, 로봇 데이터를 수집 및 선별하며, 학습과 평가를 위한 세계, 작업, 테스트를 구축하고, 로봇 활용을 위한 기능을 조직하는 방법을 조사합니다. 마지막으로, 미해결 과제(open challenge)를 논의하고 향후 연구 방향을 개략적으로 설명합니다. 앞으로 본 연구가 에이전트 로봇에 대한 더 명확한 이해에 기여하고, 이들을 더욱 유능하고 신뢰할 수 있으며 적응력 있게 만드는 새로운 접근법을 지원하기를 바랍니다."
-      },
-      "sentences": [
-        {
-          "en": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution.",
-          "ko": "기반 모델(foundation model)은 저수준 행동 예측을 넘어 데이터 수집, 모델 학습, 작업 계획, 실세계 실행의 목표 지향적 조율로 나아가며 로봇 지능의 패러다임 전환을 이끌고 있습니다."
-        },
-        {
-          "en": "We characterize this emerging paradigm as an agentic robots, in which agents reason over human instructions, interact with robotic environments, rectify execution errors autonomously, and dynamically adjust operational strategies.",
-          "ko": "저희는 이러한 신흥 패러다임을 에이전트 로봇(agentic robot)으로 정의하며, 이 에이전트는 인간의 지시에 대해 추론하고, 로봇 환경과 상호작용하며, 실행 오류를 자율적으로 바로잡고, 운영 전략을 동적으로 조정합니다."
-        },
-        {
-          "en": "Although this field develops fast, current studies are not well connected.",
-          "ko": "이 분야가 빠르게 발전하고 있음에도 불구하고, 현재의 연구들은 상호 연계가 부족합니다."
-        },
-        {
-          "en": "Researchers have no consistent view of how to combine different agentic functions into a complete robot system.",
-          "ko": "연구자들은 다양한 에이전트 기능을 완전한 로봇 시스템으로 결합하는 방법에 대해 일관된시각을 가지고 있지 않습니다."
-        },
-        {
-          "en": "This paper provides a unified overview of existing research on agentic robots.",
-          "ko": "본 논문은 에이전트 로봇에 관한 기존 연구의 통합된 개요를 제공합니다."
-        },
-        {
-          "en": "We first trace the development from robot policies to agentic systems, covering vision-language-action models, world models, and world-action models.",
-          "ko": "우먼 먼저 로봇 정책(robot policy)에서 에이전트 시스템으로의 발전 과정을 추적하며, 비전-언어-행동 모델(vision-language-action models), 세계 모델(world models), 세계-행동 모델(world-action models)을 다룹니다."
-        },
-        {
-          "en": "We then clarify the definition and scope of agentic robots and organize existing research into seventeen categories across four functional domains: Model, Data, Environment, and Harness.",
-          "ko": "이어 에이전트 로봇의 정의와 범위를 명확히 하고, 모델(Model), 데이터(Data), 환경(Environment), 하네스(Harness)의 4가지 기능 영역에 걸쳐 기존 연구를 17가지 범주로 체계화합니다."
-        },
-        {
-          "en": "Across these domains, we examine how agents shape model learning and robot decisions, collect and curate robot data, construct worlds, tasks, and tests for learning and evaluation, and organize capabilities for robot use.",
-          "ko": "이러한 영역에 걸쳐 우리는 에이전트가 모델 학습과 로봇 결정을 구체화하고, 로봇 데이터를 수집 및 선별하며, 학습과 평가를 위한 세계, 작업, 테스트를 구축하고, 로봇 활용을 위한 기능을 조직하는 방법을 조사합니다."
-        },
-        {
-          "en": "Finally, we discuss open challenges and outline directions for future research.",
-          "ko": "마지막으로, 미해결 과제(open challenge)를 논의하고 향후 연구 방향을 개략적으로 설명합니다."
-        },
-        {
-          "en": "Looking forward, we hope this work contributes to a clearer understanding of agentic robots and supports new approaches to making them more capable, reliable, and adaptive.",
-          "ko": "앞으로 본 연구가 에이전트 로봇에 대한 더 명확한 이해에 기여하고, 이들을 더욱 유능하고 신뢰할 수 있으며 적응력 있게 만드는 새로운 접근법을 지원하기를 바랍니다."
-        }
-      ],
-      "sections": {
-        "background": [
-          {
-            "en": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution.",
-            "ko": "기반 모델(foundation model)은 저수준 행동 예측을 넘어 데이터 수집, 모델 학습, 작업 계획, 실세계 실행의 목표 지향적 조율로 나아가며 로봇 지능의 패러다임 전환을 이끌고 있습니다."
-          },
-          {
-            "en": "We characterize this emerging paradigm as an agentic robots, in which agents reason over human instructions, interact with robotic environments, rectify execution errors autonomously, and dynamically adjust operational strategies.",
-            "ko": "저희는 이러한 신흥 패러다임을 에이전트 로봇(agentic robot)으로 정의하며, 이 에이전트는 인간의 지시에 대해 추론하고, 로봇 환경과 상호작용하며, 실행 오류를 자율적으로 바로잡고, 운영 전략을 동적으로 조정합니다."
-          },
-          {
-            "en": "Although this field develops fast, current studies are not well connected.",
-            "ko": "이 분야가 빠르게 발전하고 있음에도 불구하고, 현재의 연구들은 상호 연계가 부족합니다."
-          },
-          {
-            "en": "Researchers have no consistent view of how to combine different agentic functions into a complete robot system.",
-            "ko": "연구자들은 다양한 에이전트 기능을 완전한 로봇 시스템으로 결합하는 방법에 대해 일관된시각을 가지고 있지 않습니다."
-          },
-          {
-            "en": "This paper provides a unified overview of existing research on agentic robots.",
-            "ko": "본 논문은 에이전트 로봇에 관한 기존 연구의 통합된 개요를 제공합니다."
-          },
-          {
-            "en": "We first trace the development from robot policies to agentic systems, covering vision-language-action models, world models, and world-action models.",
-            "ko": "우먼 먼저 로봇 정책(robot policy)에서 에이전트 시스템으로의 발전 과정을 추적하며, 비전-언어-행동 모델(vision-language-action models), 세계 모델(world models), 세계-행동 모델(world-action models)을 다룹니다."
-          },
-          {
-            "en": "We then clarify the definition and scope of agentic robots and organize existing research into seventeen categories across four functional domains: Model, Data, Environment, and Harness.",
-            "ko": "이어 에이전트 로봇의 정의와 범위를 명확히 하고, 모델(Model), 데이터(Data), 환경(Environment), 하네스(Harness)의 4가지 기능 영역에 걸쳐 기존 연구를 17가지 범주로 체계화합니다."
-          },
-          {
-            "en": "Across these domains, we examine how agents shape model learning and robot decisions, collect and curate robot data, construct worlds, tasks, and tests for learning and evaluation, and organize capabilities for robot use.",
-            "ko": "이러한 영역에 걸쳐 우리는 에이전트가 모델 학습과 로봇 결정을 구체화하고, 로봇 데이터를 수집 및 선별하며, 학습과 평가를 위한 세계, 작업, 테스트를 구축하고, 로봇 활용을 위한 기능을 조직하는 방법을 조사합니다."
-          },
-          {
-            "en": "Finally, we discuss open challenges and outline directions for future research.",
-            "ko": "마지막으로, 미해결 과제(open challenge)를 논의하고 향후 연구 방향을 개략적으로 설명합니다."
-          }
-        ],
-        "methodology": [
-          {
-            "en": "Looking forward, we hope this work contributes to a clearer understanding of agentic robots and supports new approaches to making them more capable, reliable, and adaptive.",
-            "ko": "앞으로 본 연구가 에이전트 로봇에 대한 더 명확한 이해에 기여하고, 이들을 더욱 유능하고 신뢰할 수 있으며 적응력 있게 만드는 새로운 접근법을 지원하기를 바랍니다."
-          }
-        ],
-        "results": [
-          {
-            "en": "Looking forward, we hope this work contributes to a clearer understanding of agentic robots and supports new approaches to making them more capable, reliable, and adaptive.",
-            "ko": "앞으로 본 연구가 에이전트 로봇에 대한 더 명확한 이해에 기여하고, 이들을 더욱 유능하고 신뢰할 수 있으며 적응력 있게 만드는 새로운 접근법을 지원하기를 바랍니다."
-          }
-        ]
-      },
-      "vocab": [
-        {
-          "word": "action",
-          "ko": "행동",
-          "sentence": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution.",
-          "sentenceKo": "기반 모델(foundation model)은 저수준 행동 예측을 넘어 데이터 수집, 모델 학습, 작업 계획, 실세계 실행의 목표 지향적 조율로 나아가며 로봇 지능의 패러다임 전환을 이끌고 있습니다."
-        },
-        {
-          "word": "agentic",
-          "ko": "에이전트의",
-          "sentence": "We characterize this emerging paradigm as an agentic robots, in which agents reason over human instructions, interact with robotic environments, rectify execution errors autonomously, and dynamically adjust operational strategies.",
-          "sentenceKo": "저희는 이러한 신흥 패러다임을 에이전트 로봇(agentic robot)으로 정의하며, 이 에이전트는 인간의 지시에 대해 추론하고, 로봇 환경과 상호작용하며, 실행 오류를 자율적으로 바로잡고, 운영 전략을 동적으로 조정합니다."
-        },
-        {
-          "word": "orchestration",
-          "ko": "조율",
-          "sentence": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution.",
-          "sentenceKo": "기반 모델(foundation model)은 저수준 행동 예측을 넘어 데이터 수집, 모델 학습, 작업 계획, 실세계 실행의 목표 지향적 조율로 나아가며 로봇 지능의 패러다임 전환을 이끌고 있습니다."
-        },
-        {
-          "word": "intelligence",
-          "ko": "지능",
-          "sentence": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution.",
-          "sentenceKo": "기반 모델(foundation model)은 저수준 행동 예측을 넘어 데이터 수집, 모델 학습, 작업 계획, 실세계 실행의 목표 지향적 조율로 나아가며 로봇 지능의 패러다임 전환을 이끌고 있습니다."
-        },
-        {
-          "word": "characterize",
-          "ko": "특징짓다",
-          "sentence": "We characterize this emerging paradigm as an agentic robots, in which agents reason over human instructions, interact with robotic environments, rectify execution errors autonomously, and dynamically adjust operational strategies.",
-          "sentenceKo": "저희는 이러한 신흥 패러다임을 에이전트 로봇(agentic robot)으로 정의하며, 이 에이전트는 인간의 지시에 대해 추론하고, 로봇 환경과 상호작용하며, 실행 오류를 자율적으로 바로잡고, 운영 전략을 동적으로 조정합니다."
-        },
-        {
-          "word": "world-action",
-          "ko": "세계-행동",
-          "sentence": "We first trace the development from robot policies to agentic systems, covering vision-language-action models, world models, and world-action models.",
-          "sentenceKo": "우먼 먼저 로봇 정책(robot policy)에서 에이전트 시스템으로의 발전 과정을 추적하며, 비전-언어-행동 모델(vision-language-action models), 세계 모델(world models), 세계-행동 모델(world-action models)을 다룹니다."
-        },
-        {
-          "word": "execution",
-          "ko": "실행",
-          "sentence": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution.",
-          "sentenceKo": "기반 모델(foundation model)은 저수준 행동 예측을 넘어 데이터 수집, 모델 학습, 작업 계획, 실세계 실행의 목표 지향적 조율로 나아가며 로봇 지능의 패러다임 전환을 이끌고 있습니다."
-        },
-        {
-          "word": "development",
-          "ko": "발전",
-          "sentence": "We first trace the development from robot policies to agentic systems, covering vision-language-action models, world models, and world-action models.",
-          "sentenceKo": "우먼 먼저 로봇 정책(robot policy)에서 에이전트 시스템으로의 발전 과정을 추적하며, 비전-언어-행동 모델(vision-language-action models), 세계 모델(world models), 세계-행동 모델(world-action models)을 다룹니다."
-        },
-        {
-          "word": "environment",
-          "ko": "환경",
-          "sentence": "We then clarify the definition and scope of agentic robots and organize existing research into seventeen categories across four functional domains: Model, Data, Environment, and Harness.",
-          "sentenceKo": "이어 에이전트 로봇의 정의와 범위를 명확히 하고, 모델(Model), 데이터(Data), 환경(Environment), 하네스(Harness)의 4가지 기능 영역에 걸쳐 기존 연구를 17가지 범주로 체계화합니다."
-        },
-        {
-          "word": "foundation",
-          "ko": "기반",
-          "sentence": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution.",
-          "sentenceKo": "기반 모델(foundation model)은 저수준 행동 예측을 넘어 데이터 수집, 모델 학습, 작업 계획, 실세계 실행의 목표 지향적 조율로 나아가며 로봇 지능의 패러다임 전환을 이끌고 있습니다."
-        }
-      ],
-      "links": {
-        "hf": "https://huggingface.co/papers/2610.20442",
-        "arxiv": "https://arxiv.org/abs/2610.20442",
-        "pdf": "https://arxiv.org/pdf/2610.20442",
-        "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
-      },
-      "githubStars": 126,
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
