@@ -98,6 +98,7 @@ a:hover { text-decoration: underline; }
 .card.active { background: var(--accent-soft); border-color: var(--accent); }
 .card h3 { margin: 0 0 6px; font-size: 14px; line-height: 1.45; font-weight: 500; }
 .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 12px; color: var(--text-3); }
+.day-head { list-style: none; padding: 10px 4px 2px; font-size: 12px; font-weight: 600; color: var(--text-2); }
 .tag { padding: 1px 8px; border-radius: 6px; background: var(--surface-2); color: var(--text-2); font-size: 12px; }
 .badge { padding: 1px 8px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); font-weight: 500; }
 

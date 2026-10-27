@@ -9,7 +9,14 @@ import { translateMany } from '../lib/translate.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = resolve(ROOT, 'public/data/papers.json');
-const MAX_PAPERS = Number(process.env.MAX_PAPERS || 5);
+// 한 번 실행에 새로 추가할 최대 편수 (번역 한도 절약)
+const MAX_PAPERS = Number(process.env.MAX_PAPERS || 10);
+// 검색 결과 중 게시일이 최근 N일 이내인 논문만 새로 추가 (색인이 늦게 된 논문도 이 기간 안이면 잡힘)
+const LOOKBACK_DAYS = Number(process.env.LOOKBACK_DAYS || 14);
+// 누적 보관: 수집일 기준 N일이 지나거나 N편을 넘으면 오래된 것부터 정리
+const KEEP_DAYS = Number(process.env.KEEP_DAYS || 90);
+const MAX_STORED = Number(process.env.MAX_STORED || 300);
+const DAY = 24 * 60 * 60 * 1000;
 
 const QUERIES = [
   'AI scientist autonomous research',
@@ -57,9 +64,7 @@ async function searchPapers() {
       console.warn(`[검색] "${q}" 실패:`, err.message);
     }
   }
-  return [...byId.values()]
-    .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
-    .slice(0, MAX_PAPERS);
+  return [...byId.values()].sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
 }
 
 // 인용수: Semantic Scholar 일괄 조회 → 누락분은 OpenAlex 폴백
@@ -143,25 +148,43 @@ function canReuse(prev) {
 async function main() {
   let previous = { papers: [] };
   try { previous = JSON.parse(await readFile(OUT, 'utf8')); } catch { /* 첫 실행 */ }
-  const prevById = new Map(previous.papers.map((p) => [p.id, p]));
+  const now = new Date().toISOString();
+  // 수집일이 없는 기존 논문은 마지막 수집 시각으로 채움
+  const stored = previous.papers.map((p) => ({ ...p, collectedAt: p.collectedAt || previous.updatedAt || now }));
+  const storedById = new Map(stored.map((p) => [p.id, p]));
 
   const found = await searchPapers();
-  console.log(`[수집] 대상 ${found.length}편 (신규 ${found.filter((p) => !prevById.has(p.id)).length}편)`);
+  const since = Date.now() - LOOKBACK_DAYS * DAY;
+  const fresh = found.filter((p) => !storedById.has(p.id) && new Date(p.publishedAt).getTime() >= since).slice(0, MAX_PAPERS);
+  console.log(`[수집] 검색 ${found.length}편 중 신규 ${fresh.length}편 (최근 ${LOOKBACK_DAYS}일, 최대 ${MAX_PAPERS}편)`);
 
+  // 기존 논문: 검색 결과에 있으면 업보트 등 메타만 갱신, 품질 낮은 번역은 다시 번역
+  const foundById = new Map(found.map((p) => [p.id, p]));
   const papers = [];
-  for (const p of found) {
-    const prev = prevById.get(p.id);
-    // 이미 번역된 논문은 재번역하지 않고 업보트 등 메타만 갱신 (번역 한도 절약)
-    if (canReuse(prev)) {
-      papers.push({ ...prev, upvotes: p.upvotes ?? prev.upvotes, githubStars: p.githubStars ?? prev.githubStars });
+  for (const prev of stored) {
+    const p = foundById.get(prev.id);
+    if (p && !canReuse(prev)) {
+      console.log(`[재번역] ${p.id} ${p.title.slice(0, 60)}`);
+      papers.push({ ...(await analyzePaper(p)), collectedAt: prev.collectedAt, citations: prev.citations });
       continue;
     }
+    papers.push(p ? { ...prev, upvotes: p.upvotes ?? prev.upvotes, githubStars: p.githubStars ?? prev.githubStars } : prev);
+  }
+  for (const p of fresh) {
     console.log(`[분석] ${p.id} ${p.title.slice(0, 60)}`);
-    papers.push(await analyzePaper(p));
+    papers.push({ ...(await analyzePaper(p)), collectedAt: now });
   }
 
-  const citations = await fetchCitations(papers.map((p) => p.id));
-  for (const p of papers) {
+  // 보관 기간·편수 초과분 정리 (수집일 최신순 → 게시일 최신순)
+  const keepSince = Date.now() - KEEP_DAYS * DAY;
+  const kept = papers
+    .filter((p) => new Date(p.collectedAt).getTime() >= keepSince)
+    .sort((a, b) => b.collectedAt.localeCompare(a.collectedAt) || new Date(b.publishedAt) - new Date(a.publishedAt))
+    .slice(0, MAX_STORED);
+  if (kept.length < papers.length) console.log(`[정리] 오래된 논문 ${papers.length - kept.length}편 제외`);
+
+  const citations = await fetchCitations(kept.map((p) => p.id));
+  for (const p of kept) {
     const c = citations[p.id];
     // 이번 조회가 실패하면 이전 값 유지
     if (c?.count != null) p.citations = c;
@@ -169,8 +192,8 @@ async function main() {
   }
 
   await mkdir(dirname(OUT), { recursive: true });
-  await writeFile(OUT, JSON.stringify({ updatedAt: new Date().toISOString(), queries: QUERIES, papers }, null, 2));
-  console.log(`[완료] ${papers.length}편 저장 → ${OUT}`);
+  await writeFile(OUT, JSON.stringify({ updatedAt: now, queries: QUERIES, papers: kept }, null, 2));
+  console.log(`[완료] ${kept.length}편 저장 (신규 ${fresh.length}편) → ${OUT}`);
 }
 
 main().catch((err) => {

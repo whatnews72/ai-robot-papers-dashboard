@@ -2,7 +2,7 @@
 // 화면·데이터는 네트워크 우선(배포 즉시 반영), 실패하면 마지막으로 받은 캐시 사용
 // /api 요청은 가로채지 않음 (채팅 스트리밍·접근 코드 보호)
 
-const CACHE = 'papers-v1';
+const CACHE = 'papers-v2';
 const SHELL = ['/', '/index.html', '/app.js', '/styles.css', '/manifest.webmanifest', '/data/papers.json',
   '/icons/icon-192.png', '/icons/icon-512.png', '/icons/icon-maskable-512.png'];
 

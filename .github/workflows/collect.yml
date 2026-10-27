@@ -1,9 +1,10 @@
-# 매일 오전 9시(KST) Hugging Face Papers 논문 수집 → papers.json 커밋 → Vercel 자동 재배포
+# 매일 오전 9시·오후 9시(KST) Hugging Face Papers 논문 수집 → papers.json 커밋 → Vercel 자동 재배포
 name: 논문 자동 수집
 
 on:
   schedule:
     - cron: '0 0 * * *' # UTC 00:00 = KST 09:00
+    - cron: '0 12 * * *' # UTC 12:00 = KST 21:00 (검색 색인이 늦게 된 논문 보완)
   workflow_dispatch: {}
 
 permissions:

@@ -6,7 +6,7 @@ const state = {
   selectedId: null,
   category: '전체',
   query: '',
-  sort: 'date',
+  sort: 'collected',
   showKo: true,
   chats: new Map(), // 논문별 대화 기록
   busy: false,
@@ -44,6 +44,8 @@ function askPasscode(retry) {
 }
 
 const fmtDate =(iso) => (iso ? new Date(iso).toLocaleDateString('ko-KR', { year: 'numeric', month: 'short', day: 'numeric' }) : '-');
+// 수집일은 한국 시간 기준 날짜로 묶음
+const collectedDay = (iso) => (iso ? new Date(iso).toLocaleDateString('ko-KR', { timeZone: 'Asia/Seoul', year: 'numeric', month: 'long', day: 'numeric', weekday: 'short' }) : '수집일 미상');
 
 /* ---------- TTS (Web Speech API) ---------- */
 let voices = [];
@@ -83,6 +85,8 @@ function filtered() {
     return `${p.title} ${p.keywords.join(' ')} ${p.categories.join(' ')} ${p.abstract.en}`.toLowerCase().includes(q);
   });
   const key = {
+    // 수집일이 같으면 게시일 최신순
+    collected: (p) => new Date(p.collectedAt || 0).getTime() + new Date(p.publishedAt).getTime() / 1e6,
     date: (p) => new Date(p.publishedAt).getTime(),
     citations: (p) => p.citations?.count ?? -1,
     upvotes: (p) => p.upvotes ?? 0,
@@ -102,18 +106,25 @@ function renderChips() {
 function renderList() {
   const list = filtered();
   $('#count').textContent = `논문 ${list.length}편`;
+  const byDay = {};
+  list.forEach((p) => { const d = collectedDay(p.collectedAt); byDay[d] = (byDay[d] || 0) + 1; });
+  let lastDay = null;
   $('#paperList').innerHTML = list
-    .map(
-      (p) => `<li class="card ${p.id === state.selectedId ? 'active' : ''}" data-id="${p.id}" tabindex="0">
+    .map((p) => {
+      // 수집일순일 때만 수집일 구분 머리글 표시
+      const day = collectedDay(p.collectedAt);
+      const head = state.sort === 'collected' && day !== lastDay ? `<li class="day-head">${esc(day)} 수집 · ${byDay[day]}편</li>` : '';
+      lastDay = day;
+      return `${head}<li class="card ${p.id === state.selectedId ? 'active' : ''}" data-id="${p.id}" tabindex="0">
         <h3>${esc(p.title)}</h3>
         <div class="meta">
-          <span>${fmtDate(p.publishedAt)}</span>
+          <span>게시 ${fmtDate(p.publishedAt)}</span>
           <span class="badge">인용 ${p.citations?.count ?? '-'}</span>
           <span>▲ ${p.upvotes}</span>
         </div>
         <div class="meta" style="margin-top:6px">${p.categories.map((c) => `<span class="tag">${esc(c)}</span>`).join('')}</div>
-      </li>`
-    )
+      </li>`;
+    })
     .join('') || '<li class="empty">조건에 맞는 논문이 없습니다.</li>';
 }
 
@@ -152,6 +163,7 @@ function renderDetail() {
         <div class="stat"><div class="label">인용횟수</div><div class="value">${p.citations?.count ?? '-'}</div><div class="hint">${esc(p.citations?.source || '조회 실패')}</div></div>
         <div class="stat"><div class="label">HF 추천</div><div class="value">${p.upvotes}</div><div class="hint">upvotes</div></div>
         <div class="stat"><div class="label">게시일</div><div class="value" style="font-size:16px">${fmtDate(p.publishedAt)}</div><div class="hint">arXiv ${p.id}</div></div>
+        <div class="stat"><div class="label">수집일</div><div class="value" style="font-size:16px">${fmtDate(p.collectedAt)}</div><div class="hint">대시보드 추가</div></div>
         ${p.githubStars != null ? `<div class="stat"><div class="label">GitHub ★</div><div class="value">${p.githubStars}</div><div class="hint">stars</div></div>` : ''}
       </div>
 

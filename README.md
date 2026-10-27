@@ -1,10 +1,11 @@
 # AI·로봇 연구 논문 대시보드
 
-[Hugging Face Papers](https://huggingface.co/papers)에서 **AI와 로봇을 활용한 연구 과정**(AI 과학자, 자율 실험실, 로봇 과학자 등) 관련 최신 논문을 매일 오전 9시(KST)에 자동으로 수집해 보여주는 대시보드입니다.
+[Hugging Face Papers](https://huggingface.co/papers)에서 **AI와 로봇을 활용한 연구 과정**(AI 과학자, 자율 실험실, 로봇 과학자 등) 관련 최신 논문을 매일 오전 9시·오후 9시(KST)에 자동으로 수집·누적해 보여주는 대시보드입니다.
 
 ## 기능
 | 섹션 | 내용 |
 |---|---|
+| 논문 목록 | 수집일별로 묶어 누적 표시 (수집일순·게시일순·인용순·추천순 정렬) |
 | 주제 | 규칙 기반 카테고리 태그, HF AI 요약(영/한), 키워드, 배경 문장 |
 | 방법론 / 연구결과 | 초록 문장을 키워드로 분류하고 문장별 한국어 번역 + 🔊 TTS |
 | 영단어 · 예문 | 초록에서 추출한 학술 어휘 10개, 뜻, 원문 예문, 단어·예문 발음 듣기 |
@@ -29,7 +30,7 @@ api/chat.js           논문 채팅 - Gemini (Vercel 서버리스 함수)
 api/translate.js      번역 프록시 (Vercel 서버리스 함수)
 public/               대시보드 화면 (HTML/CSS/JS, 의존성 없음)
 public/manifest.webmanifest, public/sw.js   PWA 매니페스트·서비스 워커
-.github/workflows/collect.yml   매일 09:00 KST 자동 수집
+.github/workflows/collect.yml   매일 09:00·21:00 KST 자동 수집
 ```
 
 ## 로컬 실행
@@ -54,7 +55,7 @@ Node.js 20.6 이상이 필요합니다. 외부 패키지는 사용하지 않습�
    - Framework Preset: `Other`, Build Command 비움 (`vercel.json`이 `public/`을 출력 폴더로 지정)
    - Environment Variables: `GEMINI_API_KEY` (채팅·번역 공용, 선택 `CHAT_MODEL`), `APP_PASSCODE` (나만 쓰는 접근 코드, 권장)
 4. **첫 수집 실행** — GitHub Actions 탭 → "논문 자동 수집" → Run workflow
-   - 이후 매일 09:00(KST)에 자동 실행되고, `papers.json`이 바뀌면 커밋되어 Vercel이 자동 재배포합니다.
+   - 이후 매일 09:00·21:00(KST)에 자동 실행되고, `papers.json`이 바뀌면 커밋되어 Vercel이 자동 재배포합니다.
 
 ## 📱 안드로이드에 앱으로 설치
 플레이스토어 없이 PWA로 설치합니다. 배포가 갱신되면 앱도 자동으로 최신 상태가 됩니다.
@@ -72,5 +73,8 @@ Node.js 20.6 이상이 필요합니다. 외부 패키지는 사용하지 않습�
 
 ## 설정
 - 검색어: `scripts/collect.mjs`의 `QUERIES`
-- 수집 편수: 환경변수 `MAX_PAPERS` (기본 5)
+- 수집 방식: 이전 논문은 그대로 두고 새 논문만 추가합니다. 논문마다 `collectedAt`(수집 시각)이 저장되고, 목록은 수집일(KST)별로 묶여 보입니다.
+- 회당 신규 편수: 환경변수 `MAX_PAPERS` (기본 10)
+- 신규 대상 게시일 범위: `LOOKBACK_DAYS` (기본 최근 14일) — HF 검색 색인이 늦게 된 논문도 이 기간 안이면 다음 수집 때 추가됩니다
+- 보관 한도: `KEEP_DAYS` (수집일 기준 기본 90일), `MAX_STORED` (기본 300편)
 - 섹션 분류 키워드·주제 카테고리: `lib/analyze.mjs`
