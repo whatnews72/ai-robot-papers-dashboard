@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T17:45:44.024Z",
+  "updatedAt": "2026-10-29T05:10:59.531Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -38,7 +38,7 @@
         "Xiao He"
       ],
       "publishedAt": "2026-10-26T00:00:00.000Z",
-      "upvotes": 18,
+      "upvotes": 21,
       "keywords": [
         "embodied agents",
         "physics-based simulation",
@@ -218,12 +218,12 @@
         "pdf": "https://arxiv.org/pdf/2610.35385",
         "github": "https://github.com/HexaFuture/EmbodiedLab"
       },
-      "githubStars": 14,
+      "githubStars": 16,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-27T14:45:38.679Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -233,7 +233,7 @@
         "Josef Liyanjun Chen"
       ],
       "publishedAt": "2026-10-24T00:00:00.000Z",
-      "upvotes": 12,
+      "upvotes": 14,
       "keywords": [
         "vision-language model",
         "LoRA adapter",
@@ -420,7 +420,7 @@
       "collectedAt": "2026-10-27T14:45:38.679Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -626,7 +626,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       },
       "collectedAt": "2026-10-27T04:28:31.378Z"
     },
@@ -821,7 +821,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       },
       "collectedAt": "2026-10-26T04:08:48.950Z"
     },
@@ -1014,7 +1014,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -1289,7 +1289,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -1468,7 +1468,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -1678,7 +1678,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -1886,8 +1886,8 @@
       "githubStars": null,
       "translatedBy": "gemini",
       "citations": {
-        "count": 2,
-        "source": "Semantic Scholar"
+        "count": 0,
+        "source": "OpenAlex"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     }
