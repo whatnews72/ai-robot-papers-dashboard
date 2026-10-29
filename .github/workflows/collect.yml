@@ -30,6 +30,9 @@ jobs:
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
           S2_API_KEY: ${{ secrets.S2_API_KEY }}
           MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}
+          # 누적 보관: 수집일 기준 1년, 최대 1000편
+          KEEP_DAYS: 365
+          MAX_STORED: 1000
       - name: 변경 사항 커밋
         run: |
           if git diff --quiet -- public/data/papers.json; then

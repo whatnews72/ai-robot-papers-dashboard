@@ -33,6 +33,18 @@ const QUERIES = [
 const SCIENCE_RE = /\b(scien|research|laborator|lab\b|discover|hypothes)/i;
 const AGENT_RE = /\b(robot|agent|autonom|\bAI\b|LLM|language model|embodied)/i;
 
+// 일간 논문용 엄격 필터: 연구 자동화 표현이 제목에 있거나 초록에 서로 다른 표현이 2개 이상
+// (일간 논문은 검색어 관련도를 거치지 않아 느슨한 필터로는 일반 에이전트 논문이 대거 섞임)
+const STRICT_SCIENCE_RE = /\b(scientific (discovery|research|experiments?|exploration|ideas?|closure|hypothes[ie]s)|for science|scientists?\b|laborator(y|ies)|wet[- ]lab|self-driving lab|lab automation|autonomous (research|experiment\w*|discovery)|automated (research|science|scientific|experiment\w*)|research (agents?|automation|teams?)|ai scientists?|experimental design|experiment(s|al)? (design|planning|outcomes?)|physical laws?|hypothes[ie]s (generation|testing|proposal|discovery))/gi;
+const STRICT_AGENT_RE = /\b(robots?|agents?|agentic|autonomous|LLMs?|large language models?|language models?|embodied|AI)\b/i;
+
+function isStrictMatch(p) {
+  if (!STRICT_AGENT_RE.test(`${p.title} ${p.summary}`)) return false;
+  if ((p.title || '').match(STRICT_SCIENCE_RE)) return true;
+  const hits = new Set(((p.summary || '').match(STRICT_SCIENCE_RE) || []).map((s) => s.toLowerCase()));
+  return hits.size >= 2;
+}
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function fetchJson(url, options = {}, retries = 3) {
@@ -64,6 +76,23 @@ async function searchPapers() {
       console.warn(`[검색] "${q}" 실패:`, err.message);
     }
   }
+  // 검색은 관련도순 상위 50편이라 최신 논문이 밀려나므로, 최근 일간 논문도 함께 확인
+  let daily = 0;
+  for (let k = 0; k < LOOKBACK_DAYS; k++) {
+    const date = new Date(Date.now() - k * DAY).toISOString().slice(0, 10);
+    try {
+      const list = await fetchJson(`https://huggingface.co/api/daily_papers?date=${date}&limit=100`);
+      for (const item of list) {
+        const p = item.paper;
+        if (!p?.id || byId.has(p.id) || !isStrictMatch(p)) continue;
+        byId.set(p.id, p);
+        daily++;
+      }
+    } catch (err) {
+      console.warn(`[일간] ${date} 실패:`, err.message);
+    }
+  }
+  console.log(`[일간] 최근 ${LOOKBACK_DAYS}일 일간 논문에서 추가 후보 ${daily}편 → 누적 ${byId.size}편`);
   return [...byId.values()].sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
 }
 
