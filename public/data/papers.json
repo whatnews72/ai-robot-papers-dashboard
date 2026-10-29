@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T05:10:59.531Z",
+  "updatedAt": "2026-10-29T17:52:21.009Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -38,7 +38,7 @@
         "Xiao He"
       ],
       "publishedAt": "2026-10-26T00:00:00.000Z",
-      "upvotes": 21,
+      "upvotes": 19,
       "keywords": [
         "embodied agents",
         "physics-based simulation",
@@ -223,7 +223,7 @@
       "collectedAt": "2026-10-27T14:45:38.679Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -420,7 +420,7 @@
       "collectedAt": "2026-10-27T14:45:38.679Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -626,7 +626,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-27T04:28:31.378Z"
     },
@@ -821,7 +821,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-26T04:08:48.950Z"
     },
@@ -1014,7 +1014,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -1289,7 +1289,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -1468,7 +1468,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -1674,11 +1674,11 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 138,
+      "githubStars": 139,
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -1886,8 +1886,8 @@
       "githubStars": null,
       "translatedBy": "gemini",
       "citations": {
-        "count": 0,
-        "source": "OpenAlex"
+        "count": 2,
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     }
