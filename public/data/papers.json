@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T05:10:28.354Z",
+  "updatedAt": "2026-10-30T17:34:35.124Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -559,7 +559,7 @@
         "pdf": "https://arxiv.org/pdf/2610.33845",
         "github": "https://github.com/MCG-NJU/AutoTavern"
       },
-      "githubStars": 161,
+      "githubStars": 177,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -580,7 +580,7 @@
         "Yuheng Bu"
       ],
       "publishedAt": "2026-10-23T00:00:00.000Z",
-      "upvotes": 122,
+      "upvotes": 123,
       "keywords": [
         "test-time training",
         "test-time adaptation",
@@ -742,7 +742,7 @@
         "pdf": "https://arxiv.org/pdf/2610.32046",
         "github": "https://github.com/yepengliu/TTME"
       },
-      "githubStars": 3,
+      "githubStars": 4,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -1299,7 +1299,7 @@
         "pdf": "https://arxiv.org/pdf/2610.30468",
         "github": "https://github.com/seemandhar/SplatLab"
       },
-      "githubStars": 18,
+      "githubStars": 19,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -1317,7 +1317,7 @@
         "Matthew Jagielski"
       ],
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "upvotes": 30,
+      "upvotes": 31,
       "keywords": [
         "Agent4Sci",
         "long-horizon testbed",
@@ -3553,7 +3553,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 139,
+      "githubStars": 140,
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
