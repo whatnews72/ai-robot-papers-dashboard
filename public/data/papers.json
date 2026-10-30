@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T20:30:04.733Z",
+  "updatedAt": "2026-10-30T05:10:28.354Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -21,7 +21,7 @@
         "Ying-Cong Chen"
       ],
       "publishedAt": "2026-10-27T00:00:00.000Z",
-      "upvotes": 16,
+      "upvotes": 17,
       "keywords": [
         "large language models",
         "LongChang",
@@ -580,7 +580,7 @@
         "Yuheng Bu"
       ],
       "publishedAt": "2026-10-23T00:00:00.000Z",
-      "upvotes": 114,
+      "upvotes": 122,
       "keywords": [
         "test-time training",
         "test-time adaptation",
@@ -1492,7 +1492,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28763",
         "github": "https://github.com/maszhongming/agent4sci"
       },
-      "githubStars": 80,
+      "githubStars": 81,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -3164,7 +3164,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28578",
         "github": "https://github.com/InternScience/Agents-A1"
       },
-      "githubStars": 604,
+      "githubStars": 605,
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
