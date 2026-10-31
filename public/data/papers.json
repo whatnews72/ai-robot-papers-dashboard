@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T04:55:53.689Z",
+  "updatedAt": "2026-10-31T16:38:29.693Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -393,7 +393,7 @@
         "Limin Wang"
       ],
       "publishedAt": "2026-10-24T00:00:00.000Z",
-      "upvotes": 26,
+      "upvotes": 29,
       "keywords": [
         "LLM agents",
         "self-improving research system",
@@ -559,7 +559,7 @@
         "pdf": "https://arxiv.org/pdf/2610.33845",
         "github": "https://github.com/MCG-NJU/AutoTavern"
       },
-      "githubStars": 177,
+      "githubStars": 179,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -761,7 +761,7 @@
         "Sung Ju Hwang"
       ],
       "publishedAt": "2026-10-23T00:00:00.000Z",
-      "upvotes": 42,
+      "upvotes": 43,
       "keywords": [
         "LLM-based framework",
         "inductive principles",
@@ -1134,7 +1134,7 @@
         "Manmohan Chandraker"
       ],
       "publishedAt": "2026-10-21T00:00:00.000Z",
-      "upvotes": 12,
+      "upvotes": 14,
       "keywords": [
         "3D Gaussian Splatting",
         "Mip-NeRF 360",
@@ -1299,7 +1299,7 @@
         "pdf": "https://arxiv.org/pdf/2610.30468",
         "github": "https://github.com/seemandhar/SplatLab"
       },
-      "githubStars": 19,
+      "githubStars": 20,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -3553,7 +3553,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 140,
+      "githubStars": 141,
       "translatedBy": "gemini",
       "citations": {
         "count": 1,
