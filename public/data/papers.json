@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T17:34:35.124Z",
+  "updatedAt": "2026-10-31T04:55:53.689Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -203,7 +203,7 @@
         "Sherry Yang"
       ],
       "publishedAt": "2026-10-27T00:00:00.000Z",
-      "upvotes": 5,
+      "upvotes": 6,
       "keywords": [
         "world model",
         "Qwen3.5-4B",
@@ -580,7 +580,7 @@
         "Yuheng Bu"
       ],
       "publishedAt": "2026-10-23T00:00:00.000Z",
-      "upvotes": 123,
+      "upvotes": 124,
       "keywords": [
         "test-time training",
         "test-time adaptation",
@@ -1492,7 +1492,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28763",
         "github": "https://github.com/maszhongming/agent4sci"
       },
-      "githubStars": 81,
+      "githubStars": 82,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -3164,7 +3164,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28578",
         "github": "https://github.com/InternScience/Agents-A1"
       },
-      "githubStars": 605,
+      "githubStars": 606,
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
@@ -3556,7 +3556,7 @@
       "githubStars": 140,
       "translatedBy": "gemini",
       "citations": {
-        "count": 0,
+        "count": 1,
         "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
