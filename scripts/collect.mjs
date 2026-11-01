@@ -45,6 +45,10 @@ function isStrictMatch(p) {
   return hits.size >= 2;
 }
 
+// 신규 판단 기준 시각: 게시일과 HF 일간 목록 등록일 중 늦은 쪽
+// (게시 후 한참 지나 일간 목록에 오른 논문도 등록일 기준으로 최근이면 수집)
+const freshAt = (p) => Math.max(new Date(p.publishedAt || 0).getTime(), new Date(p.submittedOnDailyAt || 0).getTime());
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function fetchJson(url, options = {}, retries = 3) {
@@ -93,7 +97,7 @@ async function searchPapers() {
     }
   }
   console.log(`[일간] 최근 ${LOOKBACK_DAYS}일 일간 논문에서 추가 후보 ${daily}편 → 누적 ${byId.size}편`);
-  return [...byId.values()].sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  return [...byId.values()].sort((a, b) => freshAt(b) - freshAt(a));
 }
 
 // 인용수: Semantic Scholar 일괄 조회 → 누락분은 OpenAlex 폴백
@@ -184,8 +188,8 @@ async function main() {
 
   const found = await searchPapers();
   const since = Date.now() - LOOKBACK_DAYS * DAY;
-  const fresh = found.filter((p) => !storedById.has(p.id) && new Date(p.publishedAt).getTime() >= since).slice(0, MAX_PAPERS);
-  console.log(`[수집] 검색 ${found.length}편 중 신규 ${fresh.length}편 (최근 ${LOOKBACK_DAYS}일, 최대 ${MAX_PAPERS}편)`);
+  const fresh = found.filter((p) => !storedById.has(p.id) && freshAt(p) >= since).slice(0, MAX_PAPERS);
+  console.log(`[수집] 검색 ${found.length}편 중 신규 ${fresh.length}편 (게시·일간 등록 최근 ${LOOKBACK_DAYS}일, 최대 ${MAX_PAPERS}편)`);
 
   // 기존 논문: 검색 결과에 있으면 업보트 등 메타만 갱신, 품질 낮은 번역은 다시 번역
   const foundById = new Map(found.map((p) => [p.id, p]));
