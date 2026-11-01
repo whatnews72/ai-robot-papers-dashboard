@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T03:54:13.141Z",
+  "updatedAt": "2026-11-01T05:24:05.713Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -11,6 +11,229 @@
     "automated scientific experiment robotics"
   ],
   "papers": [
+    {
+      "id": "2610.36533",
+      "title": "RoboAuto: Autonomous Robot Program Search through Multi-Level Physical Understanding",
+      "authors": [
+        "Buzhao Liu",
+        "Jianing Ye",
+        "Xiu Yuan",
+        "Yangtong Feng",
+        "Chengsong Huang",
+        "Tyler Dinh",
+        "Yevgeniy Vorobeychik",
+        "Ning Zhang",
+        "Chongjie Zhang"
+      ],
+      "publishedAt": "2026-10-27T02:41:22.000Z",
+      "upvotes": 0,
+      "keywords": [
+        "LLM-based autonomous agents",
+        "Code-as-Policy",
+        "robot program search",
+        "physical understanding",
+        "hierarchical knowledge base",
+        "affordances",
+        "spatial relations",
+        "action effects",
+        "scene grounding",
+        "multi-stage planning"
+      ],
+      "categories": [
+        "로봇 조작",
+        "LLM 에이전트",
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "RoboAuto improves robot program search by organizing physical understanding across objects, scenes, and interactions via a hierarchical knowledge base, scene grounding, and multi-stage planning with self-designed experiments.",
+        "ko": "RoboAuto는 계층적 지식베이스, 장면 그라운딩, 그리고 자체 설계 실험을 동반한 다단계 계획을 통해 객체, 장면, 상호작용 전반에 걸쳐 물리적 이해를 체계화함으로써 로봇 프로그램 탐색을 개선합니다."
+      },
+      "abstract": {
+        "en": "Recently, LLM-based autonomous agents have shown strong capabilities in iteratively generating, evaluating, and refining executable solutions. In robotic manipulation, Code-as-Policy lets these agents search over modular and editable robot programs. However, effective program search requires physical understanding: agents must understand how objects can be manipulated, how scene geometry constrains actions, and why interactions succeed or fail. Existing methods rely mainly on execution feedback for program refinement, often leaving these physical questions unresolved. We introduce RoboAuto, a framework for robot program search that explicitly organizes physical understanding at the object, scene, and interaction levels through three components. First, a hierarchical knowledge base combines executable skills with object-centric knowledge of affordances, spatial relations, and action effects, learned from embodied data and online task solving. Second, scene grounding connects this knowledge to the current environment by identifying relevant objects and resolving action-critical quantities. Third, multi-stage planning with self-designed experiments checks whether each stage produces its expected physical effects and actively tests competing hypotheses to resolve physical uncertainties. RoboAuto achieves superior performance across five benchmark families, attaining an 89.1% success rate on short-horizon LIBERO-PRO tasks and more than twice the mean success rate of ASPIRE on LIBERO-PRO Long and LIBERO-Plus. It also outperforms ASPIRE and π_{0.5} on three challenging long-horizon real-robot tasks requiring precise manipulation. We further show that the knowledge base transfers across simulators and embodiments, and that program search performance scales with its size. Project page: https://roboauto-ai.github.io/",
+        "ko": "최근, 거대 언어 모델(LLM) 기반의 자율 에이전트는 실행 가능한 솔루션을 반복적으로 생성, 평가 및 개선하는 강력한 역량을 보여주었습니다. 로봇 조작 분야에서 코드-애즈-정책(Code-as-Policy)은 이러한 에이전트가 모듈화되고 편집 가능한 로봇 프로그램을 탐색할 수 있도록 합니다. 그러나 효과적인 프로그램 탐색에는 물리적 이해가 필요합니다. 즉, 에이전트는 객체가 어떻게 조작될 수 있는지, 장면 형상이 행동을 어떻게 제약하는지, 그리고 상호작용이 왜 성공하거나 실패하는지 이해해야 합니다. 기존 방법들은 주로 프로그램 개선을 위한 실행 피드백에 의존하며, 이로 인해 이러한 물리적 문제들이 해결되지 않은 채 남겨지는 경우가 많습니다. 저희는 세 가지 구성요소를 통해 객체, 장면, 상호작용 수준에서 물리적 이해를 명시적으로 체계화하는 로봇 프로그램 탐색 프레임워크인 RoboAuto를 소개합니다. 첫째, 계층적 지식베이스(hierarchical knowledge base)는 체화(embodied) 데이터와 온라인 작업 해결을 통해 학습된 어포더ンス(affordance), 공간 관계, 행동 효과에 대한 객체 중심 지식과 실행 가능한 기술을 결합합니다. 둘째, 장면 그라운딩(scene grounding)은 관련 객체를 식별하고 행동에 결정적인 양을 해결함으로써 이 지식을 현재 환경과 연결합니다. 셋째, 자체 설계한 실험을 포함한 다단계 계획은 각 단계가 예상되는 물리적 효과를 내는지 확인하고, 경합하는 가설을 능동적으로 테스트하여 물리적 불확실성을 해결합니다. RoboAuto는 5개의 벤치마크 제품군에서 우수한 성능을 달성했으며, 단기 호라이즌 LIBERO-PRO 작업에서 89.1%의 성공률을 기록했고, LIBERO-PRO Long 및 LIBERO-Plus에서는 ASPIRE 평균 성공률의 두 배 이상을 기록했습니다. 또한 정밀한 조작이 요구되는 고난도의 장기 호라이즌 실제 로봇 작업 3가지에서 ASPIRE와 π_{0.5}를 능가합니다. 나아가 지식베이스가 시뮬레이터와 로봇 형태(embodiment) 간에 전이되며, 프로그램 탐색 성능이 그 크기에 비례하여 확장됨을 보여줍니다. 프로젝트 페이지: https://roboauto-ai.github.io/"
+      },
+      "sentences": [
+        {
+          "en": "Recently, LLM-based autonomous agents have shown strong capabilities in iteratively generating, evaluating, and refining executable solutions.",
+          "ko": "최근, 거대 언어 모델(LLM) 기반의 자율 에이전트는 실행 가능한 솔루션을 반복적으로 생성, 평가 및 개선하는 강력한 역량을 보여주었습니다."
+        },
+        {
+          "en": "In robotic manipulation, Code-as-Policy lets these agents search over modular and editable robot programs.",
+          "ko": "로봇 조작 분야에서 코드-애즈-정책(Code-as-Policy)은 이러한 에이전트가 모듈화되고 편집 가능한 로봇 프로그램을 탐색할 수 있도록 합니다."
+        },
+        {
+          "en": "However, effective program search requires physical understanding: agents must understand how objects can be manipulated, how scene geometry constrains actions, and why interactions succeed or fail.",
+          "ko": "그러나 효과적인 프로그램 탐색에는 물리적 이해가 필요합니다. 즉, 에이전트는 객체가 어떻게 조작될 수 있는지, 장면 형상이 행동을 어떻게 제약하는지, 그리고 상호작용이 왜 성공하거나 실패하는지 이해해야 합니다."
+        },
+        {
+          "en": "Existing methods rely mainly on execution feedback for program refinement, often leaving these physical questions unresolved.",
+          "ko": "기존 방법들은 주로 프로그램 개선을 위한 실행 피드백에 의존하며, 이로 인해 이러한 물리적 문제들이 해결되지 않은 채 남겨지는 경우가 많습니다."
+        },
+        {
+          "en": "We introduce RoboAuto, a framework for robot program search that explicitly organizes physical understanding at the object, scene, and interaction levels through three components.",
+          "ko": "저희는 세 가지 구성요소를 통해 객체, 장면, 상호작용 수준에서 물리적 이해를 명시적으로 체계화하는 로봇 프로그램 탐색 프레임워크인 RoboAuto를 소개합니다."
+        },
+        {
+          "en": "First, a hierarchical knowledge base combines executable skills with object-centric knowledge of affordances, spatial relations, and action effects, learned from embodied data and online task solving.",
+          "ko": "첫째, 계층적 지식베이스(hierarchical knowledge base)는 체화(embodied) 데이터와 온라인 작업 해결을 통해 학습된 어포더ンス(affordance), 공간 관계, 행동 효과에 대한 객체 중심 지식과 실행 가능한 기술을 결합합니다."
+        },
+        {
+          "en": "Second, scene grounding connects this knowledge to the current environment by identifying relevant objects and resolving action-critical quantities.",
+          "ko": "둘째, 장면 그라운딩(scene grounding)은 관련 객체를 식별하고 행동에 결정적인 양을 해결함으로써 이 지식을 현재 환경과 연결합니다."
+        },
+        {
+          "en": "Third, multi-stage planning with self-designed experiments checks whether each stage produces its expected physical effects and actively tests competing hypotheses to resolve physical uncertainties.",
+          "ko": "셋째, 자체 설계한 실험을 포함한 다단계 계획은 각 단계가 예상되는 물리적 효과를 내는지 확인하고, 경합하는 가설을 능동적으로 테스트하여 물리적 불확실성을 해결합니다."
+        },
+        {
+          "en": "RoboAuto achieves superior performance across five benchmark families, attaining an 89.1% success rate on short-horizon LIBERO-PRO tasks and more than twice the mean success rate of ASPIRE on LIBERO-PRO Long and LIBERO-Plus.",
+          "ko": "RoboAuto는 5개의 벤치마크 제품군에서 우수한 성능을 달성했으며, 단기 호라이즌 LIBERO-PRO 작업에서 89.1%의 성공률을 기록했고, LIBERO-PRO Long 및 LIBERO-Plus에서는 ASPIRE 평균 성공률의 두 배 이상을 기록했습니다."
+        },
+        {
+          "en": "It also outperforms ASPIRE and π_{0.5} on three challenging long-horizon real-robot tasks requiring precise manipulation.",
+          "ko": "또한 정밀한 조작이 요구되는 고난도의 장기 호라이즌 실제 로봇 작업 3가지에서 ASPIRE와 π_{0.5}를 능가합니다."
+        },
+        {
+          "en": "We further show that the knowledge base transfers across simulators and embodiments, and that program search performance scales with its size.",
+          "ko": "나아가 지식베이스가 시뮬레이터와 로봇 형태(embodiment) 간에 전이되며, 프로그램 탐색 성능이 그 크기에 비례하여 확장됨을 보여줍니다."
+        },
+        {
+          "en": "Project page: https://roboauto-ai.github.io/",
+          "ko": "프로젝트 페이지: https://roboauto-ai.github.io/"
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Recently, LLM-based autonomous agents have shown strong capabilities in iteratively generating, evaluating, and refining executable solutions.",
+            "ko": "최근, 거대 언어 모델(LLM) 기반의 자율 에이전트는 실행 가능한 솔루션을 반복적으로 생성, 평가 및 개선하는 강력한 역량을 보여주었습니다."
+          },
+          {
+            "en": "In robotic manipulation, Code-as-Policy lets these agents search over modular and editable robot programs.",
+            "ko": "로봇 조작 분야에서 코드-애즈-정책(Code-as-Policy)은 이러한 에이전트가 모듈화되고 편집 가능한 로봇 프로그램을 탐색할 수 있도록 합니다."
+          },
+          {
+            "en": "However, effective program search requires physical understanding: agents must understand how objects can be manipulated, how scene geometry constrains actions, and why interactions succeed or fail.",
+            "ko": "그러나 효과적인 프로그램 탐색에는 물리적 이해가 필요합니다. 즉, 에이전트는 객체가 어떻게 조작될 수 있는지, 장면 형상이 행동을 어떻게 제약하는지, 그리고 상호작용이 왜 성공하거나 실패하는지 이해해야 합니다."
+          },
+          {
+            "en": "Existing methods rely mainly on execution feedback for program refinement, often leaving these physical questions unresolved.",
+            "ko": "기존 방법들은 주로 프로그램 개선을 위한 실행 피드백에 의존하며, 이로 인해 이러한 물리적 문제들이 해결되지 않은 채 남겨지는 경우가 많습니다."
+          },
+          {
+            "en": "First, a hierarchical knowledge base combines executable skills with object-centric knowledge of affordances, spatial relations, and action effects, learned from embodied data and online task solving.",
+            "ko": "첫째, 계층적 지식베이스(hierarchical knowledge base)는 체화(embodied) 데이터와 온라인 작업 해결을 통해 학습된 어포더ンス(affordance), 공간 관계, 행동 효과에 대한 객체 중심 지식과 실행 가능한 기술을 결합합니다."
+          },
+          {
+            "en": "Second, scene grounding connects this knowledge to the current environment by identifying relevant objects and resolving action-critical quantities.",
+            "ko": "둘째, 장면 그라운딩(scene grounding)은 관련 객체를 식별하고 행동에 결정적인 양을 해결함으로써 이 지식을 현재 환경과 연결합니다."
+          },
+          {
+            "en": "Third, multi-stage planning with self-designed experiments checks whether each stage produces its expected physical effects and actively tests competing hypotheses to resolve physical uncertainties.",
+            "ko": "셋째, 자체 설계한 실험을 포함한 다단계 계획은 각 단계가 예상되는 물리적 효과를 내는지 확인하고, 경합하는 가설을 능동적으로 테스트하여 물리적 불확실성을 해결합니다."
+          },
+          {
+            "en": "Project page: https://roboauto-ai.github.io/",
+            "ko": "프로젝트 페이지: https://roboauto-ai.github.io/"
+          }
+        ],
+        "methodology": [
+          {
+            "en": "We introduce RoboAuto, a framework for robot program search that explicitly organizes physical understanding at the object, scene, and interaction levels through three components.",
+            "ko": "저희는 세 가지 구성요소를 통해 객체, 장면, 상호작용 수준에서 물리적 이해를 명시적으로 체계화하는 로봇 프로그램 탐색 프레임워크인 RoboAuto를 소개합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "RoboAuto achieves superior performance across five benchmark families, attaining an 89.1% success rate on short-horizon LIBERO-PRO tasks and more than twice the mean success rate of ASPIRE on LIBERO-PRO Long and LIBERO-Plus.",
+            "ko": "RoboAuto는 5개의 벤치마크 제품군에서 우수한 성능을 달성했으며, 단기 호라이즌 LIBERO-PRO 작업에서 89.1%의 성공률을 기록했고, LIBERO-PRO Long 및 LIBERO-Plus에서는 ASPIRE 평균 성공률의 두 배 이상을 기록했습니다."
+          },
+          {
+            "en": "It also outperforms ASPIRE and π_{0.5} on three challenging long-horizon real-robot tasks requiring precise manipulation.",
+            "ko": "또한 정밀한 조작이 요구되는 고난도의 장기 호라이즌 실제 로봇 작업 3가지에서 ASPIRE와 π_{0.5}를 능가합니다."
+          },
+          {
+            "en": "We further show that the knowledge base transfers across simulators and embodiments, and that program search performance scales with its size.",
+            "ko": "나아가 지식베이스가 시뮬레이터와 로봇 형태(embodiment) 간에 전이되며, 프로그램 탐색 성능이 그 크기에 비례하여 확장됨을 보여줍니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "physical",
+          "ko": "물리적",
+          "sentence": "However, effective program search requires physical understanding: agents must understand how objects can be manipulated, how scene geometry constrains actions, and why interactions succeed or fail.",
+          "sentenceKo": "그러나 효과적인 프로그램 탐색에는 물리적 이해가 필요합니다. 즉, 에이전트는 객체가 어떻게 조작될 수 있는지, 장면 형상이 행동을 어떻게 제약하는지, 그리고 상호작용이 왜 성공하거나 실패하는지 이해해야 합니다."
+        },
+        {
+          "word": "understanding",
+          "ko": "이해",
+          "sentence": "However, effective program search requires physical understanding: agents must understand how objects can be manipulated, how scene geometry constrains actions, and why interactions succeed or fail.",
+          "sentenceKo": "그러나 효과적인 프로그램 탐색에는 물리적 이해가 필요합니다. 즉, 에이전트는 객체가 어떻게 조작될 수 있는지, 장면 형상이 행동을 어떻게 제약하는지, 그리고 상호작용이 왜 성공하거나 실패하는지 이해해야 합니다."
+        },
+        {
+          "word": "hierarchical",
+          "ko": "계층적",
+          "sentence": "First, a hierarchical knowledge base combines executable skills with object-centric knowledge of affordances, spatial relations, and action effects, learned from embodied data and online task solving.",
+          "sentenceKo": "첫째, 계층적 지식베이스(hierarchical knowledge base)는 체화(embodied) 데이터와 온라인 작업 해결을 통해 학습된 어포더ンス(affordance), 공간 관계, 행동 효과에 대한 객체 중심 지식과 실행 가능한 기술을 결합합니다."
+        },
+        {
+          "word": "knowledge",
+          "ko": "지식",
+          "sentence": "First, a hierarchical knowledge base combines executable skills with object-centric knowledge of affordances, spatial relations, and action effects, learned from embodied data and online task solving.",
+          "sentenceKo": "첫째, 계층적 지식베이스(hierarchical knowledge base)는 체화(embodied) 데이터와 온라인 작업 해결을 통해 학습된 어포더ンス(affordance), 공간 관계, 행동 효과에 대한 객체 중심 지식과 실행 가능한 기술을 결합합니다."
+        },
+        {
+          "word": "autonomous",
+          "ko": "자율적인",
+          "sentence": "Recently, LLM-based autonomous agents have shown strong capabilities in iteratively generating, evaluating, and refining executable solutions.",
+          "sentenceKo": "최근, 거대 언어 모델(LLM) 기반의 자율 에이전트는 실행 가능한 솔루션을 반복적으로 생성, 평가 및 개선하는 강력한 역량을 보여주었습니다."
+        },
+        {
+          "word": "program",
+          "ko": "프로그램",
+          "sentence": "However, effective program search requires physical understanding: agents must understand how objects can be manipulated, how scene geometry constrains actions, and why interactions succeed or fail.",
+          "sentenceKo": "그러나 효과적인 프로그램 탐색에는 물리적 이해가 필요합니다. 즉, 에이전트는 객체가 어떻게 조작될 수 있는지, 장면 형상이 행동을 어떻게 제약하는지, 그리고 상호작용이 왜 성공하거나 실패하는지 이해해야 합니다."
+        },
+        {
+          "word": "search",
+          "ko": "탐색",
+          "sentence": "In robotic manipulation, Code-as-Policy lets these agents search over modular and editable robot programs.",
+          "sentenceKo": "로봇 조작 분야에서 코드-애즈-정책(Code-as-Policy)은 이러한 에이전트가 모듈화되고 편집 가능한 로봇 프로그램을 탐색할 수 있도록 합니다."
+        },
+        {
+          "word": "manipulation",
+          "ko": "조작",
+          "sentence": "In robotic manipulation, Code-as-Policy lets these agents search over modular and editable robot programs.",
+          "sentenceKo": "로봇 조작 분야에서 코드-애즈-정책(Code-as-Policy)은 이러한 에이전트가 모듈화되고 편집 가능한 로봇 프로그램을 탐색할 수 있도록 합니다."
+        },
+        {
+          "word": "affordances",
+          "ko": "어포더ンス",
+          "sentence": "First, a hierarchical knowledge base combines executable skills with object-centric knowledge of affordances, spatial relations, and action effects, learned from embodied data and online task solving.",
+          "sentenceKo": "첫째, 계층적 지식베이스(hierarchical knowledge base)는 체화(embodied) 데이터와 온라인 작업 해결을 통해 학습된 어포더ンス(affordance), 공간 관계, 행동 효과에 대한 객체 중심 지식과 실행 가능한 기술을 결합합니다."
+        },
+        {
+          "word": "experiments",
+          "ko": "실험",
+          "sentence": "Third, multi-stage planning with self-designed experiments checks whether each stage produces its expected physical effects and actively tests competing hypotheses to resolve physical uncertainties.",
+          "sentenceKo": "셋째, 자체 설계한 실험을 포함한 다단계 계획은 각 단계가 예상되는 물리적 효과를 내는지 확인하고, 경합하는 가설을 능동적으로 테스트하여 물리적 불확실성을 해결합니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.36533",
+        "arxiv": "https://arxiv.org/abs/2610.36533",
+        "pdf": "https://arxiv.org/pdf/2610.36533",
+        "github": null
+      },
+      "githubStars": null,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-01T05:24:05.713Z",
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
     {
       "id": "2610.23839",
       "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
@@ -1634,7 +1857,7 @@
         "pdf": "https://arxiv.org/pdf/2610.37649",
         "github": "https://github.com/EnVision-Research/LongChang"
       },
-      "githubStars": 9,
+      "githubStars": 10,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -2009,7 +2232,7 @@
         "pdf": "https://arxiv.org/pdf/2610.33845",
         "github": "https://github.com/MCG-NJU/AutoTavern"
       },
-      "githubStars": 191,
+      "githubStars": 195,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -2942,7 +3165,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28763",
         "github": "https://github.com/maszhongming/agent4sci"
       },
-      "githubStars": 85,
+      "githubStars": 86,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
