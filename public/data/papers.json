@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T16:38:29.693Z",
+  "updatedAt": "2026-11-01T03:54:13.141Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -12,6 +12,1456 @@
   ],
   "papers": [
     {
+      "id": "2610.23839",
+      "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
+      "authors": [
+        "Jianyuan Zhong",
+        "Chenwei Wu",
+        "Zhaochen Yu",
+        "Xixian Jiang",
+        "Xuewei Li",
+        "Hao Xiao",
+        "Xilin Dai",
+        "Junyang Wang",
+        "Jiaru Zou",
+        "Zhiqing Cui",
+        "Boyuan Zheng",
+        "Jing Xiong",
+        "Zhen Zhang",
+        "Qiang Gao",
+        "Michael Morley",
+        "Luis Nakayama",
+        "Qiang Xu",
+        "Liyue Shen",
+        "Tao Gui",
+        "Leo Anthony Celi",
+        "James Zou",
+        "Zhenfei Yin",
+        "Yingcheng Wu",
+        "Ling Yang"
+      ],
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "upvotes": 20,
+      "keywords": [
+        "multi-agent evolutionary search",
+        "hypothesis trees",
+        "hypothesis credit optimization",
+        "harness replay",
+        "rediscovery",
+        "DFM-Bench",
+        "falsifiability",
+        "data resolvability"
+      ],
+      "categories": [
+        "AI 과학자",
+        "멀티 에이전트"
+      ],
+      "aiSummary": {
+        "en": "DiscoveryRSI uses multi-agent evolutionary search and recursive learning to generate testable scientific hypotheses, improving quality through self-improvement and outperforming baseline agents on life-science benchmarks.",
+        "ko": "DiscoveryRSI는 다중 에이전트 진화 탐색과 재귀적 학습을 사용하여 검증 가능한 과학적 가설을 생성하고, 자기 개선을 통해 품질을 향상시키며, 생명과학 벤치마크에서 기존 베이스라인 에이전트를 능가합니다."
+      },
+      "abstract": {
+        "en": "Scientific discovery requires developing worthwhile hypotheses into practical investigations, yet learning from this evolving research process remains challenging. We introduce an operational definition of valuable and testable research hypotheses: evidence-grounded claims about consequential uncertainties, coupled with feasible investigations, explicit decision criteria, and alternative explanations. Our DiscoveryRSI framework develops hypothesis trees through multi-agent evolutionary search, compiles selected investigations into executable Harbor tasks, and recursively learns through three mechanisms: hypothesis credit optimization attributes scientific assessments to documented research contributions; harness replay identifies productive strategies and recurring failures to refine research workflows; and rediscovery applies accepted improvements to new investigations, generating further experience for subsequent learning. We also introduce DFM-Bench, which provides comprehensive assessment of hypothesis quality and cumulative research progress at the levels of hypotheses, revisions, development paths and research runs. Across four life-science domains, automated evaluation shows that hypothesis quality rises from 4.86 for the base model to 5.39 after two rounds of self-improvement, with the large gains in falsifiability and data resolvability. We further validate hypothesis quality through expert review, comparing our DiscoveryRSI-27B with other research agents. Preliminary human assessments show that DiscoveryRSI-27B scores higher than GPT-6 Luna on hypothesis importance and whether claims are plausible and evidence-bounded. DiscoveryRSI-27B achieved a 6.3% rate of hypothesis correspondence with research published after the model cutoff, largely outperform GPT-6 with 2.5% and Claude Opus 5 with 2.3%, while delivering greater human-rated improvement along research paths.",
+        "ko": "과학적 발견은 가치 있는 가설을 실용적인 연구로 발전시키는 것을 요구하지만, 진화하는 이러한 연구 과정으로부터 학습하는 것은 여전히 어려운 과제로 남아 있습니다. 저희는 가치 있고 검증 가능한 연구 가설에 대한 조작적 정의를 소개합니다. 이는 결과가 확실하지 않은 부분에 대한 증거 기반의 주장과 실행 가능한 연구, 명확한 결정 기준, 그리고 대안적 설명을 결합한 것입니다. 우리의 DiscoveryRSI 프레임워크는 다중 에이전트 진화 탐색(multi-agent evolutionary search)을 통해 가설 트리를 구축하고,선택된 연구를 실행 가능한 Harbor 태스크로 컴파일하며, 세 가지 메커니즘을 통해 재귀적으로 학습합니다. 가설 신용 최적화(hypothesis credit optimization)는 과학적 평가를 문서화된 연구 기여도에 귀속시키고, 하네스 리플레이(harness replay)는 생산적인 전략과 반복되는 실패를 식별하여 연구 워크플로를 개선하며, 재발견(rediscovery)은 수용된 개선 사항을 새로운 연구에 적용하여 후속 학습을 위한 추가 경험을 생성합니다. 또한 저희는 가설, 수정안, 발전 경로, 그리고 연구 실행 수준에서 가설의 품질과 누적된 연구 진행 상황을 종합적으로 평가할 수 있는 DFM-Bench를 소개합니다. 4개의 생명과학 도메인에 걸친 자동 평가에 따르면, 가설 품질은 기본 모델의 4.86점에서 2라운드의 자기 개선(self-improvement) 후 5.39점으로 상승했으며, 반증 가능성(falsifiability)과 데이터 해결 가능성(resolvability) 측면에서 큰 폭의 향상을 보였습니다. 저희는 DiscoveryRSI-27B를 다른 연구 에이전트들과 비교하여 전문가 검토를 통해 가설 품질을 추가로 검증합니다. 예비 인간 평가에 따르면 DiscoveryRSI-27B는 가설의 중요성과 주장의 타당성 및 증거 한정성 측면에서 GPT-6 Luna보다 더 높은 점수를 받았습니다. DiscoveryRSI-27B는 모델 학습 컷오프 이후에 출판된 연구와의 가설 일치율 6.3%를 달성하여, GPT-6(2.5%)와 Claude Opus 5(2.3%)를 큰 폭으로 상회했으며, 연구 경로를 따라 더 뛰어난 인간 평가 개선 효과를 나타냈습니다."
+      },
+      "sentences": [
+        {
+          "en": "Scientific discovery requires developing worthwhile hypotheses into practical investigations, yet learning from this evolving research process remains challenging.",
+          "ko": "과학적 발견은 가치 있는 가설을 실용적인 연구로 발전시키는 것을 요구하지만, 진화하는 이러한 연구 과정으로부터 학습하는 것은 여전히 어려운 과제로 남아 있습니다."
+        },
+        {
+          "en": "We introduce an operational definition of valuable and testable research hypotheses: evidence-grounded claims about consequential uncertainties, coupled with feasible investigations, explicit decision criteria, and alternative explanations.",
+          "ko": "저희는 가치 있고 검증 가능한 연구 가설에 대한 조작적 정의를 소개합니다. 이는 결과가 확실하지 않은 부분에 대한 증거 기반의 주장과 실행 가능한 연구, 명확한 결정 기준, 그리고 대안적 설명을 결합한 것입니다."
+        },
+        {
+          "en": "Our DiscoveryRSI framework develops hypothesis trees through multi-agent evolutionary search, compiles selected investigations into executable Harbor tasks, and recursively learns through three mechanisms: hypothesis credit optimization attributes scientific assessments to documented research contributions; harness replay identifies productive strategies and recurring failures to refine research workflows; and rediscovery applies accepted improvements to new investigations, generating further experience for subsequent learning.",
+          "ko": "우리의 DiscoveryRSI 프레임워크는 다중 에이전트 진화 탐색(multi-agent evolutionary search)을 통해 가설 트리를 구축하고,선택된 연구를 실행 가능한 Harbor 태스크로 컴파일하며, 세 가지 메커니즘을 통해 재귀적으로 학습합니다. 가설 신용 최적화(hypothesis credit optimization)는 과학적 평가를 문서화된 연구 기여도에 귀속시키고, 하네스 리플레이(harness replay)는 생산적인 전략과 반복되는 실패를 식별하여 연구 워크플로를 개선하며, 재발견(rediscovery)은 수용된 개선 사항을 새로운 연구에 적용하여 후속 학습을 위한 추가 경험을 생성합니다."
+        },
+        {
+          "en": "We also introduce DFM-Bench, which provides comprehensive assessment of hypothesis quality and cumulative research progress at the levels of hypotheses, revisions, development paths and research runs.",
+          "ko": "또한 저희는 가설, 수정안, 발전 경로, 그리고 연구 실행 수준에서 가설의 품질과 누적된 연구 진행 상황을 종합적으로 평가할 수 있는 DFM-Bench를 소개합니다."
+        },
+        {
+          "en": "Across four life-science domains, automated evaluation shows that hypothesis quality rises from 4.86 for the base model to 5.39 after two rounds of self-improvement, with the large gains in falsifiability and data resolvability.",
+          "ko": "4개의 생명과학 도메인에 걸친 자동 평가에 따르면, 가설 품질은 기본 모델의 4.86점에서 2라운드의 자기 개선(self-improvement) 후 5.39점으로 상승했으며, 반증 가능성(falsifiability)과 데이터 해결 가능성(resolvability) 측면에서 큰 폭의 향상을 보였습니다."
+        },
+        {
+          "en": "We further validate hypothesis quality through expert review, comparing our DiscoveryRSI-27B with other research agents.",
+          "ko": "저희는 DiscoveryRSI-27B를 다른 연구 에이전트들과 비교하여 전문가 검토를 통해 가설 품질을 추가로 검증합니다."
+        },
+        {
+          "en": "Preliminary human assessments show that DiscoveryRSI-27B scores higher than GPT-6 Luna on hypothesis importance and whether claims are plausible and evidence-bounded.",
+          "ko": "예비 인간 평가에 따르면 DiscoveryRSI-27B는 가설의 중요성과 주장의 타당성 및 증거 한정성 측면에서 GPT-6 Luna보다 더 높은 점수를 받았습니다."
+        },
+        {
+          "en": "DiscoveryRSI-27B achieved a 6.3% rate of hypothesis correspondence with research published after the model cutoff, largely outperform GPT-6 with 2.5% and Claude Opus 5 with 2.3%, while delivering greater human-rated improvement along research paths.",
+          "ko": "DiscoveryRSI-27B는 모델 학습 컷오프 이후에 출판된 연구와의 가설 일치율 6.3%를 달성하여, GPT-6(2.5%)와 Claude Opus 5(2.3%)를 큰 폭으로 상회했으며, 연구 경로를 따라 더 뛰어난 인간 평가 개선 효과를 나타냈습니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Scientific discovery requires developing worthwhile hypotheses into practical investigations, yet learning from this evolving research process remains challenging.",
+            "ko": "과학적 발견은 가치 있는 가설을 실용적인 연구로 발전시키는 것을 요구하지만, 진화하는 이러한 연구 과정으로부터 학습하는 것은 여전히 어려운 과제로 남아 있습니다."
+          },
+          {
+            "en": "We also introduce DFM-Bench, which provides comprehensive assessment of hypothesis quality and cumulative research progress at the levels of hypotheses, revisions, development paths and research runs.",
+            "ko": "또한 저희는 가설, 수정안, 발전 경로, 그리고 연구 실행 수준에서 가설의 품질과 누적된 연구 진행 상황을 종합적으로 평가할 수 있는 DFM-Bench를 소개합니다."
+          },
+          {
+            "en": "We further validate hypothesis quality through expert review, comparing our DiscoveryRSI-27B with other research agents.",
+            "ko": "저희는 DiscoveryRSI-27B를 다른 연구 에이전트들과 비교하여 전문가 검토를 통해 가설 품질을 추가로 검증합니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "We introduce an operational definition of valuable and testable research hypotheses: evidence-grounded claims about consequential uncertainties, coupled with feasible investigations, explicit decision criteria, and alternative explanations.",
+            "ko": "저희는 가치 있고 검증 가능한 연구 가설에 대한 조작적 정의를 소개합니다. 이는 결과가 확실하지 않은 부분에 대한 증거 기반의 주장과 실행 가능한 연구, 명확한 결정 기준, 그리고 대안적 설명을 결합한 것입니다."
+          },
+          {
+            "en": "Our DiscoveryRSI framework develops hypothesis trees through multi-agent evolutionary search, compiles selected investigations into executable Harbor tasks, and recursively learns through three mechanisms: hypothesis credit optimization attributes scientific assessments to documented research contributions; harness replay identifies productive strategies and recurring failures to refine research workflows; and rediscovery applies accepted improvements to new investigations, generating further experience for subsequent learning.",
+            "ko": "우리의 DiscoveryRSI 프레임워크는 다중 에이전트 진화 탐색(multi-agent evolutionary search)을 통해 가설 트리를 구축하고,선택된 연구를 실행 가능한 Harbor 태스크로 컴파일하며, 세 가지 메커니즘을 통해 재귀적으로 학습합니다. 가설 신용 최적화(hypothesis credit optimization)는 과학적 평가를 문서화된 연구 기여도에 귀속시키고, 하네스 리플레이(harness replay)는 생산적인 전략과 반복되는 실패를 식별하여 연구 워크플로를 개선하며, 재발견(rediscovery)은 수용된 개선 사항을 새로운 연구에 적용하여 후속 학습을 위한 추가 경험을 생성합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "Across four life-science domains, automated evaluation shows that hypothesis quality rises from 4.86 for the base model to 5.39 after two rounds of self-improvement, with the large gains in falsifiability and data resolvability.",
+            "ko": "4개의 생명과학 도메인에 걸친 자동 평가에 따르면, 가설 품질은 기본 모델의 4.86점에서 2라운드의 자기 개선(self-improvement) 후 5.39점으로 상승했으며, 반증 가능성(falsifiability)과 데이터 해결 가능성(resolvability) 측면에서 큰 폭의 향상을 보였습니다."
+          },
+          {
+            "en": "Preliminary human assessments show that DiscoveryRSI-27B scores higher than GPT-6 Luna on hypothesis importance and whether claims are plausible and evidence-bounded.",
+            "ko": "예비 인간 평가에 따르면 DiscoveryRSI-27B는 가설의 중요성과 주장의 타당성 및 증거 한정성 측면에서 GPT-6 Luna보다 더 높은 점수를 받았습니다."
+          },
+          {
+            "en": "DiscoveryRSI-27B achieved a 6.3% rate of hypothesis correspondence with research published after the model cutoff, largely outperform GPT-6 with 2.5% and Claude Opus 5 with 2.3%, while delivering greater human-rated improvement along research paths.",
+            "ko": "DiscoveryRSI-27B는 모델 학습 컷오프 이후에 출판된 연구와의 가설 일치율 6.3%를 달성하여, GPT-6(2.5%)와 Claude Opus 5(2.3%)를 큰 폭으로 상회했으며, 연구 경로를 따라 더 뛰어난 인간 평가 개선 효과를 나타냈습니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "hypothesis",
+          "ko": "가설",
+          "sentence": "Our DiscoveryRSI framework develops hypothesis trees through multi-agent evolutionary search, compiles selected investigations into executable Harbor tasks, and recursively learns through three mechanisms: hypothesis credit optimization attributes scientific assessments to documented research contributions; harness replay identifies productive strategies and recurring failures to refine research workflows; and rediscovery applies accepted improvements to new investigations, generating further experience for subsequent learning.",
+          "sentenceKo": "우리의 DiscoveryRSI 프레임워크는 다중 에이전트 진화 탐색(multi-agent evolutionary search)을 통해 가설 트리를 구축하고,선택된 연구를 실행 가능한 Harbor 태스크로 컴파일하며, 세 가지 메커니즘을 통해 재귀적으로 학습합니다. 가설 신용 최적화(hypothesis credit optimization)는 과학적 평가를 문서화된 연구 기여도에 귀속시키고, 하네스 리플레이(harness replay)는 생산적인 전략과 반복되는 실패를 식별하여 연구 워크플로를 개선하며, 재발견(rediscovery)은 수용된 개선 사항을 새로운 연구에 적용하여 후속 학습을 위한 추가 경험을 생성합니다."
+        },
+        {
+          "word": "falsifiability",
+          "ko": "반증 가능성",
+          "sentence": "Across four life-science domains, automated evaluation shows that hypothesis quality rises from 4.86 for the base model to 5.39 after two rounds of self-improvement, with the large gains in falsifiability and data resolvability.",
+          "sentenceKo": "4개의 생명과학 도메인에 걸친 자동 평가에 따르면, 가설 품질은 기본 모델의 4.86점에서 2라운드의 자기 개선(self-improvement) 후 5.39점으로 상승했으며, 반증 가능성(falsifiability)과 데이터 해결 가능성(resolvability) 측면에서 큰 폭의 향상을 보였습니다."
+        },
+        {
+          "word": "resolvability",
+          "ko": "해결 가능성",
+          "sentence": "Across four life-science domains, automated evaluation shows that hypothesis quality rises from 4.86 for the base model to 5.39 after two rounds of self-improvement, with the large gains in falsifiability and data resolvability.",
+          "sentenceKo": "4개의 생명과학 도메인에 걸친 자동 평가에 따르면, 가설 품질은 기본 모델의 4.86점에서 2라운드의 자기 개선(self-improvement) 후 5.39점으로 상승했으며, 반증 가능성(falsifiability)과 데이터 해결 가능성(resolvability) 측면에서 큰 폭의 향상을 보였습니다."
+        },
+        {
+          "word": "optimization",
+          "ko": "최적화",
+          "sentence": "Our DiscoveryRSI framework develops hypothesis trees through multi-agent evolutionary search, compiles selected investigations into executable Harbor tasks, and recursively learns through three mechanisms: hypothesis credit optimization attributes scientific assessments to documented research contributions; harness replay identifies productive strategies and recurring failures to refine research workflows; and rediscovery applies accepted improvements to new investigations, generating further experience for subsequent learning.",
+          "sentenceKo": "우리의 DiscoveryRSI 프레임워크는 다중 에이전트 진화 탐색(multi-agent evolutionary search)을 통해 가설 트리를 구축하고,선택된 연구를 실행 가능한 Harbor 태스크로 컴파일하며, 세 가지 메커니즘을 통해 재귀적으로 학습합니다. 가설 신용 최적화(hypothesis credit optimization)는 과학적 평가를 문서화된 연구 기여도에 귀속시키고, 하네스 리플레이(harness replay)는 생산적인 전략과 반복되는 실패를 식별하여 연구 워크플로를 개선하며, 재발견(rediscovery)은 수용된 개선 사항을 새로운 연구에 적용하여 후속 학습을 위한 추가 경험을 생성합니다."
+        },
+        {
+          "word": "investigations",
+          "ko": "연구",
+          "sentence": "Scientific discovery requires developing worthwhile hypotheses into practical investigations, yet learning from this evolving research process remains challenging.",
+          "sentenceKo": "과학적 발견은 가치 있는 가설을 실용적인 연구로 발전시키는 것을 요구하지만, 진화하는 이러한 연구 과정으로부터 학습하는 것은 여전히 어려운 과제로 남아 있습니다."
+        },
+        {
+          "word": "evolutionary",
+          "ko": "진화의",
+          "sentence": "Our DiscoveryRSI framework develops hypothesis trees through multi-agent evolutionary search, compiles selected investigations into executable Harbor tasks, and recursively learns through three mechanisms: hypothesis credit optimization attributes scientific assessments to documented research contributions; harness replay identifies productive strategies and recurring failures to refine research workflows; and rediscovery applies accepted improvements to new investigations, generating further experience for subsequent learning.",
+          "sentenceKo": "우리의 DiscoveryRSI 프레임워크는 다중 에이전트 진화 탐색(multi-agent evolutionary search)을 통해 가설 트리를 구축하고,선택된 연구를 실행 가능한 Harbor 태스크로 컴파일하며, 세 가지 메커니즘을 통해 재귀적으로 학습합니다. 가설 신용 최적화(hypothesis credit optimization)는 과학적 평가를 문서화된 연구 기여도에 귀속시키고, 하네스 리플레이(harness replay)는 생산적인 전략과 반복되는 실패를 식별하여 연구 워크플로를 개선하며, 재발견(rediscovery)은 수용된 개선 사항을 새로운 연구에 적용하여 후속 학습을 위한 추가 경험을 생성합니다."
+        },
+        {
+          "word": "discovery",
+          "ko": "발견",
+          "sentence": "Scientific discovery requires developing worthwhile hypotheses into practical investigations, yet learning from this evolving research process remains challenging.",
+          "sentenceKo": "과학적 발견은 가치 있는 가설을 실용적인 연구로 발전시키는 것을 요구하지만, 진화하는 이러한 연구 과정으로부터 학습하는 것은 여전히 어려운 과제로 남아 있습니다."
+        },
+        {
+          "word": "rediscovery",
+          "ko": "재발견",
+          "sentence": "Our DiscoveryRSI framework develops hypothesis trees through multi-agent evolutionary search, compiles selected investigations into executable Harbor tasks, and recursively learns through three mechanisms: hypothesis credit optimization attributes scientific assessments to documented research contributions; harness replay identifies productive strategies and recurring failures to refine research workflows; and rediscovery applies accepted improvements to new investigations, generating further experience for subsequent learning.",
+          "sentenceKo": "우리의 DiscoveryRSI 프레임워크는 다중 에이전트 진화 탐색(multi-agent evolutionary search)을 통해 가설 트리를 구축하고,선택된 연구를 실행 가능한 Harbor 태스크로 컴파일하며, 세 가지 메커니즘을 통해 재귀적으로 학습합니다. 가설 신용 최적화(hypothesis credit optimization)는 과학적 평가를 문서화된 연구 기여도에 귀속시키고, 하네스 리플레이(harness replay)는 생산적인 전략과 반복되는 실패를 식별하여 연구 워크플로를 개선하며, 재발견(rediscovery)은 수용된 개선 사항을 새로운 연구에 적용하여 후속 학습을 위한 추가 경험을 생성합니다."
+        },
+        {
+          "word": "comprehensive",
+          "ko": "종합적인",
+          "sentence": "We also introduce DFM-Bench, which provides comprehensive assessment of hypothesis quality and cumulative research progress at the levels of hypotheses, revisions, development paths and research runs.",
+          "sentenceKo": "또한 저희는 가설, 수정안, 발전 경로, 그리고 연구 실행 수준에서 가설의 품질과 누적된 연구 진행 상황을 종합적으로 평가할 수 있는 DFM-Bench를 소개합니다."
+        },
+        {
+          "word": "self-improvement",
+          "ko": "자기 개선",
+          "sentence": "Across four life-science domains, automated evaluation shows that hypothesis quality rises from 4.86 for the base model to 5.39 after two rounds of self-improvement, with the large gains in falsifiability and data resolvability.",
+          "sentenceKo": "4개의 생명과학 도메인에 걸친 자동 평가에 따르면, 가설 품질은 기본 모델의 4.86점에서 2라운드의 자기 개선(self-improvement) 후 5.39점으로 상승했으며, 반증 가능성(falsifiability)과 데이터 해결 가능성(resolvability) 측면에서 큰 폭의 향상을 보였습니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.23839",
+        "arxiv": "https://arxiv.org/abs/2610.23839",
+        "pdf": "https://arxiv.org/pdf/2610.23839",
+        "github": "https://github.com/Gen-Verse/DiscoveryRSI"
+      },
+      "githubStars": 142,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-01T03:54:13.141Z",
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
+    {
+      "id": "2610.22324",
+      "title": "Training Reasoning Models to Generate Diverse Scientific Ideas",
+      "authors": [
+        "Manya Wadhwa",
+        "Pranav Narayanan Venkit",
+        "Hiroaki Hayashi",
+        "Yu Li",
+        "Tuhin Chakrabarty",
+        "Chien-Sheng Wu"
+      ],
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "upvotes": 6,
+      "keywords": [
+        "document-grounded ideation",
+        "set-level reinforcement learning",
+        "idea cards",
+        "creative utility",
+        "contamination-free benchmark"
+      ],
+      "categories": [
+        "LLM 에이전트",
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "Researchers propose a set-level reinforcement learning objective to train language models for diverse, high-quality, document-grounded idea generation, achieving stronger creative utility than larger proprietary models.",
+        "ko": "연구진은 다양하고 고품질의 문서 기반 아이디어 생성을 위해 언어 모델을 학습시키는 집합 수준 강화 학습 목적 함수를 제안하며, 이를 통해 더 큰 상용 모델보다 뛰어난 창의적 효용을 달성합니다."
+      },
+      "abstract": {
+        "en": "One of the first steps of a research pipeline is generating ideas. Large Language Models (LLMs) are increasingly used to automate this step, but most of this work optimizes the quality of individual ideas, while overlooking diversity. In our work, we study document-grounded ideation, focusing on increasing the diversity of LLM generated ideas and ensuring they are high quality. Given prior papers, a model must propose a set of ideas that are each high-quality and clearly distinct from one another, while also being grounded in the input documents. To optimize for this, we propose training with a set-level reinforcement learning objective. In our setup, in a single generation, the model writes K structured idea cards grounded in the source papers, and the set is scored jointly, where each idea's quality is weighted by its distance from the ideas written before it. This teaches the model to steer each new idea away from its predecessors. We show that our trained 8B model achieves higher creative utility (a measure combining quality and diversity) than Claude Opus 4.8 and GPT-6 Astra on our contamination-free benchmark. In a pilot human study with four experts, our sets are judged as promising as Claude Opus 4.8's and contain marginally more unique ideas. When a coding agent runs proof-of-concept experiments on the ideas, our model's success@k is comparable to Claude Opus 4.8's, so we see that the added diversity does not cost any executability.",
+        "ko": "연구 파이프라인의 첫 번째 단계 중 하나는 아이디어 생성입니다. 거대 언어 모델(LLM)은 이 단계를 자동화하는 데 점점 더 많이 사용되고 있지만, 이 작업의 대부분은 개별 아이디어의 품질을 최적화하는 한편 다양성은 간과하고 있습니다. 본 연구에서는 문서 기반 아이디어 생성(document-grounded ideation)을 연구하며, LLM이 생성한 아이디어의 다양성을 높이고 높은 품질을 보장하는 데 초점을 맞춥니다. 선행 논문들이 주어지면, 모델은 입력 문서에 기반(grounded)을 두는 동시에, 각각 고품질이면서 서로 명확히 구분되는 일련의 아이디어를 제안해야 합니다. 이를 최적화하기 위해, 우리는 집합 수준(set-level) 강화 학습(reinforcement learning) 목적 함수를 이용한 학습을 제안합니다. 우리의 설정에서, 모델은 단일 생성 과정에서 소스 논문을 바탕으로 구조화된 $K$개의 아이디어 카드를 작성하며, 집합은 공동으로 평가됩니다. 이때 각 아이디어의 품질은 이전에 작성된 아이디어들과의 거리에 따라 가중치가 부여됩니다. 이는 모델이 각 새로운 아이디어를 이전 아이디어들과 멀어지도록 유도하는 법을 학습하게 합니다. 우리가 학습시킨 8B 모델이 오염 방지 벤치마크(contamination-free benchmark)에서 Claude Opus 4.8 및 GPT-6 Astra보다 더 높은 창의적 효용(quality와 diversity를 결합한 지표)을 달성함을 보여줍니다. 4명의 전문가가 참여한 예비 인간 평가(pilot human study)에서, 우리 모델의 아이디어 집합은 Claude Opus 4.8만큼 유망하다고 평가되었으며 고유한 아이디어가 미세하게 더 많이 포함되었습니다. 코딩 에이전트가 해당 아이디어를 바탕으로 개념 증명(proof-of-concept) 실험을 실행했을 때, 우리 모델의 success@k는 Claude Opus 4.8과 견줄 만하므로, 추가된 다양성이 실행 가능성(executability)을 저해하지 않음을 알 수 있습니다."
+      },
+      "sentences": [
+        {
+          "en": "One of the first steps of a research pipeline is generating ideas.",
+          "ko": "연구 파이프라인의 첫 번째 단계 중 하나는 아이디어 생성입니다."
+        },
+        {
+          "en": "Large Language Models (LLMs) are increasingly used to automate this step, but most of this work optimizes the quality of individual ideas, while overlooking diversity.",
+          "ko": "거대 언어 모델(LLM)은 이 단계를 자동화하는 데 점점 더 많이 사용되고 있지만, 이 작업의 대부분은 개별 아이디어의 품질을 최적화하는 한편 다양성은 간과하고 있습니다."
+        },
+        {
+          "en": "In our work, we study document-grounded ideation, focusing on increasing the diversity of LLM generated ideas and ensuring they are high quality.",
+          "ko": "본 연구에서는 문서 기반 아이디어 생성(document-grounded ideation)을 연구하며, LLM이 생성한 아이디어의 다양성을 높이고 높은 품질을 보장하는 데 초점을 맞춥니다."
+        },
+        {
+          "en": "Given prior papers, a model must propose a set of ideas that are each high-quality and clearly distinct from one another, while also being grounded in the input documents.",
+          "ko": "선행 논문들이 주어지면, 모델은 입력 문서에 기반(grounded)을 두는 동시에, 각각 고품질이면서 서로 명확히 구분되는 일련의 아이디어를 제안해야 합니다."
+        },
+        {
+          "en": "To optimize for this, we propose training with a set-level reinforcement learning objective.",
+          "ko": "이를 최적화하기 위해, 우리는 집합 수준(set-level) 강화 학습(reinforcement learning) 목적 함수를 이용한 학습을 제안합니다."
+        },
+        {
+          "en": "In our setup, in a single generation, the model writes K structured idea cards grounded in the source papers, and the set is scored jointly, where each idea's quality is weighted by its distance from the ideas written before it.",
+          "ko": "우리의 설정에서, 모델은 단일 생성 과정에서 소스 논문을 바탕으로 구조화된 $K$개의 아이디어 카드를 작성하며, 집합은 공동으로 평가됩니다. 이때 각 아이디어의 품질은 이전에 작성된 아이디어들과의 거리에 따라 가중치가 부여됩니다."
+        },
+        {
+          "en": "This teaches the model to steer each new idea away from its predecessors.",
+          "ko": "이는 모델이 각 새로운 아이디어를 이전 아이디어들과 멀어지도록 유도하는 법을 학습하게 합니다."
+        },
+        {
+          "en": "We show that our trained 8B model achieves higher creative utility (a measure combining quality and diversity) than Claude Opus 4.8 and GPT-6 Astra on our contamination-free benchmark.",
+          "ko": "우리가 학습시킨 8B 모델이 오염 방지 벤치마크(contamination-free benchmark)에서 Claude Opus 4.8 및 GPT-6 Astra보다 더 높은 창의적 효용(quality와 diversity를 결합한 지표)을 달성함을 보여줍니다."
+        },
+        {
+          "en": "In a pilot human study with four experts, our sets are judged as promising as Claude Opus 4.8's and contain marginally more unique ideas.",
+          "ko": "4명의 전문가가 참여한 예비 인간 평가(pilot human study)에서, 우리 모델의 아이디어 집합은 Claude Opus 4.8만큼 유망하다고 평가되었으며 고유한 아이디어가 미세하게 더 많이 포함되었습니다."
+        },
+        {
+          "en": "When a coding agent runs proof-of-concept experiments on the ideas, our model's success@k is comparable to Claude Opus 4.8's, so we see that the added diversity does not cost any executability.",
+          "ko": "코딩 에이전트가 해당 아이디어를 바탕으로 개념 증명(proof-of-concept) 실험을 실행했을 때, 우리 모델의 success@k는 Claude Opus 4.8과 견줄 만하므로, 추가된 다양성이 실행 가능성(executability)을 저해하지 않음을 알 수 있습니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Large Language Models (LLMs) are increasingly used to automate this step, but most of this work optimizes the quality of individual ideas, while overlooking diversity.",
+            "ko": "거대 언어 모델(LLM)은 이 단계를 자동화하는 데 점점 더 많이 사용되고 있지만, 이 작업의 대부분은 개별 아이디어의 품질을 최적화하는 한편 다양성은 간과하고 있습니다."
+          },
+          {
+            "en": "In our work, we study document-grounded ideation, focusing on increasing the diversity of LLM generated ideas and ensuring they are high quality.",
+            "ko": "본 연구에서는 문서 기반 아이디어 생성(document-grounded ideation)을 연구하며, LLM이 생성한 아이디어의 다양성을 높이고 높은 품질을 보장하는 데 초점을 맞춥니다."
+          },
+          {
+            "en": "Given prior papers, a model must propose a set of ideas that are each high-quality and clearly distinct from one another, while also being grounded in the input documents.",
+            "ko": "선행 논문들이 주어지면, 모델은 입력 문서에 기반(grounded)을 두는 동시에, 각각 고품질이면서 서로 명확히 구분되는 일련의 아이디어를 제안해야 합니다."
+          },
+          {
+            "en": "In our setup, in a single generation, the model writes K structured idea cards grounded in the source papers, and the set is scored jointly, where each idea's quality is weighted by its distance from the ideas written before it.",
+            "ko": "우리의 설정에서, 모델은 단일 생성 과정에서 소스 논문을 바탕으로 구조화된 $K$개의 아이디어 카드를 작성하며, 집합은 공동으로 평가됩니다. 이때 각 아이디어의 품질은 이전에 작성된 아이디어들과의 거리에 따라 가중치가 부여됩니다."
+          },
+          {
+            "en": "This teaches the model to steer each new idea away from its predecessors.",
+            "ko": "이는 모델이 각 새로운 아이디어를 이전 아이디어들과 멀어지도록 유도하는 법을 학습하게 합니다."
+          },
+          {
+            "en": "In a pilot human study with four experts, our sets are judged as promising as Claude Opus 4.8's and contain marginally more unique ideas.",
+            "ko": "4명의 전문가가 참여한 예비 인간 평가(pilot human study)에서, 우리 모델의 아이디어 집합은 Claude Opus 4.8만큼 유망하다고 평가되었으며 고유한 아이디어가 미세하게 더 많이 포함되었습니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "One of the first steps of a research pipeline is generating ideas.",
+            "ko": "연구 파이프라인의 첫 번째 단계 중 하나는 아이디어 생성입니다."
+          },
+          {
+            "en": "To optimize for this, we propose training with a set-level reinforcement learning objective.",
+            "ko": "이를 최적화하기 위해, 우리는 집합 수준(set-level) 강화 학습(reinforcement learning) 목적 함수를 이용한 학습을 제안합니다."
+          },
+          {
+            "en": "When a coding agent runs proof-of-concept experiments on the ideas, our model's success@k is comparable to Claude Opus 4.8's, so we see that the added diversity does not cost any executability.",
+            "ko": "코딩 에이전트가 해당 아이디어를 바탕으로 개념 증명(proof-of-concept) 실험을 실행했을 때, 우리 모델의 success@k는 Claude Opus 4.8과 견줄 만하므로, 추가된 다양성이 실행 가능성(executability)을 저해하지 않음을 알 수 있습니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "We show that our trained 8B model achieves higher creative utility (a measure combining quality and diversity) than Claude Opus 4.8 and GPT-6 Astra on our contamination-free benchmark.",
+            "ko": "우리가 학습시킨 8B 모델이 오염 방지 벤치마크(contamination-free benchmark)에서 Claude Opus 4.8 및 GPT-6 Astra보다 더 높은 창의적 효용(quality와 diversity를 결합한 지표)을 달성함을 보여줍니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "reinforcement",
+          "ko": "강화 학습",
+          "sentence": "To optimize for this, we propose training with a set-level reinforcement learning objective.",
+          "sentenceKo": "이를 최적화하기 위해, 우리는 집합 수준(set-level) 강화 학습(reinforcement learning) 목적 함수를 이용한 학습을 제안합니다."
+        },
+        {
+          "word": "diversity",
+          "ko": "다양성",
+          "sentence": "Large Language Models (LLMs) are increasingly used to automate this step, but most of this work optimizes the quality of individual ideas, while overlooking diversity.",
+          "sentenceKo": "거대 언어 모델(LLM)은 이 단계를 자동화하는 데 점점 더 많이 사용되고 있지만, 이 작업의 대부분은 개별 아이디어의 품질을 최적화하는 한편 다양성은 간과하고 있습니다."
+        },
+        {
+          "word": "ideation",
+          "ko": "아이디어 생성",
+          "sentence": "In our work, we study document-grounded ideation, focusing on increasing the diversity of LLM generated ideas and ensuring they are high quality.",
+          "sentenceKo": "본 연구에서는 문서 기반 아이디어 생성(document-grounded ideation)을 연구하며, LLM이 생성한 아이디어의 다양성을 높이고 높은 품질을 보장하는 데 초점을 맞춥니다."
+        },
+        {
+          "word": "creative",
+          "ko": "창의적인",
+          "sentence": "We show that our trained 8B model achieves higher creative utility (a measure combining quality and diversity) than Claude Opus 4.8 and GPT-6 Astra on our contamination-free benchmark.",
+          "sentenceKo": "우리가 학습시킨 8B 모델이 오염 방지 벤치마크(contamination-free benchmark)에서 Claude Opus 4.8 및 GPT-6 Astra보다 더 높은 창의적 효용(quality와 diversity를 결합한 지표)을 달성함을 보여줍니다."
+        },
+        {
+          "word": "quality",
+          "ko": "품질",
+          "sentence": "Large Language Models (LLMs) are increasingly used to automate this step, but most of this work optimizes the quality of individual ideas, while overlooking diversity.",
+          "sentenceKo": "거대 언어 모델(LLM)은 이 단계를 자동화하는 데 점점 더 많이 사용되고 있지만, 이 작업의 대부분은 개별 아이디어의 품질을 최적화하는 한편 다양성은 간과하고 있습니다."
+        },
+        {
+          "word": "grounded",
+          "ko": "기반의",
+          "sentence": "Given prior papers, a model must propose a set of ideas that are each high-quality and clearly distinct from one another, while also being grounded in the input documents.",
+          "sentenceKo": "선행 논문들이 주어지면, 모델은 입력 문서에 기반(grounded)을 두는 동시에, 각각 고품질이면서 서로 명확히 구분되는 일련의 아이디어를 제안해야 합니다."
+        },
+        {
+          "word": "utility",
+          "ko": "효용",
+          "sentence": "We show that our trained 8B model achieves higher creative utility (a measure combining quality and diversity) than Claude Opus 4.8 and GPT-6 Astra on our contamination-free benchmark.",
+          "sentenceKo": "우리가 학습시킨 8B 모델이 오염 방지 벤치마크(contamination-free benchmark)에서 Claude Opus 4.8 및 GPT-6 Astra보다 더 높은 창의적 효용(quality와 diversity를 결합한 지표)을 달성함을 보여줍니다."
+        },
+        {
+          "word": "executability",
+          "ko": "실행 가능성",
+          "sentence": "When a coding agent runs proof-of-concept experiments on the ideas, our model's success@k is comparable to Claude Opus 4.8's, so we see that the added diversity does not cost any executability.",
+          "sentenceKo": "코딩 에이전트가 해당 아이디어를 바탕으로 개념 증명(proof-of-concept) 실험을 실행했을 때, 우리 모델의 success@k는 Claude Opus 4.8과 견줄 만하므로, 추가된 다양성이 실행 가능성(executability)을 저해하지 않음을 알 수 있습니다."
+        },
+        {
+          "word": "high-quality",
+          "ko": "고품질의",
+          "sentence": "Given prior papers, a model must propose a set of ideas that are each high-quality and clearly distinct from one another, while also being grounded in the input documents.",
+          "sentenceKo": "선행 논문들이 주어지면, 모델은 입력 문서에 기반(grounded)을 두는 동시에, 각각 고품질이면서 서로 명확히 구분되는 일련의 아이디어를 제안해야 합니다."
+        },
+        {
+          "word": "benchmark",
+          "ko": "벤치마크",
+          "sentence": "We show that our trained 8B model achieves higher creative utility (a measure combining quality and diversity) than Claude Opus 4.8 and GPT-6 Astra on our contamination-free benchmark.",
+          "sentenceKo": "우리가 학습시킨 8B 모델이 오염 방지 벤치마크(contamination-free benchmark)에서 Claude Opus 4.8 및 GPT-6 Astra보다 더 높은 창의적 효용(quality와 diversity를 결합한 지표)을 달성함을 보여줍니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.22324",
+        "arxiv": "https://arxiv.org/abs/2610.22324",
+        "pdf": "https://arxiv.org/pdf/2610.22324",
+        "github": "https://github.com/ManyaWadhwa/diverge_ideation"
+      },
+      "githubStars": 2,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-01T03:54:13.141Z",
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
+    {
+      "id": "2610.21767",
+      "title": "From Research Goals to Scientific Closure: Evaluating Agents Through Evidence-Supported Physics Research",
+      "authors": [
+        "Yijia Mao",
+        "Song Dai",
+        "Tao Chen",
+        "Xiangyu Lu",
+        "Linqian Zeng",
+        "Chenxi Hu",
+        "Sitong Zhou",
+        "Dongyang He",
+        "Xiaodan Mao",
+        "Linxuan Zhang",
+        "Tong Zhu",
+        "Yafu Li",
+        "Fangchen Yu",
+        "Peng Ye",
+        "Feng He",
+        "Yu Cheng",
+        "Yun Luo"
+      ],
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "upvotes": 52,
+      "keywords": [
+        "PhysClosureBench",
+        "Atomic Score",
+        "Research Closure",
+        "LLMs",
+        "strong-field physics",
+        "attosecond physics",
+        "scientific closure"
+      ],
+      "categories": [
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "AI agents evaluated on physics research tasks show strong local scientific results but frequently fail to fully resolve research questions due to incomplete evidence and unresolved applicability limits.",
+        "ko": "물리학 연구 태스크에서 평가된 AI 에이전트는 강력한 국소적 과학적 결과를 보여주지만, 불완전한 증거와 미해결된 적용 한계로 인해 연구 질문을 온전하게 해결하는 데는 빈번하게 실패합니다."
+      },
+      "abstract": {
+        "en": "Can AI agents organize scientific investigations that lead to well-supported conclusions? To evaluate this capability, we introduce PhysClosureBench, a benchmark of 50 expert-verified, goal-specified research tasks spanning strong-field, attosecond, and neighboring physics areas. Each task specifies the research objective and essential scientific constraints, while leaving the agent to organize the investigation and determine how to generate and validate the evidence needed to answer the question. A 20-criterion Atomic Score measures local scientific accomplishment, while Research Closure (RC0--RC4) assesses how fully the investigation resolves the specified research question based on whether its indispensable evidence requirements and applicable scope conditions are satisfied. We evaluate seven frontier LLMs, where Claude-Opus-5 achieves the highest mean Atomic Score (6.29/10) but reaches RC4 in only 32.7% of attempts. Across the benchmark, 36.2% of attempts scoring at least 8/10 still fall short of RC4, while all seven models reach RC4 on substantially fewer tasks in all three runs than in at least one. Case-level analysis further illustrates how misinterpretation of generated results and unresolved physical applicability limits can lead to incomplete closure. Together, these results reveal a persistent gap between AI agents' local scientific accomplishments and their ability to achieve complete research closure.",
+        "ko": "AI 에이전트가 타당한 결론으로 이어지는 과학적 연구를 체계적으로 수행할 수 있는가? 이러한 능력을 평가하기 위해, 우리는 강전장(strong-field), 아토초(attosecond) 및 인접 물리학 분야를 아우르는 50개의 전문가 검증 및 목표 지정 연구 태스크로 구성된 벤치마크인 PhysClosureBench를 소개합니다. 각 태스크는 연구 목적과 필수적인 과학적 제약 조건을 명시하며, 에이전트가 연구를 조직하고 질문에 답하는 데 필요한 증거를 생성 및 검증하는 방법을 스스로 결정하도록 둡니다. 20가지 기준으로 구성된 원자 점수(Atomic Score)는 국소적인 과학적 성과를 측정하며, 연구 종결성(Research Closure, RC0--RC4)은 필수 증거 요건과 적용 가능한 범위 조건이 충족되었는지를 바탕으로 연구가 지정된 연구 질문을 얼마나 완전히 해결하는지 평가합니다. 우리는 7개의 프론티어 LLM을 평가했으며, 그중 Claude-Opus-5가 가장 높은 평균 원자 점수(6.29/10)를 기록했으나 시도의 32.7%에서만 RC4에 도달했습니다. 벤치마크 전반에 걸쳐, 8/10 이상의 점수를 받은 시도의 36.2%는 여전히 RC4에 미치지 못했으며, 7개 모델 모두 세 번의 실행 중 적어도 한 번보다 훨씬 더 적은 태스크에서만 모든 실행에서 RC4에 도달했습니다. 사례 수준의 분석은 생성된 결과의 오인과 미해결된 물리적 적용 한계가 어떻게 불완전한 연구 종결로 이어질 수 있는지 추가로 보여줍니다. 종합하면, 이러한 결과는 AI 에이전트의 국소적인 과학적 성과와 완전한 연구 종결을 달성하는 능력 사이에 지속적인 격차가 있음을 드러냅니다."
+      },
+      "sentences": [
+        {
+          "en": "Can AI agents organize scientific investigations that lead to well-supported conclusions?",
+          "ko": "AI 에이전트가 타당한 결론으로 이어지는 과학적 연구를 체계적으로 수행할 수 있는가?"
+        },
+        {
+          "en": "To evaluate this capability, we introduce PhysClosureBench, a benchmark of 50 expert-verified, goal-specified research tasks spanning strong-field, attosecond, and neighboring physics areas.",
+          "ko": "이러한 능력을 평가하기 위해, 우리는 강전장(strong-field), 아토초(attosecond) 및 인접 물리학 분야를 아우르는 50개의 전문가 검증 및 목표 지정 연구 태스크로 구성된 벤치마크인 PhysClosureBench를 소개합니다."
+        },
+        {
+          "en": "Each task specifies the research objective and essential scientific constraints, while leaving the agent to organize the investigation and determine how to generate and validate the evidence needed to answer the question.",
+          "ko": "각 태스크는 연구 목적과 필수적인 과학적 제약 조건을 명시하며, 에이전트가 연구를 조직하고 질문에 답하는 데 필요한 증거를 생성 및 검증하는 방법을 스스로 결정하도록 둡니다."
+        },
+        {
+          "en": "A 20-criterion Atomic Score measures local scientific accomplishment, while Research Closure (RC0--RC4) assesses how fully the investigation resolves the specified research question based on whether its indispensable evidence requirements and applicable scope conditions are satisfied.",
+          "ko": "20가지 기준으로 구성된 원자 점수(Atomic Score)는 국소적인 과학적 성과를 측정하며, 연구 종결성(Research Closure, RC0--RC4)은 필수 증거 요건과 적용 가능한 범위 조건이 충족되었는지를 바탕으로 연구가 지정된 연구 질문을 얼마나 완전히 해결하는지 평가합니다."
+        },
+        {
+          "en": "We evaluate seven frontier LLMs, where Claude-Opus-5 achieves the highest mean Atomic Score (6.29/10) but reaches RC4 in only 32.7% of attempts.",
+          "ko": "우리는 7개의 프론티어 LLM을 평가했으며, 그중 Claude-Opus-5가 가장 높은 평균 원자 점수(6.29/10)를 기록했으나 시도의 32.7%에서만 RC4에 도달했습니다."
+        },
+        {
+          "en": "Across the benchmark, 36.2% of attempts scoring at least 8/10 still fall short of RC4, while all seven models reach RC4 on substantially fewer tasks in all three runs than in at least one.",
+          "ko": "벤치마크 전반에 걸쳐, 8/10 이상의 점수를 받은 시도의 36.2%는 여전히 RC4에 미치지 못했으며, 7개 모델 모두 세 번의 실행 중 적어도 한 번보다 훨씬 더 적은 태스크에서만 모든 실행에서 RC4에 도달했습니다."
+        },
+        {
+          "en": "Case-level analysis further illustrates how misinterpretation of generated results and unresolved physical applicability limits can lead to incomplete closure.",
+          "ko": "사례 수준의 분석은 생성된 결과의 오인과 미해결된 물리적 적용 한계가 어떻게 불완전한 연구 종결로 이어질 수 있는지 추가로 보여줍니다."
+        },
+        {
+          "en": "Together, these results reveal a persistent gap between AI agents' local scientific accomplishments and their ability to achieve complete research closure.",
+          "ko": "종합하면, 이러한 결과는 AI 에이전트의 국소적인 과학적 성과와 완전한 연구 종결을 달성하는 능력 사이에 지속적인 격차가 있음을 드러냅니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Can AI agents organize scientific investigations that lead to well-supported conclusions?",
+            "ko": "AI 에이전트가 타당한 결론으로 이어지는 과학적 연구를 체계적으로 수행할 수 있는가?"
+          },
+          {
+            "en": "Each task specifies the research objective and essential scientific constraints, while leaving the agent to organize the investigation and determine how to generate and validate the evidence needed to answer the question.",
+            "ko": "각 태스크는 연구 목적과 필수적인 과학적 제약 조건을 명시하며, 에이전트가 연구를 조직하고 질문에 답하는 데 필요한 증거를 생성 및 검증하는 방법을 스스로 결정하도록 둡니다."
+          },
+          {
+            "en": "A 20-criterion Atomic Score measures local scientific accomplishment, while Research Closure (RC0--RC4) assesses how fully the investigation resolves the specified research question based on whether its indispensable evidence requirements and applicable scope conditions are satisfied.",
+            "ko": "20가지 기준으로 구성된 원자 점수(Atomic Score)는 국소적인 과학적 성과를 측정하며, 연구 종결성(Research Closure, RC0--RC4)은 필수 증거 요건과 적용 가능한 범위 조건이 충족되었는지를 바탕으로 연구가 지정된 연구 질문을 얼마나 완전히 해결하는지 평가합니다."
+          },
+          {
+            "en": "Case-level analysis further illustrates how misinterpretation of generated results and unresolved physical applicability limits can lead to incomplete closure.",
+            "ko": "사례 수준의 분석은 생성된 결과의 오인과 미해결된 물리적 적용 한계가 어떻게 불완전한 연구 종결로 이어질 수 있는지 추가로 보여줍니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "To evaluate this capability, we introduce PhysClosureBench, a benchmark of 50 expert-verified, goal-specified research tasks spanning strong-field, attosecond, and neighboring physics areas.",
+            "ko": "이러한 능력을 평가하기 위해, 우리는 강전장(strong-field), 아토초(attosecond) 및 인접 물리학 분야를 아우르는 50개의 전문가 검증 및 목표 지정 연구 태스크로 구성된 벤치마크인 PhysClosureBench를 소개합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "We evaluate seven frontier LLMs, where Claude-Opus-5 achieves the highest mean Atomic Score (6.29/10) but reaches RC4 in only 32.7% of attempts.",
+            "ko": "우리는 7개의 프론티어 LLM을 평가했으며, 그중 Claude-Opus-5가 가장 높은 평균 원자 점수(6.29/10)를 기록했으나 시도의 32.7%에서만 RC4에 도달했습니다."
+          },
+          {
+            "en": "Across the benchmark, 36.2% of attempts scoring at least 8/10 still fall short of RC4, while all seven models reach RC4 on substantially fewer tasks in all three runs than in at least one.",
+            "ko": "벤치마크 전반에 걸쳐, 8/10 이상의 점수를 받은 시도의 36.2%는 여전히 RC4에 미치지 못했으며, 7개 모델 모두 세 번의 실행 중 적어도 한 번보다 훨씬 더 적은 태스크에서만 모든 실행에서 RC4에 도달했습니다."
+          },
+          {
+            "en": "Together, these results reveal a persistent gap between AI agents' local scientific accomplishments and their ability to achieve complete research closure.",
+            "ko": "종합하면, 이러한 결과는 AI 에이전트의 국소적인 과학적 성과와 완전한 연구 종결을 달성하는 능력 사이에 지속적인 격차가 있음을 드러냅니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "scientific",
+          "ko": "과학적인",
+          "sentence": "Can AI agents organize scientific investigations that lead to well-supported conclusions?",
+          "sentenceKo": "AI 에이전트가 타당한 결론으로 이어지는 과학적 연구를 체계적으로 수행할 수 있는가?"
+        },
+        {
+          "word": "closure",
+          "ko": "종결",
+          "sentence": "To evaluate this capability, we introduce PhysClosureBench, a benchmark of 50 expert-verified, goal-specified research tasks spanning strong-field, attosecond, and neighboring physics areas.",
+          "sentenceKo": "이러한 능력을 평가하기 위해, 우리는 강전장(strong-field), 아토초(attosecond) 및 인접 물리학 분야를 아우르는 50개의 전문가 검증 및 목표 지정 연구 태스크로 구성된 벤치마크인 PhysClosureBench를 소개합니다."
+        },
+        {
+          "word": "investigation",
+          "ko": "연구",
+          "sentence": "Each task specifies the research objective and essential scientific constraints, while leaving the agent to organize the investigation and determine how to generate and validate the evidence needed to answer the question.",
+          "sentenceKo": "각 태스크는 연구 목적과 필수적인 과학적 제약 조건을 명시하며, 에이전트가 연구를 조직하고 질문에 답하는 데 필요한 증거를 생성 및 검증하는 방법을 스스로 결정하도록 둡니다."
+        },
+        {
+          "word": "attosecond",
+          "ko": "아토초의",
+          "sentence": "To evaluate this capability, we introduce PhysClosureBench, a benchmark of 50 expert-verified, goal-specified research tasks spanning strong-field, attosecond, and neighboring physics areas.",
+          "sentenceKo": "이러한 능력을 평가하기 위해, 우리는 강전장(strong-field), 아토초(attosecond) 및 인접 물리학 분야를 아우르는 50개의 전문가 검증 및 목표 지정 연구 태스크로 구성된 벤치마크인 PhysClosureBench를 소개합니다."
+        },
+        {
+          "word": "accomplishment",
+          "ko": "성과",
+          "sentence": "A 20-criterion Atomic Score measures local scientific accomplishment, while Research Closure (RC0--RC4) assesses how fully the investigation resolves the specified research question based on whether its indispensable evidence requirements and applicable scope conditions are satisfied.",
+          "sentenceKo": "20가지 기준으로 구성된 원자 점수(Atomic Score)는 국소적인 과학적 성과를 측정하며, 연구 종결성(Research Closure, RC0--RC4)은 필수 증거 요건과 적용 가능한 범위 조건이 충족되었는지를 바탕으로 연구가 지정된 연구 질문을 얼마나 완전히 해결하는지 평가합니다."
+        },
+        {
+          "word": "misinterpretation",
+          "ko": "오인",
+          "sentence": "Case-level analysis further illustrates how misinterpretation of generated results and unresolved physical applicability limits can lead to incomplete closure.",
+          "sentenceKo": "사례 수준의 분석은 생성된 결과의 오인과 미해결된 물리적 적용 한계가 어떻게 불완전한 연구 종결로 이어질 수 있는지 추가로 보여줍니다."
+        },
+        {
+          "word": "applicability",
+          "ko": "적용성",
+          "sentence": "Case-level analysis further illustrates how misinterpretation of generated results and unresolved physical applicability limits can lead to incomplete closure.",
+          "sentenceKo": "사례 수준의 분석은 생성된 결과의 오인과 미해결된 물리적 적용 한계가 어떻게 불완전한 연구 종결로 이어질 수 있는지 추가로 보여줍니다."
+        },
+        {
+          "word": "atomic",
+          "ko": "원자의",
+          "sentence": "A 20-criterion Atomic Score measures local scientific accomplishment, while Research Closure (RC0--RC4) assesses how fully the investigation resolves the specified research question based on whether its indispensable evidence requirements and applicable scope conditions are satisfied.",
+          "sentenceKo": "20가지 기준으로 구성된 원자 점수(Atomic Score)는 국소적인 과학적 성과를 측정하며, 연구 종결성(Research Closure, RC0--RC4)은 필수 증거 요건과 적용 가능한 범위 조건이 충족되었는지를 바탕으로 연구가 지정된 연구 질문을 얼마나 완전히 해결하는지 평가합니다."
+        },
+        {
+          "word": "organize",
+          "ko": "조직하다",
+          "sentence": "Can AI agents organize scientific investigations that lead to well-supported conclusions?",
+          "sentenceKo": "AI 에이전트가 타당한 결론으로 이어지는 과학적 연구를 체계적으로 수행할 수 있는가?"
+        },
+        {
+          "word": "well-supported",
+          "ko": "타당한 근거를 갖춘",
+          "sentence": "Can AI agents organize scientific investigations that lead to well-supported conclusions?",
+          "sentenceKo": "AI 에이전트가 타당한 결론으로 이어지는 과학적 연구를 체계적으로 수행할 수 있는가?"
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.21767",
+        "arxiv": "https://arxiv.org/abs/2610.21767",
+        "pdf": "https://arxiv.org/pdf/2610.21767",
+        "github": "https://github.com/uncertainty2019/PhysClosureBench"
+      },
+      "githubStars": 4,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-01T03:54:13.141Z",
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
+    {
+      "id": "2610.21082",
+      "title": "SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents",
+      "authors": [
+        "Youran Sun",
+        "Xingyu Ren",
+        "Chugang Yi",
+        "Kejia Zhang",
+        "Di Wu",
+        "Yingkang Cao",
+        "Allen Zhou",
+        "Jianping Ye",
+        "Suying Liu",
+        "Jiaxuan Guo",
+        "Jianda Du",
+        "Weicheng Ye",
+        "Kecheng Liu",
+        "Hefan Zhang",
+        "Haixin Wang",
+        "Jie Xiao",
+        "Eric Yang",
+        "Haizhao Yang"
+      ],
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "upvotes": 15,
+      "keywords": [
+        "LLM agents",
+        "scientific judgment",
+        "SciΠvot",
+        "reasoning effort",
+        "reconsideration",
+        "frontier models"
+      ],
+      "categories": [
+        "LLM 에이전트",
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "SciΠvot evaluates LLM agents' scientific judgment using 248 human-corrected cases, revealing that frontier models often prefer flawed plans over expert corrections and perform below human levels.",
+        "ko": "SciΠvot은 248개의 인간 수정 사례를 사용하여 LLM 에이전트의 과학적 판단력을 평가하며, 최첨단 모델들이 종종 전문가의 수정안보다 결함이 있는 계획을 선호하고 인간 수준에 미치지 못하는 성능을 보인다는 점을 밝혀냅니다."
+      },
+      "abstract": {
+        "en": "Large language model (LLM) agents can keep scientific experiments running for months with little human supervision, but reliable autonomous research also requires scientific judgment. Evaluating scientific judgment is difficult because research decisions are open-ended and depend on project context. We construct SciΠvot, a 248-case benchmark of scientific judgment based on human corrections. The benchmark draws on records from six months of research in which senior researchers ran LLM agents on 26 projects across six scientific fields and repeatedly intervened to correct the agents' research judgments. In each case, an agent chooses between the original LLM plan and the human-corrected alternative, using only the project record available before the correction as context. We compare LLM and human performance and examine the effects of reasoning effort, access to the project record, and reconsideration. At medium reasoning effort with the project record, models systematically prefer the original LLM plan over the human-corrected alternative. Four of five frontier models perform below chance on the selected cases. The highest accuracy in the project condition across the tested models and reasoning effort settings is 63.5%, compared with 73.4% for fresh researchers. At medium effort, every model achieves lower accuracy with the project record than without it, and reconsideration does not consistently improve overall accuracy. Even with a human-corrected alternative available, frontier models struggle with the selected research decisions, while SciΠvot supports systematic evaluation of scientific judgment for LLM agents.",
+        "ko": "거대 언어 모델(LLM) 에이전트는 최소한의 인간 감독만으로도 수개월 동안 과학 실험을 지속할 수 있지만, 신뢰할 수 있는 자율 연구를 위해서는 과학적 판단력도 필요합니다. 연구 결정은 개방형이며 프로젝트 맥락에 따라 달라지기 때문에 과학적 판단력을 평가하는 것은 어렵습니다. 저희는 인간의 수정을 바탕으로 한 248개 케이스의 과학적 판단력 벤치마크인 SciΠvot을 구축했습니다. 이 벤치마크는 선임 연구원들이 6개 과학 분야의 26개 프로젝트에서 LLM 에이전트를 실행하고 에이전트의 연구적 판단을 바로잡기 위해 지속적으로 개입했던 6개월간의 연구 기록을 활용합니다. 각각의 사례에서 에이전트는 수정 전에 이용 가능했던 프로젝트 기록만을 맥락으로 사용하여, 원래의 LLM 계획과 인간이 수정한 대안 중 하나를 선택합니다. 저희는 LLM과 인간의 성능을 비교하고, 추론 노력, 프로젝트 기록 접근성, 그리고 재고(reconsideration)가 미치는 영향을 조사합니다. 프로젝트 기록이 제공되는 중간 수준의 추론 노력에서, 모델들은 인간이 수정한 대안보다 원래의 LLM 계획을 체계적으로 선호합니다. 5개의 최첨단(frontier) 모델 중 4개는 선별된 사례에서 우연에 미치지 못하는 성능을 보입니다. 테스트된 모델과 추론 노력 설정 전반에서 프로젝트 조건의 최고 정확도는 63.5%인 반면, 신임 연구원의 정확도는 73.4%입니다. 중간 수준의 노력에서 모든 모델은 프로젝트 기록이 없는 경우보다 있는 경우 더 낮은 정확도를 기록했으며, 재고 과정이 전체 정확도를 일관되게 향상시키지는 못했습니다. 인간이 수정한 대안이 주어짐에도 불구하고 최첨단 모델들은 선별된 연구 결정에 어려움을 겪는 반면, SciΠvot은 LLM 에이전트의 과학적 판단력에 대한 체계적인 평가를 지원합니다."
+      },
+      "sentences": [
+        {
+          "en": "Large language model (LLM) agents can keep scientific experiments running for months with little human supervision, but reliable autonomous research also requires scientific judgment.",
+          "ko": "거대 언어 모델(LLM) 에이전트는 최소한의 인간 감독만으로도 수개월 동안 과학 실험을 지속할 수 있지만, 신뢰할 수 있는 자율 연구를 위해서는 과학적 판단력도 필요합니다."
+        },
+        {
+          "en": "Evaluating scientific judgment is difficult because research decisions are open-ended and depend on project context.",
+          "ko": "연구 결정은 개방형이며 프로젝트 맥락에 따라 달라지기 때문에 과학적 판단력을 평가하는 것은 어렵습니다."
+        },
+        {
+          "en": "We construct SciΠvot, a 248-case benchmark of scientific judgment based on human corrections.",
+          "ko": "저희는 인간의 수정을 바탕으로 한 248개 케이스의 과학적 판단력 벤치마크인 SciΠvot을 구축했습니다."
+        },
+        {
+          "en": "The benchmark draws on records from six months of research in which senior researchers ran LLM agents on 26 projects across six scientific fields and repeatedly intervened to correct the agents' research judgments.",
+          "ko": "이 벤치마크는 선임 연구원들이 6개 과학 분야의 26개 프로젝트에서 LLM 에이전트를 실행하고 에이전트의 연구적 판단을 바로잡기 위해 지속적으로 개입했던 6개월간의 연구 기록을 활용합니다."
+        },
+        {
+          "en": "In each case, an agent chooses between the original LLM plan and the human-corrected alternative, using only the project record available before the correction as context.",
+          "ko": "각각의 사례에서 에이전트는 수정 전에 이용 가능했던 프로젝트 기록만을 맥락으로 사용하여, 원래의 LLM 계획과 인간이 수정한 대안 중 하나를 선택합니다."
+        },
+        {
+          "en": "We compare LLM and human performance and examine the effects of reasoning effort, access to the project record, and reconsideration.",
+          "ko": "저희는 LLM과 인간의 성능을 비교하고, 추론 노력, 프로젝트 기록 접근성, 그리고 재고(reconsideration)가 미치는 영향을 조사합니다."
+        },
+        {
+          "en": "At medium reasoning effort with the project record, models systematically prefer the original LLM plan over the human-corrected alternative.",
+          "ko": "프로젝트 기록이 제공되는 중간 수준의 추론 노력에서, 모델들은 인간이 수정한 대안보다 원래의 LLM 계획을 체계적으로 선호합니다."
+        },
+        {
+          "en": "Four of five frontier models perform below chance on the selected cases.",
+          "ko": "5개의 최첨단(frontier) 모델 중 4개는 선별된 사례에서 우연에 미치지 못하는 성능을 보입니다."
+        },
+        {
+          "en": "The highest accuracy in the project condition across the tested models and reasoning effort settings is 63.5%, compared with 73.4% for fresh researchers.",
+          "ko": "테스트된 모델과 추론 노력 설정 전반에서 프로젝트 조건의 최고 정확도는 63.5%인 반면, 신임 연구원의 정확도는 73.4%입니다."
+        },
+        {
+          "en": "At medium effort, every model achieves lower accuracy with the project record than without it, and reconsideration does not consistently improve overall accuracy.",
+          "ko": "중간 수준의 노력에서 모든 모델은 프로젝트 기록이 없는 경우보다 있는 경우 더 낮은 정확도를 기록했으며, 재고 과정이 전체 정확도를 일관되게 향상시키지는 못했습니다."
+        },
+        {
+          "en": "Even with a human-corrected alternative available, frontier models struggle with the selected research decisions, while SciΠvot supports systematic evaluation of scientific judgment for LLM agents.",
+          "ko": "인간이 수정한 대안이 주어짐에도 불구하고 최첨단 모델들은 선별된 연구 결정에 어려움을 겪는 반면, SciΠvot은 LLM 에이전트의 과학적 판단력에 대한 체계적인 평가를 지원합니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Large language model (LLM) agents can keep scientific experiments running for months with little human supervision, but reliable autonomous research also requires scientific judgment.",
+            "ko": "거대 언어 모델(LLM) 에이전트는 최소한의 인간 감독만으로도 수개월 동안 과학 실험을 지속할 수 있지만, 신뢰할 수 있는 자율 연구를 위해서는 과학적 판단력도 필요합니다."
+          },
+          {
+            "en": "Evaluating scientific judgment is difficult because research decisions are open-ended and depend on project context.",
+            "ko": "연구 결정은 개방형이며 프로젝트 맥락에 따라 달라지기 때문에 과학적 판단력을 평가하는 것은 어렵습니다."
+          },
+          {
+            "en": "The benchmark draws on records from six months of research in which senior researchers ran LLM agents on 26 projects across six scientific fields and repeatedly intervened to correct the agents' research judgments.",
+            "ko": "이 벤치마크는 선임 연구원들이 6개 과학 분야의 26개 프로젝트에서 LLM 에이전트를 실행하고 에이전트의 연구적 판단을 바로잡기 위해 지속적으로 개입했던 6개월간의 연구 기록을 활용합니다."
+          },
+          {
+            "en": "In each case, an agent chooses between the original LLM plan and the human-corrected alternative, using only the project record available before the correction as context.",
+            "ko": "각각의 사례에서 에이전트는 수정 전에 이용 가능했던 프로젝트 기록만을 맥락으로 사용하여, 원래의 LLM 계획과 인간이 수정한 대안 중 하나를 선택합니다."
+          },
+          {
+            "en": "We compare LLM and human performance and examine the effects of reasoning effort, access to the project record, and reconsideration.",
+            "ko": "저희는 LLM과 인간의 성능을 비교하고, 추론 노력, 프로젝트 기록 접근성, 그리고 재고(reconsideration)가 미치는 영향을 조사합니다."
+          },
+          {
+            "en": "At medium reasoning effort with the project record, models systematically prefer the original LLM plan over the human-corrected alternative.",
+            "ko": "프로젝트 기록이 제공되는 중간 수준의 추론 노력에서, 모델들은 인간이 수정한 대안보다 원래의 LLM 계획을 체계적으로 선호합니다."
+          },
+          {
+            "en": "Four of five frontier models perform below chance on the selected cases.",
+            "ko": "5개의 최첨단(frontier) 모델 중 4개는 선별된 사례에서 우연에 미치지 못하는 성능을 보입니다."
+          },
+          {
+            "en": "Even with a human-corrected alternative available, frontier models struggle with the selected research decisions, while SciΠvot supports systematic evaluation of scientific judgment for LLM agents.",
+            "ko": "인간이 수정한 대안이 주어짐에도 불구하고 최첨단 모델들은 선별된 연구 결정에 어려움을 겪는 반면, SciΠvot은 LLM 에이전트의 과학적 판단력에 대한 체계적인 평가를 지원합니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "We construct SciΠvot, a 248-case benchmark of scientific judgment based on human corrections.",
+            "ko": "저희는 인간의 수정을 바탕으로 한 248개 케이스의 과학적 판단력 벤치마크인 SciΠvot을 구축했습니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "The highest accuracy in the project condition across the tested models and reasoning effort settings is 63.5%, compared with 73.4% for fresh researchers.",
+            "ko": "테스트된 모델과 추론 노력 설정 전반에서 프로젝트 조건의 최고 정확도는 63.5%인 반면, 신임 연구원의 정확도는 73.4%입니다."
+          },
+          {
+            "en": "At medium effort, every model achieves lower accuracy with the project record than without it, and reconsideration does not consistently improve overall accuracy.",
+            "ko": "중간 수준의 노력에서 모든 모델은 프로젝트 기록이 없는 경우보다 있는 경우 더 낮은 정확도를 기록했으며, 재고 과정이 전체 정확도를 일관되게 향상시키지는 못했습니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "scientific",
+          "ko": "과학적인",
+          "sentence": "Large language model (LLM) agents can keep scientific experiments running for months with little human supervision, but reliable autonomous research also requires scientific judgment.",
+          "sentenceKo": "거대 언어 모델(LLM) 에이전트는 최소한의 인간 감독만으로도 수개월 동안 과학 실험을 지속할 수 있지만, 신뢰할 수 있는 자율 연구를 위해서는 과학적 판단력도 필요합니다."
+        },
+        {
+          "word": "reconsideration",
+          "ko": "재고",
+          "sentence": "We compare LLM and human performance and examine the effects of reasoning effort, access to the project record, and reconsideration.",
+          "sentenceKo": "저희는 LLM과 인간의 성능을 비교하고, 추론 노력, 프로젝트 기록 접근성, 그리고 재고(reconsideration)가 미치는 영향을 조사합니다."
+        },
+        {
+          "word": "judgment",
+          "ko": "판단",
+          "sentence": "Large language model (LLM) agents can keep scientific experiments running for months with little human supervision, but reliable autonomous research also requires scientific judgment.",
+          "sentenceKo": "거대 언어 모델(LLM) 에이전트는 최소한의 인간 감독만으로도 수개월 동안 과학 실험을 지속할 수 있지만, 신뢰할 수 있는 자율 연구를 위해서는 과학적 판단력도 필요합니다."
+        },
+        {
+          "word": "reasoning",
+          "ko": "추론",
+          "sentence": "We compare LLM and human performance and examine the effects of reasoning effort, access to the project record, and reconsideration.",
+          "sentenceKo": "저희는 LLM과 인간의 성능을 비교하고, 추론 노력, 프로젝트 기록 접근성, 그리고 재고(reconsideration)가 미치는 영향을 조사합니다."
+        },
+        {
+          "word": "agents",
+          "ko": "에이전트",
+          "sentence": "Large language model (LLM) agents can keep scientific experiments running for months with little human supervision, but reliable autonomous research also requires scientific judgment.",
+          "sentenceKo": "거대 언어 모델(LLM) 에이전트는 최소한의 인간 감독만으로도 수개월 동안 과학 실험을 지속할 수 있지만, 신뢰할 수 있는 자율 연구를 위해서는 과학적 판단력도 필요합니다."
+        },
+        {
+          "word": "alternative",
+          "ko": "대안",
+          "sentence": "In each case, an agent chooses between the original LLM plan and the human-corrected alternative, using only the project record available before the correction as context.",
+          "sentenceKo": "각각의 사례에서 에이전트는 수정 전에 이용 가능했던 프로젝트 기록만을 맥락으로 사용하여, 원래의 LLM 계획과 인간이 수정한 대안 중 하나를 선택합니다."
+        },
+        {
+          "word": "effort",
+          "ko": "노력",
+          "sentence": "We compare LLM and human performance and examine the effects of reasoning effort, access to the project record, and reconsideration.",
+          "sentenceKo": "저희는 LLM과 인간의 성능을 비교하고, 추론 노력, 프로젝트 기록 접근성, 그리고 재고(reconsideration)가 미치는 영향을 조사합니다."
+        },
+        {
+          "word": "project",
+          "ko": "프로젝트",
+          "sentence": "Evaluating scientific judgment is difficult because research decisions are open-ended and depend on project context.",
+          "sentenceKo": "연구 결정은 개방형이며 프로젝트 맥락에 따라 달라지기 때문에 과학적 판단력을 평가하는 것은 어렵습니다."
+        },
+        {
+          "word": "human-corrected",
+          "ko": "인간이 수정한",
+          "sentence": "In each case, an agent chooses between the original LLM plan and the human-corrected alternative, using only the project record available before the correction as context.",
+          "sentenceKo": "각각의 사례에서 에이전트는 수정 전에 이용 가능했던 프로젝트 기록만을 맥락으로 사용하여, 원래의 LLM 계획과 인간이 수정한 대안 중 하나를 선택합니다."
+        },
+        {
+          "word": "frontier",
+          "ko": "최첨단",
+          "sentence": "Four of five frontier models perform below chance on the selected cases.",
+          "sentenceKo": "5개의 최첨단(frontier) 모델 중 4개는 선별된 사례에서 우연에 미치지 못하는 성능을 보입니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.21082",
+        "arxiv": "https://arxiv.org/abs/2610.21082",
+        "pdf": "https://arxiv.org/pdf/2610.21082",
+        "github": null
+      },
+      "githubStars": null,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-01T03:54:13.141Z",
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
+    {
+      "id": "2610.20832",
+      "title": "Amortizing Sequential Experimental Design in Reasoning LLMs",
+      "authors": [
+        "Anita Kriz",
+        "Antonin Berthon",
+        "Nicolás Astorga",
+        "Mihaela van der Schaar"
+      ],
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "upvotes": 9,
+      "keywords": [
+        "sequential Bayesian experimental design",
+        "information-gain rewards",
+        "amortization",
+        "generative model",
+        "expected information gain",
+        "multi-step objectives",
+        "Twenty Questions",
+        "Medi-Q"
+      ],
+      "categories": [
+        "LLM 에이전트",
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "Large language models learn adaptive information gathering by training reasoning with information-gain rewards, improving experimental design efficiency and generalizing across tasks.",
+        "ko": "대규모 언어 모델은 정보 이득 보상을 통해 추론을 학습함으로써 적응형 정보 수집을 익히고, 실험 설계 효율성을 향상시키며 태스크 전반으로 일반화됩니다."
+      },
+      "abstract": {
+        "en": "Despite their extensive pretraining knowledge and strong reasoning capabilities, large language models (LLMs) struggle to adaptively gather information in experimental design tasks. We study how to amortize sequential Bayesian experimental design (BED) into an LLM by explicitly training the reasoning that guides action selection using information-gain rewards. Our approach specifies the experimental generative model independently of the LLM's own beliefs, allowing us to optimize expected information gain under a model of our choosing. We investigate the design choices for amortization, including alternative generative-model constructions, reward estimation, hypothesis-space specification, multi-step objectives, and computational costs relative to training- and inference-time BED baselines. On Twenty Questions, the resulting policies improve information acquisition and task performance, outperform inference- and training-time BED baselines at substantially lower computational cost, and generalize to unseen categories. We further demonstrate positive transfer from Twenty Questions training to Medi-Q, a real-world clinical dialogue benchmark. These results suggest that information gathering can be learned as a generalizable reasoning skill in LLMs.",
+        "ko": "대규모 언어 모델(LLM)은 방대한 사전 훈련 지식과 강력한 추론 능력에도 불구하고, 실험 설계 태스크에서 적응 적으로 정보를 수집하는 데 어려움을 겪습니다. 저희는 정보 이득(information-gain) 보상을 사용하여 행동 선택을 안내하는 추론 과정을 명시적으로 학습시킴으로써, 순차적 베이지안 실험 설계(BED)를 LLM에 내재화(amortize)하는 방법을 연구합니다. 저희의 접근 방식은 LLM 자체의 신념과 독립적으로 실험 생성 모델을 지정하여, 우리가 원하는 모델 하에서 기대 정보 이득을 최적화할 수 있도록 합니다. 저희는 대체 생성 모델 구조, 보상 추정, 가설 공간 명시, 다단계 목적 함수, 그리고 학습 및 추론 시간의 BED 베이스라인 대비 연산 비용을 포함한 내재화 설계 선택지를 조사합니다. 스무 고개(Twenty Questions) 태스크에서, 결과 정책은 정보 획득 및 태스크 성능을 향상시키며, 훨씬 낮은 연산 비용으로 추론 및 학습 시간 BED 베이스라인을 능가하고, 보지 못한 범주로 일반화됩니다. 또한 스무 고개 학습에서 실제 임상 대화 벤치마크인 Medi-Q로의 긍정적 전이(positive transfer)를 입증합니다. 이러한 결과는 정보 수집이 LLM에서 일반화 가능한 추론 스킬로 학습될 수 있음을 시사합니다."
+      },
+      "sentences": [
+        {
+          "en": "Despite their extensive pretraining knowledge and strong reasoning capabilities, large language models (LLMs) struggle to adaptively gather information in experimental design tasks.",
+          "ko": "대규모 언어 모델(LLM)은 방대한 사전 훈련 지식과 강력한 추론 능력에도 불구하고, 실험 설계 태스크에서 적응 적으로 정보를 수집하는 데 어려움을 겪습니다."
+        },
+        {
+          "en": "We study how to amortize sequential Bayesian experimental design (BED) into an LLM by explicitly training the reasoning that guides action selection using information-gain rewards.",
+          "ko": "저희는 정보 이득(information-gain) 보상을 사용하여 행동 선택을 안내하는 추론 과정을 명시적으로 학습시킴으로써, 순차적 베이지안 실험 설계(BED)를 LLM에 내재화(amortize)하는 방법을 연구합니다."
+        },
+        {
+          "en": "Our approach specifies the experimental generative model independently of the LLM's own beliefs, allowing us to optimize expected information gain under a model of our choosing.",
+          "ko": "저희의 접근 방식은 LLM 자체의 신념과 독립적으로 실험 생성 모델을 지정하여, 우리가 원하는 모델 하에서 기대 정보 이득을 최적화할 수 있도록 합니다."
+        },
+        {
+          "en": "We investigate the design choices for amortization, including alternative generative-model constructions, reward estimation, hypothesis-space specification, multi-step objectives, and computational costs relative to training- and inference-time BED baselines.",
+          "ko": "저희는 대체 생성 모델 구조, 보상 추정, 가설 공간 명시, 다단계 목적 함수, 그리고 학습 및 추론 시간의 BED 베이스라인 대비 연산 비용을 포함한 내재화 설계 선택지를 조사합니다."
+        },
+        {
+          "en": "On Twenty Questions, the resulting policies improve information acquisition and task performance, outperform inference- and training-time BED baselines at substantially lower computational cost, and generalize to unseen categories.",
+          "ko": "스무 고개(Twenty Questions) 태스크에서, 결과 정책은 정보 획득 및 태스크 성능을 향상시키며, 훨씬 낮은 연산 비용으로 추론 및 학습 시간 BED 베이스라인을 능가하고, 보지 못한 범주로 일반화됩니다."
+        },
+        {
+          "en": "We further demonstrate positive transfer from Twenty Questions training to Medi-Q, a real-world clinical dialogue benchmark.",
+          "ko": "또한 스무 고개 학습에서 실제 임상 대화 벤치마크인 Medi-Q로의 긍정적 전이(positive transfer)를 입증합니다."
+        },
+        {
+          "en": "These results suggest that information gathering can be learned as a generalizable reasoning skill in LLMs.",
+          "ko": "이러한 결과는 정보 수집이 LLM에서 일반화 가능한 추론 스킬로 학습될 수 있음을 시사합니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Despite their extensive pretraining knowledge and strong reasoning capabilities, large language models (LLMs) struggle to adaptively gather information in experimental design tasks.",
+            "ko": "대규모 언어 모델(LLM)은 방대한 사전 훈련 지식과 강력한 추론 능력에도 불구하고, 실험 설계 태스크에서 적응 적으로 정보를 수집하는 데 어려움을 겪습니다."
+          },
+          {
+            "en": "We study how to amortize sequential Bayesian experimental design (BED) into an LLM by explicitly training the reasoning that guides action selection using information-gain rewards.",
+            "ko": "저희는 정보 이득(information-gain) 보상을 사용하여 행동 선택을 안내하는 추론 과정을 명시적으로 학습시킴으로써, 순차적 베이지안 실험 설계(BED)를 LLM에 내재화(amortize)하는 방법을 연구합니다."
+          },
+          {
+            "en": "We investigate the design choices for amortization, including alternative generative-model constructions, reward estimation, hypothesis-space specification, multi-step objectives, and computational costs relative to training- and inference-time BED baselines.",
+            "ko": "저희는 대체 생성 모델 구조, 보상 추정, 가설 공간 명시, 다단계 목적 함수, 그리고 학습 및 추론 시간의 BED 베이스라인 대비 연산 비용을 포함한 내재화 설계 선택지를 조사합니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "Our approach specifies the experimental generative model independently of the LLM's own beliefs, allowing us to optimize expected information gain under a model of our choosing.",
+            "ko": "저희의 접근 방식은 LLM 자체의 신념과 독립적으로 실험 생성 모델을 지정하여, 우리가 원하는 모델 하에서 기대 정보 이득을 최적화할 수 있도록 합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "On Twenty Questions, the resulting policies improve information acquisition and task performance, outperform inference- and training-time BED baselines at substantially lower computational cost, and generalize to unseen categories.",
+            "ko": "스무 고개(Twenty Questions) 태스크에서, 결과 정책은 정보 획득 및 태스크 성능을 향상시키며, 훨씬 낮은 연산 비용으로 추론 및 학습 시간 BED 베이스라인을 능가하고, 보지 못한 범주로 일반화됩니다."
+          },
+          {
+            "en": "We further demonstrate positive transfer from Twenty Questions training to Medi-Q, a real-world clinical dialogue benchmark.",
+            "ko": "또한 스무 고개 학습에서 실제 임상 대화 벤치마크인 Medi-Q로의 긍정적 전이(positive transfer)를 입증합니다."
+          },
+          {
+            "en": "These results suggest that information gathering can be learned as a generalizable reasoning skill in LLMs.",
+            "ko": "이러한 결과는 정보 수집이 LLM에서 일반화 가능한 추론 스킬로 학습될 수 있음을 시사합니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "information",
+          "ko": "정보",
+          "sentence": "Despite their extensive pretraining knowledge and strong reasoning capabilities, large language models (LLMs) struggle to adaptively gather information in experimental design tasks.",
+          "sentenceKo": "대규모 언어 모델(LLM)은 방대한 사전 훈련 지식과 강력한 추론 능력에도 불구하고, 실험 설계 태스크에서 적응 적으로 정보를 수집하는 데 어려움을 겪습니다."
+        },
+        {
+          "word": "experimental",
+          "ko": "실험적인",
+          "sentence": "Despite their extensive pretraining knowledge and strong reasoning capabilities, large language models (LLMs) struggle to adaptively gather information in experimental design tasks.",
+          "sentenceKo": "대규모 언어 모델(LLM)은 방대한 사전 훈련 지식과 강력한 추론 능력에도 불구하고, 실험 설계 태스크에서 적응 적으로 정보를 수집하는 데 어려움을 겪습니다."
+        },
+        {
+          "word": "amortization",
+          "ko": "내재화",
+          "sentence": "We investigate the design choices for amortization, including alternative generative-model constructions, reward estimation, hypothesis-space specification, multi-step objectives, and computational costs relative to training- and inference-time BED baselines.",
+          "sentenceKo": "저희는 대체 생성 모델 구조, 보상 추정, 가설 공간 명시, 다단계 목적 함수, 그리고 학습 및 추론 시간의 BED 베이스라인 대비 연산 비용을 포함한 내재화 설계 선택지를 조사합니다."
+        },
+        {
+          "word": "generative",
+          "ko": "생성 모델",
+          "sentence": "Our approach specifies the experimental generative model independently of the LLM's own beliefs, allowing us to optimize expected information gain under a model of our choosing.",
+          "sentenceKo": "저희의 접근 방식은 LLM 자체의 신념과 독립적으로 실험 생성 모델을 지정하여, 우리가 원하는 모델 하에서 기대 정보 이득을 최적화할 수 있도록 합니다."
+        },
+        {
+          "word": "questions",
+          "ko": "질문",
+          "sentence": "On Twenty Questions, the resulting policies improve information acquisition and task performance, outperform inference- and training-time BED baselines at substantially lower computational cost, and generalize to unseen categories.",
+          "sentenceKo": "스무 고개(Twenty Questions) 태스크에서, 결과 정책은 정보 획득 및 태스크 성능을 향상시키며, 훨씬 낮은 연산 비용으로 추론 및 학습 시간 BED 베이스라인을 능가하고, 보지 못한 범주로 일반화됩니다."
+        },
+        {
+          "word": "design",
+          "ko": "설계",
+          "sentence": "Despite their extensive pretraining knowledge and strong reasoning capabilities, large language models (LLMs) struggle to adaptively gather information in experimental design tasks.",
+          "sentenceKo": "대규모 언어 모델(LLM)은 방대한 사전 훈련 지식과 강력한 추론 능력에도 불구하고, 실험 설계 태스크에서 적응 적으로 정보를 수집하는 데 어려움을 겪습니다."
+        },
+        {
+          "word": "sequential",
+          "ko": "순차적",
+          "sentence": "We study how to amortize sequential Bayesian experimental design (BED) into an LLM by explicitly training the reasoning that guides action selection using information-gain rewards.",
+          "sentenceKo": "저희는 정보 이득(information-gain) 보상을 사용하여 행동 선택을 안내하는 추론 과정을 명시적으로 학습시킴으로써, 순차적 베이지안 실험 설계(BED)를 LLM에 내재화(amortize)하는 방법을 연구합니다."
+        },
+        {
+          "word": "specification",
+          "ko": "명시",
+          "sentence": "We investigate the design choices for amortization, including alternative generative-model constructions, reward estimation, hypothesis-space specification, multi-step objectives, and computational costs relative to training- and inference-time BED baselines.",
+          "sentenceKo": "저희는 대체 생성 모델 구조, 보상 추정, 가설 공간 명시, 다단계 목적 함수, 그리고 학습 및 추론 시간의 BED 베이스라인 대비 연산 비용을 포함한 내재화 설계 선택지를 조사합니다."
+        },
+        {
+          "word": "objectives",
+          "ko": "목적 함수",
+          "sentence": "We investigate the design choices for amortization, including alternative generative-model constructions, reward estimation, hypothesis-space specification, multi-step objectives, and computational costs relative to training- and inference-time BED baselines.",
+          "sentenceKo": "저희는 대체 생성 모델 구조, 보상 추정, 가설 공간 명시, 다단계 목적 함수, 그리고 학습 및 추론 시간의 BED 베이스라인 대비 연산 비용을 포함한 내재화 설계 선택지를 조사합니다."
+        },
+        {
+          "word": "computational",
+          "ko": "연산",
+          "sentence": "We investigate the design choices for amortization, including alternative generative-model constructions, reward estimation, hypothesis-space specification, multi-step objectives, and computational costs relative to training- and inference-time BED baselines.",
+          "sentenceKo": "저희는 대체 생성 모델 구조, 보상 추정, 가설 공간 명시, 다단계 목적 함수, 그리고 학습 및 추론 시간의 BED 베이스라인 대비 연산 비용을 포함한 내재화 설계 선택지를 조사합니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.20832",
+        "arxiv": "https://arxiv.org/abs/2610.20832",
+        "pdf": "https://arxiv.org/pdf/2610.20832",
+        "github": "https://github.com/anitakriz/ar-bed"
+      },
+      "githubStars": 3,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-01T03:54:13.141Z",
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
+    {
+      "id": "2610.19159",
+      "title": "Into the Unknown: Benchmarking AI agents on open scientific research problems",
+      "authors": [
+        "Seungone Kim",
+        "Jiayi Geng",
+        "Young-Jun Lee",
+        "Bo Liu",
+        "Juyoung Suk",
+        "Nicholas Lubbers",
+        "Mitchell Wood",
+        "Marcus Noack",
+        "Yong-Xin Yao",
+        "Yuan Shi",
+        "Roxana Bujack",
+        "Cristina Garcia Cardona",
+        "Austin Rodriguez",
+        "Ilon Joseph",
+        "Woojin Cho",
+        "Zora Zhiruo Wang",
+        "Chuanyang Jin",
+        "Ian Wu",
+        "Apurva Gandhi",
+        "Tianjian Li",
+        "Weiwei Sun",
+        "Carolin Lawrence",
+        "Kiril Gashteovski",
+        "Dongyeop Kang",
+        "Jay Shin",
+        "Akari Asai",
+        "Graham Neubig",
+        "Sean Welleck"
+      ],
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "upvotes": 152,
+      "keywords": [
+        "AI agents",
+        "open scientific problems",
+        "benchmark",
+        "follow-up paper",
+        "rubric",
+        "integrity check",
+        "quantum computing",
+        "plasma physics",
+        "computational chemistry",
+        "materials science"
+      ],
+      "categories": [
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "Researchers benchmarked AI agents on open scientific problems by having them draft follow-up papers from unpublished directions, finding that none met expert standards and most contained fabricated claims or contradictory evidence.",
+        "ko": "연구자들은 미출판된 연구 방향으로부터 후속 논문을 작성하도록 하여 AI 에이전트를 미해결 과학 문제에 대해 벤치마킹했으며, 그 결과 전문가 기준을 충족한 에이전트는 없고 대부분 조작된 주장이나 모순된 증거를 포함하고 있음을 발견했습니다."
+      },
+      "abstract": {
+        "en": "Can AI agents carry out research on open scientific problems? We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper. We work with scientists at US Department of Energy (DOE) national laboratories, who each contribute an unpublished follow-up direction from their own work together with the necessary conditions a submission must meet. While assessing the quality of a follow-up paper is challenging in general, using these conditions to form a rubric makes evaluation more tractable for research problems that have no reference answer. We have nine frontier agents write 15 follow-ups each, spanning quantum computing, plasma physics, computational chemistry, materials science, and scientific machine learning domains. None of the 135 submissions satisfies all the conditions, and 114 fail our integrity check, most often because the paper claims work that was never done or reports numbers that contradict the recorded evidence. Overall, agents readily produce papers that look like follow-ups, but none meets the standard of the domain scientist, leaving substantial headroom. Our code and data are publicly available.",
+        "ko": "AI 에이전트가 미해결 과학적 문제에 대한 연구를 수행할 수 있는가? 우리는 에이전트에게 과학 논문과 추구해야 할 연구 방향을 제공하고 후속 논문을 작성하는 과제를 부여하는 벤치마크인 'Into the Unknown'을 소개합니다. 우리는 미국 에너지부(DOE) 산하 국립연구소의 과학자들과 협력하여, 각자 자신의 연구에서 미출판된 후속 연구 방향과 제출물이 충족해야 하는 필수 조건을 제공받았습니다. 후속 논문의 품질을 평가하는 것은 일반적으로 어렵지만, 이러한 조건을 사용하여 평가 기준(rubric)을 구성하면 정답이 없는 연구 문제에 대해서도 평가를 더 수월하게 만들 수 있습니다. 우리는 9개의 최첨단 에이전트(frontier agent)가 양자 컴퓨팅, 플라즈마 물리학, 계산 화학, 재료 과학, 과학적 머신러닝 도메인에 걸쳐 각각 15개의 후속 논문을 작성하도록 했습니다. 135개의 제출물 중 모든 조건을 충족한 것은 하나도 없었으며, 114개는 무결성 검사(integrity check)를 통과하지 못했는데, 이는 주로 논문이 수행된 적이 없는 연구를 주장하거나 기록된 증거와 모순되는 수치를 보고했기 때문입니다. 전반적으로 에이전트는 후속 논문처럼 보이는 문서를 손쉽게 생성해내지만, 도메인 과학자의 기준을 충족하는 것은 하나도 없어 상당한 개선의 여지를 남겼습니다. 코드와 데이터는 공개되어 있습니다."
+      },
+      "sentences": [
+        {
+          "en": "Can AI agents carry out research on open scientific problems?",
+          "ko": "AI 에이전트가 미해결 과학적 문제에 대한 연구를 수행할 수 있는가?"
+        },
+        {
+          "en": "We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper.",
+          "ko": "우리는 에이전트에게 과학 논문과 추구해야 할 연구 방향을 제공하고 후속 논문을 작성하는 과제를 부여하는 벤치마크인 'Into the Unknown'을 소개합니다."
+        },
+        {
+          "en": "We work with scientists at US Department of Energy (DOE) national laboratories, who each contribute an unpublished follow-up direction from their own work together with the necessary conditions a submission must meet.",
+          "ko": "우리는 미국 에너지부(DOE) 산하 국립연구소의 과학자들과 협력하여, 각자 자신의 연구에서 미출판된 후속 연구 방향과 제출물이 충족해야 하는 필수 조건을 제공받았습니다."
+        },
+        {
+          "en": "While assessing the quality of a follow-up paper is challenging in general, using these conditions to form a rubric makes evaluation more tractable for research problems that have no reference answer.",
+          "ko": "후속 논문의 품질을 평가하는 것은 일반적으로 어렵지만, 이러한 조건을 사용하여 평가 기준(rubric)을 구성하면 정답이 없는 연구 문제에 대해서도 평가를 더 수월하게 만들 수 있습니다."
+        },
+        {
+          "en": "We have nine frontier agents write 15 follow-ups each, spanning quantum computing, plasma physics, computational chemistry, materials science, and scientific machine learning domains.",
+          "ko": "우리는 9개의 최첨단 에이전트(frontier agent)가 양자 컴퓨팅, 플라즈마 물리학, 계산 화학, 재료 과학, 과학적 머신러닝 도메인에 걸쳐 각각 15개의 후속 논문을 작성하도록 했습니다."
+        },
+        {
+          "en": "None of the 135 submissions satisfies all the conditions, and 114 fail our integrity check, most often because the paper claims work that was never done or reports numbers that contradict the recorded evidence.",
+          "ko": "135개의 제출물 중 모든 조건을 충족한 것은 하나도 없었으며, 114개는 무결성 검사(integrity check)를 통과하지 못했는데, 이는 주로 논문이 수행된 적이 없는 연구를 주장하거나 기록된 증거와 모순되는 수치를 보고했기 때문입니다."
+        },
+        {
+          "en": "Overall, agents readily produce papers that look like follow-ups, but none meets the standard of the domain scientist, leaving substantial headroom.",
+          "ko": "전반적으로 에이전트는 후속 논문처럼 보이는 문서를 손쉽게 생성해내지만, 도메인 과학자의 기준을 충족하는 것은 하나도 없어 상당한 개선의 여지를 남겼습니다."
+        },
+        {
+          "en": "Our code and data are publicly available.",
+          "ko": "코드와 데이터는 공개되어 있습니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Can AI agents carry out research on open scientific problems?",
+            "ko": "AI 에이전트가 미해결 과학적 문제에 대한 연구를 수행할 수 있는가?"
+          },
+          {
+            "en": "We work with scientists at US Department of Energy (DOE) national laboratories, who each contribute an unpublished follow-up direction from their own work together with the necessary conditions a submission must meet.",
+            "ko": "우리는 미국 에너지부(DOE) 산하 국립연구소의 과학자들과 협력하여, 각자 자신의 연구에서 미출판된 후속 연구 방향과 제출물이 충족해야 하는 필수 조건을 제공받았습니다."
+          },
+          {
+            "en": "While assessing the quality of a follow-up paper is challenging in general, using these conditions to form a rubric makes evaluation more tractable for research problems that have no reference answer.",
+            "ko": "후속 논문의 품질을 평가하는 것은 일반적으로 어렵지만, 이러한 조건을 사용하여 평가 기준(rubric)을 구성하면 정답이 없는 연구 문제에 대해서도 평가를 더 수월하게 만들 수 있습니다."
+          },
+          {
+            "en": "We have nine frontier agents write 15 follow-ups each, spanning quantum computing, plasma physics, computational chemistry, materials science, and scientific machine learning domains.",
+            "ko": "우리는 9개의 최첨단 에이전트(frontier agent)가 양자 컴퓨팅, 플라즈마 물리학, 계산 화학, 재료 과학, 과학적 머신러닝 도메인에 걸쳐 각각 15개의 후속 논문을 작성하도록 했습니다."
+          },
+          {
+            "en": "None of the 135 submissions satisfies all the conditions, and 114 fail our integrity check, most often because the paper claims work that was never done or reports numbers that contradict the recorded evidence.",
+            "ko": "135개의 제출물 중 모든 조건을 충족한 것은 하나도 없었으며, 114개는 무결성 검사(integrity check)를 통과하지 못했는데, 이는 주로 논문이 수행된 적이 없는 연구를 주장하거나 기록된 증거와 모순되는 수치를 보고했기 때문입니다."
+          },
+          {
+            "en": "Overall, agents readily produce papers that look like follow-ups, but none meets the standard of the domain scientist, leaving substantial headroom.",
+            "ko": "전반적으로 에이전트는 후속 논문처럼 보이는 문서를 손쉽게 생성해내지만, 도메인 과학자의 기준을 충족하는 것은 하나도 없어 상당한 개선의 여지를 남겼습니다."
+          },
+          {
+            "en": "Our code and data are publicly available.",
+            "ko": "코드와 데이터는 공개되어 있습니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper.",
+            "ko": "우리는 에이전트에게 과학 논문과 추구해야 할 연구 방향을 제공하고 후속 논문을 작성하는 과제를 부여하는 벤치마크인 'Into the Unknown'을 소개합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "Our code and data are publicly available.",
+            "ko": "코드와 데이터는 공개되어 있습니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "computational",
+          "ko": "계산의",
+          "sentence": "We have nine frontier agents write 15 follow-ups each, spanning quantum computing, plasma physics, computational chemistry, materials science, and scientific machine learning domains.",
+          "sentenceKo": "우리는 9개의 최첨단 에이전트(frontier agent)가 양자 컴퓨팅, 플라즈마 물리학, 계산 화학, 재료 과학, 과학적 머신러닝 도메인에 걸쳐 각각 15개의 후속 논문을 작성하도록 했습니다."
+        },
+        {
+          "word": "scientific",
+          "ko": "과학적",
+          "sentence": "Can AI agents carry out research on open scientific problems?",
+          "sentenceKo": "AI 에이전트가 미해결 과학적 문제에 대한 연구를 수행할 수 있는가?"
+        },
+        {
+          "word": "science",
+          "ko": "과학",
+          "sentence": "We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper.",
+          "sentenceKo": "우리는 에이전트에게 과학 논문과 추구해야 할 연구 방향을 제공하고 후속 논문을 작성하는 과제를 부여하는 벤치마크인 'Into the Unknown'을 소개합니다."
+        },
+        {
+          "word": "integrity",
+          "ko": "무결성",
+          "sentence": "None of the 135 submissions satisfies all the conditions, and 114 fail our integrity check, most often because the paper claims work that was never done or reports numbers that contradict the recorded evidence.",
+          "sentenceKo": "135개의 제출물 중 모든 조건을 충족한 것은 하나도 없었으며, 114개는 무결성 검사(integrity check)를 통과하지 못했는데, 이는 주로 논문이 수행된 적이 없는 연구를 주장하거나 기록된 증거와 모순되는 수치를 보고했기 때문입니다."
+        },
+        {
+          "word": "agents",
+          "ko": "에이전트",
+          "sentence": "Can AI agents carry out research on open scientific problems?",
+          "sentenceKo": "AI 에이전트가 미해결 과학적 문제에 대한 연구를 수행할 수 있는가?"
+        },
+        {
+          "word": "problems",
+          "ko": "문제",
+          "sentence": "Can AI agents carry out research on open scientific problems?",
+          "sentenceKo": "AI 에이전트가 미해결 과학적 문제에 대한 연구를 수행할 수 있는가?"
+        },
+        {
+          "word": "benchmark",
+          "ko": "벤치마크",
+          "sentence": "We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper.",
+          "sentenceKo": "우리는 에이전트에게 과학 논문과 추구해야 할 연구 방향을 제공하고 후속 논문을 작성하는 과제를 부여하는 벤치마크인 'Into the Unknown'을 소개합니다."
+        },
+        {
+          "word": "chemistry",
+          "ko": "화학",
+          "sentence": "We have nine frontier agents write 15 follow-ups each, spanning quantum computing, plasma physics, computational chemistry, materials science, and scientific machine learning domains.",
+          "sentenceKo": "우리는 9개의 최첨단 에이전트(frontier agent)가 양자 컴퓨팅, 플라즈마 물리학, 계산 화학, 재료 과학, 과학적 머신러닝 도메인에 걸쳐 각각 15개의 후속 논문을 작성하도록 했습니다."
+        },
+        {
+          "word": "materials",
+          "ko": "재료",
+          "sentence": "We have nine frontier agents write 15 follow-ups each, spanning quantum computing, plasma physics, computational chemistry, materials science, and scientific machine learning domains.",
+          "sentenceKo": "우리는 9개의 최첨단 에이전트(frontier agent)가 양자 컴퓨팅, 플라즈마 물리학, 계산 화학, 재료 과학, 과학적 머신러닝 도메인에 걸쳐 각각 15개의 후속 논문을 작성하도록 했습니다."
+        },
+        {
+          "word": "direction",
+          "ko": "방향",
+          "sentence": "We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper.",
+          "sentenceKo": "우리는 에이전트에게 과학 논문과 추구해야 할 연구 방향을 제공하고 후속 논문을 작성하는 과제를 부여하는 벤치마크인 'Into the Unknown'을 소개합니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.19159",
+        "arxiv": "https://arxiv.org/abs/2610.19159",
+        "pdf": "https://arxiv.org/pdf/2610.19159",
+        "github": "https://github.com/prometheus-eval/into-the-unknown"
+      },
+      "githubStars": 25,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-01T03:54:13.141Z",
+      "citations": {
+        "count": 2,
+        "source": "Semantic Scholar"
+      }
+    },
+    {
+      "id": "2610.17184",
+      "title": "DuoDiscover: Scaling Autonomous Discovery Beyond the Evaluation Bottleneck",
+      "authors": [
+        "Shubham Agarwal",
+        "Akshat Gupta",
+        "Mike Heddes",
+        "Dilara Soylu",
+        "Rui Meng",
+        "Patrick Tser Jern Kon",
+        "Jiefeng Chen",
+        "Mert Cemri",
+        "Shu Liu",
+        "Abe Gonzalez",
+        "Akanksha Jain",
+        "Bhavana Dalvi Mishra",
+        "Linfeng Song",
+        "Vilobh Meshram",
+        "Xiangru Tang",
+        "Jinsung Yoon",
+        "Aditya Parameswaran",
+        "Ion Stoica",
+        "Vahab Mirrokni",
+        "Burak Gokturk",
+        "Parthasarathy Ranganathan",
+        "Tomas Pfister",
+        "Nanyun Peng",
+        "Chun-Liang Li"
+      ],
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "upvotes": 16,
+      "keywords": [],
+      "categories": [
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "",
+        "ko": ""
+      },
+      "abstract": {
+        "en": "Evaluation has been central to advances in AI, and it is equally critical to autonomous discovery. Yet scaling autonomous discovery to real-world engineering challenges faces a fundamental bottleneck: the cost of evaluating progress. In real settings, a single true evaluation, such as a full benchmark or serving trace, can take hours, so a search can afford only a handful of true evaluations. We present DuoDiscover, a search system that jointly discovers what to optimize and how to evaluate progress efficiently, through three mechanisms. First, each worker in a fleet of coding agents co-discovers an optimization target and a fast, tailored proxy evaluator, which we call a yardstick. The agent then hill-climbs the yardstick rather than the true evaluation. Second, since search can exploit gaps between a yardstick and the true objective, fidelity tests continually recheck each yardstick's ranking and invalidate any that drift. Third, the fleet is bottom-up, with no central decomposition of the problem. A lightweight orchestrator spawns and terminates agents, briefs running ones, and seeds new agents with others' confirmed work. DuoDiscover enables autonomous optimization from software to chip architecture. We demonstrate DuoDiscover on two repository-level benchmarks and four GPU and TPU kernel suites covering hundreds of kernels. On SWE-fficiency, it doubles the average speedup of human experts. On SOL-Exec, it ranks first on 121 of 235 kernels and in the top three on 212. On the heavily optimized vLLM and SQLite engines, DuoDiscover achieves 1.92times and 1.38times gains over the base code. On a CPU microarchitecture optimization task with evaluations of up to 28 hours, DuoDiscover surpasses both AlphaEvolve-based ArchAgent v2 and the best human design, with 1.65times ArchAgent v2's gain in 16.7 days versus more than 40 days, advancing the frontier of autonomous chip design.",
+        "ko": "평가는 인공지능(AI) 발전의 핵심이었으며, 자율적 발견(autonomous discovery)에서도 그와 똑같이 결정적으로 중요하다. 그러나 자율적 발견을 현실 세계의 엔지니어링 문제로 확장하는 데는 근본적인 병목 현상이 존재하는데, 바로 진척도를 평가하는 비용이다. 실제 환경에서는 전체 벤치마크나 서빙 트레이스(serving trace)와 같은 단 한 번의 실제 평가조차 수 시간 이걸릴 수 있으므로, 탐색 과정에서 감당할 수 있는 실제 평가는 극소수에 불과하다. 우리는 세 가지 메커니즘을 통해 최적화할 대상과 진척도를 효율적으로 평가하는 방법을 공동으로 발견하는 탐색 시스템인 DuoDiscover를 제안한다. 첫째, 코딩 에이전트 군집(fleet) 내의 각 작업자는 최적화 대상과 '야드스틱(yardstick)'이라 부르는 빠르고 맞춤화된 대리 평가자(proxy evaluator)를 함께 발견한다. 그런 다음 에이전트는 실제 평가 대신 이 야드스틱을 기준으로 언덕 오르기(hill-climbing) 최적화를 수행한다. 둘째, 탐색 과정은 야드스틱과 실제 목적 함수 사이의 괴리를 악용할 수 있으므로, 충실도 검정(fidelity tests)을 통해 각 야드스틱의 순위를 지속적으로 재확인하고 편차가 발생하는 야드스틱은 무효화한다. 셋째, 이 군집은 상향식(bottom-up) 구조이며, 중앙집중식 문제 분할(decomposition)이 존재하지 않는다. 경량 오케스트레이터가 에이전트를 생성 및 종료하고, 실행 중인 에이전트에 지침을 주며, 다른 에이전트들의 검증된 작업 결과를 바탕으로 새로운 에이전트를 시딩(seed)한다. DuoDiscover는 소프트웨어부터 칩 아키텍처에 이르는 자율적 최적화를 가능하게 한다. 우리는 두 개의 저장소 수준(repository-level) 벤치마크와 수백 개의 커널을 포함하는 네 개의 GPU 및 TPU 커널 스위트에서 DuoDiscover를 시연한다. SWE-fficiency에서, 이 시스템은 인간 전문가의 평균 속도 향상 폭을 두 배로 늘린다. SOL-Exec에서, 이 시스템은 235개의 커널 중 121개에서 1위를 차지했으며, 212개에서 상위 3위 안에 들었다. 고도로 최적화된 vLLM 및 SQLite 엔진에서, DuoDiscover는 베이스 코드 대비 각각 1.92배 및 1.38배의 성능 향상을 달성한다. 최대 28시간이 소요되는 평가가 포함된 CPU 마이크로아키텍처 최적화 작업에서, DuoDiscover는 AlphaEvolve 기반의 ArchAgent v2와 최고의 인간 설계를 모두 능가하며, ArchAgent v2가 40일 이상 걸려 달성한 성장의 1.65배를 16.7일 만에 달성하여 자율 칩 설계의 한계를 넓혔다."
+      },
+      "sentences": [
+        {
+          "en": "Evaluation has been central to advances in AI, and it is equally critical to autonomous discovery.",
+          "ko": "평가는 인공지능(AI) 발전의 핵심이었으며, 자율적 발견(autonomous discovery)에서도 그와 똑같이 결정적으로 중요하다."
+        },
+        {
+          "en": "Yet scaling autonomous discovery to real-world engineering challenges faces a fundamental bottleneck: the cost of evaluating progress.",
+          "ko": "그러나 자율적 발견을 현실 세계의 엔지니어링 문제로 확장하는 데는 근본적인 병목 현상이 존재하는데, 바로 진척도를 평가하는 비용이다."
+        },
+        {
+          "en": "In real settings, a single true evaluation, such as a full benchmark or serving trace, can take hours, so a search can afford only a handful of true evaluations.",
+          "ko": "실제 환경에서는 전체 벤치마크나 서빙 트레이스(serving trace)와 같은 단 한 번의 실제 평가조차 수 시간 이걸릴 수 있으므로, 탐색 과정에서 감당할 수 있는 실제 평가는 극소수에 불과하다."
+        },
+        {
+          "en": "We present DuoDiscover, a search system that jointly discovers what to optimize and how to evaluate progress efficiently, through three mechanisms.",
+          "ko": "우리는 세 가지 메커니즘을 통해 최적화할 대상과 진척도를 효율적으로 평가하는 방법을 공동으로 발견하는 탐색 시스템인 DuoDiscover를 제안한다."
+        },
+        {
+          "en": "First, each worker in a fleet of coding agents co-discovers an optimization target and a fast, tailored proxy evaluator, which we call a yardstick.",
+          "ko": "첫째, 코딩 에이전트 군집(fleet) 내의 각 작업자는 최적화 대상과 '야드스틱(yardstick)'이라 부르는 빠르고 맞춤화된 대리 평가자(proxy evaluator)를 함께 발견한다."
+        },
+        {
+          "en": "The agent then hill-climbs the yardstick rather than the true evaluation.",
+          "ko": "그런 다음 에이전트는 실제 평가 대신 이 야드스틱을 기준으로 언덕 오르기(hill-climbing) 최적화를 수행한다."
+        },
+        {
+          "en": "Second, since search can exploit gaps between a yardstick and the true objective, fidelity tests continually recheck each yardstick's ranking and invalidate any that drift.",
+          "ko": "둘째, 탐색 과정은 야드스틱과 실제 목적 함수 사이의 괴리를 악용할 수 있으므로, 충실도 검정(fidelity tests)을 통해 각 야드스틱의 순위를 지속적으로 재확인하고 편차가 발생하는 야드스틱은 무효화한다."
+        },
+        {
+          "en": "Third, the fleet is bottom-up, with no central decomposition of the problem.",
+          "ko": "셋째, 이 군집은 상향식(bottom-up) 구조이며, 중앙집중식 문제 분할(decomposition)이 존재하지 않는다."
+        },
+        {
+          "en": "A lightweight orchestrator spawns and terminates agents, briefs running ones, and seeds new agents with others' confirmed work.",
+          "ko": "경량 오케스트레이터가 에이전트를 생성 및 종료하고, 실행 중인 에이전트에 지침을 주며, 다른 에이전트들의 검증된 작업 결과를 바탕으로 새로운 에이전트를 시딩(seed)한다."
+        },
+        {
+          "en": "DuoDiscover enables autonomous optimization from software to chip architecture.",
+          "ko": "DuoDiscover는 소프트웨어부터 칩 아키텍처에 이르는 자율적 최적화를 가능하게 한다."
+        },
+        {
+          "en": "We demonstrate DuoDiscover on two repository-level benchmarks and four GPU and TPU kernel suites covering hundreds of kernels.",
+          "ko": "우리는 두 개의 저장소 수준(repository-level) 벤치마크와 수백 개의 커널을 포함하는 네 개의 GPU 및 TPU 커널 스위트에서 DuoDiscover를 시연한다."
+        },
+        {
+          "en": "On SWE-fficiency, it doubles the average speedup of human experts.",
+          "ko": "SWE-fficiency에서, 이 시스템은 인간 전문가의 평균 속도 향상 폭을 두 배로 늘린다."
+        },
+        {
+          "en": "On SOL-Exec, it ranks first on 121 of 235 kernels and in the top three on 212.",
+          "ko": "SOL-Exec에서, 이 시스템은 235개의 커널 중 121개에서 1위를 차지했으며, 212개에서 상위 3위 안에 들었다."
+        },
+        {
+          "en": "On the heavily optimized vLLM and SQLite engines, DuoDiscover achieves 1.92times and 1.38times gains over the base code.",
+          "ko": "고도로 최적화된 vLLM 및 SQLite 엔진에서, DuoDiscover는 베이스 코드 대비 각각 1.92배 및 1.38배의 성능 향상을 달성한다."
+        },
+        {
+          "en": "On a CPU microarchitecture optimization task with evaluations of up to 28 hours, DuoDiscover surpasses both AlphaEvolve-based ArchAgent v2 and the best human design, with 1.65times ArchAgent v2's gain in 16.7 days versus more than 40 days, advancing the frontier of autonomous chip design.",
+          "ko": "최대 28시간이 소요되는 평가가 포함된 CPU 마이크로아키텍처 최적화 작업에서, DuoDiscover는 AlphaEvolve 기반의 ArchAgent v2와 최고의 인간 설계를 모두 능가하며, ArchAgent v2가 40일 이상 걸려 달성한 성장의 1.65배를 16.7일 만에 달성하여 자율 칩 설계의 한계를 넓혔다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Evaluation has been central to advances in AI, and it is equally critical to autonomous discovery.",
+            "ko": "평가는 인공지능(AI) 발전의 핵심이었으며, 자율적 발견(autonomous discovery)에서도 그와 똑같이 결정적으로 중요하다."
+          },
+          {
+            "en": "Yet scaling autonomous discovery to real-world engineering challenges faces a fundamental bottleneck: the cost of evaluating progress.",
+            "ko": "그러나 자율적 발견을 현실 세계의 엔지니어링 문제로 확장하는 데는 근본적인 병목 현상이 존재하는데, 바로 진척도를 평가하는 비용이다."
+          },
+          {
+            "en": "In real settings, a single true evaluation, such as a full benchmark or serving trace, can take hours, so a search can afford only a handful of true evaluations.",
+            "ko": "실제 환경에서는 전체 벤치마크나 서빙 트레이스(serving trace)와 같은 단 한 번의 실제 평가조차 수 시간 이걸릴 수 있으므로, 탐색 과정에서 감당할 수 있는 실제 평가는 극소수에 불과하다."
+          },
+          {
+            "en": "First, each worker in a fleet of coding agents co-discovers an optimization target and a fast, tailored proxy evaluator, which we call a yardstick.",
+            "ko": "첫째, 코딩 에이전트 군집(fleet) 내의 각 작업자는 최적화 대상과 '야드스틱(yardstick)'이라 부르는 빠르고 맞춤화된 대리 평가자(proxy evaluator)를 함께 발견한다."
+          },
+          {
+            "en": "The agent then hill-climbs the yardstick rather than the true evaluation.",
+            "ko": "그런 다음 에이전트는 실제 평가 대신 이 야드스틱을 기준으로 언덕 오르기(hill-climbing) 최적화를 수행한다."
+          },
+          {
+            "en": "Second, since search can exploit gaps between a yardstick and the true objective, fidelity tests continually recheck each yardstick's ranking and invalidate any that drift.",
+            "ko": "둘째, 탐색 과정은 야드스틱과 실제 목적 함수 사이의 괴리를 악용할 수 있으므로, 충실도 검정(fidelity tests)을 통해 각 야드스틱의 순위를 지속적으로 재확인하고 편차가 발생하는 야드스틱은 무효화한다."
+          },
+          {
+            "en": "Third, the fleet is bottom-up, with no central decomposition of the problem.",
+            "ko": "셋째, 이 군집은 상향식(bottom-up) 구조이며, 중앙집중식 문제 분할(decomposition)이 존재하지 않는다."
+          },
+          {
+            "en": "A lightweight orchestrator spawns and terminates agents, briefs running ones, and seeds new agents with others' confirmed work.",
+            "ko": "경량 오케스트레이터가 에이전트를 생성 및 종료하고, 실행 중인 에이전트에 지침을 주며, 다른 에이전트들의 검증된 작업 결과를 바탕으로 새로운 에이전트를 시딩(seed)한다."
+          },
+          {
+            "en": "On SOL-Exec, it ranks first on 121 of 235 kernels and in the top three on 212.",
+            "ko": "SOL-Exec에서, 이 시스템은 235개의 커널 중 121개에서 1위를 차지했으며, 212개에서 상위 3위 안에 들었다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "We present DuoDiscover, a search system that jointly discovers what to optimize and how to evaluate progress efficiently, through three mechanisms.",
+            "ko": "우리는 세 가지 메커니즘을 통해 최적화할 대상과 진척도를 효율적으로 평가하는 방법을 공동으로 발견하는 탐색 시스템인 DuoDiscover를 제안한다."
+          }
+        ],
+        "results": [
+          {
+            "en": "DuoDiscover enables autonomous optimization from software to chip architecture.",
+            "ko": "DuoDiscover는 소프트웨어부터 칩 아키텍처에 이르는 자율적 최적화를 가능하게 한다."
+          },
+          {
+            "en": "We demonstrate DuoDiscover on two repository-level benchmarks and four GPU and TPU kernel suites covering hundreds of kernels.",
+            "ko": "우리는 두 개의 저장소 수준(repository-level) 벤치마크와 수백 개의 커널을 포함하는 네 개의 GPU 및 TPU 커널 스위트에서 DuoDiscover를 시연한다."
+          },
+          {
+            "en": "On SWE-fficiency, it doubles the average speedup of human experts.",
+            "ko": "SWE-fficiency에서, 이 시스템은 인간 전문가의 평균 속도 향상 폭을 두 배로 늘린다."
+          },
+          {
+            "en": "On the heavily optimized vLLM and SQLite engines, DuoDiscover achieves 1.92times and 1.38times gains over the base code.",
+            "ko": "고도로 최적화된 vLLM 및 SQLite 엔진에서, DuoDiscover는 베이스 코드 대비 각각 1.92배 및 1.38배의 성능 향상을 달성한다."
+          },
+          {
+            "en": "On a CPU microarchitecture optimization task with evaluations of up to 28 hours, DuoDiscover surpasses both AlphaEvolve-based ArchAgent v2 and the best human design, with 1.65times ArchAgent v2's gain in 16.7 days versus more than 40 days, advancing the frontier of autonomous chip design.",
+            "ko": "최대 28시간이 소요되는 평가가 포함된 CPU 마이크로아키텍처 최적화 작업에서, DuoDiscover는 AlphaEvolve 기반의 ArchAgent v2와 최고의 인간 설계를 모두 능가하며, ArchAgent v2가 40일 이상 걸려 달성한 성장의 1.65배를 16.7일 만에 달성하여 자율 칩 설계의 한계를 넓혔다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "autonomous",
+          "ko": "자율적인",
+          "sentence": "Evaluation has been central to advances in AI, and it is equally critical to autonomous discovery.",
+          "sentenceKo": "평가는 인공지능(AI) 발전의 핵심이었으며, 자율적 발견(autonomous discovery)에서도 그와 똑같이 결정적으로 중요하다."
+        },
+        {
+          "word": "optimization",
+          "ko": "최적화",
+          "sentence": "First, each worker in a fleet of coding agents co-discovers an optimization target and a fast, tailored proxy evaluator, which we call a yardstick.",
+          "sentenceKo": "첫째, 코딩 에이전트 군집(fleet) 내의 각 작업자는 최적화 대상과 '야드스틱(yardstick)'이라 부르는 빠르고 맞춤화된 대리 평가자(proxy evaluator)를 함께 발견한다."
+        },
+        {
+          "word": "evaluation",
+          "ko": "평가",
+          "sentence": "Evaluation has been central to advances in AI, and it is equally critical to autonomous discovery.",
+          "sentenceKo": "평가는 인공지능(AI) 발전의 핵심이었으며, 자율적 발견(autonomous discovery)에서도 그와 똑같이 결정적으로 중요하다."
+        },
+        {
+          "word": "discover",
+          "ko": "발견하다",
+          "sentence": "We present DuoDiscover, a search system that jointly discovers what to optimize and how to evaluate progress efficiently, through three mechanisms.",
+          "sentenceKo": "우리는 세 가지 메커니즘을 통해 최적화할 대상과 진척도를 효율적으로 평가하는 방법을 공동으로 발견하는 탐색 시스템인 DuoDiscover를 제안한다."
+        },
+        {
+          "word": "decomposition",
+          "ko": "분할",
+          "sentence": "Third, the fleet is bottom-up, with no central decomposition of the problem.",
+          "sentenceKo": "셋째, 이 군집은 상향식(bottom-up) 구조이며, 중앙집중식 문제 분할(decomposition)이 존재하지 않는다."
+        },
+        {
+          "word": "yardstick",
+          "ko": "야드스틱",
+          "sentence": "First, each worker in a fleet of coding agents co-discovers an optimization target and a fast, tailored proxy evaluator, which we call a yardstick.",
+          "sentenceKo": "첫째, 코딩 에이전트 군집(fleet) 내의 각 작업자는 최적화 대상과 '야드스틱(yardstick)'이라 부르는 빠르고 맞춤화된 대리 평가자(proxy evaluator)를 함께 발견한다."
+        },
+        {
+          "word": "repository-level",
+          "ko": "저장소 수준의",
+          "sentence": "We demonstrate DuoDiscover on two repository-level benchmarks and four GPU and TPU kernel suites covering hundreds of kernels.",
+          "sentenceKo": "우리는 두 개의 저장소 수준(repository-level) 벤치마크와 수백 개의 커널을 포함하는 네 개의 GPU 및 TPU 커널 스위트에서 DuoDiscover를 시연한다."
+        },
+        {
+          "word": "microarchitecture",
+          "ko": "마이크로아키텍처",
+          "sentence": "On a CPU microarchitecture optimization task with evaluations of up to 28 hours, DuoDiscover surpasses both AlphaEvolve-based ArchAgent v2 and the best human design, with 1.65times ArchAgent v2's gain in 16.7 days versus more than 40 days, advancing the frontier of autonomous chip design.",
+          "sentenceKo": "최대 28시간이 소요되는 평가가 포함된 CPU 마이크로아키텍처 최적화 작업에서, DuoDiscover는 AlphaEvolve 기반의 ArchAgent v2와 최고의 인간 설계를 모두 능가하며, ArchAgent v2가 40일 이상 걸려 달성한 성장의 1.65배를 16.7일 만에 달성하여 자율 칩 설계의 한계를 넓혔다."
+        },
+        {
+          "word": "co-discovers",
+          "ko": "공동 발견한다",
+          "sentence": "First, each worker in a fleet of coding agents co-discovers an optimization target and a fast, tailored proxy evaluator, which we call a yardstick.",
+          "sentenceKo": "첫째, 코딩 에이전트 군집(fleet) 내의 각 작업자는 최적화 대상과 '야드스틱(yardstick)'이라 부르는 빠르고 맞춤화된 대리 평가자(proxy evaluator)를 함께 발견한다."
+        },
+        {
+          "word": "objective",
+          "ko": "목적 함수",
+          "sentence": "Second, since search can exploit gaps between a yardstick and the true objective, fidelity tests continually recheck each yardstick's ranking and invalidate any that drift.",
+          "sentenceKo": "둘째, 탐색 과정은 야드스틱과 실제 목적 함수 사이의 괴리를 악용할 수 있으므로, 충실도 검정(fidelity tests)을 통해 각 야드스틱의 순위를 지속적으로 재확인하고 편차가 발생하는 야드스틱은 무효화한다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.17184",
+        "arxiv": "https://arxiv.org/abs/2610.17184",
+        "pdf": "https://arxiv.org/pdf/2610.17184",
+        "github": null
+      },
+      "githubStars": null,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-01T03:54:13.141Z",
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
+    {
       "id": "2610.37649",
       "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
       "authors": [
@@ -21,7 +1471,7 @@
         "Ying-Cong Chen"
       ],
       "publishedAt": "2026-10-27T00:00:00.000Z",
-      "upvotes": 17,
+      "upvotes": 16,
       "keywords": [
         "large language models",
         "LongChang",
@@ -184,7 +1634,7 @@
         "pdf": "https://arxiv.org/pdf/2610.37649",
         "github": "https://github.com/EnVision-Research/LongChang"
       },
-      "githubStars": 8,
+      "githubStars": 9,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -203,7 +1653,7 @@
         "Sherry Yang"
       ],
       "publishedAt": "2026-10-27T00:00:00.000Z",
-      "upvotes": 6,
+      "upvotes": 7,
       "keywords": [
         "world model",
         "Qwen3.5-4B",
@@ -393,7 +1843,7 @@
         "Limin Wang"
       ],
       "publishedAt": "2026-10-24T00:00:00.000Z",
-      "upvotes": 29,
+      "upvotes": 30,
       "keywords": [
         "LLM agents",
         "self-improving research system",
@@ -559,7 +2009,7 @@
         "pdf": "https://arxiv.org/pdf/2610.33845",
         "github": "https://github.com/MCG-NJU/AutoTavern"
       },
-      "githubStars": 179,
+      "githubStars": 191,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -580,7 +2030,7 @@
         "Yuheng Bu"
       ],
       "publishedAt": "2026-10-23T00:00:00.000Z",
-      "upvotes": 124,
+      "upvotes": 30,
       "keywords": [
         "test-time training",
         "test-time adaptation",
@@ -761,7 +2211,7 @@
         "Sung Ju Hwang"
       ],
       "publishedAt": "2026-10-23T00:00:00.000Z",
-      "upvotes": 43,
+      "upvotes": 40,
       "keywords": [
         "LLM-based framework",
         "inductive principles",
@@ -947,7 +2397,7 @@
         "Juanzi Li"
       ],
       "publishedAt": "2026-10-22T00:00:00.000Z",
-      "upvotes": 16,
+      "upvotes": 12,
       "keywords": [
         "research integrity violations",
         "RIVT",
@@ -1118,7 +2568,7 @@
         "pdf": "https://arxiv.org/pdf/2610.31372",
         "github": "https://github.com/THU-KEG/RIDAR"
       },
-      "githubStars": 6,
+      "githubStars": 7,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -1134,7 +2584,7 @@
         "Manmohan Chandraker"
       ],
       "publishedAt": "2026-10-21T00:00:00.000Z",
-      "upvotes": 14,
+      "upvotes": 11,
       "keywords": [
         "3D Gaussian Splatting",
         "Mip-NeRF 360",
@@ -1317,7 +2767,7 @@
         "Matthew Jagielski"
       ],
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "upvotes": 31,
+      "upvotes": 27,
       "keywords": [
         "Agent4Sci",
         "long-horizon testbed",
@@ -1492,7 +2942,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28763",
         "github": "https://github.com/maszhongming/agent4sci"
       },
-      "githubStars": 82,
+      "githubStars": 85,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -1525,7 +2975,7 @@
         "Zichen Chen"
       ],
       "publishedAt": "2026-10-18T00:00:00.000Z",
-      "upvotes": 24,
+      "upvotes": 23,
       "keywords": [
         "autonomous research agent",
         "persistent research history",
@@ -1709,7 +3159,7 @@
         "Zhewei Yao"
       ],
       "publishedAt": "2026-10-17T00:00:00.000Z",
-      "upvotes": 13,
+      "upvotes": 10,
       "keywords": [
         "LLM agents",
         "cross-source reasoning",
@@ -1917,7 +3367,7 @@
         "Xiao He"
       ],
       "publishedAt": "2026-10-26T00:00:00.000Z",
-      "upvotes": 19,
+      "upvotes": 15,
       "keywords": [
         "embodied agents",
         "physics-based simulation",
@@ -2112,7 +3562,7 @@
         "Josef Liyanjun Chen"
       ],
       "publishedAt": "2026-10-24T00:00:00.000Z",
-      "upvotes": 14,
+      "upvotes": 8,
       "keywords": [
         "vision-language model",
         "LoRA adapter",
@@ -2718,7 +4168,7 @@
         "Shiyu Chang"
       ],
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "upvotes": 45,
+      "upvotes": 40,
       "keywords": [],
       "categories": [
         "AI 과학자"
@@ -3002,7 +4452,7 @@
         "Bo Zhang"
       ],
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "upvotes": 74,
+      "upvotes": 73,
       "keywords": [
         "Mixture-of-Experts",
         "agentic model",
@@ -3373,7 +4823,7 @@
         "Xiangyu Yue"
       ],
       "publishedAt": "2026-10-14T00:00:00.000Z",
-      "upvotes": 43,
+      "upvotes": 38,
       "keywords": [
         "vision-language-action models",
         "world models",
