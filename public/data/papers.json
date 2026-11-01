@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T05:24:05.713Z",
+  "updatedAt": "2026-11-01T17:28:48.820Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -264,7 +264,7 @@
         "Ling Yang"
       ],
       "publishedAt": "2026-10-16T00:00:00.000Z",
-      "upvotes": 20,
+      "upvotes": 19,
       "keywords": [
         "multi-agent evolutionary search",
         "hypothesis trees",
@@ -658,7 +658,7 @@
         "Yun Luo"
       ],
       "publishedAt": "2026-10-15T00:00:00.000Z",
-      "upvotes": 52,
+      "upvotes": 47,
       "keywords": [
         "PhysClosureBench",
         "Atomic Score",
@@ -1257,7 +1257,7 @@
         "Sean Welleck"
       ],
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "upvotes": 152,
+      "upvotes": 62,
       "keywords": [
         "AI agents",
         "open scientific problems",
@@ -1857,7 +1857,7 @@
         "pdf": "https://arxiv.org/pdf/2610.37649",
         "github": "https://github.com/EnVision-Research/LongChang"
       },
-      "githubStars": 10,
+      "githubStars": 12,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -1876,7 +1876,7 @@
         "Sherry Yang"
       ],
       "publishedAt": "2026-10-27T00:00:00.000Z",
-      "upvotes": 7,
+      "upvotes": 8,
       "keywords": [
         "world model",
         "Qwen3.5-4B",
@@ -2232,7 +2232,7 @@
         "pdf": "https://arxiv.org/pdf/2610.33845",
         "github": "https://github.com/MCG-NJU/AutoTavern"
       },
-      "githubStars": 195,
+      "githubStars": 204,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -2253,7 +2253,7 @@
         "Yuheng Bu"
       ],
       "publishedAt": "2026-10-23T00:00:00.000Z",
-      "upvotes": 30,
+      "upvotes": 19,
       "keywords": [
         "test-time training",
         "test-time adaptation",
@@ -2434,7 +2434,7 @@
         "Sung Ju Hwang"
       ],
       "publishedAt": "2026-10-23T00:00:00.000Z",
-      "upvotes": 40,
+      "upvotes": 41,
       "keywords": [
         "LLM-based framework",
         "inductive principles",
@@ -2972,7 +2972,7 @@
         "pdf": "https://arxiv.org/pdf/2610.30468",
         "github": "https://github.com/seemandhar/SplatLab"
       },
-      "githubStars": 20,
+      "githubStars": 21,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -3165,7 +3165,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28763",
         "github": "https://github.com/maszhongming/agent4sci"
       },
-      "githubStars": 86,
+      "githubStars": 88,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -3590,7 +3590,7 @@
         "Xiao He"
       ],
       "publishedAt": "2026-10-26T00:00:00.000Z",
-      "upvotes": 15,
+      "upvotes": 14,
       "keywords": [
         "embodied agents",
         "physics-based simulation",
@@ -4675,7 +4675,7 @@
         "Bo Zhang"
       ],
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "upvotes": 73,
+      "upvotes": 72,
       "keywords": [
         "Mixture-of-Experts",
         "agentic model",
@@ -4837,7 +4837,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28578",
         "github": "https://github.com/InternScience/Agents-A1"
       },
-      "githubStars": 606,
+      "githubStars": 607,
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
@@ -5226,7 +5226,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 141,
+      "githubStars": 143,
       "translatedBy": "gemini",
       "citations": {
         "count": 1,
