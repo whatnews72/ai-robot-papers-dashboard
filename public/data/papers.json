@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T05:23:15.084Z",
+  "updatedAt": "2026-11-02T21:14:49.554Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -11,6 +11,429 @@
     "automated scientific experiment robotics"
   ],
   "papers": [
+    {
+      "id": "2610.40488",
+      "title": "rTaste: Do Research Agents Have Taste? Evaluating Early Stage Research Judgment",
+      "authors": [
+        "Art Kanke"
+      ],
+      "publishedAt": "2026-10-29T17:15:53.000Z",
+      "upvotes": 2,
+      "keywords": [
+        "research agents",
+        "minimum viable experiments",
+        "forecasting",
+        "model auditors",
+        "evaluation harness"
+      ],
+      "categories": [
+        "AI 과학자"
+      ],
+      "aiSummary": {
+        "en": "Frontier AI research agents propose many sound experiments but show limited ability to rank them better than simple baselines, with teams offering no clear quality gains.",
+        "ko": "최첨단 AI 연구 에이전트는 많은 타당한 실험을 제안하지만, 단순한 기준선보다 나은 순위를 매기는 능력은 제한적이며, 팀은 명확한 품질 향상을 제공하지 않는다."
+      },
+      "abstract": {
+        "en": "Do research agents have taste, the judgment of which experiments are worth running before their outcomes are known? We give six frontier models seven recent NLP papers. Each model, working as a research agent alone or as a team, proposes minimum viable experiments (MVEs), forecasts whether each will pass a threshold it sets and ranks them. A separate executor then attempts every MVE, including those ranked last, and three model auditors judge the results. Of 415 MVEs, 194 are judged sound, valuable and new, but fewer than half of these (73) are also judged beyond the seed paper and non obvious. The agents' first choices match the auditors' most valued experiment more often than a random pick, but are not shown to improve on choosing the experiment written first. Their forecasts beat a base rate but are not measurably more accurate than those of a fresh instance of the same model given only the paper and registrations. Teams cost more without a clear overall improvement in proposal quality. The agents produce many worthwhile experiments, but the evidence that their rankings improve the choice of which to run remains limited. The evaluation harness and a dataset of all 415 MVEs, with their forecasts and audited outcomes, are available at https://github.com/ArtKanke/rTaste.",
+        "ko": "연구 에이전트는 결과가 나오기 전에 어떤 실험을 실행할 가치가 있는지 판단하는 '취향(taste)'을 가지고 있는가? 우리는 6개의 최첨단 모델에 최근 자연어 처리(NLP) 논문 7편을 제공했다. 각 모델은 연구 에이전트 단독으로 또는 팀으로 작동하여 최소 기능 실험(MVE)을 제안하고, 각각이 자기가 설정한 임계값을 통과할지 예측한 후 순위를 매긴다. 그런 다음 별도의 실행기가 꼴응로 순위가 매겨진 실험을 포함하여 모든 MVE를 시도하고, 3개의 모델 평가자가 그 결과를 심사한다. 415개의 MVE 중 194개가 타당하고 가치 있으며 참신하다고 평가되었지만, 이 중 절반도 안 되는 73개만이 시드 논문을 넘어섰고 자명하지 않다고 평가되었다. 에이전트의 첫 번째 선택은 무작위 선택보다 평가자가 가장 가치 있게 여기는 실험과 더 자주 일치하지만, 논문에 가장 먼저 작성된 실험을 선택하는 것보다 개선된다는 것은 입증되지 않았다. 그들의 예측은 기본 예측율(base rate)을 상회하지만, 논문과 등록 정보만 주어진 동일 모델의 새로운 인스턴스 예측보다 측정 가능할 정도로 더 정확하지는 않다. 팀은 제안 품질의 명확한 전반적인 향상 없이 더 많은 비용을 초래한다. 에이전트는 가치 있는 많은 실험을 생성하지만, 그들의 순위가 어떤 것을 실행할지 선택하는 과정을 개선한다는 증거는 여전히 제한적이다. 평가 허브와 415개의 모든 MVE 및 그 예측과 심사된 결과가 포함된 데이터셋은 https://github.com/ArtKanke/rTaste에서 확인할 수 있다."
+      },
+      "sentences": [
+        {
+          "en": "Do research agents have taste, the judgment of which experiments are worth running before their outcomes are known?",
+          "ko": "연구 에이전트는 결과가 나오기 전에 어떤 실험을 실행할 가치가 있는지 판단하는 '취향(taste)'을 가지고 있는가?"
+        },
+        {
+          "en": "We give six frontier models seven recent NLP papers.",
+          "ko": "우리는 6개의 최첨단 모델에 최근 자연어 처리(NLP) 논문 7편을 제공했다."
+        },
+        {
+          "en": "Each model, working as a research agent alone or as a team, proposes minimum viable experiments (MVEs), forecasts whether each will pass a threshold it sets and ranks them.",
+          "ko": "각 모델은 연구 에이전트 단독으로 또는 팀으로 작동하여 최소 기능 실험(MVE)을 제안하고, 각각이 자기가 설정한 임계값을 통과할지 예측한 후 순위를 매긴다."
+        },
+        {
+          "en": "A separate executor then attempts every MVE, including those ranked last, and three model auditors judge the results.",
+          "ko": "그런 다음 별도의 실행기가 꼴응로 순위가 매겨진 실험을 포함하여 모든 MVE를 시도하고, 3개의 모델 평가자가 그 결과를 심사한다."
+        },
+        {
+          "en": "Of 415 MVEs, 194 are judged sound, valuable and new, but fewer than half of these (73) are also judged beyond the seed paper and non obvious.",
+          "ko": "415개의 MVE 중 194개가 타당하고 가치 있으며 참신하다고 평가되었지만, 이 중 절반도 안 되는 73개만이 시드 논문을 넘어섰고 자명하지 않다고 평가되었다."
+        },
+        {
+          "en": "The agents' first choices match the auditors' most valued experiment more often than a random pick, but are not shown to improve on choosing the experiment written first.",
+          "ko": "에이전트의 첫 번째 선택은 무작위 선택보다 평가자가 가장 가치 있게 여기는 실험과 더 자주 일치하지만, 논문에 가장 먼저 작성된 실험을 선택하는 것보다 개선된다는 것은 입증되지 않았다."
+        },
+        {
+          "en": "Their forecasts beat a base rate but are not measurably more accurate than those of a fresh instance of the same model given only the paper and registrations.",
+          "ko": "그들의 예측은 기본 예측율(base rate)을 상회하지만, 논문과 등록 정보만 주어진 동일 모델의 새로운 인스턴스 예측보다 측정 가능할 정도로 더 정확하지는 않다."
+        },
+        {
+          "en": "Teams cost more without a clear overall improvement in proposal quality.",
+          "ko": "팀은 제안 품질의 명확한 전반적인 향상 없이 더 많은 비용을 초래한다."
+        },
+        {
+          "en": "The agents produce many worthwhile experiments, but the evidence that their rankings improve the choice of which to run remains limited.",
+          "ko": "에이전트는 가치 있는 많은 실험을 생성하지만, 그들의 순위가 어떤 것을 실행할지 선택하는 과정을 개선한다는 증거는 여전히 제한적이다."
+        },
+        {
+          "en": "The evaluation harness and a dataset of all 415 MVEs, with their forecasts and audited outcomes, are available at https://github.com/ArtKanke/rTaste.",
+          "ko": "평가 허브와 415개의 모든 MVE 및 그 예측과 심사된 결과가 포함된 데이터셋은 https://github.com/ArtKanke/rTaste에서 확인할 수 있다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Do research agents have taste, the judgment of which experiments are worth running before their outcomes are known?",
+            "ko": "연구 에이전트는 결과가 나오기 전에 어떤 실험을 실행할 가치가 있는지 판단하는 '취향(taste)'을 가지고 있는가?"
+          },
+          {
+            "en": "We give six frontier models seven recent NLP papers.",
+            "ko": "우리는 6개의 최첨단 모델에 최근 자연어 처리(NLP) 논문 7편을 제공했다."
+          },
+          {
+            "en": "Each model, working as a research agent alone or as a team, proposes minimum viable experiments (MVEs), forecasts whether each will pass a threshold it sets and ranks them.",
+            "ko": "각 모델은 연구 에이전트 단독으로 또는 팀으로 작동하여 최소 기능 실험(MVE)을 제안하고, 각각이 자기가 설정한 임계값을 통과할지 예측한 후 순위를 매긴다."
+          },
+          {
+            "en": "A separate executor then attempts every MVE, including those ranked last, and three model auditors judge the results.",
+            "ko": "그런 다음 별도의 실행기가 꼴응로 순위가 매겨진 실험을 포함하여 모든 MVE를 시도하고, 3개의 모델 평가자가 그 결과를 심사한다."
+          },
+          {
+            "en": "Of 415 MVEs, 194 are judged sound, valuable and new, but fewer than half of these (73) are also judged beyond the seed paper and non obvious.",
+            "ko": "415개의 MVE 중 194개가 타당하고 가치 있으며 참신하다고 평가되었지만, 이 중 절반도 안 되는 73개만이 시드 논문을 넘어섰고 자명하지 않다고 평가되었다."
+          },
+          {
+            "en": "Their forecasts beat a base rate but are not measurably more accurate than those of a fresh instance of the same model given only the paper and registrations.",
+            "ko": "그들의 예측은 기본 예측율(base rate)을 상회하지만, 논문과 등록 정보만 주어진 동일 모델의 새로운 인스턴스 예측보다 측정 가능할 정도로 더 정확하지는 않다."
+          },
+          {
+            "en": "The evaluation harness and a dataset of all 415 MVEs, with their forecasts and audited outcomes, are available at https://github.com/ArtKanke/rTaste.",
+            "ko": "평가 허브와 415개의 모든 MVE 및 그 예측과 심사된 결과가 포함된 데이터셋은 https://github.com/ArtKanke/rTaste에서 확인할 수 있다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "The agents' first choices match the auditors' most valued experiment more often than a random pick, but are not shown to improve on choosing the experiment written first.",
+            "ko": "에이전트의 첫 번째 선택은 무작위 선택보다 평가자가 가장 가치 있게 여기는 실험과 더 자주 일치하지만, 논문에 가장 먼저 작성된 실험을 선택하는 것보다 개선된다는 것은 입증되지 않았다."
+          }
+        ],
+        "results": [
+          {
+            "en": "The agents' first choices match the auditors' most valued experiment more often than a random pick, but are not shown to improve on choosing the experiment written first.",
+            "ko": "에이전트의 첫 번째 선택은 무작위 선택보다 평가자가 가장 가치 있게 여기는 실험과 더 자주 일치하지만, 논문에 가장 먼저 작성된 실험을 선택하는 것보다 개선된다는 것은 입증되지 않았다."
+          },
+          {
+            "en": "Teams cost more without a clear overall improvement in proposal quality.",
+            "ko": "팀은 제안 품질의 명확한 전반적인 향상 없이 더 많은 비용을 초래한다."
+          },
+          {
+            "en": "The agents produce many worthwhile experiments, but the evidence that their rankings improve the choice of which to run remains limited.",
+            "ko": "에이전트는 가치 있는 많은 실험을 생성하지만, 그들의 순위가 어떤 것을 실행할지 선택하는 과정을 개선한다는 증거는 여전히 제한적이다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "experiments",
+          "ko": "실험",
+          "sentence": "Do research agents have taste, the judgment of which experiments are worth running before their outcomes are known?",
+          "sentenceKo": "연구 에이전트는 결과가 나오기 전에 어떤 실험을 실행할 가치가 있는지 판단하는 '취향(taste)'을 가지고 있는가?"
+        },
+        {
+          "word": "evaluation",
+          "ko": "평가",
+          "sentence": "The evaluation harness and a dataset of all 415 MVEs, with their forecasts and audited outcomes, are available at https://github.com/ArtKanke/rTaste.",
+          "sentenceKo": "평가 허브와 415개의 모든 MVE 및 그 예측과 심사된 결과가 포함된 데이터셋은 https://github.com/ArtKanke/rTaste에서 확인할 수 있다."
+        },
+        {
+          "word": "agents",
+          "ko": "에이전트",
+          "sentence": "Do research agents have taste, the judgment of which experiments are worth running before their outcomes are known?",
+          "sentenceKo": "연구 에이전트는 결과가 나오기 전에 어떤 실험을 실행할 가치가 있는지 판단하는 '취향(taste)'을 가지고 있는가?"
+        },
+        {
+          "word": "auditors",
+          "ko": "평가자",
+          "sentence": "A separate executor then attempts every MVE, including those ranked last, and three model auditors judge the results.",
+          "sentenceKo": "그런 다음 별도의 실행기가 꼴응로 순위가 매겨진 실험을 포함하여 모든 MVE를 시도하고, 3개의 모델 평가자가 그 결과를 심사한다."
+        },
+        {
+          "word": "improvement",
+          "ko": "향상",
+          "sentence": "Teams cost more without a clear overall improvement in proposal quality.",
+          "sentenceKo": "팀은 제안 품질의 명확한 전반적인 향상 없이 더 많은 비용을 초래한다."
+        },
+        {
+          "word": "minimum",
+          "ko": "최소의",
+          "sentence": "Each model, working as a research agent alone or as a team, proposes minimum viable experiments (MVEs), forecasts whether each will pass a threshold it sets and ranks them.",
+          "sentenceKo": "각 모델은 연구 에이전트 단독으로 또는 팀으로 작동하여 최소 기능 실험(MVE)을 제안하고, 각각이 자기가 설정한 임계값을 통과할지 예측한 후 순위를 매긴다."
+        },
+        {
+          "word": "forecasts",
+          "ko": "예측",
+          "sentence": "Each model, working as a research agent alone or as a team, proposes minimum viable experiments (MVEs), forecasts whether each will pass a threshold it sets and ranks them.",
+          "sentenceKo": "각 모델은 연구 에이전트 단독으로 또는 팀으로 작동하여 최소 기능 실험(MVE)을 제안하고, 각각이 자기가 설정한 임계값을 통과할지 예측한 후 순위를 매긴다."
+        },
+        {
+          "word": "registrations",
+          "ko": "등록",
+          "sentence": "Their forecasts beat a base rate but are not measurably more accurate than those of a fresh instance of the same model given only the paper and registrations.",
+          "sentenceKo": "그들의 예측은 기본 예측율(base rate)을 상회하지만, 논문과 등록 정보만 주어진 동일 모델의 새로운 인스턴스 예측보다 측정 가능할 정도로 더 정확하지는 않다."
+        },
+        {
+          "word": "harness",
+          "ko": "허브",
+          "sentence": "The evaluation harness and a dataset of all 415 MVEs, with their forecasts and audited outcomes, are available at https://github.com/ArtKanke/rTaste.",
+          "sentenceKo": "평가 허브와 415개의 모든 MVE 및 그 예측과 심사된 결과가 포함된 데이터셋은 https://github.com/ArtKanke/rTaste에서 확인할 수 있다."
+        },
+        {
+          "word": "viable",
+          "ko": "실행 가능한",
+          "sentence": "Each model, working as a research agent alone or as a team, proposes minimum viable experiments (MVEs), forecasts whether each will pass a threshold it sets and ranks them.",
+          "sentenceKo": "각 모델은 연구 에이전트 단독으로 또는 팀으로 작동하여 최소 기능 실험(MVE)을 제안하고, 각각이 자기가 설정한 임계값을 통과할지 예측한 후 순위를 매긴다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.40488",
+        "arxiv": "https://arxiv.org/abs/2610.40488",
+        "pdf": "https://arxiv.org/pdf/2610.40488",
+        "github": "https://github.com/ArtKanke/rTaste"
+      },
+      "githubStars": 1,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-02T21:14:49.554Z",
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
+    {
+      "id": "2610.37919",
+      "title": "SciGame: Let Agents Play the Scientific Discovery Games in the Real and Counterfactual World",
+      "authors": [
+        "Yusheng Zhao",
+        "Bowei He",
+        "Xue Liu",
+        "Mingxiao Li"
+      ],
+      "publishedAt": "2026-10-27T20:02:47.000Z",
+      "upvotes": 3,
+      "keywords": [
+        "large language model agents",
+        "SciGame",
+        "scientific cards",
+        "counterfactual environments",
+        "symbolic form",
+        "adaptive experimentation",
+        "prior-only protocols"
+      ],
+      "categories": [
+        "AI 과학자",
+        "LLM 에이전트",
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "SciGame evaluates scientific discovery agents using structured cards with counterfactual environments to separate prior knowledge from empirical evidence, revealing that exact symbolic law recovery remains a key challenge.",
+        "ko": "SciGame은 반사실적 환경이 포함된 구조화된 카드를 사용하여 사전 지식과 경험적 증거를 분리함으로써 과학적 발견 에이전트를 평가하며, 정확한 기호 법칙 복원이 핵심 과제로 남아 있음을 밝혀냅니다."
+      },
+      "abstract": {
+        "en": "Large language model agents are increasingly used for scientific discovery. However, existing benchmarks mix law inference with programming, score data fitting instead of prediction on unseen inputs, and do not separate empirical evidence from pretrained priors. We introduce SciGame, a controlled benchmark that converts scientific literature into structured scientific cards. Each card yields a pair of Original and dimensionally consistent Counterfactual environments with the same task interface. SciGame contains a Historical collection of canonical laws and a live Temporal collection curated from papers published after model knowledge cutoffs. It evaluates agents in candidate-guided Identification and open-ended Discovery settings. Each setting runs under Prior-only, Fixed, and Adaptive protocols. Experiments on five frontier models yield three findings. First, familiar priors hurt performance once the governing relation is altered. Second, adaptive experimentation helps the strongest models but harms weaker ones under limited budgets. Third, good explanations can hide quantitative failures. Recovering the exact symbolic form remains the main bottleneck, even when agents interpret evidence correctly. Current agents can investigate systems actively, but inducing exact laws in unfamiliar settings remains an open challenge.",
+        "ko": "대형 언어 모델 에이전트는 과학적 발견에 점점 더 많이 활용되고 있습니다. 그러나 기존의 벤치마크는 법칙 추론과 프로그래밍을 혼합하고, 보지 못한 입력에 대한 예측 대신 데이터 적합도를 채점하며, 경험적 증거를 사전 학습된 사전 확률(prior)과 분리하지 않습니다. 저희는 과학 문헌을 구조화된 과학 카드(scientific cards)로 변환하는 통제된 벤치마크인 SciGame을 소개합니다. 각 카드는 동일한 작업 인터페이스를 가지며 차원적으로 일관된 원본(Original) 및 반사실적(Counterfactual) 환경 쌍을 생성합니다. SciGame은 표준 법칙의 역사적(Historical) 컬렉션과 모델의 지식 차단 시점 이후에 출판된 논문들로 엄선된 실시간 시간적(Temporal) 컬렉션을 포함합니다. 이 벤치마크는 후보 유도 식별(candidate-guided Identification) 및 개방형 발견(open-ended Discovery) 설정에서 에이전트를 평가합니다. 각 설정은 사전 전용(Prior-only), 고정(Fixed), 적응형(Adaptive) 프로토콜 하에서 실행됩니다. 5개의 프론티어 모델을 대상으로 한 실험을 통해 세 가지 발견을 도출했습니다. 첫째, 지배 관계가 변경되면 익숙한 사전 지식은 오히려 성능을 저하시킵니다. 둘째, 적응형 실험은 가장 강력한 모델에는 도움이 되지만 제한된 예산 하에서는 약한 모델에 해가 됩니다. 셋째, 좋은 설명이 정량적 실패를 숨길 수 있습니다. 에이전트가 증거를 올바르게 해석하더라도 정확한 기호 형태(symbolic form)를 복원하는 것은 여전히 주요 병목 현상으로 남아 있습니다. 현재의 에이전트는 시스템을 능동적으로 조사할 수 있지만, 익숙하지 않은 환경에서 정확한 법칙을 귀납해내는 것은 여전히 미해결 과제입니다."
+      },
+      "sentences": [
+        {
+          "en": "Large language model agents are increasingly used for scientific discovery.",
+          "ko": "대형 언어 모델 에이전트는 과학적 발견에 점점 더 많이 활용되고 있습니다."
+        },
+        {
+          "en": "However, existing benchmarks mix law inference with programming, score data fitting instead of prediction on unseen inputs, and do not separate empirical evidence from pretrained priors.",
+          "ko": "그러나 기존의 벤치마크는 법칙 추론과 프로그래밍을 혼합하고, 보지 못한 입력에 대한 예측 대신 데이터 적합도를 채점하며, 경험적 증거를 사전 학습된 사전 확률(prior)과 분리하지 않습니다."
+        },
+        {
+          "en": "We introduce SciGame, a controlled benchmark that converts scientific literature into structured scientific cards.",
+          "ko": "저희는 과학 문헌을 구조화된 과학 카드(scientific cards)로 변환하는 통제된 벤치마크인 SciGame을 소개합니다."
+        },
+        {
+          "en": "Each card yields a pair of Original and dimensionally consistent Counterfactual environments with the same task interface.",
+          "ko": "각 카드는 동일한 작업 인터페이스를 가지며 차원적으로 일관된 원본(Original) 및 반사실적(Counterfactual) 환경 쌍을 생성합니다."
+        },
+        {
+          "en": "SciGame contains a Historical collection of canonical laws and a live Temporal collection curated from papers published after model knowledge cutoffs.",
+          "ko": "SciGame은 표준 법칙의 역사적(Historical) 컬렉션과 모델의 지식 차단 시점 이후에 출판된 논문들로 엄선된 실시간 시간적(Temporal) 컬렉션을 포함합니다."
+        },
+        {
+          "en": "It evaluates agents in candidate-guided Identification and open-ended Discovery settings.",
+          "ko": "이 벤치마크는 후보 유도 식별(candidate-guided Identification) 및 개방형 발견(open-ended Discovery) 설정에서 에이전트를 평가합니다."
+        },
+        {
+          "en": "Each setting runs under Prior-only, Fixed, and Adaptive protocols.",
+          "ko": "각 설정은 사전 전용(Prior-only), 고정(Fixed), 적응형(Adaptive) 프로토콜 하에서 실행됩니다."
+        },
+        {
+          "en": "Experiments on five frontier models yield three findings.",
+          "ko": "5개의 프론티어 모델을 대상으로 한 실험을 통해 세 가지 발견을 도출했습니다."
+        },
+        {
+          "en": "First, familiar priors hurt performance once the governing relation is altered.",
+          "ko": "첫째, 지배 관계가 변경되면 익숙한 사전 지식은 오히려 성능을 저하시킵니다."
+        },
+        {
+          "en": "Second, adaptive experimentation helps the strongest models but harms weaker ones under limited budgets.",
+          "ko": "둘째, 적응형 실험은 가장 강력한 모델에는 도움이 되지만 제한된 예산 하에서는 약한 모델에 해가 됩니다."
+        },
+        {
+          "en": "Third, good explanations can hide quantitative failures.",
+          "ko": "셋째, 좋은 설명이 정량적 실패를 숨길 수 있습니다."
+        },
+        {
+          "en": "Recovering the exact symbolic form remains the main bottleneck, even when agents interpret evidence correctly.",
+          "ko": "에이전트가 증거를 올바르게 해석하더라도 정확한 기호 형태(symbolic form)를 복원하는 것은 여전히 주요 병목 현상으로 남아 있습니다."
+        },
+        {
+          "en": "Current agents can investigate systems actively, but inducing exact laws in unfamiliar settings remains an open challenge.",
+          "ko": "현재의 에이전트는 시스템을 능동적으로 조사할 수 있지만, 익숙하지 않은 환경에서 정확한 법칙을 귀납해내는 것은 여전히 미해결 과제입니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Large language model agents are increasingly used for scientific discovery.",
+            "ko": "대형 언어 모델 에이전트는 과학적 발견에 점점 더 많이 활용되고 있습니다."
+          },
+          {
+            "en": "However, existing benchmarks mix law inference with programming, score data fitting instead of prediction on unseen inputs, and do not separate empirical evidence from pretrained priors.",
+            "ko": "그러나 기존의 벤치마크는 법칙 추론과 프로그래밍을 혼합하고, 보지 못한 입력에 대한 예측 대신 데이터 적합도를 채점하며, 경험적 증거를 사전 학습된 사전 확률(prior)과 분리하지 않습니다."
+          },
+          {
+            "en": "Each card yields a pair of Original and dimensionally consistent Counterfactual environments with the same task interface.",
+            "ko": "각 카드는 동일한 작업 인터페이스를 가지며 차원적으로 일관된 원본(Original) 및 반사실적(Counterfactual) 환경 쌍을 생성합니다."
+          },
+          {
+            "en": "SciGame contains a Historical collection of canonical laws and a live Temporal collection curated from papers published after model knowledge cutoffs.",
+            "ko": "SciGame은 표준 법칙의 역사적(Historical) 컬렉션과 모델의 지식 차단 시점 이후에 출판된 논문들로 엄선된 실시간 시간적(Temporal) 컬렉션을 포함합니다."
+          },
+          {
+            "en": "It evaluates agents in candidate-guided Identification and open-ended Discovery settings.",
+            "ko": "이 벤치마크는 후보 유도 식별(candidate-guided Identification) 및 개방형 발견(open-ended Discovery) 설정에서 에이전트를 평가합니다."
+          },
+          {
+            "en": "Each setting runs under Prior-only, Fixed, and Adaptive protocols.",
+            "ko": "각 설정은 사전 전용(Prior-only), 고정(Fixed), 적응형(Adaptive) 프로토콜 하에서 실행됩니다."
+          },
+          {
+            "en": "Experiments on five frontier models yield three findings.",
+            "ko": "5개의 프론티어 모델을 대상으로 한 실험을 통해 세 가지 발견을 도출했습니다."
+          },
+          {
+            "en": "First, familiar priors hurt performance once the governing relation is altered.",
+            "ko": "첫째, 지배 관계가 변경되면 익숙한 사전 지식은 오히려 성능을 저하시킵니다."
+          },
+          {
+            "en": "Second, adaptive experimentation helps the strongest models but harms weaker ones under limited budgets.",
+            "ko": "둘째, 적응형 실험은 가장 강력한 모델에는 도움이 되지만 제한된 예산 하에서는 약한 모델에 해가 됩니다."
+          },
+          {
+            "en": "Third, good explanations can hide quantitative failures.",
+            "ko": "셋째, 좋은 설명이 정량적 실패를 숨길 수 있습니다."
+          },
+          {
+            "en": "Recovering the exact symbolic form remains the main bottleneck, even when agents interpret evidence correctly.",
+            "ko": "에이전트가 증거를 올바르게 해석하더라도 정확한 기호 형태(symbolic form)를 복원하는 것은 여전히 주요 병목 현상으로 남아 있습니다."
+          },
+          {
+            "en": "Current agents can investigate systems actively, but inducing exact laws in unfamiliar settings remains an open challenge.",
+            "ko": "현재의 에이전트는 시스템을 능동적으로 조사할 수 있지만, 익숙하지 않은 환경에서 정확한 법칙을 귀납해내는 것은 여전히 미해결 과제입니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "We introduce SciGame, a controlled benchmark that converts scientific literature into structured scientific cards.",
+            "ko": "저희는 과학 문헌을 구조화된 과학 카드(scientific cards)로 변환하는 통제된 벤치마크인 SciGame을 소개합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "Current agents can investigate systems actively, but inducing exact laws in unfamiliar settings remains an open challenge.",
+            "ko": "현재의 에이전트는 시스템을 능동적으로 조사할 수 있지만, 익숙하지 않은 환경에서 정확한 법칙을 귀납해내는 것은 여전히 미해결 과제입니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "experimentation",
+          "ko": "실험",
+          "sentence": "Second, adaptive experimentation helps the strongest models but harms weaker ones under limited budgets.",
+          "sentenceKo": "둘째, 적응형 실험은 가장 강력한 모델에는 도움이 되지만 제한된 예산 하에서는 약한 모델에 해가 됩니다."
+        },
+        {
+          "word": "scientific",
+          "ko": "과학적",
+          "sentence": "Large language model agents are increasingly used for scientific discovery.",
+          "sentenceKo": "대형 언어 모델 에이전트는 과학적 발견에 점점 더 많이 활용되고 있습니다."
+        },
+        {
+          "word": "counterfactual",
+          "ko": "반사실적",
+          "sentence": "Each card yields a pair of Original and dimensionally consistent Counterfactual environments with the same task interface.",
+          "sentenceKo": "각 카드는 동일한 작업 인터페이스를 가지며 차원적으로 일관된 원본(Original) 및 반사실적(Counterfactual) 환경 쌍을 생성합니다."
+        },
+        {
+          "word": "adaptive",
+          "ko": "적응형",
+          "sentence": "Each setting runs under Prior-only, Fixed, and Adaptive protocols.",
+          "sentenceKo": "각 설정은 사전 전용(Prior-only), 고정(Fixed), 적응형(Adaptive) 프로토콜 하에서 실행됩니다."
+        },
+        {
+          "word": "agents",
+          "ko": "에이전트",
+          "sentence": "Large language model agents are increasingly used for scientific discovery.",
+          "sentenceKo": "대형 언어 모델 에이전트는 과학적 발견에 점점 더 많이 활용되고 있습니다."
+        },
+        {
+          "word": "environments",
+          "ko": "환경",
+          "sentence": "Each card yields a pair of Original and dimensionally consistent Counterfactual environments with the same task interface.",
+          "sentenceKo": "각 카드는 동일한 작업 인터페이스를 가지며 차원적으로 일관된 원본(Original) 및 반사실적(Counterfactual) 환경 쌍을 생성합니다."
+        },
+        {
+          "word": "identification",
+          "ko": "식별",
+          "sentence": "It evaluates agents in candidate-guided Identification and open-ended Discovery settings.",
+          "sentenceKo": "이 벤치마크는 후보 유도 식별(candidate-guided Identification) 및 개방형 발견(open-ended Discovery) 설정에서 에이전트를 평가합니다."
+        },
+        {
+          "word": "collection",
+          "ko": "컬렉션",
+          "sentence": "SciGame contains a Historical collection of canonical laws and a live Temporal collection curated from papers published after model knowledge cutoffs.",
+          "sentenceKo": "SciGame은 표준 법칙의 역사적(Historical) 컬렉션과 모델의 지식 차단 시점 이후에 출판된 논문들로 엄선된 실시간 시간적(Temporal) 컬렉션을 포함합니다."
+        },
+        {
+          "word": "protocols",
+          "ko": "프로토콜",
+          "sentence": "Each setting runs under Prior-only, Fixed, and Adaptive protocols.",
+          "sentenceKo": "각 설정은 사전 전용(Prior-only), 고정(Fixed), 적응형(Adaptive) 프로토콜 하에서 실행됩니다."
+        },
+        {
+          "word": "quantitative",
+          "ko": "정량적",
+          "sentence": "Third, good explanations can hide quantitative failures.",
+          "sentenceKo": "셋째, 좋은 설명이 정량적 실패를 숨길 수 있습니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.37919",
+        "arxiv": "https://arxiv.org/abs/2610.37919",
+        "pdf": "https://arxiv.org/pdf/2610.37919",
+        "github": "https://github.com/yushengzh/scigame"
+      },
+      "githubStars": 1,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-02T21:14:49.554Z",
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
     {
       "id": "2610.35252",
       "title": "Labference: Benchmarking the Reasoning-Action Connection in Robotic Laboratories",
@@ -2279,7 +2702,7 @@
         "Limin Wang"
       ],
       "publishedAt": "2026-10-24T00:00:00.000Z",
-      "upvotes": 32,
+      "upvotes": 34,
       "keywords": [
         "LLM agents",
         "self-improving research system",
@@ -2445,7 +2868,7 @@
         "pdf": "https://arxiv.org/pdf/2610.33845",
         "github": "https://github.com/MCG-NJU/AutoTavern"
       },
-      "githubStars": 211,
+      "githubStars": 218,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -3020,7 +3443,7 @@
         "Manmohan Chandraker"
       ],
       "publishedAt": "2026-10-21T00:00:00.000Z",
-      "upvotes": 11,
+      "upvotes": 12,
       "keywords": [
         "3D Gaussian Splatting",
         "Mip-NeRF 360",
@@ -3378,7 +3801,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28763",
         "github": "https://github.com/maszhongming/agent4sci"
       },
-      "githubStars": 91,
+      "githubStars": 93,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -3998,7 +4421,7 @@
         "Josef Liyanjun Chen"
       ],
       "publishedAt": "2026-10-24T00:00:00.000Z",
-      "upvotes": 8,
+      "upvotes": 9,
       "keywords": [
         "vision-language model",
         "LoRA adapter",
@@ -5050,7 +5473,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28578",
         "github": "https://github.com/InternScience/Agents-A1"
       },
-      "githubStars": 607,
+      "githubStars": 608,
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
@@ -5439,7 +5862,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 143,
+      "githubStars": 145,
       "translatedBy": "gemini",
       "citations": {
         "count": 1,
