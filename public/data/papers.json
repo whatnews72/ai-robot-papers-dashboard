@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T17:28:48.820Z",
+  "updatedAt": "2026-11-02T05:23:15.084Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -11,6 +11,219 @@
     "automated scientific experiment robotics"
   ],
   "papers": [
+    {
+      "id": "2610.35252",
+      "title": "Labference: Benchmarking the Reasoning-Action Connection in Robotic Laboratories",
+      "authors": [
+        "Shitong Liu",
+        "Jingwei Zhang",
+        "Sheng Lian",
+        "Xinyu Zhuang",
+        "Kaiwen Guo",
+        "Quan Liu",
+        "Chunhai Zhao",
+        "Jiaxin He",
+        "Fan Yang",
+        "Manli Tao",
+        "Tingyu Yuan",
+        "Jinqiao Wang",
+        "Hongwei Shi",
+        "Chaomin Guo",
+        "Xiao-jing Liu",
+        "Xiangyu Zhu",
+        "Zhuang Xiong",
+        "Feichan Yang",
+        "Chaoyang Zhao",
+        "Zhiyong Liu"
+      ],
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "upvotes": 0,
+      "keywords": [
+        "Embodied AI",
+        "VLA policies",
+        "outcome-dependent adaptation",
+        "robotic laboratory actions",
+        "Oracle-assisted continuations"
+      ],
+      "categories": [
+        "AI 과학자",
+        "로봇 조작",
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "Labference evaluates how robots adapt laboratory actions based on observed physical outcomes, revealing gaps between reasoning and execution in embodied scientific automation.",
+        "ko": "Labference는 로봇이 관찰된 physical(물리적) 결과를 바탕으로 laboratory(실험실) 행동을 어떻게 adaptation(적응)하는지 평가하며, embodied(체화된) 과학적 자동화에서 reasoning(추론)과 execution(실행) 사이의 격차를 드러냅니다."
+      },
+      "abstract": {
+        "en": "Realizing Embodied AI for Science requires robots to translate experimental goals into reliable physical procedures, reducing hazardous and repetitive human work while generating evidence for scientific discovery. Although language-based planning and learned manipulation provide complementary capabilities, their integration requires robots to adapt subsequent operations to actual execution outcomes. For example, an unsuccessful placement changes what must be done next, even when the experimental goal remains unchanged. Existing benchmarks assess planning, manipulation, and laboratory workflows through task completion and reasoning or execution metrics; however, aggregate performance leaves the connection between outcome-dependent choices and physical execution unresolved. To address this evaluation gap, we introduce Labference, a benchmark for evaluating how observed physical outcomes guide subsequent choices and how those choices translate into robotic laboratory actions. Its evaluation protocol is designed to test outcome-dependent behavioral adaptation through controlled evidence variations, while independently measuring operation selection, physical execution, and task completion. Matched Oracle-assisted continuations from shared checkpoints then assess which forms of support improve subsequent choices and task completion. Initial weighing evaluations reveal target-selection errors in the tested VLA policies despite successful object transfers, whereas GPT-driven control achieves correct selection but encounters execution failures and substantial computation costs. Together, these findings highlight the need to connect task-appropriate reasoning with reliable, timely action. By making this connection measurable and diagnosable, Labference supports targeted improvements toward autonomous experimentation for Embodied AI for Science.",
+        "ko": "과학을 위한 체화된 인공지능(Embodied AI for Science)을 구현하려면 로봇이 실험 목표를 신뢰할 수 있는 물리적 절차로 변환하여, 위험하고 반복적인 인간의 노동을 줄이는 동시에 과학적 발견을 위한 증거를 생성해야 합니다. 언어 기반 계획과 학습된 조작(learned manipulation)이 상호 보완적인 기능을 제공하지만, 이들을 통합하려면 로봇이 실제 실행 결과에 따라 후속 작업을 조정해야 합니다. 예를 들어, 실험 목표가 그대로 유지되더라도 배치(placement)가 실패하면 다음에 수행해야 할 작업이 바뀝니다. 기존의 벤치마크는 작업 완료 및 추론 또는 실행 지표를 통해 계획, 조작, 실험실 워크플로를 평가하지만, 종합적인 성능 평가는 결과 의존적 선택과 물리적 실행 사이의 연관성을 명확히 밝히지 못합니다. 이러한 평가의 공백을 해결하기 위해, 본 논문에서는 관찰된 물리적 결과가 후속 선택을 어떻게 안내하고 그러한 선택이 로봇의 실험실 행동으로 어떻게 전환되는지 평가하기 위한 벤치마크인 Labference를 소개합니다. 이 평가 프로토콜은 통제된 증거 변량을 통해 결과 의존적 행동 적응을 테스트하도록 설계되었으며, 작업 선택, 물리적 실행, 작업 완료를 독립적으로 측정합니다. 이어지는 공유 체크포인트 기반의 오라클 지원 연속(Oracle-assisted continuations) 평가는 어떤 형태의 지원이 후속 선택과 작업 완료를 개선하는지 평가합니다. 초기 칭량(weighing) 평가는 테스트된 VLA 정책에서 물체 이동은 성공했음에도 불구하고 목표 선택 오류가 발생하는 반면, GPT 기반 제어는 올바른 선택을 달성하지만 실행 실패와 상당한 연산 비용을 겪는다는 것을 보여줍니다. 종합하면, 이러한 결과들은 작업에 적절한 추론을 신뢰할 수 있고 적시의 행동과 연결해야 할 필요성을 강조합니다. 이러한 연결을 측정하고 진단 가능하게 만듦으로써, Labference는 과학을 위한 체화된 인공지능(Embodied AI for Science)을 향한 자율 실험의 표적화된 개선을 지원합니다."
+      },
+      "sentences": [
+        {
+          "en": "Realizing Embodied AI for Science requires robots to translate experimental goals into reliable physical procedures, reducing hazardous and repetitive human work while generating evidence for scientific discovery.",
+          "ko": "과학을 위한 체화된 인공지능(Embodied AI for Science)을 구현하려면 로봇이 실험 목표를 신뢰할 수 있는 물리적 절차로 변환하여, 위험하고 반복적인 인간의 노동을 줄이는 동시에 과학적 발견을 위한 증거를 생성해야 합니다."
+        },
+        {
+          "en": "Although language-based planning and learned manipulation provide complementary capabilities, their integration requires robots to adapt subsequent operations to actual execution outcomes.",
+          "ko": "언어 기반 계획과 학습된 조작(learned manipulation)이 상호 보완적인 기능을 제공하지만, 이들을 통합하려면 로봇이 실제 실행 결과에 따라 후속 작업을 조정해야 합니다."
+        },
+        {
+          "en": "For example, an unsuccessful placement changes what must be done next, even when the experimental goal remains unchanged.",
+          "ko": "예를 들어, 실험 목표가 그대로 유지되더라도 배치(placement)가 실패하면 다음에 수행해야 할 작업이 바뀝니다."
+        },
+        {
+          "en": "Existing benchmarks assess planning, manipulation, and laboratory workflows through task completion and reasoning or execution metrics; however, aggregate performance leaves the connection between outcome-dependent choices and physical execution unresolved.",
+          "ko": "기존의 벤치마크는 작업 완료 및 추론 또는 실행 지표를 통해 계획, 조작, 실험실 워크플로를 평가하지만, 종합적인 성능 평가는 결과 의존적 선택과 물리적 실행 사이의 연관성을 명확히 밝히지 못합니다."
+        },
+        {
+          "en": "To address this evaluation gap, we introduce Labference, a benchmark for evaluating how observed physical outcomes guide subsequent choices and how those choices translate into robotic laboratory actions.",
+          "ko": "이러한 평가의 공백을 해결하기 위해, 본 논문에서는 관찰된 물리적 결과가 후속 선택을 어떻게 안내하고 그러한 선택이 로봇의 실험실 행동으로 어떻게 전환되는지 평가하기 위한 벤치마크인 Labference를 소개합니다."
+        },
+        {
+          "en": "Its evaluation protocol is designed to test outcome-dependent behavioral adaptation through controlled evidence variations, while independently measuring operation selection, physical execution, and task completion.",
+          "ko": "이 평가 프로토콜은 통제된 증거 변량을 통해 결과 의존적 행동 적응을 테스트하도록 설계되었으며, 작업 선택, 물리적 실행, 작업 완료를 독립적으로 측정합니다."
+        },
+        {
+          "en": "Matched Oracle-assisted continuations from shared checkpoints then assess which forms of support improve subsequent choices and task completion.",
+          "ko": "이어지는 공유 체크포인트 기반의 오라클 지원 연속(Oracle-assisted continuations) 평가는 어떤 형태의 지원이 후속 선택과 작업 완료를 개선하는지 평가합니다."
+        },
+        {
+          "en": "Initial weighing evaluations reveal target-selection errors in the tested VLA policies despite successful object transfers, whereas GPT-driven control achieves correct selection but encounters execution failures and substantial computation costs.",
+          "ko": "초기 칭량(weighing) 평가는 테스트된 VLA 정책에서 물체 이동은 성공했음에도 불구하고 목표 선택 오류가 발생하는 반면, GPT 기반 제어는 올바른 선택을 달성하지만 실행 실패와 상당한 연산 비용을 겪는다는 것을 보여줍니다."
+        },
+        {
+          "en": "Together, these findings highlight the need to connect task-appropriate reasoning with reliable, timely action.",
+          "ko": "종합하면, 이러한 결과들은 작업에 적절한 추론을 신뢰할 수 있고 적시의 행동과 연결해야 할 필요성을 강조합니다."
+        },
+        {
+          "en": "By making this connection measurable and diagnosable, Labference supports targeted improvements toward autonomous experimentation for Embodied AI for Science.",
+          "ko": "이러한 연결을 측정하고 진단 가능하게 만듦으로써, Labference는 과학을 위한 체화된 인공지능(Embodied AI for Science)을 향한 자율 실험의 표적화된 개선을 지원합니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "For example, an unsuccessful placement changes what must be done next, even when the experimental goal remains unchanged.",
+            "ko": "예를 들어, 실험 목표가 그대로 유지되더라도 배치(placement)가 실패하면 다음에 수행해야 할 작업이 바뀝니다."
+          },
+          {
+            "en": "Existing benchmarks assess planning, manipulation, and laboratory workflows through task completion and reasoning or execution metrics; however, aggregate performance leaves the connection between outcome-dependent choices and physical execution unresolved.",
+            "ko": "기존의 벤치마크는 작업 완료 및 추론 또는 실행 지표를 통해 계획, 조작, 실험실 워크플로를 평가하지만, 종합적인 성능 평가는 결과 의존적 선택과 물리적 실행 사이의 연관성을 명확히 밝히지 못합니다."
+          },
+          {
+            "en": "Its evaluation protocol is designed to test outcome-dependent behavioral adaptation through controlled evidence variations, while independently measuring operation selection, physical execution, and task completion.",
+            "ko": "이 평가 프로토콜은 통제된 증거 변량을 통해 결과 의존적 행동 적응을 테스트하도록 설계되었으며, 작업 선택, 물리적 실행, 작업 완료를 독립적으로 측정합니다."
+          },
+          {
+            "en": "Together, these findings highlight the need to connect task-appropriate reasoning with reliable, timely action.",
+            "ko": "종합하면, 이러한 결과들은 작업에 적절한 추론을 신뢰할 수 있고 적시의 행동과 연결해야 할 필요성을 강조합니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "Although language-based planning and learned manipulation provide complementary capabilities, their integration requires robots to adapt subsequent operations to actual execution outcomes.",
+            "ko": "언어 기반 계획과 학습된 조작(learned manipulation)이 상호 보완적인 기능을 제공하지만, 이들을 통합하려면 로봇이 실제 실행 결과에 따라 후속 작업을 조정해야 합니다."
+          },
+          {
+            "en": "To address this evaluation gap, we introduce Labference, a benchmark for evaluating how observed physical outcomes guide subsequent choices and how those choices translate into robotic laboratory actions.",
+            "ko": "이러한 평가의 공백을 해결하기 위해, 본 논문에서는 관찰된 물리적 결과가 후속 선택을 어떻게 안내하고 그러한 선택이 로봇의 실험실 행동으로 어떻게 전환되는지 평가하기 위한 벤치마크인 Labference를 소개합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "Realizing Embodied AI for Science requires robots to translate experimental goals into reliable physical procedures, reducing hazardous and repetitive human work while generating evidence for scientific discovery.",
+            "ko": "과학을 위한 체화된 인공지능(Embodied AI for Science)을 구현하려면 로봇이 실험 목표를 신뢰할 수 있는 물리적 절차로 변환하여, 위험하고 반복적인 인간의 노동을 줄이는 동시에 과학적 발견을 위한 증거를 생성해야 합니다."
+          },
+          {
+            "en": "Matched Oracle-assisted continuations from shared checkpoints then assess which forms of support improve subsequent choices and task completion.",
+            "ko": "이어지는 공유 체크포인트 기반의 오라클 지원 연속(Oracle-assisted continuations) 평가는 어떤 형태의 지원이 후속 선택과 작업 완료를 개선하는지 평가합니다."
+          },
+          {
+            "en": "Initial weighing evaluations reveal target-selection errors in the tested VLA policies despite successful object transfers, whereas GPT-driven control achieves correct selection but encounters execution failures and substantial computation costs.",
+            "ko": "초기 칭량(weighing) 평가는 테스트된 VLA 정책에서 물체 이동은 성공했음에도 불구하고 목표 선택 오류가 발생하는 반면, GPT 기반 제어는 올바른 선택을 달성하지만 실행 실패와 상당한 연산 비용을 겪는다는 것을 보여줍니다."
+          },
+          {
+            "en": "By making this connection measurable and diagnosable, Labference supports targeted improvements toward autonomous experimentation for Embodied AI for Science.",
+            "ko": "이러한 연결을 측정하고 진단 가능하게 만듦으로써, Labference는 과학을 위한 체화된 인공지능(Embodied AI for Science)을 향한 자율 실험의 표적화된 개선을 지원합니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "execution",
+          "ko": "실행",
+          "sentence": "Although language-based planning and learned manipulation provide complementary capabilities, their integration requires robots to adapt subsequent operations to actual execution outcomes.",
+          "sentenceKo": "언어 기반 계획과 학습된 조작(learned manipulation)이 상호 보완적인 기능을 제공하지만, 이들을 통합하려면 로봇이 실제 실행 결과에 따라 후속 작업을 조정해야 합니다."
+        },
+        {
+          "word": "adaptation",
+          "ko": "적응",
+          "sentence": "Its evaluation protocol is designed to test outcome-dependent behavioral adaptation through controlled evidence variations, while independently measuring operation selection, physical execution, and task completion.",
+          "sentenceKo": "이 평가 프로토콜은 통제된 증거 변량을 통해 결과 의존적 행동 적응을 테스트하도록 설계되었으며, 작업 선택, 물리적 실행, 작업 완료를 독립적으로 측정합니다."
+        },
+        {
+          "word": "continuations",
+          "ko": "연속",
+          "sentence": "Matched Oracle-assisted continuations from shared checkpoints then assess which forms of support improve subsequent choices and task completion.",
+          "sentenceKo": "이어지는 공유 체크포인트 기반의 오라클 지원 연속(Oracle-assisted continuations) 평가는 어떤 형태의 지원이 후속 선택과 작업 완료를 개선하는지 평가합니다."
+        },
+        {
+          "word": "laboratory",
+          "ko": "실험실의",
+          "sentence": "Existing benchmarks assess planning, manipulation, and laboratory workflows through task completion and reasoning or execution metrics; however, aggregate performance leaves the connection between outcome-dependent choices and physical execution unresolved.",
+          "sentenceKo": "기존의 벤치마크는 작업 완료 및 추론 또는 실행 지표를 통해 계획, 조작, 실험실 워크플로를 평가하지만, 종합적인 성능 평가는 결과 의존적 선택과 물리적 실행 사이의 연관성을 명확히 밝히지 못합니다."
+        },
+        {
+          "word": "physical",
+          "ko": "물리적인",
+          "sentence": "Realizing Embodied AI for Science requires robots to translate experimental goals into reliable physical procedures, reducing hazardous and repetitive human work while generating evidence for scientific discovery.",
+          "sentenceKo": "과학을 위한 체화된 인공지능(Embodied AI for Science)을 구현하려면 로봇이 실험 목표를 신뢰할 수 있는 물리적 절차로 변환하여, 위험하고 반복적인 인간의 노동을 줄이는 동시에 과학적 발견을 위한 증거를 생성해야 합니다."
+        },
+        {
+          "word": "manipulation",
+          "ko": "조작",
+          "sentence": "Although language-based planning and learned manipulation provide complementary capabilities, their integration requires robots to adapt subsequent operations to actual execution outcomes.",
+          "sentenceKo": "언어 기반 계획과 학습된 조작(learned manipulation)이 상호 보완적인 기능을 제공하지만, 이들을 통합하려면 로봇이 실제 실행 결과에 따라 후속 작업을 조정해야 합니다."
+        },
+        {
+          "word": "completion",
+          "ko": "완료",
+          "sentence": "Existing benchmarks assess planning, manipulation, and laboratory workflows through task completion and reasoning or execution metrics; however, aggregate performance leaves the connection between outcome-dependent choices and physical execution unresolved.",
+          "sentenceKo": "기존의 벤치마크는 작업 완료 및 추론 또는 실행 지표를 통해 계획, 조작, 실험실 워크플로를 평가하지만, 종합적인 성능 평가는 결과 의존적 선택과 물리적 실행 사이의 연관성을 명확히 밝히지 못합니다."
+        },
+        {
+          "word": "embodied",
+          "ko": "체화된",
+          "sentence": "Realizing Embodied AI for Science requires robots to translate experimental goals into reliable physical procedures, reducing hazardous and repetitive human work while generating evidence for scientific discovery.",
+          "sentenceKo": "과학을 위한 체화된 인공지능(Embodied AI for Science)을 구현하려면 로봇이 실험 목표를 신뢰할 수 있는 물리적 절차로 변환하여, 위험하고 반복적인 인간의 노동을 줄이는 동시에 과학적 발견을 위한 증거를 생성해야 합니다."
+        },
+        {
+          "word": "target-selection",
+          "ko": "목표 선택",
+          "sentence": "Initial weighing evaluations reveal target-selection errors in the tested VLA policies despite successful object transfers, whereas GPT-driven control achieves correct selection but encounters execution failures and substantial computation costs.",
+          "sentenceKo": "초기 칭량(weighing) 평가는 테스트된 VLA 정책에서 물체 이동은 성공했음에도 불구하고 목표 선택 오류가 발생하는 반면, GPT 기반 제어는 올바른 선택을 달성하지만 실행 실패와 상당한 연산 비용을 겪는다는 것을 보여줍니다."
+        },
+        {
+          "word": "experimentation",
+          "ko": "실험",
+          "sentence": "By making this connection measurable and diagnosable, Labference supports targeted improvements toward autonomous experimentation for Embodied AI for Science.",
+          "sentenceKo": "이러한 연결을 측정하고 진단 가능하게 만듦으로써, Labference는 과학을 위한 체화된 인공지능(Embodied AI for Science)을 향한 자율 실험의 표적화된 개선을 지원합니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2610.35252",
+        "arxiv": "https://arxiv.org/abs/2610.35252",
+        "pdf": "https://arxiv.org/pdf/2610.35252",
+        "github": null
+      },
+      "githubStars": null,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-02T05:23:15.084Z",
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
     {
       "id": "2610.36533",
       "title": "RoboAuto: Autonomous Robot Program Search through Multi-Level Physical Understanding",
@@ -1876,7 +2089,7 @@
         "Sherry Yang"
       ],
       "publishedAt": "2026-10-27T00:00:00.000Z",
-      "upvotes": 8,
+      "upvotes": 9,
       "keywords": [
         "world model",
         "Qwen3.5-4B",
@@ -2066,7 +2279,7 @@
         "Limin Wang"
       ],
       "publishedAt": "2026-10-24T00:00:00.000Z",
-      "upvotes": 30,
+      "upvotes": 32,
       "keywords": [
         "LLM agents",
         "self-improving research system",
@@ -2232,7 +2445,7 @@
         "pdf": "https://arxiv.org/pdf/2610.33845",
         "github": "https://github.com/MCG-NJU/AutoTavern"
       },
-      "githubStars": 204,
+      "githubStars": 211,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -2434,7 +2647,7 @@
         "Sung Ju Hwang"
       ],
       "publishedAt": "2026-10-23T00:00:00.000Z",
-      "upvotes": 41,
+      "upvotes": 42,
       "keywords": [
         "LLM-based framework",
         "inductive principles",
@@ -3165,7 +3378,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28763",
         "github": "https://github.com/maszhongming/agent4sci"
       },
-      "githubStars": 88,
+      "githubStars": 91,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -3770,7 +3983,7 @@
         "pdf": "https://arxiv.org/pdf/2610.35385",
         "github": "https://github.com/HexaFuture/EmbodiedLab"
       },
-      "githubStars": 16,
+      "githubStars": 17,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-27T14:45:38.679Z",
       "citations": {
