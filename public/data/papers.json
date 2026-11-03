@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T06:02:05.583Z",
+  "updatedAt": "2026-11-03T18:55:17.701Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -2330,7 +2330,7 @@
         "Ying-Cong Chen"
       ],
       "publishedAt": "2026-10-27T00:00:00.000Z",
-      "upvotes": 16,
+      "upvotes": 7,
       "keywords": [
         "large language models",
         "LongChang",
@@ -2512,7 +2512,7 @@
         "Sherry Yang"
       ],
       "publishedAt": "2026-10-27T00:00:00.000Z",
-      "upvotes": 9,
+      "upvotes": 6,
       "keywords": [
         "world model",
         "Qwen3.5-4B",
@@ -2702,7 +2702,7 @@
         "Limin Wang"
       ],
       "publishedAt": "2026-10-24T00:00:00.000Z",
-      "upvotes": 34,
+      "upvotes": 18,
       "keywords": [
         "LLM agents",
         "self-improving research system",
@@ -2868,7 +2868,7 @@
         "pdf": "https://arxiv.org/pdf/2610.33845",
         "github": "https://github.com/MCG-NJU/AutoTavern"
       },
-      "githubStars": 227,
+      "githubStars": 232,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -2889,7 +2889,7 @@
         "Yuheng Bu"
       ],
       "publishedAt": "2026-10-23T00:00:00.000Z",
-      "upvotes": 19,
+      "upvotes": 12,
       "keywords": [
         "test-time training",
         "test-time adaptation",
@@ -3070,7 +3070,7 @@
         "Sung Ju Hwang"
       ],
       "publishedAt": "2026-10-23T00:00:00.000Z",
-      "upvotes": 42,
+      "upvotes": 25,
       "keywords": [
         "LLM-based framework",
         "inductive principles",
@@ -3443,7 +3443,7 @@
         "Manmohan Chandraker"
       ],
       "publishedAt": "2026-10-21T00:00:00.000Z",
-      "upvotes": 12,
+      "upvotes": 5,
       "keywords": [
         "3D Gaussian Splatting",
         "Mip-NeRF 360",
@@ -3626,7 +3626,7 @@
         "Matthew Jagielski"
       ],
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "upvotes": 27,
+      "upvotes": 18,
       "keywords": [
         "Agent4Sci",
         "long-horizon testbed",
@@ -3801,7 +3801,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28763",
         "github": "https://github.com/maszhongming/agent4sci"
       },
-      "githubStars": 93,
+      "githubStars": 95,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -3834,7 +3834,7 @@
         "Zichen Chen"
       ],
       "publishedAt": "2026-10-18T00:00:00.000Z",
-      "upvotes": 23,
+      "upvotes": 22,
       "keywords": [
         "autonomous research agent",
         "persistent research history",
@@ -4018,7 +4018,7 @@
         "Zhewei Yao"
       ],
       "publishedAt": "2026-10-17T00:00:00.000Z",
-      "upvotes": 10,
+      "upvotes": 8,
       "keywords": [
         "LLM agents",
         "cross-source reasoning",
@@ -4226,7 +4226,7 @@
         "Xiao He"
       ],
       "publishedAt": "2026-10-26T00:00:00.000Z",
-      "upvotes": 14,
+      "upvotes": 11,
       "keywords": [
         "embodied agents",
         "physics-based simulation",
@@ -4421,7 +4421,7 @@
         "Josef Liyanjun Chen"
       ],
       "publishedAt": "2026-10-24T00:00:00.000Z",
-      "upvotes": 9,
+      "upvotes": 8,
       "keywords": [
         "vision-language model",
         "LoRA adapter",
@@ -5027,7 +5027,7 @@
         "Shiyu Chang"
       ],
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "upvotes": 40,
+      "upvotes": 18,
       "keywords": [],
       "categories": [
         "AI 과학자"
@@ -5311,7 +5311,7 @@
         "Bo Zhang"
       ],
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "upvotes": 73,
+      "upvotes": 72,
       "keywords": [
         "Mixture-of-Experts",
         "agentic model",
@@ -5473,7 +5473,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28578",
         "github": "https://github.com/InternScience/Agents-A1"
       },
-      "githubStars": 608,
+      "githubStars": 607,
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
@@ -5682,7 +5682,7 @@
         "Xiangyu Yue"
       ],
       "publishedAt": "2026-10-14T00:00:00.000Z",
-      "upvotes": 38,
+      "upvotes": 32,
       "keywords": [
         "vision-language-action models",
         "world models",
@@ -5862,7 +5862,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 147,
+      "githubStars": 151,
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
