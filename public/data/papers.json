@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T18:55:17.701Z",
+  "updatedAt": "2026-11-04T05:41:19.738Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -12,13 +12,390 @@
   ],
   "papers": [
     {
+      "id": "2611.02833",
+      "title": "Reimagining computational quantum research with AI scientists",
+      "authors": [
+        "Yuxuan Du",
+        "Hanqing Zhao",
+        "Xinbiao Wang",
+        "Yiming Lu",
+        "Kaining Zhang",
+        "Dacheng Tao"
+      ],
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "upvotes": 0,
+      "keywords": [
+        "OmniQ",
+        "agentic systems",
+        "large language models",
+        "Residual Agents",
+        "self-improving AI scientist",
+        "model context protocol"
+      ],
+      "categories": [
+        "AI 과학자",
+        "LLM 에이전트"
+      ],
+      "aiSummary": {
+        "en": "AI scientists face a reproducibility gap because papers omit details needed for autonomous execution, which can be bridged by distilling expert repairs into reusable experience via Residual Agents in quantum science.",
+        "ko": "AI 과학자는 논문이 자율적 실행에 필요한 세부 사항을 누락하기 때문에 재현성 격차에 직면하며, 이는 양자 과학에서 잔여 에이전트를 통해 전문가의 수정을 재사용 가능한 경험으로 증류함으로써 극복할 수 있습니다."
+      },
+      "abstract": {
+        "en": "AI scientists are expanding automated research across scientific domains, yet their ability to turn the scientific record into a foundation for autonomous discovery remains elusive. Here we uncover a fundamental barrier to this transition and demonstrate a route to overcome it in computational quantum science, where advances shape both what we can learn from complex quantum systems and what quantum computing can ultimately deliver. To identify this barrier, we introduce OmniQ, an expert-audited virtual research environment that converts published studies into executable reproduction tasks. Across 59 papers spanning classical simulation, quantum algorithms and quantum-property characterization, we systematically evaluate five agentic systems powered by large language models and six third-party agent harnesses. Our findings reveal that current AI scientists often fail to reproduce published results, exposing a fundamental mismatch between what scientific papers communicate and what autonomous agents require. By contrast, human expert intervention can turn these failures into successful reproductions, showing that the missing information can be identified and converted into reusable research experience. Guided by this observation, we develop Residual Agents (RA), a quantum-tailored self-improving AI scientist that distils externally verified workflow repairs into such experience. RA substantially improves research performance under fixed base models and limited adaptation budgets. For example, RA raises DeepSeek V4.1 Flash performance from 68% to 85%, matching Claude Code with Opus 5 at a third of its cost despite using a weaker base model. We integrate all reproduced results into an extensible platform built on the model context protocol, making verified research workflows directly accessible to AI scientists and allowing new scientific papers to be continuously incorporated.",
+        "ko": "인공지능 과학자들은 과학 전 분야에 걸쳐 자동화된 연구를 확장하고 있지만, 과학 문헌을 자율적 발견의 기반으로 전환하는 능력은 여전히 난제로 남아 있습니다. 본 연구에서는 이러한 전환의 근본적인 장벽을 밝혀내고, 복잡한 양자 시스템으로부터 배울 수 있는 것과 양자 컴퓨팅이 궁극적으로 제공할 수 있는 것을 모두 형성하는 계산 양자 과학 분야에서 이를 극복할 경로를 제시합니다. 이 장벽을 파악하기 위해, 출판된 연구를 실행 가능한 재현 작업으로 변환하는 전문가 검증 가상 연구 환경인 OmniQ를 도입합니다. 고전적 시뮬레이션, 양자 알고리즘, 양자 특성 특성화를 아우르는 59편의 논문을 통해, 대형 언어 모델 기반의 5개 에이전트 시스템과 6개의 타사 에이전트 하네스를 체계적으로 평가합니다. 연구 결과, 현재의 AI 과학자들은 종종 출판된 결과를 재현하는 데 실패하며, 이는 과학 논문이 전달하는 내용과 자율 에이전트가 요구하는 내용 사이에 근본적인 불일치가 있음을 드러냅니다. 대조적으로, 인간 전문가의 개입은 이러한 실패를 성공적인 재현으로 바꿀 수 있으며, 이는 누락된 정보를 식별하여 재사용 가능한 연구 경험으로 전환할 수 있음을 보여줍니다. 이러한 관찰을 바탕으로, 외부에서 검증된 워크플로 수정 사항을 그러한 경험으로 증류하는 양자 맞춤형 자기 개선 AI 과학자인 잔여 에이전트(Residual Agents, RA)를 개발합니다. RA는 고정된 베이스 모델과 제한된 적응 예산 하에서 연구 성능을 크게 향상시킵니다. 예를 들어, RA는 DeepSeek V4.1 Flash의 성능을 68%에서 85%로 끌어올려, 더 약한 베이스 모델을 사용함에도 불구하고 비용의 3분의 1 수준으로 Opus 5를 탑재한 Claude Code와 동등한 성능을 발휘합니다. 우리는 재현된 모든 결과를 모델 컨텍스트 프로토콜(model context protocol) 기반의 확장 가능한 플랫폼에 통합하여, 검증된 연구 워크플로를 AI 과학자가 직접 접근할 수 있도록 하고 새로운 과학 논문이 지속적으로 통합될 수 있도록 합니다."
+      },
+      "sentences": [
+        {
+          "en": "AI scientists are expanding automated research across scientific domains, yet their ability to turn the scientific record into a foundation for autonomous discovery remains elusive.",
+          "ko": "인공지능 과학자들은 과학 전 분야에 걸쳐 자동화된 연구를 확장하고 있지만, 과학 문헌을 자율적 발견의 기반으로 전환하는 능력은 여전히 난제로 남아 있습니다."
+        },
+        {
+          "en": "Here we uncover a fundamental barrier to this transition and demonstrate a route to overcome it in computational quantum science, where advances shape both what we can learn from complex quantum systems and what quantum computing can ultimately deliver.",
+          "ko": "본 연구에서는 이러한 전환의 근본적인 장벽을 밝혀내고, 복잡한 양자 시스템으로부터 배울 수 있는 것과 양자 컴퓨팅이 궁극적으로 제공할 수 있는 것을 모두 형성하는 계산 양자 과학 분야에서 이를 극복할 경로를 제시합니다."
+        },
+        {
+          "en": "To identify this barrier, we introduce OmniQ, an expert-audited virtual research environment that converts published studies into executable reproduction tasks.",
+          "ko": "이 장벽을 파악하기 위해, 출판된 연구를 실행 가능한 재현 작업으로 변환하는 전문가 검증 가상 연구 환경인 OmniQ를 도입합니다."
+        },
+        {
+          "en": "Across 59 papers spanning classical simulation, quantum algorithms and quantum-property characterization, we systematically evaluate five agentic systems powered by large language models and six third-party agent harnesses.",
+          "ko": "고전적 시뮬레이션, 양자 알고리즘, 양자 특성 특성화를 아우르는 59편의 논문을 통해, 대형 언어 모델 기반의 5개 에이전트 시스템과 6개의 타사 에이전트 하네스를 체계적으로 평가합니다."
+        },
+        {
+          "en": "Our findings reveal that current AI scientists often fail to reproduce published results, exposing a fundamental mismatch between what scientific papers communicate and what autonomous agents require.",
+          "ko": "연구 결과, 현재의 AI 과학자들은 종종 출판된 결과를 재현하는 데 실패하며, 이는 과학 논문이 전달하는 내용과 자율 에이전트가 요구하는 내용 사이에 근본적인 불일치가 있음을 드러냅니다."
+        },
+        {
+          "en": "By contrast, human expert intervention can turn these failures into successful reproductions, showing that the missing information can be identified and converted into reusable research experience.",
+          "ko": "대조적으로, 인간 전문가의 개입은 이러한 실패를 성공적인 재현으로 바꿀 수 있으며, 이는 누락된 정보를 식별하여 재사용 가능한 연구 경험으로 전환할 수 있음을 보여줍니다."
+        },
+        {
+          "en": "Guided by this observation, we develop Residual Agents (RA), a quantum-tailored self-improving AI scientist that distils externally verified workflow repairs into such experience.",
+          "ko": "이러한 관찰을 바탕으로, 외부에서 검증된 워크플로 수정 사항을 그러한 경험으로 증류하는 양자 맞춤형 자기 개선 AI 과학자인 잔여 에이전트(Residual Agents, RA)를 개발합니다."
+        },
+        {
+          "en": "RA substantially improves research performance under fixed base models and limited adaptation budgets.",
+          "ko": "RA는 고정된 베이스 모델과 제한된 적응 예산 하에서 연구 성능을 크게 향상시킵니다."
+        },
+        {
+          "en": "For example, RA raises DeepSeek V4.1 Flash performance from 68% to 85%, matching Claude Code with Opus 5 at a third of its cost despite using a weaker base model.",
+          "ko": "예를 들어, RA는 DeepSeek V4.1 Flash의 성능을 68%에서 85%로 끌어올려, 더 약한 베이스 모델을 사용함에도 불구하고 비용의 3분의 1 수준으로 Opus 5를 탑재한 Claude Code와 동등한 성능을 발휘합니다."
+        },
+        {
+          "en": "We integrate all reproduced results into an extensible platform built on the model context protocol, making verified research workflows directly accessible to AI scientists and allowing new scientific papers to be continuously incorporated.",
+          "ko": "우리는 재현된 모든 결과를 모델 컨텍스트 프로토콜(model context protocol) 기반의 확장 가능한 플랫폼에 통합하여, 검증된 연구 워크플로를 AI 과학자가 직접 접근할 수 있도록 하고 새로운 과학 논문이 지속적으로 통합될 수 있도록 합니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "AI scientists are expanding automated research across scientific domains, yet their ability to turn the scientific record into a foundation for autonomous discovery remains elusive.",
+            "ko": "인공지능 과학자들은 과학 전 분야에 걸쳐 자동화된 연구를 확장하고 있지만, 과학 문헌을 자율적 발견의 기반으로 전환하는 능력은 여전히 난제로 남아 있습니다."
+          },
+          {
+            "en": "Our findings reveal that current AI scientists often fail to reproduce published results, exposing a fundamental mismatch between what scientific papers communicate and what autonomous agents require.",
+            "ko": "연구 결과, 현재의 AI 과학자들은 종종 출판된 결과를 재현하는 데 실패하며, 이는 과학 논문이 전달하는 내용과 자율 에이전트가 요구하는 내용 사이에 근본적인 불일치가 있음을 드러냅니다."
+          },
+          {
+            "en": "By contrast, human expert intervention can turn these failures into successful reproductions, showing that the missing information can be identified and converted into reusable research experience.",
+            "ko": "대조적으로, 인간 전문가의 개입은 이러한 실패를 성공적인 재현으로 바꿀 수 있으며, 이는 누락된 정보를 식별하여 재사용 가능한 연구 경험으로 전환할 수 있음을 보여줍니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "To identify this barrier, we introduce OmniQ, an expert-audited virtual research environment that converts published studies into executable reproduction tasks.",
+            "ko": "이 장벽을 파악하기 위해, 출판된 연구를 실행 가능한 재현 작업으로 변환하는 전문가 검증 가상 연구 환경인 OmniQ를 도입합니다."
+          },
+          {
+            "en": "Across 59 papers spanning classical simulation, quantum algorithms and quantum-property characterization, we systematically evaluate five agentic systems powered by large language models and six third-party agent harnesses.",
+            "ko": "고전적 시뮬레이션, 양자 알고리즘, 양자 특성 특성화를 아우르는 59편의 논문을 통해, 대형 언어 모델 기반의 5개 에이전트 시스템과 6개의 타사 에이전트 하네스를 체계적으로 평가합니다."
+          },
+          {
+            "en": "We integrate all reproduced results into an extensible platform built on the model context protocol, making verified research workflows directly accessible to AI scientists and allowing new scientific papers to be continuously incorporated.",
+            "ko": "우리는 재현된 모든 결과를 모델 컨텍스트 프로토콜(model context protocol) 기반의 확장 가능한 플랫폼에 통합하여, 검증된 연구 워크플로를 AI 과학자가 직접 접근할 수 있도록 하고 새로운 과학 논문이 지속적으로 통합될 수 있도록 합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "Here we uncover a fundamental barrier to this transition and demonstrate a route to overcome it in computational quantum science, where advances shape both what we can learn from complex quantum systems and what quantum computing can ultimately deliver.",
+            "ko": "본 연구에서는 이러한 전환의 근본적인 장벽을 밝혀내고, 복잡한 양자 시스템으로부터 배울 수 있는 것과 양자 컴퓨팅이 궁극적으로 제공할 수 있는 것을 모두 형성하는 계산 양자 과학 분야에서 이를 극복할 경로를 제시합니다."
+          },
+          {
+            "en": "Guided by this observation, we develop Residual Agents (RA), a quantum-tailored self-improving AI scientist that distils externally verified workflow repairs into such experience.",
+            "ko": "이러한 관찰을 바탕으로, 외부에서 검증된 워크플로 수정 사항을 그러한 경험으로 증류하는 양자 맞춤형 자기 개선 AI 과학자인 잔여 에이전트(Residual Agents, RA)를 개발합니다."
+          },
+          {
+            "en": "RA substantially improves research performance under fixed base models and limited adaptation budgets.",
+            "ko": "RA는 고정된 베이스 모델과 제한된 적응 예산 하에서 연구 성능을 크게 향상시킵니다."
+          },
+          {
+            "en": "For example, RA raises DeepSeek V4.1 Flash performance from 68% to 85%, matching Claude Code with Opus 5 at a third of its cost despite using a weaker base model.",
+            "ko": "예를 들어, RA는 DeepSeek V4.1 Flash의 성능을 68%에서 85%로 끌어올려, 더 약한 베이스 모델을 사용함에도 불구하고 비용의 3분의 1 수준으로 Opus 5를 탑재한 Claude Code와 동등한 성능을 발휘합니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "scientific",
+          "ko": "과학의",
+          "sentence": "AI scientists are expanding automated research across scientific domains, yet their ability to turn the scientific record into a foundation for autonomous discovery remains elusive.",
+          "sentenceKo": "인공지능 과학자들은 과학 전 분야에 걸쳐 자동화된 연구를 확장하고 있지만, 과학 문헌을 자율적 발견의 기반으로 전환하는 능력은 여전히 난제로 남아 있습니다."
+        },
+        {
+          "word": "characterization",
+          "ko": "특성화",
+          "sentence": "Across 59 papers spanning classical simulation, quantum algorithms and quantum-property characterization, we systematically evaluate five agentic systems powered by large language models and six third-party agent harnesses.",
+          "sentenceKo": "고전적 시뮬레이션, 양자 알고리즘, 양자 특성 특성화를 아우르는 59편의 논문을 통해, 대형 언어 모델 기반의 5개 에이전트 시스템과 6개의 타사 에이전트 하네스를 체계적으로 평가합니다."
+        },
+        {
+          "word": "autonomous",
+          "ko": "자율적인",
+          "sentence": "AI scientists are expanding automated research across scientific domains, yet their ability to turn the scientific record into a foundation for autonomous discovery remains elusive.",
+          "sentenceKo": "인공지능 과학자들은 과학 전 분야에 걸쳐 자동화된 연구를 확장하고 있지만, 과학 문헌을 자율적 발견의 기반으로 전환하는 능력은 여전히 난제로 남아 있습니다."
+        },
+        {
+          "word": "reproduction",
+          "ko": "재현",
+          "sentence": "To identify this barrier, we introduce OmniQ, an expert-audited virtual research environment that converts published studies into executable reproduction tasks.",
+          "sentenceKo": "이 장벽을 파악하기 위해, 출판된 연구를 실행 가능한 재현 작업으로 변환하는 전문가 검증 가상 연구 환경인 OmniQ를 도입합니다."
+        },
+        {
+          "word": "intervention",
+          "ko": "개입",
+          "sentence": "By contrast, human expert intervention can turn these failures into successful reproductions, showing that the missing information can be identified and converted into reusable research experience.",
+          "sentenceKo": "대조적으로, 인간 전문가의 개입은 이러한 실패를 성공적인 재현으로 바꿀 수 있으며, 이는 누락된 정보를 식별하여 재사용 가능한 연구 경험으로 전환할 수 있음을 보여줍니다."
+        },
+        {
+          "word": "experience",
+          "ko": "경험",
+          "sentence": "By contrast, human expert intervention can turn these failures into successful reproductions, showing that the missing information can be identified and converted into reusable research experience.",
+          "sentenceKo": "대조적으로, 인간 전문가의 개입은 이러한 실패를 성공적인 재현으로 바꿀 수 있으며, 이는 누락된 정보를 식별하여 재사용 가능한 연구 경험으로 전환할 수 있음을 보여줍니다."
+        },
+        {
+          "word": "environment",
+          "ko": "환경",
+          "sentence": "To identify this barrier, we introduce OmniQ, an expert-audited virtual research environment that converts published studies into executable reproduction tasks.",
+          "sentenceKo": "이 장벽을 파악하기 위해, 출판된 연구를 실행 가능한 재현 작업으로 변환하는 전문가 검증 가상 연구 환경인 OmniQ를 도입합니다."
+        },
+        {
+          "word": "language",
+          "ko": "언어",
+          "sentence": "Across 59 papers spanning classical simulation, quantum algorithms and quantum-property characterization, we systematically evaluate five agentic systems powered by large language models and six third-party agent harnesses.",
+          "sentenceKo": "고전적 시뮬레이션, 양자 알고리즘, 양자 특성 특성화를 아우르는 59편의 논문을 통해, 대형 언어 모델 기반의 5개 에이전트 시스템과 6개의 타사 에이전트 하네스를 체계적으로 평가합니다."
+        },
+        {
+          "word": "agents",
+          "ko": "에이전트",
+          "sentence": "Our findings reveal that current AI scientists often fail to reproduce published results, exposing a fundamental mismatch between what scientific papers communicate and what autonomous agents require.",
+          "sentenceKo": "연구 결과, 현재의 AI 과학자들은 종종 출판된 결과를 재현하는 데 실패하며, 이는 과학 논문이 전달하는 내용과 자율 에이전트가 요구하는 내용 사이에 근본적인 불일치가 있음을 드러냅니다."
+        },
+        {
+          "word": "information",
+          "ko": "정보",
+          "sentence": "By contrast, human expert intervention can turn these failures into successful reproductions, showing that the missing information can be identified and converted into reusable research experience.",
+          "sentenceKo": "대조적으로, 인간 전문가의 개입은 이러한 실패를 성공적인 재현으로 바꿀 수 있으며, 이는 누락된 정보를 식별하여 재사용 가능한 연구 경험으로 전환할 수 있음을 보여줍니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2611.02833",
+        "arxiv": "https://arxiv.org/abs/2611.02833",
+        "pdf": "https://arxiv.org/pdf/2611.02833",
+        "github": null
+      },
+      "githubStars": null,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-04T05:41:19.738Z",
+      "citations": {
+        "count": null,
+        "source": null
+      }
+    },
+    {
+      "id": "2611.01120",
+      "title": "StreamDuo: A Live Commentator and a Research Agent for Unseen Games",
+      "authors": [
+        "Zixian Gao",
+        "Penghao Luo",
+        "Xiangcheng Cao",
+        "Lixin Xiu",
+        "Ziqi Cai",
+        "Zhen Li",
+        "Erwin Wu",
+        "Kaipeng Zhang"
+      ],
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "upvotes": 5,
+      "keywords": [
+        "cross-game streaming commentary",
+        "StreamDuo",
+        "frozen research agent",
+        "wiki retrieval",
+        "information-gain labels",
+        "on-policy self-distillation",
+        "entity recall",
+        "source-game leakage"
+      ],
+      "categories": [
+        "AI 과학자"
+      ],
+      "aiSummary": {
+        "en": "StreamDuo pairs a trainable commentator with a frozen research agent that retrieves game wiki entries to improve cross-game streaming commentary without training on target games.",
+        "ko": "StreamDuo는 학습 가능한 중계기와 대상 게임에 대한 학습 없이 게임 위키 항목을 검색하는 고정된(frozen) 리서치 에이전트를 결합하여 크로스 게임 스트리밍 중계를 개선한다."
+      },
+      "abstract": {
+        "en": "Streaming video LLMs can now commentate live gameplay, but they are trained and tested on the same games. We study cross-game streaming commentary, in which a model trained on one game commentates games it has never seen, and find that current commentators transfer their timing but not their knowledge of the game world. We propose StreamDuo, which pairs a trainable commentator with a frozen research agent that reads the wiki of the game being played. When the commentator sees something it cannot name, it sends the current frames, and the research agent returns a few wiki entries two seconds later while the stream continues. We train only the commentator, on a single game, in two stages. Information-gain labels teach it to ask only where an answer would help it say what the human caster said, and on-policy self-distillation from a copy of itself that sees the ideal answer teaches it to use noisy answers. Trained on Baldur's Gate 3 and tested on ten unseen games, StreamDuo raises entity recall from 0.082 to 0.116 over Proact-VL trained on the same data, cuts source-game leakage from 9.9% to 1.0%, and achieves the best timing and the highest judged liveliness and overall quality among streaming models.",
+        "ko": "스트리밍 비디오 LLM은 이제 실시간 게임 플레이를 중계할 수 있지만, 동일한 게임으로 학습되고 평가된다. 본 연구에서는 모델이 한 게임으로 학습한 후 한 번도 본 적 없는 다른 게임을 중계하는 크로스 게임 스트리밍 중계를 연구하며, 기존 중계 모델들은 타이밍은 유지하지만 게임 세계에 대한 지식은 전이하지 못한다는 사실을 발견했다. 우리는 학습 가능한 중계기와 플레이 중인 게임의 위키를 읽는 고정된(frozen) 리서치 에이전트를 결합한 StreamDuo를 제안한다. 중계기가 이름을 알 수 없는 대상을 발견하면 현재 프레임을 전송하고, 리서치 에이전트는 스트림이 계속되는 동안 2초 후에 몇 개의 위키 항목을 반환한다. 우리는 단일 게임에서 두 단계에 걸쳐 중계기만 학습시킨다. 정보 이득(information-gain) 라벨은 인간 캐스터의 발화에 도움이 되는 경우에만 질문하도록 가르치고, 이상적인 정답을 보는 자기 자신의 복사본으로부터의 온정책 자기 증류(on-policy self-distillation)는 노이즈가 있는 답변을 활용하는 법을 가르친다. '발더스 게이트 3(Baldur's Gate 3)'로 학습하고 본 적 없는 10개의 게임으로 테스트한 결과, StreamDuo는 동일한 데이터로 학습된 Proact-VL에 비해 개체 재현율(entity recall)을 0.082에서 0.116으로 높이고, 소스 게임 누출(leakage)을 9.9%에서 1.0%로 줄이며, 스트리밍 모델 중 최고의 타이밍과 가장 높은 생동감 및 전반적인 품질 평가를 달성했다."
+      },
+      "sentences": [
+        {
+          "en": "Streaming video LLMs can now commentate live gameplay, but they are trained and tested on the same games.",
+          "ko": "스트리밍 비디오 LLM은 이제 실시간 게임 플레이를 중계할 수 있지만, 동일한 게임으로 학습되고 평가된다."
+        },
+        {
+          "en": "We study cross-game streaming commentary, in which a model trained on one game commentates games it has never seen, and find that current commentators transfer their timing but not their knowledge of the game world.",
+          "ko": "본 연구에서는 모델이 한 게임으로 학습한 후 한 번도 본 적 없는 다른 게임을 중계하는 크로스 게임 스트리밍 중계를 연구하며, 기존 중계 모델들은 타이밍은 유지하지만 게임 세계에 대한 지식은 전이하지 못한다는 사실을 발견했다."
+        },
+        {
+          "en": "We propose StreamDuo, which pairs a trainable commentator with a frozen research agent that reads the wiki of the game being played.",
+          "ko": "우리는 학습 가능한 중계기와 플레이 중인 게임의 위키를 읽는 고정된(frozen) 리서치 에이전트를 결합한 StreamDuo를 제안한다."
+        },
+        {
+          "en": "When the commentator sees something it cannot name, it sends the current frames, and the research agent returns a few wiki entries two seconds later while the stream continues.",
+          "ko": "중계기가 이름을 알 수 없는 대상을 발견하면 현재 프레임을 전송하고, 리서치 에이전트는 스트림이 계속되는 동안 2초 후에 몇 개의 위키 항목을 반환한다."
+        },
+        {
+          "en": "We train only the commentator, on a single game, in two stages.",
+          "ko": "우리는 단일 게임에서 두 단계에 걸쳐 중계기만 학습시킨다."
+        },
+        {
+          "en": "Information-gain labels teach it to ask only where an answer would help it say what the human caster said, and on-policy self-distillation from a copy of itself that sees the ideal answer teaches it to use noisy answers.",
+          "ko": "정보 이득(information-gain) 라벨은 인간 캐스터의 발화에 도움이 되는 경우에만 질문하도록 가르치고, 이상적인 정답을 보는 자기 자신의 복사본으로부터의 온정책 자기 증류(on-policy self-distillation)는 노이즈가 있는 답변을 활용하는 법을 가르친다."
+        },
+        {
+          "en": "Trained on Baldur's Gate 3 and tested on ten unseen games, StreamDuo raises entity recall from 0.082 to 0.116 over Proact-VL trained on the same data, cuts source-game leakage from 9.9% to 1.0%, and achieves the best timing and the highest judged liveliness and overall quality among streaming models.",
+          "ko": "'발더스 게이트 3(Baldur's Gate 3)'로 학습하고 본 적 없는 10개의 게임으로 테스트한 결과, StreamDuo는 동일한 데이터로 학습된 Proact-VL에 비해 개체 재현율(entity recall)을 0.082에서 0.116으로 높이고, 소스 게임 누출(leakage)을 9.9%에서 1.0%로 줄이며, 스트리밍 모델 중 최고의 타이밍과 가장 높은 생동감 및 전반적인 품질 평가를 달성했다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Streaming video LLMs can now commentate live gameplay, but they are trained and tested on the same games.",
+            "ko": "스트리밍 비디오 LLM은 이제 실시간 게임 플레이를 중계할 수 있지만, 동일한 게임으로 학습되고 평가된다."
+          },
+          {
+            "en": "When the commentator sees something it cannot name, it sends the current frames, and the research agent returns a few wiki entries two seconds later while the stream continues.",
+            "ko": "중계기가 이름을 알 수 없는 대상을 발견하면 현재 프레임을 전송하고, 리서치 에이전트는 스트림이 계속되는 동안 2초 후에 몇 개의 위키 항목을 반환한다."
+          },
+          {
+            "en": "Information-gain labels teach it to ask only where an answer would help it say what the human caster said, and on-policy self-distillation from a copy of itself that sees the ideal answer teaches it to use noisy answers.",
+            "ko": "정보 이득(information-gain) 라벨은 인간 캐스터의 발화에 도움이 되는 경우에만 질문하도록 가르치고, 이상적인 정답을 보는 자기 자신의 복사본으로부터의 온정책 자기 증류(on-policy self-distillation)는 노이즈가 있는 답변을 활용하는 법을 가르친다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "We propose StreamDuo, which pairs a trainable commentator with a frozen research agent that reads the wiki of the game being played.",
+            "ko": "우리는 학습 가능한 중계기와 플레이 중인 게임의 위키를 읽는 고정된(frozen) 리서치 에이전트를 결합한 StreamDuo를 제안한다."
+          },
+          {
+            "en": "We train only the commentator, on a single game, in two stages.",
+            "ko": "우리는 단일 게임에서 두 단계에 걸쳐 중계기만 학습시킨다."
+          }
+        ],
+        "results": [
+          {
+            "en": "We study cross-game streaming commentary, in which a model trained on one game commentates games it has never seen, and find that current commentators transfer their timing but not their knowledge of the game world.",
+            "ko": "본 연구에서는 모델이 한 게임으로 학습한 후 한 번도 본 적 없는 다른 게임을 중계하는 크로스 게임 스트리밍 중계를 연구하며, 기존 중계 모델들은 타이밍은 유지하지만 게임 세계에 대한 지식은 전이하지 못한다는 사실을 발견했다."
+          },
+          {
+            "en": "Trained on Baldur's Gate 3 and tested on ten unseen games, StreamDuo raises entity recall from 0.082 to 0.116 over Proact-VL trained on the same data, cuts source-game leakage from 9.9% to 1.0%, and achieves the best timing and the highest judged liveliness and overall quality among streaming models.",
+            "ko": "'발더스 게이트 3(Baldur's Gate 3)'로 학습하고 본 적 없는 10개의 게임으로 테스트한 결과, StreamDuo는 동일한 데이터로 학습된 Proact-VL에 비해 개체 재현율(entity recall)을 0.082에서 0.116으로 높이고, 소스 게임 누출(leakage)을 9.9%에서 1.0%로 줄이며, 스트리밍 모델 중 최고의 타이밍과 가장 높은 생동감 및 전반적인 품질 평가를 달성했다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "streaming",
+          "ko": "스트리밍",
+          "sentence": "Streaming video LLMs can now commentate live gameplay, but they are trained and tested on the same games.",
+          "sentenceKo": "스트리밍 비디오 LLM은 이제 실시간 게임 플레이를 중계할 수 있지만, 동일한 게임으로 학습되고 평가된다."
+        },
+        {
+          "word": "commentary",
+          "ko": "중계",
+          "sentence": "We study cross-game streaming commentary, in which a model trained on one game commentates games it has never seen, and find that current commentators transfer their timing but not their knowledge of the game world.",
+          "sentenceKo": "본 연구에서는 모델이 한 게임으로 학습한 후 한 번도 본 적 없는 다른 게임을 중계하는 크로스 게임 스트리밍 중계를 연구하며, 기존 중계 모델들은 타이밍은 유지하지만 게임 세계에 대한 지식은 전이하지 못한다는 사실을 발견했다."
+        },
+        {
+          "word": "self-distillation",
+          "ko": "자기 증류",
+          "sentence": "Information-gain labels teach it to ask only where an answer would help it say what the human caster said, and on-policy self-distillation from a copy of itself that sees the ideal answer teaches it to use noisy answers.",
+          "sentenceKo": "정보 이득(information-gain) 라벨은 인간 캐스터의 발화에 도움이 되는 경우에만 질문하도록 가르치고, 이상적인 정답을 보는 자기 자신의 복사본으로부터의 온정책 자기 증류(on-policy self-distillation)는 노이즈가 있는 답변을 활용하는 법을 가르친다."
+        },
+        {
+          "word": "entity",
+          "ko": "개체",
+          "sentence": "Trained on Baldur's Gate 3 and tested on ten unseen games, StreamDuo raises entity recall from 0.082 to 0.116 over Proact-VL trained on the same data, cuts source-game leakage from 9.9% to 1.0%, and achieves the best timing and the highest judged liveliness and overall quality among streaming models.",
+          "sentenceKo": "'발더스 게이트 3(Baldur's Gate 3)'로 학습하고 본 적 없는 10개의 게임으로 테스트한 결과, StreamDuo는 동일한 데이터로 학습된 Proact-VL에 비해 개체 재현율(entity recall)을 0.082에서 0.116으로 높이고, 소스 게임 누출(leakage)을 9.9%에서 1.0%로 줄이며, 스트리밍 모델 중 최고의 타이밍과 가장 높은 생동감 및 전반적인 품질 평가를 달성했다."
+        },
+        {
+          "word": "trained",
+          "ko": "학습된",
+          "sentence": "Streaming video LLMs can now commentate live gameplay, but they are trained and tested on the same games.",
+          "sentenceKo": "스트리밍 비디오 LLM은 이제 실시간 게임 플레이를 중계할 수 있지만, 동일한 게임으로 학습되고 평가된다."
+        },
+        {
+          "word": "information-gain",
+          "ko": "정보 이득",
+          "sentence": "Information-gain labels teach it to ask only where an answer would help it say what the human caster said, and on-policy self-distillation from a copy of itself that sees the ideal answer teaches it to use noisy answers.",
+          "sentenceKo": "정보 이득(information-gain) 라벨은 인간 캐스터의 발화에 도움이 되는 경우에만 질문하도록 가르치고, 이상적인 정답을 보는 자기 자신의 복사본으로부터의 온정책 자기 증류(on-policy self-distillation)는 노이즈가 있는 답변을 활용하는 법을 가르친다."
+        },
+        {
+          "word": "leakage",
+          "ko": "누출",
+          "sentence": "Trained on Baldur's Gate 3 and tested on ten unseen games, StreamDuo raises entity recall from 0.082 to 0.116 over Proact-VL trained on the same data, cuts source-game leakage from 9.9% to 1.0%, and achieves the best timing and the highest judged liveliness and overall quality among streaming models.",
+          "sentenceKo": "'발더스 게이트 3(Baldur's Gate 3)'로 학습하고 본 적 없는 10개의 게임으로 테스트한 결과, StreamDuo는 동일한 데이터로 학습된 Proact-VL에 비해 개체 재현율(entity recall)을 0.082에서 0.116으로 높이고, 소스 게임 누출(leakage)을 9.9%에서 1.0%로 줄이며, 스트리밍 모델 중 최고의 타이밍과 가장 높은 생동감 및 전반적인 품질 평가를 달성했다."
+        },
+        {
+          "word": "frozen",
+          "ko": "고정된",
+          "sentence": "We propose StreamDuo, which pairs a trainable commentator with a frozen research agent that reads the wiki of the game being played.",
+          "sentenceKo": "우리는 학습 가능한 중계기와 플레이 중인 게임의 위키를 읽는 고정된(frozen) 리서치 에이전트를 결합한 StreamDuo를 제안한다."
+        },
+        {
+          "word": "labels",
+          "ko": "라벨",
+          "sentence": "Information-gain labels teach it to ask only where an answer would help it say what the human caster said, and on-policy self-distillation from a copy of itself that sees the ideal answer teaches it to use noisy answers.",
+          "sentenceKo": "정보 이득(information-gain) 라벨은 인간 캐스터의 발화에 도움이 되는 경우에만 질문하도록 가르치고, 이상적인 정답을 보는 자기 자신의 복사본으로부터의 온정책 자기 증류(on-policy self-distillation)는 노이즈가 있는 답변을 활용하는 법을 가르친다."
+        },
+        {
+          "word": "recall",
+          "ko": "재현율",
+          "sentence": "Trained on Baldur's Gate 3 and tested on ten unseen games, StreamDuo raises entity recall from 0.082 to 0.116 over Proact-VL trained on the same data, cuts source-game leakage from 9.9% to 1.0%, and achieves the best timing and the highest judged liveliness and overall quality among streaming models.",
+          "sentenceKo": "'발더스 게이트 3(Baldur's Gate 3)'로 학습하고 본 적 없는 10개의 게임으로 테스트한 결과, StreamDuo는 동일한 데이터로 학습된 Proact-VL에 비해 개체 재현율(entity recall)을 0.082에서 0.116으로 높이고, 소스 게임 누출(leakage)을 9.9%에서 1.0%로 줄이며, 스트리밍 모델 중 최고의 타이밍과 가장 높은 생동감 및 전반적인 품질 평가를 달성했다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2611.01120",
+        "arxiv": "https://arxiv.org/abs/2611.01120",
+        "pdf": "https://arxiv.org/pdf/2611.01120",
+        "github": null
+      },
+      "githubStars": null,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-04T05:41:19.738Z",
+      "citations": {
+        "count": null,
+        "source": null
+      }
+    },
+    {
       "id": "2610.40488",
       "title": "rTaste: Do Research Agents Have Taste? Evaluating Early Stage Research Judgment",
       "authors": [
         "Art Kanke"
       ],
       "publishedAt": "2026-10-29T17:15:53.000Z",
-      "upvotes": 2,
+      "upvotes": 3,
       "keywords": [
         "research agents",
         "minimum viable experiments",
@@ -199,7 +576,7 @@
         "pdf": "https://arxiv.org/pdf/2610.40488",
         "github": "https://github.com/ArtKanke/rTaste"
       },
-      "githubStars": 1,
+      "githubStars": 2,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-02T21:14:49.554Z",
       "citations": {
@@ -1851,7 +2228,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20832",
         "github": "https://github.com/anitakriz/ar-bed"
       },
-      "githubStars": 3,
+      "githubStars": 4,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
@@ -3608,7 +3985,7 @@
         "pdf": "https://arxiv.org/pdf/2610.30468",
         "github": "https://github.com/seemandhar/SplatLab"
       },
-      "githubStars": 21,
+      "githubStars": 22,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -4406,7 +4783,7 @@
         "pdf": "https://arxiv.org/pdf/2610.35385",
         "github": "https://github.com/HexaFuture/EmbodiedLab"
       },
-      "githubStars": 17,
+      "githubStars": 18,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-27T14:45:38.679Z",
       "citations": {
@@ -5862,7 +6239,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 151,
+      "githubStars": 153,
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
