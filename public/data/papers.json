@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T05:41:19.738Z",
+  "updatedAt": "2026-11-04T19:12:40.058Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -11,6 +11,193 @@
     "automated scientific experiment robotics"
   ],
   "papers": [
+    {
+      "id": "2611.03183",
+      "title": "Auto-Research Agent on MSA Organization to Improve Protein-Protein Complex Structure Prediction",
+      "authors": [
+        "Zilu Zhang",
+        "Jing Bao",
+        "Lifeng Qiao",
+        "Sheng Xu",
+        "Qiantai Feng",
+        "Siqi Sun",
+        "Yang Yang"
+      ],
+      "publishedAt": "2026-11-02T14:17:43.000Z",
+      "upvotes": 1,
+      "keywords": [
+        "AlphaFold 3",
+        "MSA",
+        "cross-chain pairing",
+        "DockQ",
+        "protein-protein interfaces",
+        "autonomous agent",
+        "black-box optimization",
+        "inter-species heteromers"
+      ],
+      "categories": [
+        "AI 과학자",
+        "화학·소재",
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "An autonomous agent adaptively designs target-specific multiple sequence alignments for AlphaFold 3 by reasoning over biological hypotheses and self-directed experimentation, improving protein interface prediction with fewer sequences.",
+        "ko": "자율 에이전트는 생물학적 가설에 대한 추론과 자기 주도적 실험을 통해 AlphaFold 3를 위한 타겟 맞춤형 다중 서열 정렬을 적응적으로 설계하며, 더 적은 서열로 단백질 인터페이스 예측을 향상시킵니다."
+      },
+      "abstract": {
+        "en": "Protein-complex structure prediction with AlphaFold 3 depends on MSA content, depth, and cross-chain pairing. Current pipelines apply uniform recipes, typically maximizing depth and pairing by species, yet even whether cross-chain pairing helps AF3 remains contested. We show that the value of both depth and pairing is strongly target-dependent, so no single recipe is optimal across interfaces. We introduce an autonomous agent that treats a frozen AF3 as a black-box experimental instrument. For each target, the agent formulates biological hypotheses, analyzes and reorganizes the MSA, and iteratively refines sequence selection and pairing using predictor label-free signals alone. On 1{,}015 protein--protein interfaces from three benchmarks released after AF3's training cutoff, the agent improves overall interface DockQ over AF3's default pipeline and fixed MSA recipes on every benchmark, while using on average 60\\% fewer MSA sequences than the default. Gains are largest for inter-species heteromers, where species-based pairing is unreliable: mean DockQ increases from 0.465 to 0.612 on FoldBench and from 0.482 to 0.562 on HD439. The improvements arise from both sequence construction and pairing policy, including deliberate non-pairing.These results recast MSA design as a target-specific problem and show that an autonomous agent can adapt it at test time through biological reasoning and self-directed, confidence-guided experimentation.",
+        "ko": "AlphaFold 3를 이용한 단백질 복합체 구조 예측은 다중 서열 정렬(MSA) 내용, 깊이, 그리고 사슬 간 쌍 맺기(cross-chain pairing)에 의존합니다. 현재의 파이프라인은 일률적인 방식을 적용하여 보통 종(species)을 기준으로 깊이와 쌍 맺기를 극대화하지만, 사슬 간 쌍 맺기가 실제로 AF3에 도움이 되는지 여부조차 여전히 논란의 대상입니다. 저희는 깊이와 쌍 맺기의 유용성이 타겟에 따라 강하게 좌우되며, 따라서 단일한 방식이 모든 단백질 간섭(interface)에 최적은 아니라는 점을 보입니다. 저희는 동결된 AF3를 블랙박스 실험 도구로 취급하는 자율 에이전트(autonomous agent)를 도입합니다. 각 타겟에 대해 에이전트는 생물학적 가설을 세우고, MSA를 분석 및 재구성하며, 예측기의 레이블 없는 신호(label-free signals)만을 사용하여 서열 선택과 쌍 맺기를 반복적으로 정제합니다. AF3의 학습 컷오프 이후에 공개된 세 가지 벤치마크의 1,015개 단백질-단백질 인터페이스에서, 이 에이전트는 기본값보다 평균 60% 적은 MSA 서열을 사용하면서도 모든 벤치마크에서 AF3의 기본 파이프라인 및 고정된 MSA 방식보다 전체 인터페이스 DockQ 점수를 향상시킵니다. 성능 향상은 종 간 쌍 맺기가 신뢰할 수 없는 종 간 이성질체(inter-species heteromers)에서 가장 두드러지며, 평균 DockQ는 FoldBench에서 0.465에서 0.612로, HD439에서 0.482에서 0.562로 증가합니다. 이러한 개선은 의도적인 비쌍 맺기(non-pairing)를 포함하여 서열 구축과 쌍 맺기 정책 모두에서 비롯되며, 이러한 결과는 MSA 설계를 타겟 맞춤형 문제로 재정의하고 자율 에이전트가 생물학적 추론과 자기 주도적 신뢰도 유도 실험을 통해 테스트 시점에 이를 적응시킬 수 있음을 보여줍니다."
+      },
+      "sentences": [
+        {
+          "en": "Protein-complex structure prediction with AlphaFold 3 depends on MSA content, depth, and cross-chain pairing.",
+          "ko": "AlphaFold 3를 이용한 단백질 복합체 구조 예측은 다중 서열 정렬(MSA) 내용, 깊이, 그리고 사슬 간 쌍 맺기(cross-chain pairing)에 의존합니다."
+        },
+        {
+          "en": "Current pipelines apply uniform recipes, typically maximizing depth and pairing by species, yet even whether cross-chain pairing helps AF3 remains contested.",
+          "ko": "현재의 파이프라인은 일률적인 방식을 적용하여 보통 종(species)을 기준으로 깊이와 쌍 맺기를 극대화하지만, 사슬 간 쌍 맺기가 실제로 AF3에 도움이 되는지 여부조차 여전히 논란의 대상입니다."
+        },
+        {
+          "en": "We show that the value of both depth and pairing is strongly target-dependent, so no single recipe is optimal across interfaces.",
+          "ko": "저희는 깊이와 쌍 맺기의 유용성이 타겟에 따라 강하게 좌우되며, 따라서 단일한 방식이 모든 단백질 간섭(interface)에 최적은 아니라는 점을 보입니다."
+        },
+        {
+          "en": "We introduce an autonomous agent that treats a frozen AF3 as a black-box experimental instrument.",
+          "ko": "저희는 동결된 AF3를 블랙박스 실험 도구로 취급하는 자율 에이전트(autonomous agent)를 도입합니다."
+        },
+        {
+          "en": "For each target, the agent formulates biological hypotheses, analyzes and reorganizes the MSA, and iteratively refines sequence selection and pairing using predictor label-free signals alone.",
+          "ko": "각 타겟에 대해 에이전트는 생물학적 가설을 세우고, MSA를 분석 및 재구성하며, 예측기의 레이블 없는 신호(label-free signals)만을 사용하여 서열 선택과 쌍 맺기를 반복적으로 정제합니다."
+        },
+        {
+          "en": "On 1{,}015 protein--protein interfaces from three benchmarks released after AF3's training cutoff, the agent improves overall interface DockQ over AF3's default pipeline and fixed MSA recipes on every benchmark, while using on average 60\\% fewer MSA sequences than the default.",
+          "ko": "AF3의 학습 컷오프 이후에 공개된 세 가지 벤치마크의 1,015개 단백질-단백질 인터페이스에서, 이 에이전트는 기본값보다 평균 60% 적은 MSA 서열을 사용하면서도 모든 벤치마크에서 AF3의 기본 파이프라인 및 고정된 MSA 방식보다 전체 인터페이스 DockQ 점수를 향상시킵니다."
+        },
+        {
+          "en": "Gains are largest for inter-species heteromers, where species-based pairing is unreliable: mean DockQ increases from 0.465 to 0.612 on FoldBench and from 0.482 to 0.562 on HD439.",
+          "ko": "성능 향상은 종 간 쌍 맺기가 신뢰할 수 없는 종 간 이성질체(inter-species heteromers)에서 가장 두드러지며, 평균 DockQ는 FoldBench에서 0.465에서 0.612로, HD439에서 0.482에서 0.562로 증가합니다."
+        },
+        {
+          "en": "The improvements arise from both sequence construction and pairing policy, including deliberate non-pairing.These results recast MSA design as a target-specific problem and show that an autonomous agent can adapt it at test time through biological reasoning and self-directed, confidence-guided experimentation.",
+          "ko": "이러한 개선은 의도적인 비쌍 맺기(non-pairing)를 포함하여 서열 구축과 쌍 맺기 정책 모두에서 비롯되며, 이러한 결과는 MSA 설계를 타겟 맞춤형 문제로 재정의하고 자율 에이전트가 생물학적 추론과 자기 주도적 신뢰도 유도 실험을 통해 테스트 시점에 이를 적응시킬 수 있음을 보여줍니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Protein-complex structure prediction with AlphaFold 3 depends on MSA content, depth, and cross-chain pairing.",
+            "ko": "AlphaFold 3를 이용한 단백질 복합체 구조 예측은 다중 서열 정렬(MSA) 내용, 깊이, 그리고 사슬 간 쌍 맺기(cross-chain pairing)에 의존합니다."
+          },
+          {
+            "en": "For each target, the agent formulates biological hypotheses, analyzes and reorganizes the MSA, and iteratively refines sequence selection and pairing using predictor label-free signals alone.",
+            "ko": "각 타겟에 대해 에이전트는 생물학적 가설을 세우고, MSA를 분석 및 재구성하며, 예측기의 레이블 없는 신호(label-free signals)만을 사용하여 서열 선택과 쌍 맺기를 반복적으로 정제합니다."
+          },
+          {
+            "en": "Gains are largest for inter-species heteromers, where species-based pairing is unreliable: mean DockQ increases from 0.465 to 0.612 on FoldBench and from 0.482 to 0.562 on HD439.",
+            "ko": "성능 향상은 종 간 쌍 맺기가 신뢰할 수 없는 종 간 이성질체(inter-species heteromers)에서 가장 두드러지며, 평균 DockQ는 FoldBench에서 0.465에서 0.612로, HD439에서 0.482에서 0.562로 증가합니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "Current pipelines apply uniform recipes, typically maximizing depth and pairing by species, yet even whether cross-chain pairing helps AF3 remains contested.",
+            "ko": "현재의 파이프라인은 일률적인 방식을 적용하여 보통 종(species)을 기준으로 깊이와 쌍 맺기를 극대화하지만, 사슬 간 쌍 맺기가 실제로 AF3에 도움이 되는지 여부조차 여전히 논란의 대상입니다."
+          },
+          {
+            "en": "We introduce an autonomous agent that treats a frozen AF3 as a black-box experimental instrument.",
+            "ko": "저희는 동결된 AF3를 블랙박스 실험 도구로 취급하는 자율 에이전트(autonomous agent)를 도입합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "We show that the value of both depth and pairing is strongly target-dependent, so no single recipe is optimal across interfaces.",
+            "ko": "저희는 깊이와 쌍 맺기의 유용성이 타겟에 따라 강하게 좌우되며, 따라서 단일한 방식이 모든 단백질 간섭(interface)에 최적은 아니라는 점을 보입니다."
+          },
+          {
+            "en": "On 1{,}015 protein--protein interfaces from three benchmarks released after AF3's training cutoff, the agent improves overall interface DockQ over AF3's default pipeline and fixed MSA recipes on every benchmark, while using on average 60\\% fewer MSA sequences than the default.",
+            "ko": "AF3의 학습 컷오프 이후에 공개된 세 가지 벤치마크의 1,015개 단백질-단백질 인터페이스에서, 이 에이전트는 기본값보다 평균 60% 적은 MSA 서열을 사용하면서도 모든 벤치마크에서 AF3의 기본 파이프라인 및 고정된 MSA 방식보다 전체 인터페이스 DockQ 점수를 향상시킵니다."
+          },
+          {
+            "en": "The improvements arise from both sequence construction and pairing policy, including deliberate non-pairing.These results recast MSA design as a target-specific problem and show that an autonomous agent can adapt it at test time through biological reasoning and self-directed, confidence-guided experimentation.",
+            "ko": "이러한 개선은 의도적인 비쌍 맺기(non-pairing)를 포함하여 서열 구축과 쌍 맺기 정책 모두에서 비롯되며, 이러한 결과는 MSA 설계를 타겟 맞춤형 문제로 재정의하고 자율 에이전트가 생물학적 추론과 자기 주도적 신뢰도 유도 실험을 통해 테스트 시점에 이를 적응시킬 수 있음을 보여줍니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "pairing",
+          "ko": "쌍 맺기",
+          "sentence": "Protein-complex structure prediction with AlphaFold 3 depends on MSA content, depth, and cross-chain pairing.",
+          "sentenceKo": "AlphaFold 3를 이용한 단백질 복합체 구조 예측은 다중 서열 정렬(MSA) 내용, 깊이, 그리고 사슬 간 쌍 맺기(cross-chain pairing)에 의존합니다."
+        },
+        {
+          "word": "autonomous",
+          "ko": "자율적인",
+          "sentence": "We introduce an autonomous agent that treats a frozen AF3 as a black-box experimental instrument.",
+          "sentenceKo": "저희는 동결된 AF3를 블랙박스 실험 도구로 취급하는 자율 에이전트(autonomous agent)를 도입합니다."
+        },
+        {
+          "word": "interfaces",
+          "ko": "인터페이스",
+          "sentence": "We show that the value of both depth and pairing is strongly target-dependent, so no single recipe is optimal across interfaces.",
+          "sentenceKo": "저희는 깊이와 쌍 맺기의 유용성이 타겟에 따라 강하게 좌우되며, 따라서 단일한 방식이 모든 단백질 간섭(interface)에 최적은 아니라는 점을 보입니다."
+        },
+        {
+          "word": "heteromers",
+          "ko": "이성질체",
+          "sentence": "Gains are largest for inter-species heteromers, where species-based pairing is unreliable: mean DockQ increases from 0.465 to 0.612 on FoldBench and from 0.482 to 0.562 on HD439.",
+          "sentenceKo": "성능 향상은 종 간 쌍 맺기가 신뢰할 수 없는 종 간 이성질체(inter-species heteromers)에서 가장 두드러지며, 평균 DockQ는 FoldBench에서 0.465에서 0.612로, HD439에서 0.482에서 0.562로 증가합니다."
+        },
+        {
+          "word": "experimentation",
+          "ko": "실험",
+          "sentence": "The improvements arise from both sequence construction and pairing policy, including deliberate non-pairing.These results recast MSA design as a target-specific problem and show that an autonomous agent can adapt it at test time through biological reasoning and self-directed, confidence-guided experimentation.",
+          "sentenceKo": "이러한 개선은 의도적인 비쌍 맺기(non-pairing)를 포함하여 서열 구축과 쌍 맺기 정책 모두에서 비롯되며, 이러한 결과는 MSA 설계를 타겟 맞춤형 문제로 재정의하고 자율 에이전트가 생물학적 추론과 자기 주도적 신뢰도 유도 실험을 통해 테스트 시점에 이를 적응시킬 수 있음을 보여줍니다."
+        },
+        {
+          "word": "biological",
+          "ko": "생물학적",
+          "sentence": "For each target, the agent formulates biological hypotheses, analyzes and reorganizes the MSA, and iteratively refines sequence selection and pairing using predictor label-free signals alone.",
+          "sentenceKo": "각 타겟에 대해 에이전트는 생물학적 가설을 세우고, MSA를 분석 및 재구성하며, 예측기의 레이블 없는 신호(label-free signals)만을 사용하여 서열 선택과 쌍 맺기를 반복적으로 정제합니다."
+        },
+        {
+          "word": "protein",
+          "ko": "단백질",
+          "sentence": "On 1{,}015 protein--protein interfaces from three benchmarks released after AF3's training cutoff, the agent improves overall interface DockQ over AF3's default pipeline and fixed MSA recipes on every benchmark, while using on average 60\\% fewer MSA sequences than the default.",
+          "sentenceKo": "AF3의 학습 컷오프 이후에 공개된 세 가지 벤치마크의 1,015개 단백질-단백질 인터페이스에서, 이 에이전트는 기본값보다 평균 60% 적은 MSA 서열을 사용하면서도 모든 벤치마크에서 AF3의 기본 파이프라인 및 고정된 MSA 방식보다 전체 인터페이스 DockQ 점수를 향상시킵니다."
+        },
+        {
+          "word": "construction",
+          "ko": "구축",
+          "sentence": "The improvements arise from both sequence construction and pairing policy, including deliberate non-pairing.These results recast MSA design as a target-specific problem and show that an autonomous agent can adapt it at test time through biological reasoning and self-directed, confidence-guided experimentation.",
+          "sentenceKo": "이러한 개선은 의도적인 비쌍 맺기(non-pairing)를 포함하여 서열 구축과 쌍 맺기 정책 모두에서 비롯되며, 이러한 결과는 MSA 설계를 타겟 맞춤형 문제로 재정의하고 자율 에이전트가 생물학적 추론과 자기 주도적 신뢰도 유도 실험을 통해 테스트 시점에 이를 적응시킬 수 있음을 보여줍니다."
+        },
+        {
+          "word": "prediction",
+          "ko": "예측",
+          "sentence": "Protein-complex structure prediction with AlphaFold 3 depends on MSA content, depth, and cross-chain pairing.",
+          "sentenceKo": "AlphaFold 3를 이용한 단백질 복합체 구조 예측은 다중 서열 정렬(MSA) 내용, 깊이, 그리고 사슬 간 쌍 맺기(cross-chain pairing)에 의존합니다."
+        },
+        {
+          "word": "cross-chain",
+          "ko": "사슬 간",
+          "sentence": "Protein-complex structure prediction with AlphaFold 3 depends on MSA content, depth, and cross-chain pairing.",
+          "sentenceKo": "AlphaFold 3를 이용한 단백질 복합체 구조 예측은 다중 서열 정렬(MSA) 내용, 깊이, 그리고 사슬 간 쌍 맺기(cross-chain pairing)에 의존합니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2611.03183",
+        "arxiv": "https://arxiv.org/abs/2611.03183",
+        "pdf": "https://arxiv.org/pdf/2611.03183",
+        "github": null
+      },
+      "githubStars": null,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-04T19:12:40.058Z",
+      "citations": {
+        "count": 0,
+        "source": "OpenAlex"
+      }
+    },
     {
       "id": "2611.02833",
       "title": "Reimagining computational quantum research with AI scientists",
@@ -206,8 +393,8 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-04T05:41:19.738Z",
       "citations": {
-        "count": null,
-        "source": null
+        "count": 0,
+        "source": "OpenAlex"
       }
     },
     {
@@ -384,8 +571,8 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-04T05:41:19.738Z",
       "citations": {
-        "count": null,
-        "source": null
+        "count": 0,
+        "source": "OpenAlex"
       }
     },
     {
@@ -3245,7 +3432,7 @@
         "pdf": "https://arxiv.org/pdf/2610.33845",
         "github": "https://github.com/MCG-NJU/AutoTavern"
       },
-      "githubStars": 232,
+      "githubStars": 236,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -4003,7 +4190,7 @@
         "Matthew Jagielski"
       ],
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "upvotes": 18,
+      "upvotes": 17,
       "keywords": [
         "Agent4Sci",
         "long-horizon testbed",
@@ -4178,7 +4365,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28763",
         "github": "https://github.com/maszhongming/agent4sci"
       },
-      "githubStars": 95,
+      "githubStars": 99,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -5404,7 +5591,7 @@
         "Shiyu Chang"
       ],
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "upvotes": 18,
+      "upvotes": 17,
       "keywords": [],
       "categories": [
         "AI 과학자"
@@ -6239,7 +6426,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 153,
+      "githubStars": 155,
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
