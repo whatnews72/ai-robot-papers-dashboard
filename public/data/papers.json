@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T05:58:49.611Z",
+  "updatedAt": "2026-11-05T19:19:31.559Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -11,6 +11,204 @@
     "automated scientific experiment robotics"
   ],
   "papers": [
+    {
+      "id": "2611.06911",
+      "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
+      "authors": [
+        "Fei Lin",
+        "Tengchao Zhang",
+        "Ziyang Gong",
+        "Xiaotong Yu",
+        "Bohan Zhang",
+        "Yifan Zhou",
+        "Qihao Yang",
+        "Ji Dai",
+        "Dong Li",
+        "Yining Jiang",
+        "Qinghua Ni",
+        "Jun Huang",
+        "Qiang Zhang",
+        "Yue Zhou",
+        "Zhihang Zhong",
+        "Yonglin Tian",
+        "Fei-Yue Wang",
+        "Xue Yang"
+      ],
+      "publishedAt": "2026-11-04T18:57:17.000Z",
+      "upvotes": 0,
+      "keywords": [
+        "Self-Driving Chemical Laboratories",
+        "embodied automation",
+        "Multimodal Large Language Models",
+        "BEAKER",
+        "affordance grounding",
+        "trajectory planning",
+        "apparatus setup",
+        "temporal procedure reasoning",
+        "embodied AI"
+      ],
+      "categories": [
+        "로봇 조작",
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "BEAKER is a manually curated benchmark that evaluates multimodal language models on embodied action, reasoning, and perception tasks required for automated chemical laboratories.",
+        "ko": "BEAKER는 자동화된 화학 실험실에 필요한 체화된 행동, 추론 및 인지 작업을 다중 모드 언어 모델로 평가하는 수동으로 선별된 벤치마크입니다."
+      },
+      "abstract": {
+        "en": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs) are increasingly considered as embodied brains for such systems, existing laboratory benchmarks mainly focus on safety, anomaly detection, or general scientific understanding, leaving their execution-oriented embodied capabilities underexplored. To fill this gap, we introduce BEAKER, a Benchmark for evaluating Embodied Actionability, Knowledge, Experimentation, and Reasoning in SDCLs. BEAKER contains 1,000 expert-curated question-answer samples across 11 image and video task types, covering key judgments required for chemical laboratory execution, including affordance grounding, trajectory planning, equipment, state, and safety recognition, apparatus setup, operation and step reasoning, and temporal procedure reasoning. All questions and annotations are manually created and reviewed by chemistry and embodied Artificial Intelligence (AI) experts, without AI-assisted generation or annotation. We evaluate 28 general-purpose, science-oriented, chemistry-specialized, and embodied MLLMs in an offline, single-turn setting. Results show that current models can follow coarse experimental procedures in videos, but still struggle to ground actions into operable regions and feasible trajectories, to recognize fine-grained laboratory apparatus, states, and safety norms, and to order steps in mid-length procedures. BEAKER thus reveals a clear gap between coarse procedural understanding and the precise, action-grounded perception required for laboratory execution, providing a diagnostic benchmark for future MLLMs in SDCLs.",
+        "ko": "자율 주행 화학 실험실(SDCL)은 기계가 실험실 장면을 인지하고, 실험 상태를 추론하며, 물리적, 절차적, 안전 제약 조건 하에서 행동해야 하는 체화된 자동화(embodied automation) 방향으로 화학 실험을 이끌고 있습니다. 다중 모드 대규모 언어 모델(MLLM)이 이러한 시스템의 체화된 두뇌로 점점 더 많이 고려되고 있지만, 기존 실험실 벤치마크는 주로 안전, 이상 감지 또는 일반적인 과학적 이해에 중점을 두어 실행 지향적인 체화된 능력은 충분히 탐구되지 않고 있습니다. 이러한 격차를 해소하기 위해, 우리는 SDCL에서 체화된 행동 가능성(Embodied Actionability), 지식, 실험 및 추론을 평가하기 위한 벤치마크인 BEAKER를 소개합니다. BEAKER는 11가지 이미지 및 비디오 작업 유형에 걸쳐 1,000개의 전문가가 선별한 질문-답변 샘플을 포함하며, 어포던스 접지(affordance grounding), 궤적 계획, 장비, 상태 및 안전 인식, 장치 설정, 작동 및 단계 추론, 시간적 절차 추론을 포함하여 화학 실험실 실행에 필요한 핵심 판단을 다룹니다. 모든 질문과 주석은 AI 지원 생성 또는 주석 없이 화학 및 체화된 인공지능(AI) 전문가가 수동으로 생성하고 검토했습니다. 우리는 오프라인, 단일 턴(single-turn) 설정에서 28개의 범용, 과학 지향, 화학 전문 및 체화된 MLLM을 평가합니다. 결과는 현재 모델이 비디오에서 대략적인 실험 절차를 따를 수 있지만, 여전히 작동 가능한 영역과 실현 가능한 궤적으로 행동을 접지하고, 미세한 실험실 장치, 상태 및 안전 규범을 인식하며, 중간 길이 절차에서 단계를 순서대로 정하는 데 어려움을 겪고 있음을 보여줍니다. 따라서 BEAKER는 대략적인 절차적 이해와 실험실 실행에 필요한 정밀하고 행동에 기반한 인지 사이의 명확한 격차를 드러내며, SDCL의 미래 MLLM을 위한 진단 벤치마크를 제공합니다."
+      },
+      "sentences": [
+        {
+          "en": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints.",
+          "ko": "자율 주행 화학 실험실(SDCL)은 기계가 실험실 장면을 인지하고, 실험 상태를 추론하며, 물리적, 절차적, 안전 제약 조건 하에서 행동해야 하는 체화된 자동화(embodied automation) 방향으로 화학 실험을 이끌고 있습니다."
+        },
+        {
+          "en": "Although Multimodal Large Language Models (MLLMs) are increasingly considered as embodied brains for such systems, existing laboratory benchmarks mainly focus on safety, anomaly detection, or general scientific understanding, leaving their execution-oriented embodied capabilities underexplored.",
+          "ko": "다중 모드 대규모 언어 모델(MLLM)이 이러한 시스템의 체화된 두뇌로 점점 더 많이 고려되고 있지만, 기존 실험실 벤치마크는 주로 안전, 이상 감지 또는 일반적인 과학적 이해에 중점을 두어 실행 지향적인 체화된 능력은 충분히 탐구되지 않고 있습니다."
+        },
+        {
+          "en": "To fill this gap, we introduce BEAKER, a Benchmark for evaluating Embodied Actionability, Knowledge, Experimentation, and Reasoning in SDCLs.",
+          "ko": "이러한 격차를 해소하기 위해, 우리는 SDCL에서 체화된 행동 가능성(Embodied Actionability), 지식, 실험 및 추론을 평가하기 위한 벤치마크인 BEAKER를 소개합니다."
+        },
+        {
+          "en": "BEAKER contains 1,000 expert-curated question-answer samples across 11 image and video task types, covering key judgments required for chemical laboratory execution, including affordance grounding, trajectory planning, equipment, state, and safety recognition, apparatus setup, operation and step reasoning, and temporal procedure reasoning.",
+          "ko": "BEAKER는 11가지 이미지 및 비디오 작업 유형에 걸쳐 1,000개의 전문가가 선별한 질문-답변 샘플을 포함하며, 어포던스 접지(affordance grounding), 궤적 계획, 장비, 상태 및 안전 인식, 장치 설정, 작동 및 단계 추론, 시간적 절차 추론을 포함하여 화학 실험실 실행에 필요한 핵심 판단을 다룹니다."
+        },
+        {
+          "en": "All questions and annotations are manually created and reviewed by chemistry and embodied Artificial Intelligence (AI) experts, without AI-assisted generation or annotation.",
+          "ko": "모든 질문과 주석은 AI 지원 생성 또는 주석 없이 화학 및 체화된 인공지능(AI) 전문가가 수동으로 생성하고 검토했습니다."
+        },
+        {
+          "en": "We evaluate 28 general-purpose, science-oriented, chemistry-specialized, and embodied MLLMs in an offline, single-turn setting.",
+          "ko": "우리는 오프라인, 단일 턴(single-turn) 설정에서 28개의 범용, 과학 지향, 화학 전문 및 체화된 MLLM을 평가합니다."
+        },
+        {
+          "en": "Results show that current models can follow coarse experimental procedures in videos, but still struggle to ground actions into operable regions and feasible trajectories, to recognize fine-grained laboratory apparatus, states, and safety norms, and to order steps in mid-length procedures.",
+          "ko": "결과는 현재 모델이 비디오에서 대략적인 실험 절차를 따를 수 있지만, 여전히 작동 가능한 영역과 실현 가능한 궤적으로 행동을 접지하고, 미세한 실험실 장치, 상태 및 안전 규범을 인식하며, 중간 길이 절차에서 단계를 순서대로 정하는 데 어려움을 겪고 있음을 보여줍니다."
+        },
+        {
+          "en": "BEAKER thus reveals a clear gap between coarse procedural understanding and the precise, action-grounded perception required for laboratory execution, providing a diagnostic benchmark for future MLLMs in SDCLs.",
+          "ko": "따라서 BEAKER는 대략적인 절차적 이해와 실험실 실행에 필요한 정밀하고 행동에 기반한 인지 사이의 명확한 격차를 드러내며, SDCL의 미래 MLLM을 위한 진단 벤치마크를 제공합니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints.",
+            "ko": "자율 주행 화학 실험실(SDCL)은 기계가 실험실 장면을 인지하고, 실험 상태를 추론하며, 물리적, 절차적, 안전 제약 조건 하에서 행동해야 하는 체화된 자동화(embodied automation) 방향으로 화학 실험을 이끌고 있습니다."
+          },
+          {
+            "en": "Although Multimodal Large Language Models (MLLMs) are increasingly considered as embodied brains for such systems, existing laboratory benchmarks mainly focus on safety, anomaly detection, or general scientific understanding, leaving their execution-oriented embodied capabilities underexplored.",
+            "ko": "다중 모드 대규모 언어 모델(MLLM)이 이러한 시스템의 체화된 두뇌로 점점 더 많이 고려되고 있지만, 기존 실험실 벤치마크는 주로 안전, 이상 감지 또는 일반적인 과학적 이해에 중점을 두어 실행 지향적인 체화된 능력은 충분히 탐구되지 않고 있습니다."
+          },
+          {
+            "en": "BEAKER contains 1,000 expert-curated question-answer samples across 11 image and video task types, covering key judgments required for chemical laboratory execution, including affordance grounding, trajectory planning, equipment, state, and safety recognition, apparatus setup, operation and step reasoning, and temporal procedure reasoning.",
+            "ko": "BEAKER는 11가지 이미지 및 비디오 작업 유형에 걸쳐 1,000개의 전문가가 선별한 질문-답변 샘플을 포함하며, 어포던스 접지(affordance grounding), 궤적 계획, 장비, 상태 및 안전 인식, 장치 설정, 작동 및 단계 추론, 시간적 절차 추론을 포함하여 화학 실험실 실행에 필요한 핵심 판단을 다룹니다."
+          },
+          {
+            "en": "All questions and annotations are manually created and reviewed by chemistry and embodied Artificial Intelligence (AI) experts, without AI-assisted generation or annotation.",
+            "ko": "모든 질문과 주석은 AI 지원 생성 또는 주석 없이 화학 및 체화된 인공지능(AI) 전문가가 수동으로 생성하고 검토했습니다."
+          },
+          {
+            "en": "We evaluate 28 general-purpose, science-oriented, chemistry-specialized, and embodied MLLMs in an offline, single-turn setting.",
+            "ko": "우리는 오프라인, 단일 턴(single-turn) 설정에서 28개의 범용, 과학 지향, 화학 전문 및 체화된 MLLM을 평가합니다."
+          },
+          {
+            "en": "BEAKER thus reveals a clear gap between coarse procedural understanding and the precise, action-grounded perception required for laboratory execution, providing a diagnostic benchmark for future MLLMs in SDCLs.",
+            "ko": "따라서 BEAKER는 대략적인 절차적 이해와 실험실 실행에 필요한 정밀하고 행동에 기반한 인지 사이의 명확한 격차를 드러내며, SDCL의 미래 MLLM을 위한 진단 벤치마크를 제공합니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "To fill this gap, we introduce BEAKER, a Benchmark for evaluating Embodied Actionability, Knowledge, Experimentation, and Reasoning in SDCLs.",
+            "ko": "이러한 격차를 해소하기 위해, 우리는 SDCL에서 체화된 행동 가능성(Embodied Actionability), 지식, 실험 및 추론을 평가하기 위한 벤치마크인 BEAKER를 소개합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "Results show that current models can follow coarse experimental procedures in videos, but still struggle to ground actions into operable regions and feasible trajectories, to recognize fine-grained laboratory apparatus, states, and safety norms, and to order steps in mid-length procedures.",
+            "ko": "결과는 현재 모델이 비디오에서 대략적인 실험 절차를 따를 수 있지만, 여전히 작동 가능한 영역과 실현 가능한 궤적으로 행동을 접지하고, 미세한 실험실 장치, 상태 및 안전 규범을 인식하며, 중간 길이 절차에서 단계를 순서대로 정하는 데 어려움을 겪고 있음을 보여줍니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "embodied",
+          "ko": "체화된",
+          "sentence": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints.",
+          "sentenceKo": "자율 주행 화학 실험실(SDCL)은 기계가 실험실 장면을 인지하고, 실험 상태를 추론하며, 물리적, 절차적, 안전 제약 조건 하에서 행동해야 하는 체화된 자동화(embodied automation) 방향으로 화학 실험을 이끌고 있습니다."
+        },
+        {
+          "word": "chemical",
+          "ko": "화학",
+          "sentence": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints.",
+          "sentenceKo": "자율 주행 화학 실험실(SDCL)은 기계가 실험실 장면을 인지하고, 실험 상태를 추론하며, 물리적, 절차적, 안전 제약 조건 하에서 행동해야 하는 체화된 자동화(embodied automation) 방향으로 화학 실험을 이끌고 있습니다."
+        },
+        {
+          "word": "automation",
+          "ko": "자동화",
+          "sentence": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints.",
+          "sentenceKo": "자율 주행 화학 실험실(SDCL)은 기계가 실험실 장면을 인지하고, 실험 상태를 추론하며, 물리적, 절차적, 안전 제약 조건 하에서 행동해야 하는 체화된 자동화(embodied automation) 방향으로 화학 실험을 이끌고 있습니다."
+        },
+        {
+          "word": "reasoning",
+          "ko": "추론",
+          "sentence": "To fill this gap, we introduce BEAKER, a Benchmark for evaluating Embodied Actionability, Knowledge, Experimentation, and Reasoning in SDCLs.",
+          "sentenceKo": "이러한 격차를 해소하기 위해, 우리는 SDCL에서 체화된 행동 가능성(Embodied Actionability), 지식, 실험 및 추론을 평가하기 위한 벤치마크인 BEAKER를 소개합니다."
+        },
+        {
+          "word": "affordance",
+          "ko": "어포던스",
+          "sentence": "BEAKER contains 1,000 expert-curated question-answer samples across 11 image and video task types, covering key judgments required for chemical laboratory execution, including affordance grounding, trajectory planning, equipment, state, and safety recognition, apparatus setup, operation and step reasoning, and temporal procedure reasoning.",
+          "sentenceKo": "BEAKER는 11가지 이미지 및 비디오 작업 유형에 걸쳐 1,000개의 전문가가 선별한 질문-답변 샘플을 포함하며, 어포던스 접지(affordance grounding), 궤적 계획, 장비, 상태 및 안전 인식, 장치 설정, 작동 및 단계 추론, 시간적 절차 추론을 포함하여 화학 실험실 실행에 필요한 핵심 판단을 다룹니다."
+        },
+        {
+          "word": "laboratories",
+          "ko": "실험실",
+          "sentence": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints.",
+          "sentenceKo": "자율 주행 화학 실험실(SDCL)은 기계가 실험실 장면을 인지하고, 실험 상태를 추론하며, 물리적, 절차적, 안전 제약 조건 하에서 행동해야 하는 체화된 자동화(embodied automation) 방향으로 화학 실험을 이끌고 있습니다."
+        },
+        {
+          "word": "experimentation",
+          "ko": "실험",
+          "sentence": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints.",
+          "sentenceKo": "자율 주행 화학 실험실(SDCL)은 기계가 실험실 장면을 인지하고, 실험 상태를 추론하며, 물리적, 절차적, 안전 제약 조건 하에서 행동해야 하는 체화된 자동화(embodied automation) 방향으로 화학 실험을 이끌고 있습니다."
+        },
+        {
+          "word": "apparatus",
+          "ko": "장치",
+          "sentence": "BEAKER contains 1,000 expert-curated question-answer samples across 11 image and video task types, covering key judgments required for chemical laboratory execution, including affordance grounding, trajectory planning, equipment, state, and safety recognition, apparatus setup, operation and step reasoning, and temporal procedure reasoning.",
+          "sentenceKo": "BEAKER는 11가지 이미지 및 비디오 작업 유형에 걸쳐 1,000개의 전문가가 선별한 질문-답변 샘플을 포함하며, 어포던스 접지(affordance grounding), 궤적 계획, 장비, 상태 및 안전 인식, 장치 설정, 작동 및 단계 추론, 시간적 절차 추론을 포함하여 화학 실험실 실행에 필요한 핵심 판단을 다룹니다."
+        },
+        {
+          "word": "multimodal",
+          "ko": "다중 모드",
+          "sentence": "Although Multimodal Large Language Models (MLLMs) are increasingly considered as embodied brains for such systems, existing laboratory benchmarks mainly focus on safety, anomaly detection, or general scientific understanding, leaving their execution-oriented embodied capabilities underexplored.",
+          "sentenceKo": "다중 모드 대규모 언어 모델(MLLM)이 이러한 시스템의 체화된 두뇌로 점점 더 많이 고려되고 있지만, 기존 실험실 벤치마크는 주로 안전, 이상 감지 또는 일반적인 과학적 이해에 중점을 두어 실행 지향적인 체화된 능력은 충분히 탐구되지 않고 있습니다."
+        },
+        {
+          "word": "actionability",
+          "ko": "행동 가능성",
+          "sentence": "To fill this gap, we introduce BEAKER, a Benchmark for evaluating Embodied Actionability, Knowledge, Experimentation, and Reasoning in SDCLs.",
+          "sentenceKo": "이러한 격차를 해소하기 위해, 우리는 SDCL에서 체화된 행동 가능성(Embodied Actionability), 지식, 실험 및 추론을 평가하기 위한 벤치마크인 BEAKER를 소개합니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2611.06911",
+        "arxiv": "https://arxiv.org/abs/2611.06911",
+        "pdf": "https://arxiv.org/pdf/2611.06911",
+        "github": null
+      },
+      "githubStars": null,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-05T19:19:31.559Z",
+      "citations": {
+        "count": null,
+        "source": null
+      }
+    },
     {
       "id": "2611.03183",
       "title": "Auto-Research Agent on MSA Organization to Improve Protein-Protein Complex Structure Prediction",
@@ -411,7 +609,7 @@
         "Kaipeng Zhang"
       ],
       "publishedAt": "2026-10-31T00:00:00.000Z",
-      "upvotes": 8,
+      "upvotes": 18,
       "keywords": [
         "cross-game streaming commentary",
         "StreamDuo",
@@ -567,7 +765,7 @@
         "pdf": "https://arxiv.org/pdf/2611.01120",
         "github": null
       },
-      "githubStars": 1,
+      "githubStars": 10,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-04T05:41:19.738Z",
       "citations": {
@@ -3432,7 +3630,7 @@
         "pdf": "https://arxiv.org/pdf/2610.33845",
         "github": "https://github.com/MCG-NJU/AutoTavern"
       },
-      "githubStars": 239,
+      "githubStars": 244,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -6426,7 +6624,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 157,
+      "githubStars": 158,
       "translatedBy": "gemini",
       "citations": {
         "count": 2,
