@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T19:12:40.058Z",
+  "updatedAt": "2026-11-05T05:58:49.611Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -195,7 +195,7 @@
       "collectedAt": "2026-11-04T19:12:40.058Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -394,7 +394,7 @@
       "collectedAt": "2026-11-04T05:41:19.738Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -411,7 +411,7 @@
         "Kaipeng Zhang"
       ],
       "publishedAt": "2026-10-31T00:00:00.000Z",
-      "upvotes": 5,
+      "upvotes": 8,
       "keywords": [
         "cross-game streaming commentary",
         "StreamDuo",
@@ -567,12 +567,12 @@
         "pdf": "https://arxiv.org/pdf/2611.01120",
         "github": null
       },
-      "githubStars": null,
+      "githubStars": 1,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-04T05:41:19.738Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -768,7 +768,7 @@
       "collectedAt": "2026-11-02T21:14:49.554Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -995,7 +995,7 @@
       "collectedAt": "2026-11-02T21:14:49.554Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -1208,7 +1208,7 @@
       "collectedAt": "2026-11-02T05:23:15.084Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -1430,8 +1430,8 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-01T05:24:05.713Z",
       "citations": {
-        "count": 0,
-        "source": "OpenAlex"
+        "count": 1,
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -1634,7 +1634,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -1832,7 +1832,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -2026,7 +2026,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -2245,7 +2245,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -2631,8 +2631,8 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
-        "count": 0,
-        "source": "OpenAlex"
+        "count": 2,
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -2881,7 +2881,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -3062,7 +3062,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -3255,7 +3255,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -3432,12 +3432,12 @@
         "pdf": "https://arxiv.org/pdf/2610.33845",
         "github": "https://github.com/MCG-NJU/AutoTavern"
       },
-      "githubStars": 236,
+      "githubStars": 239,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -3620,7 +3620,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -3996,7 +3996,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -4172,12 +4172,12 @@
         "pdf": "https://arxiv.org/pdf/2610.30468",
         "github": "https://github.com/seemandhar/SplatLab"
       },
-      "githubStars": 22,
+      "githubStars": 23,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -4370,7 +4370,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -4760,7 +4760,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -4975,7 +4975,7 @@
       "collectedAt": "2026-10-27T14:45:38.679Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -5172,7 +5172,7 @@
       "collectedAt": "2026-10-27T14:45:38.679Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -5378,7 +5378,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-27T04:28:31.378Z"
     },
@@ -5573,7 +5573,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-26T04:08:48.950Z"
     },
@@ -5766,7 +5766,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -6037,11 +6037,11 @@
         "pdf": "https://arxiv.org/pdf/2610.28578",
         "github": "https://github.com/InternScience/Agents-A1"
       },
-      "githubStars": 607,
+      "githubStars": 606,
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -6220,7 +6220,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -6426,11 +6426,11 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 155,
+      "githubStars": 157,
       "translatedBy": "gemini",
       "citations": {
-        "count": 0,
-        "source": "OpenAlex"
+        "count": 2,
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -6638,8 +6638,8 @@
       "githubStars": null,
       "translatedBy": "gemini",
       "citations": {
-        "count": 0,
-        "source": "OpenAlex"
+        "count": 2,
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     }
