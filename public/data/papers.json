@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T05:55:23.587Z",
+  "updatedAt": "2026-11-06T18:44:38.766Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -11,6 +11,186 @@
     "automated scientific experiment robotics"
   ],
   "papers": [
+    {
+      "id": "2611.08478",
+      "title": "Scientist World: Grow a Research World for AI-Scientists",
+      "authors": [
+        "Taiming Lu",
+        "Sachin Konan",
+        "Zhuang Liu"
+      ],
+      "publishedAt": "2026-11-05T18:58:17.000Z",
+      "upvotes": 0,
+      "keywords": [],
+      "categories": [
+        "기타"
+      ],
+      "aiSummary": {
+        "en": "",
+        "ko": ""
+      },
+      "abstract": {
+        "en": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted - centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every research paper becomes an executable environment. Our autonomous pipeline extracts each paper's open-ended research question and reproduces its proposed method as the baseline; an AI-Scientist entering the environment is evaluated against what the human authors achieved. We release the first 1,000 verified environments. With the world as an evaluation, we found that frontier AI-Scientists can already surpass the human researchers 74% of the time. As a record of how AI does science, it contains 6,400 hours of research traces, with every idea, experiment, failure, and success. As a training ground, we are able to raise (+158%) a small model to match frontier models in research ideation. At last, AI-Scientists' own world has arrived, grown from and growing with science itself.",
+        "ko": "AI 과학자들이 등장했지만, 그들이 성장할 수 있는 세상은 아직 마련되지 않았습니다. 인간 과학자들은 과학 문헌 속에서 수세기에 걸쳐 쌓인 미해결 문제와 공유된 아이디어를 당연하게 여깁니다. AI, 과학자들에게 그 세상은 읽을 수는 있지만 실행할 수는 없는 곳이기에, 우리는 그들을 위해 '사이언티스트 월드(Scientist World)'를 구축합니다: 모든 연구 논문이 실행 가능한 환경이 됩니다. 우리의 자율 파이프라인(autonomous pipeline)은 각 논문의 개방형 연구 질문을 추출하고 제안된 방법을 베이스라인으로 재현합니다. 환경에 진입한 AI 과학자는 인간 저자들이 달성한 성과와 비교하여 평가됩니다. 우리는 검증된 최초의 1,000개 환경을 공개합니다. 세상을 평가 도구로 삼아 실험한 결과, 프론티어 AI 과학자가 74%의 확률로 인간 연구자를 이미 능가할 수 있음을 발견했습니다. AI가 과학을 수행하는 방식에 대한 기록으로서, 이 세상은 모든 아이디어, 실험, 실패, 성공을 담은 6,400시간의 연구 흔적을 포함하고 있습니다. 훈련장으로서, 우리는 소형 모델을 프론티어 모델 수준의 연구 아이데이션(ideation) 능력을 갖추도록 158% 향상시킬 수 있습니다. 마침내 AI 과학자들만의 세상이 도착했으며, 이는 과학 자체에서 자라나고 과학과 함께 성장하고 있습니다."
+      },
+      "sentences": [
+        {
+          "en": "AI-Scientists arrived, but a world for them to grow in did not.",
+          "ko": "AI 과학자들이 등장했지만, 그들이 성장할 수 있는 세상은 아직 마련되지 않았습니다."
+        },
+        {
+          "en": "Human scientists take theirs for granted - centuries of open problems and shared ideas, waiting in the scientific literature.",
+          "ko": "인간 과학자들은 과학 문헌 속에서 수세기에 걸쳐 쌓인 미해결 문제와 공유된 아이디어를 당연하게 여깁니다."
+        },
+        {
+          "en": "To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every research paper becomes an executable environment.",
+          "ko": "AI, 과학자들에게 그 세상은 읽을 수는 있지만 실행할 수는 없는 곳이기에, 우리는 그들을 위해 '사이언티스트 월드(Scientist World)'를 구축합니다: 모든 연구 논문이 실행 가능한 환경이 됩니다."
+        },
+        {
+          "en": "Our autonomous pipeline extracts each paper's open-ended research question and reproduces its proposed method as the baseline; an AI-Scientist entering the environment is evaluated against what the human authors achieved.",
+          "ko": "우리의 자율 파이프라인(autonomous pipeline)은 각 논문의 개방형 연구 질문을 추출하고 제안된 방법을 베이스라인으로 재현합니다. 환경에 진입한 AI 과학자는 인간 저자들이 달성한 성과와 비교하여 평가됩니다."
+        },
+        {
+          "en": "We release the first 1,000 verified environments.",
+          "ko": "우리는 검증된 최초의 1,000개 환경을 공개합니다."
+        },
+        {
+          "en": "With the world as an evaluation, we found that frontier AI-Scientists can already surpass the human researchers 74% of the time.",
+          "ko": "세상을 평가 도구로 삼아 실험한 결과, 프론티어 AI 과학자가 74%의 확률로 인간 연구자를 이미 능가할 수 있음을 발견했습니다."
+        },
+        {
+          "en": "As a record of how AI does science, it contains 6,400 hours of research traces, with every idea, experiment, failure, and success.",
+          "ko": "AI가 과학을 수행하는 방식에 대한 기록으로서, 이 세상은 모든 아이디어, 실험, 실패, 성공을 담은 6,400시간의 연구 흔적을 포함하고 있습니다."
+        },
+        {
+          "en": "As a training ground, we are able to raise (+158%) a small model to match frontier models in research ideation.",
+          "ko": "훈련장으로서, 우리는 소형 모델을 프론티어 모델 수준의 연구 아이데이션(ideation) 능력을 갖추도록 158% 향상시킬 수 있습니다."
+        },
+        {
+          "en": "At last, AI-Scientists' own world has arrived, grown from and growing with science itself.",
+          "ko": "마침내 AI 과학자들만의 세상이 도착했으며, 이는 과학 자체에서 자라나고 과학과 함께 성장하고 있습니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "AI-Scientists arrived, but a world for them to grow in did not.",
+            "ko": "AI 과학자들이 등장했지만, 그들이 성장할 수 있는 세상은 아직 마련되지 않았습니다."
+          },
+          {
+            "en": "Human scientists take theirs for granted - centuries of open problems and shared ideas, waiting in the scientific literature.",
+            "ko": "인간 과학자들은 과학 문헌 속에서 수세기에 걸쳐 쌓인 미해결 문제와 공유된 아이디어를 당연하게 여깁니다."
+          },
+          {
+            "en": "We release the first 1,000 verified environments.",
+            "ko": "우리는 검증된 최초의 1,000개 환경을 공개합니다."
+          },
+          {
+            "en": "As a record of how AI does science, it contains 6,400 hours of research traces, with every idea, experiment, failure, and success.",
+            "ko": "AI가 과학을 수행하는 방식에 대한 기록으로서, 이 세상은 모든 아이디어, 실험, 실패, 성공을 담은 6,400시간의 연구 흔적을 포함하고 있습니다."
+          },
+          {
+            "en": "At last, AI-Scientists' own world has arrived, grown from and growing with science itself.",
+            "ko": "마침내 AI 과학자들만의 세상이 도착했으며, 이는 과학 자체에서 자라나고 과학과 함께 성장하고 있습니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every research paper becomes an executable environment.",
+            "ko": "AI, 과학자들에게 그 세상은 읽을 수는 있지만 실행할 수는 없는 곳이기에, 우리는 그들을 위해 '사이언티스트 월드(Scientist World)'를 구축합니다: 모든 연구 논문이 실행 가능한 환경이 됩니다."
+          },
+          {
+            "en": "Our autonomous pipeline extracts each paper's open-ended research question and reproduces its proposed method as the baseline; an AI-Scientist entering the environment is evaluated against what the human authors achieved.",
+            "ko": "우리의 자율 파이프라인(autonomous pipeline)은 각 논문의 개방형 연구 질문을 추출하고 제안된 방법을 베이스라인으로 재현합니다. 환경에 진입한 AI 과학자는 인간 저자들이 달성한 성과와 비교하여 평가됩니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "With the world as an evaluation, we found that frontier AI-Scientists can already surpass the human researchers 74% of the time.",
+            "ko": "세상을 평가 도구로 삼아 실험한 결과, 프론티어 AI 과학자가 74%의 확률로 인간 연구자를 이미 능가할 수 있음을 발견했습니다."
+          },
+          {
+            "en": "As a training ground, we are able to raise (+158%) a small model to match frontier models in research ideation.",
+            "ko": "훈련장으로서, 우리는 소형 모델을 프론티어 모델 수준의 연구 아이데이션(ideation) 능력을 갖추도록 158% 향상시킬 수 있습니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "scientists",
+          "ko": "과학자",
+          "sentence": "AI-Scientists arrived, but a world for them to grow in did not.",
+          "sentenceKo": "AI 과학자들이 등장했지만, 그들이 성장할 수 있는 세상은 아직 마련되지 않았습니다."
+        },
+        {
+          "word": "environment",
+          "ko": "환경",
+          "sentence": "To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every research paper becomes an executable environment.",
+          "sentenceKo": "AI, 과학자들에게 그 세상은 읽을 수는 있지만 실행할 수는 없는 곳이기에, 우리는 그들을 위해 '사이언티스트 월드(Scientist World)'를 구축합니다: 모든 연구 논문이 실행 가능한 환경이 됩니다."
+        },
+        {
+          "word": "autonomous",
+          "ko": "자율적인",
+          "sentence": "Our autonomous pipeline extracts each paper's open-ended research question and reproduces its proposed method as the baseline; an AI-Scientist entering the environment is evaluated against what the human authors achieved.",
+          "sentenceKo": "우리의 자율 파이프라인(autonomous pipeline)은 각 논문의 개방형 연구 질문을 추출하고 제안된 방법을 베이스라인으로 재현합니다. 환경에 진입한 AI 과학자는 인간 저자들이 달성한 성과와 비교하여 평가됩니다."
+        },
+        {
+          "word": "evaluation",
+          "ko": "평가",
+          "sentence": "With the world as an evaluation, we found that frontier AI-Scientists can already surpass the human researchers 74% of the time.",
+          "sentenceKo": "세상을 평가 도구로 삼아 실험한 결과, 프론티어 AI 과학자가 74%의 확률로 인간 연구자를 이미 능가할 수 있음을 발견했습니다."
+        },
+        {
+          "word": "experiment",
+          "ko": "실험",
+          "sentence": "As a record of how AI does science, it contains 6,400 hours of research traces, with every idea, experiment, failure, and success.",
+          "sentenceKo": "AI가 과학을 수행하는 방식에 대한 기록으로서, 이 세상은 모든 아이디어, 실험, 실패, 성공을 담은 6,400시간의 연구 흔적을 포함하고 있습니다."
+        },
+        {
+          "word": "science",
+          "ko": "과학",
+          "sentence": "As a record of how AI does science, it contains 6,400 hours of research traces, with every idea, experiment, failure, and success.",
+          "sentenceKo": "AI가 과학을 수행하는 방식에 대한 기록으로서, 이 세상은 모든 아이디어, 실험, 실패, 성공을 담은 6,400시간의 연구 흔적을 포함하고 있습니다."
+        },
+        {
+          "word": "question",
+          "ko": "질문",
+          "sentence": "Our autonomous pipeline extracts each paper's open-ended research question and reproduces its proposed method as the baseline; an AI-Scientist entering the environment is evaluated against what the human authors achieved.",
+          "sentenceKo": "우리의 자율 파이프라인(autonomous pipeline)은 각 논문의 개방형 연구 질문을 추출하고 제안된 방법을 베이스라인으로 재현합니다. 환경에 진입한 AI 과학자는 인간 저자들이 달성한 성과와 비교하여 평가됩니다."
+        },
+        {
+          "word": "ideation",
+          "ko": "아이데이션",
+          "sentence": "As a training ground, we are able to raise (+158%) a small model to match frontier models in research ideation.",
+          "sentenceKo": "훈련장으로서, 우리는 소형 모델을 프론티어 모델 수준의 연구 아이데이션(ideation) 능력을 갖추도록 158% 향상시킬 수 있습니다."
+        },
+        {
+          "word": "literature",
+          "ko": "문헌",
+          "sentence": "Human scientists take theirs for granted - centuries of open problems and shared ideas, waiting in the scientific literature.",
+          "sentenceKo": "인간 과학자들은 과학 문헌 속에서 수세기에 걸쳐 쌓인 미해결 문제와 공유된 아이디어를 당연하게 여깁니다."
+        },
+        {
+          "word": "executable",
+          "ko": "실행 가능한",
+          "sentence": "To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every research paper becomes an executable environment.",
+          "sentenceKo": "AI, 과학자들에게 그 세상은 읽을 수는 있지만 실행할 수는 없는 곳이기에, 우리는 그들을 위해 '사이언티스트 월드(Scientist World)'를 구축합니다: 모든 연구 논문이 실행 가능한 환경이 됩니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2611.08478",
+        "arxiv": "https://arxiv.org/abs/2611.08478",
+        "pdf": "https://arxiv.org/pdf/2611.08478",
+        "github": null
+      },
+      "githubStars": null,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-06T18:44:38.766Z",
+      "citations": {
+        "count": null,
+        "source": null
+      }
+    },
     {
       "id": "2611.06911",
       "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
@@ -206,7 +386,7 @@
       "collectedAt": "2026-11-05T19:19:31.559Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -393,7 +573,7 @@
       "collectedAt": "2026-11-04T19:12:40.058Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -592,7 +772,7 @@
       "collectedAt": "2026-11-04T05:41:19.738Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -770,7 +950,7 @@
       "collectedAt": "2026-11-04T05:41:19.738Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -966,7 +1146,7 @@
       "collectedAt": "2026-11-02T21:14:49.554Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -1193,7 +1373,7 @@
       "collectedAt": "2026-11-02T21:14:49.554Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -1406,7 +1586,7 @@
       "collectedAt": "2026-11-02T05:23:15.084Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -1628,8 +1808,8 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-01T05:24:05.713Z",
       "citations": {
-        "count": 1,
-        "source": "Semantic Scholar"
+        "count": 0,
+        "source": "OpenAlex"
       }
     },
     {
@@ -1832,7 +2012,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -2030,7 +2210,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -2224,7 +2404,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -2443,7 +2623,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -2829,8 +3009,8 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
-        "count": 3,
-        "source": "Semantic Scholar"
+        "count": 0,
+        "source": "OpenAlex"
       }
     },
     {
@@ -3079,7 +3259,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -3260,7 +3440,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -3453,7 +3633,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -3630,12 +3810,12 @@
         "pdf": "https://arxiv.org/pdf/2610.33845",
         "github": "https://github.com/MCG-NJU/AutoTavern"
       },
-      "githubStars": 244,
+      "githubStars": 247,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -3818,7 +3998,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -4194,7 +4374,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -4375,7 +4555,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -4568,7 +4748,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -4958,7 +5138,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -5168,12 +5348,12 @@
         "pdf": "https://arxiv.org/pdf/2610.35385",
         "github": "https://github.com/HexaFuture/EmbodiedLab"
       },
-      "githubStars": 18,
+      "githubStars": 19,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-27T14:45:38.679Z",
       "citations": {
-        "count": 1,
-        "source": "Semantic Scholar"
+        "count": 0,
+        "source": "OpenAlex"
       }
     },
     {
@@ -5370,7 +5550,7 @@
       "collectedAt": "2026-10-27T14:45:38.679Z",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       }
     },
     {
@@ -5576,7 +5756,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       },
       "collectedAt": "2026-10-27T04:28:31.378Z"
     },
@@ -5770,8 +5950,8 @@
       "githubStars": null,
       "translatedBy": "gemini",
       "citations": {
-        "count": 1,
-        "source": "Semantic Scholar"
+        "count": 0,
+        "source": "OpenAlex"
       },
       "collectedAt": "2026-10-26T04:08:48.950Z"
     },
@@ -5964,7 +6144,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -6239,7 +6419,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -6418,7 +6598,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "Semantic Scholar"
+        "source": "OpenAlex"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -6624,11 +6804,11 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 159,
+      "githubStars": 163,
       "translatedBy": "gemini",
       "citations": {
-        "count": 2,
-        "source": "Semantic Scholar"
+        "count": 0,
+        "source": "OpenAlex"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -6836,8 +7016,8 @@
       "githubStars": null,
       "translatedBy": "gemini",
       "citations": {
-        "count": 3,
-        "source": "Semantic Scholar"
+        "count": 0,
+        "source": "OpenAlex"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     }
