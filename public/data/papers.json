@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T19:19:31.559Z",
+  "updatedAt": "2026-11-06T05:55:23.587Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -205,8 +205,8 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-05T19:19:31.559Z",
       "citations": {
-        "count": null,
-        "source": null
+        "count": 0,
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -222,7 +222,7 @@
         "Yang Yang"
       ],
       "publishedAt": "2026-11-02T14:17:43.000Z",
-      "upvotes": 1,
+      "upvotes": 2,
       "keywords": [
         "AlphaFold 3",
         "MSA",
@@ -609,7 +609,7 @@
         "Kaipeng Zhang"
       ],
       "publishedAt": "2026-10-31T00:00:00.000Z",
-      "upvotes": 18,
+      "upvotes": 20,
       "keywords": [
         "cross-game streaming commentary",
         "StreamDuo",
@@ -765,7 +765,7 @@
         "pdf": "https://arxiv.org/pdf/2611.01120",
         "github": null
       },
-      "githubStars": 10,
+      "githubStars": 11,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-04T05:41:19.738Z",
       "citations": {
@@ -2829,7 +2829,7 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
-        "count": 2,
+        "count": 3,
         "source": "Semantic Scholar"
       }
     },
@@ -3832,7 +3832,7 @@
         "Sung Ju Hwang"
       ],
       "publishedAt": "2026-10-23T00:00:00.000Z",
-      "upvotes": 25,
+      "upvotes": 26,
       "keywords": [
         "LLM-based framework",
         "inductive principles",
@@ -5172,7 +5172,7 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-10-27T14:45:38.679Z",
       "citations": {
-        "count": 0,
+        "count": 1,
         "source": "Semantic Scholar"
       }
     },
@@ -5770,7 +5770,7 @@
       "githubStars": null,
       "translatedBy": "gemini",
       "citations": {
-        "count": 0,
+        "count": 1,
         "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-26T04:08:48.950Z"
@@ -6624,7 +6624,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 158,
+      "githubStars": 159,
       "translatedBy": "gemini",
       "citations": {
         "count": 2,
@@ -6643,7 +6643,7 @@
         "David Ha"
       ],
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "upvotes": 1,
+      "upvotes": 2,
       "keywords": [
         "coding agents",
         "agentic self-verification",
@@ -6836,7 +6836,7 @@
       "githubStars": null,
       "translatedBy": "gemini",
       "citations": {
-        "count": 2,
+        "count": 3,
         "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
