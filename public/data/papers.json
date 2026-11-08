@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T05:26:57.449Z",
+  "updatedAt": "2026-11-08T17:27:43.879Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -945,7 +945,7 @@
         "pdf": "https://arxiv.org/pdf/2611.01120",
         "github": null
       },
-      "githubStars": 11,
+      "githubStars": 13,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-04T05:41:19.738Z",
       "citations": {
@@ -3810,7 +3810,7 @@
         "pdf": "https://arxiv.org/pdf/2610.33845",
         "github": "https://github.com/MCG-NJU/AutoTavern"
       },
-      "githubStars": 253,
+      "githubStars": 256,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -6804,7 +6804,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 164,
+      "githubStars": 165,
       "translatedBy": "gemini",
       "citations": {
         "count": 2,
