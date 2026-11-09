@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T17:27:43.879Z",
+  "updatedAt": "2026-11-09T05:38:13.012Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -789,7 +789,7 @@
         "Kaipeng Zhang"
       ],
       "publishedAt": "2026-10-31T00:00:00.000Z",
-      "upvotes": 20,
+      "upvotes": 22,
       "keywords": [
         "cross-game streaming commentary",
         "StreamDuo",
@@ -960,7 +960,7 @@
         "Art Kanke"
       ],
       "publishedAt": "2026-10-29T17:15:53.000Z",
-      "upvotes": 3,
+      "upvotes": 4,
       "keywords": [
         "research agents",
         "minimum viable experiments",
@@ -3272,7 +3272,7 @@
         "Ying-Cong Chen"
       ],
       "publishedAt": "2026-10-27T00:00:00.000Z",
-      "upvotes": 7,
+      "upvotes": 8,
       "keywords": [
         "large language models",
         "LongChang",
@@ -3810,7 +3810,7 @@
         "pdf": "https://arxiv.org/pdf/2610.33845",
         "github": "https://github.com/MCG-NJU/AutoTavern"
       },
-      "githubStars": 256,
+      "githubStars": 263,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -6415,7 +6415,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28578",
         "github": "https://github.com/InternScience/Agents-A1"
       },
-      "githubStars": 606,
+      "githubStars": 607,
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
