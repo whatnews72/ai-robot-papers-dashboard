@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T05:38:13.012Z",
+  "updatedAt": "2026-11-09T21:48:58.600Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -11,6 +11,250 @@
     "automated scientific experiment robotics"
   ],
   "papers": [
+    {
+      "id": "2611.08922",
+      "title": "Glyph: An Interpretability Engine for AI-Driven Scientific Discovery in Clinical Data",
+      "authors": [
+        "Robbie Holland",
+        "Ashwin Kumar",
+        "Mateus A. Esmeraldo",
+        "David Le",
+        "Andrea Fisher",
+        "Jiazhen Pan",
+        "Louisa Fay",
+        "Magdalini Paschali",
+        "Vasiliki Sideri-Lampretsa",
+        "Ates Fettahoglu",
+        "Stefania Moroianu",
+        "Philipp Wesp",
+        "Ivan Lopez",
+        "Tom Nuno Wolf",
+        "McKenzie S. White",
+        "Eduardo Pontes Reis",
+        "Fatima Rodriguez",
+        "Curtis P. Langlotz",
+        "Vasilis Syrgkanis",
+        "Imon Banerjee",
+        "Akshay S. Chaudhari",
+        "Sergios Gatidis"
+      ],
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "upvotes": 2,
+      "keywords": [
+        "foundation models",
+        "latent embeddings",
+        "sparse autoencoders",
+        "agentic AI systems",
+        "multimodal clinical data",
+        "neural networks",
+        "interpretability"
+      ],
+      "categories": [
+        "AI 과학자",
+        "LLM 에이전트"
+      ],
+      "aiSummary": {
+        "en": "Glyph uses foundation models and sparse autoencoders to extract interpretable clinical concepts from multimodal records and CT data, revealing reproducible predictive associations across patient cohorts.",
+        "ko": "Glyph는 파운데이션 모델과 희소 오토인코더를 사용하여 다중모달 기록과 CT 데이터로부터 해석 가능한 임상 개념을 추출하며, 환자 코호트 전반에서 재현 가능한 예측적 연관성을 밝혀냅니다."
+      },
+      "abstract": {
+        "en": "Automated scientific discovery has the potential to advance understanding of disease mechanisms and accelerate identification of early disease markers. Manual data annotation is infeasible at population scale, motivating methods that automatically extract pre-defined phenotypes in multimodal and unstructured clinical data. Such pre-defined feature sets determine and limit which associations these approaches can discover. This limitation extends to agentic AI systems that use these tools to query population-scale data. In contrast, foundation models (FMs) trained on large volumes of clinical data can perform tasks beyond their training objectives. This suggests their latent embeddings may represent novel or unexplored features that could yield insights into disease mechanisms, yet such latent features remain difficult to interpret. To address this challenge, we introduce Glyph, an automated multistage framework that extracts features from multimodal and unstructured clinical data using FMs and sparse autoencoders, interprets them as coded clinical concepts, and evaluates their value for clinical scientific discovery. We applied Glyph to abdominal CT volumes, CT radiology reports and laboratory measurements from 41,628 patients across different institutions. We identified 397 predictive concepts supported by 4,463 Bonferroni-significant associations. Moreover, a majority of discovered associations were automatically reproducible in held-out cohorts across different sites. Glyph concepts provided complementary associations to literature-derived markers, leading to gains in predictive power. We envision that interpretability can extend beyond a mechanistic understanding of neural networks to connecting implicitly learned features with clinical knowledge and establishing their significance for patient outcomes. We release Glyph at https://github.com/StanfordMIMI/Glyph.",
+        "ko": "자동화된 과학적 발견은 질병 메커니즘에 대한 이해를 높이고 조기 질병 마커의 식별을 가속화할 잠재력을 가지고 있습니다. 수동 데이터 주석(annotation)은 인구 집단 규모에서는 불가능하므로, 다중모달 및 비정형 임상 데이터에서 사전에 정의된 표현형을 자동으로 추출하는 방법이 요구됩니다. 이러한 사전 정의된 특징 세트는 이러한 접근법이 발견할 수 있는 연관성을 결정하고 제한합니다. 이러한 제한은 인구 집단 규모의 데이터를 조회하기 위해 이러한 도구를 사용하는 에이전트형 AI(agentic AI) 시스템에도 확장됩니다. 대조적으로, 방대한 양의 임상 데이터로 학습된 파운데이션 모델(Foundation Models, FMs)은 학습 목표를 넘어선 작업도 수행할 수 있습니다. 이는 모델의 잠재 임베딩(latent embeddings)이 질병 메커니즘에 대한 통찰을 제공할 수 있는 새롭거나 탐구되지 않은 특징을 나타낼 수 있음을 시사하지만, 이러한 잠재 특징은 여전히 해석하기 어렵습니다. 이러한 과제를 해결하기 위해, 본 연구에서는 파운데이션 모델과 희소 오토인코더(sparse autoencoders)를 사용하여 다중모달 및 비정형 임상 데이터에서 특징을 추출하고, 이를 부호화된 임상 개념으로 해석하며, 임상적 과학 Discovery에서의 가치를 평가하는 자동화된 다단계 프레임워크인 Glyph를 소개합니다. 저희는 서로 다른 기관의 41,628명 환자로부터 얻은 복부 CT 볼륨, CT 영상 판독문, 그리고 검사 결과에 Glyph를 적용했습니다. 그 결과, 4,463개의 본페로니 유의미한(Bonferroni-significant) 연관성을 뒷받침하는 397개의 예측적 개념을 식별했습니다. 더욱이, 발견된 연관성의 대다수는 서로 다른 기관의 보류(held-out) 코호트에서 자동으로 재현 가능했습니다. Glyph 개념은 문헌에서 유래한 마커에 상보적인 연관성을 제공하여 예측력 향상으로 이어졌습니다. 우리는 해석 가능성이 신경망의 기계론적 이해를 넘어, 암묵적으로 학습된 특징을 임상 지식과 연결하고 환자 예후에 대한 중요성을 규명하는 데까지 확장될 수 있음을 구상합니다. Glyph는 https://github.com/StanfordMIMI/Glyph에서 공개합니다."
+      },
+      "sentences": [
+        {
+          "en": "Automated scientific discovery has the potential to advance understanding of disease mechanisms and accelerate identification of early disease markers.",
+          "ko": "자동화된 과학적 발견은 질병 메커니즘에 대한 이해를 높이고 조기 질병 마커의 식별을 가속화할 잠재력을 가지고 있습니다."
+        },
+        {
+          "en": "Manual data annotation is infeasible at population scale, motivating methods that automatically extract pre-defined phenotypes in multimodal and unstructured clinical data.",
+          "ko": "수동 데이터 주석(annotation)은 인구 집단 규모에서는 불가능하므로, 다중모달 및 비정형 임상 데이터에서 사전에 정의된 표현형을 자동으로 추출하는 방법이 요구됩니다."
+        },
+        {
+          "en": "Such pre-defined feature sets determine and limit which associations these approaches can discover.",
+          "ko": "이러한 사전 정의된 특징 세트는 이러한 접근법이 발견할 수 있는 연관성을 결정하고 제한합니다."
+        },
+        {
+          "en": "This limitation extends to agentic AI systems that use these tools to query population-scale data.",
+          "ko": "이러한 제한은 인구 집단 규모의 데이터를 조회하기 위해 이러한 도구를 사용하는 에이전트형 AI(agentic AI) 시스템에도 확장됩니다."
+        },
+        {
+          "en": "In contrast, foundation models (FMs) trained on large volumes of clinical data can perform tasks beyond their training objectives.",
+          "ko": "대조적으로, 방대한 양의 임상 데이터로 학습된 파운데이션 모델(Foundation Models, FMs)은 학습 목표를 넘어선 작업도 수행할 수 있습니다."
+        },
+        {
+          "en": "This suggests their latent embeddings may represent novel or unexplored features that could yield insights into disease mechanisms, yet such latent features remain difficult to interpret.",
+          "ko": "이는 모델의 잠재 임베딩(latent embeddings)이 질병 메커니즘에 대한 통찰을 제공할 수 있는 새롭거나 탐구되지 않은 특징을 나타낼 수 있음을 시사하지만, 이러한 잠재 특징은 여전히 해석하기 어렵습니다."
+        },
+        {
+          "en": "To address this challenge, we introduce Glyph, an automated multistage framework that extracts features from multimodal and unstructured clinical data using FMs and sparse autoencoders, interprets them as coded clinical concepts, and evaluates their value for clinical scientific discovery.",
+          "ko": "이러한 과제를 해결하기 위해, 본 연구에서는 파운데이션 모델과 희소 오토인코더(sparse autoencoders)를 사용하여 다중모달 및 비정형 임상 데이터에서 특징을 추출하고, 이를 부호화된 임상 개념으로 해석하며, 임상적 과학 Discovery에서의 가치를 평가하는 자동화된 다단계 프레임워크인 Glyph를 소개합니다."
+        },
+        {
+          "en": "We applied Glyph to abdominal CT volumes, CT radiology reports and laboratory measurements from 41,628 patients across different institutions.",
+          "ko": "저희는 서로 다른 기관의 41,628명 환자로부터 얻은 복부 CT 볼륨, CT 영상 판독문, 그리고 검사 결과에 Glyph를 적용했습니다."
+        },
+        {
+          "en": "We identified 397 predictive concepts supported by 4,463 Bonferroni-significant associations.",
+          "ko": "그 결과, 4,463개의 본페로니 유의미한(Bonferroni-significant) 연관성을 뒷받침하는 397개의 예측적 개념을 식별했습니다."
+        },
+        {
+          "en": "Moreover, a majority of discovered associations were automatically reproducible in held-out cohorts across different sites.",
+          "ko": "더욱이, 발견된 연관성의 대다수는 서로 다른 기관의 보류(held-out) 코호트에서 자동으로 재현 가능했습니다."
+        },
+        {
+          "en": "Glyph concepts provided complementary associations to literature-derived markers, leading to gains in predictive power.",
+          "ko": "Glyph 개념은 문헌에서 유래한 마커에 상보적인 연관성을 제공하여 예측력 향상으로 이어졌습니다."
+        },
+        {
+          "en": "We envision that interpretability can extend beyond a mechanistic understanding of neural networks to connecting implicitly learned features with clinical knowledge and establishing their significance for patient outcomes.",
+          "ko": "우리는 해석 가능성이 신경망의 기계론적 이해를 넘어, 암묵적으로 학습된 특징을 임상 지식과 연결하고 환자 예후에 대한 중요성을 규명하는 데까지 확장될 수 있음을 구상합니다."
+        },
+        {
+          "en": "We release Glyph at https://github.com/StanfordMIMI/Glyph.",
+          "ko": "Glyph는 https://github.com/StanfordMIMI/Glyph에서 공개합니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Automated scientific discovery has the potential to advance understanding of disease mechanisms and accelerate identification of early disease markers.",
+            "ko": "자동화된 과학적 발견은 질병 메커니즘에 대한 이해를 높이고 조기 질병 마커의 식별을 가속화할 잠재력을 가지고 있습니다."
+          },
+          {
+            "en": "Manual data annotation is infeasible at population scale, motivating methods that automatically extract pre-defined phenotypes in multimodal and unstructured clinical data.",
+            "ko": "수동 데이터 주석(annotation)은 인구 집단 규모에서는 불가능하므로, 다중모달 및 비정형 임상 데이터에서 사전에 정의된 표현형을 자동으로 추출하는 방법이 요구됩니다."
+          },
+          {
+            "en": "This limitation extends to agentic AI systems that use these tools to query population-scale data.",
+            "ko": "이러한 제한은 인구 집단 규모의 데이터를 조회하기 위해 이러한 도구를 사용하는 에이전트형 AI(agentic AI) 시스템에도 확장됩니다."
+          },
+          {
+            "en": "In contrast, foundation models (FMs) trained on large volumes of clinical data can perform tasks beyond their training objectives.",
+            "ko": "대조적으로, 방대한 양의 임상 데이터로 학습된 파운데이션 모델(Foundation Models, FMs)은 학습 목표를 넘어선 작업도 수행할 수 있습니다."
+          },
+          {
+            "en": "This suggests their latent embeddings may represent novel or unexplored features that could yield insights into disease mechanisms, yet such latent features remain difficult to interpret.",
+            "ko": "이는 모델의 잠재 임베딩(latent embeddings)이 질병 메커니즘에 대한 통찰을 제공할 수 있는 새롭거나 탐구되지 않은 특징을 나타낼 수 있음을 시사하지만, 이러한 잠재 특징은 여전히 해석하기 어렵습니다."
+          },
+          {
+            "en": "We applied Glyph to abdominal CT volumes, CT radiology reports and laboratory measurements from 41,628 patients across different institutions.",
+            "ko": "저희는 서로 다른 기관의 41,628명 환자로부터 얻은 복부 CT 볼륨, CT 영상 판독문, 그리고 검사 결과에 Glyph를 적용했습니다."
+          },
+          {
+            "en": "We identified 397 predictive concepts supported by 4,463 Bonferroni-significant associations.",
+            "ko": "그 결과, 4,463개의 본페로니 유의미한(Bonferroni-significant) 연관성을 뒷받침하는 397개의 예측적 개념을 식별했습니다."
+          },
+          {
+            "en": "Moreover, a majority of discovered associations were automatically reproducible in held-out cohorts across different sites.",
+            "ko": "더욱이, 발견된 연관성의 대다수는 서로 다른 기관의 보류(held-out) 코호트에서 자동으로 재현 가능했습니다."
+          },
+          {
+            "en": "Glyph concepts provided complementary associations to literature-derived markers, leading to gains in predictive power.",
+            "ko": "Glyph 개념은 문헌에서 유래한 마커에 상보적인 연관성을 제공하여 예측력 향상으로 이어졌습니다."
+          },
+          {
+            "en": "We envision that interpretability can extend beyond a mechanistic understanding of neural networks to connecting implicitly learned features with clinical knowledge and establishing their significance for patient outcomes.",
+            "ko": "우리는 해석 가능성이 신경망의 기계론적 이해를 넘어, 암묵적으로 학습된 특징을 임상 지식과 연결하고 환자 예후에 대한 중요성을 규명하는 데까지 확장될 수 있음을 구상합니다."
+          },
+          {
+            "en": "We release Glyph at https://github.com/StanfordMIMI/Glyph.",
+            "ko": "Glyph는 https://github.com/StanfordMIMI/Glyph에서 공개합니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "Such pre-defined feature sets determine and limit which associations these approaches can discover.",
+            "ko": "이러한 사전 정의된 특징 세트는 이러한 접근법이 발견할 수 있는 연관성을 결정하고 제한합니다."
+          },
+          {
+            "en": "To address this challenge, we introduce Glyph, an automated multistage framework that extracts features from multimodal and unstructured clinical data using FMs and sparse autoencoders, interprets them as coded clinical concepts, and evaluates their value for clinical scientific discovery.",
+            "ko": "이러한 과제를 해결하기 위해, 본 연구에서는 파운데이션 모델과 희소 오토인코더(sparse autoencoders)를 사용하여 다중모달 및 비정형 임상 데이터에서 특징을 추출하고, 이를 부호화된 임상 개념으로 해석하며, 임상적 과학 Discovery에서의 가치를 평가하는 자동화된 다단계 프레임워크인 Glyph를 소개합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "We release Glyph at https://github.com/StanfordMIMI/Glyph.",
+            "ko": "Glyph는 https://github.com/StanfordMIMI/Glyph에서 공개합니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "clinical",
+          "ko": "임상의",
+          "sentence": "Manual data annotation is infeasible at population scale, motivating methods that automatically extract pre-defined phenotypes in multimodal and unstructured clinical data.",
+          "sentenceKo": "수동 데이터 주석(annotation)은 인구 집단 규모에서는 불가능하므로, 다중모달 및 비정형 임상 데이터에서 사전에 정의된 표현형을 자동으로 추출하는 방법이 요구됩니다."
+        },
+        {
+          "word": "interpretability",
+          "ko": "해석 가능성",
+          "sentence": "We envision that interpretability can extend beyond a mechanistic understanding of neural networks to connecting implicitly learned features with clinical knowledge and establishing their significance for patient outcomes.",
+          "sentenceKo": "우리는 해석 가능성이 신경망의 기계론적 이해를 넘어, 암묵적으로 학습된 특징을 임상 지식과 연결하고 환자 예후에 대한 중요성을 규명하는 데까지 확장될 수 있음을 구상합니다."
+        },
+        {
+          "word": "foundation",
+          "ko": "파운데이션",
+          "sentence": "In contrast, foundation models (FMs) trained on large volumes of clinical data can perform tasks beyond their training objectives.",
+          "sentenceKo": "대조적으로, 방대한 양의 임상 데이터로 학습된 파운데이션 모델(Foundation Models, FMs)은 학습 목표를 넘어선 작업도 수행할 수 있습니다."
+        },
+        {
+          "word": "multimodal",
+          "ko": "다중모달",
+          "sentence": "Manual data annotation is infeasible at population scale, motivating methods that automatically extract pre-defined phenotypes in multimodal and unstructured clinical data.",
+          "sentenceKo": "수동 데이터 주석(annotation)은 인구 집단 규모에서는 불가능하므로, 다중모달 및 비정형 임상 데이터에서 사전에 정의된 표현형을 자동으로 추출하는 방법이 요구됩니다."
+        },
+        {
+          "word": "associations",
+          "ko": "연관성",
+          "sentence": "Such pre-defined feature sets determine and limit which associations these approaches can discover.",
+          "sentenceKo": "이러한 사전 정의된 특징 세트는 이러한 접근법이 발견할 수 있는 연관성을 결정하고 제한합니다."
+        },
+        {
+          "word": "autoencoders",
+          "ko": "오토인코더",
+          "sentence": "To address this challenge, we introduce Glyph, an automated multistage framework that extracts features from multimodal and unstructured clinical data using FMs and sparse autoencoders, interprets them as coded clinical concepts, and evaluates their value for clinical scientific discovery.",
+          "sentenceKo": "이러한 과제를 해결하기 위해, 본 연구에서는 파운데이션 모델과 희소 오토인코더(sparse autoencoders)를 사용하여 다중모달 및 비정형 임상 데이터에서 특징을 추출하고, 이를 부호화된 임상 개념으로 해석하며, 임상적 과학 Discovery에서의 가치를 평가하는 자동화된 다단계 프레임워크인 Glyph를 소개합니다."
+        },
+        {
+          "word": "identification",
+          "ko": "식별",
+          "sentence": "Automated scientific discovery has the potential to advance understanding of disease mechanisms and accelerate identification of early disease markers.",
+          "sentenceKo": "자동화된 과학적 발견은 질병 메커니즘에 대한 이해를 높이고 조기 질병 마커의 식별을 가속화할 잠재력을 가지고 있습니다."
+        },
+        {
+          "word": "embeddings",
+          "ko": "임베딩",
+          "sentence": "This suggests their latent embeddings may represent novel or unexplored features that could yield insights into disease mechanisms, yet such latent features remain difficult to interpret.",
+          "sentenceKo": "이는 모델의 잠재 임베딩(latent embeddings)이 질병 메커니즘에 대한 통찰을 제공할 수 있는 새롭거나 탐구되지 않은 특징을 나타낼 수 있음을 시사하지만, 이러한 잠재 특징은 여전히 해석하기 어렵습니다."
+        },
+        {
+          "word": "understanding",
+          "ko": "이해",
+          "sentence": "Automated scientific discovery has the potential to advance understanding of disease mechanisms and accelerate identification of early disease markers.",
+          "sentenceKo": "자동화된 과학적 발견은 질병 메커니즘에 대한 이해를 높이고 조기 질병 마커의 식별을 가속화할 잠재력을 가지고 있습니다."
+        },
+        {
+          "word": "automatically",
+          "ko": "자동으로",
+          "sentence": "Manual data annotation is infeasible at population scale, motivating methods that automatically extract pre-defined phenotypes in multimodal and unstructured clinical data.",
+          "sentenceKo": "수동 데이터 주석(annotation)은 인구 집단 규모에서는 불가능하므로, 다중모달 및 비정형 임상 데이터에서 사전에 정의된 표현형을 자동으로 추출하는 방법이 요구됩니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2611.08922",
+        "arxiv": "https://arxiv.org/abs/2611.08922",
+        "pdf": "https://arxiv.org/pdf/2611.08922",
+        "github": null
+      },
+      "githubStars": null,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-09T21:48:58.600Z",
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
     {
       "id": "2611.08478",
       "title": "Scientist World: Grow a Research World for AI-Scientists",
@@ -789,7 +1033,7 @@
         "Kaipeng Zhang"
       ],
       "publishedAt": "2026-10-31T00:00:00.000Z",
-      "upvotes": 22,
+      "upvotes": 23,
       "keywords": [
         "cross-game streaming commentary",
         "StreamDuo",
@@ -3810,7 +4054,7 @@
         "pdf": "https://arxiv.org/pdf/2610.33845",
         "github": "https://github.com/MCG-NJU/AutoTavern"
       },
-      "githubStars": 263,
+      "githubStars": 264,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
@@ -6804,7 +7048,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 165,
+      "githubStars": 170,
       "translatedBy": "gemini",
       "citations": {
         "count": 2,
