@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T06:46:39.264Z",
+  "updatedAt": "2026-11-10T19:10:09.558Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -11,6 +11,258 @@
     "automated scientific experiment robotics"
   ],
   "papers": [
+    {
+      "id": "2611.12762",
+      "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
+      "authors": [
+        "Weida Wang",
+        "Benteng Chen",
+        "Yigeng Jiang",
+        "Shuchen Pu",
+        "Weiping Shen",
+        "Zichao Liu",
+        "Yulin Su",
+        "Zitong Wang",
+        "Siyu Zhou",
+        "Zifu Wang",
+        "Yizhi Li",
+        "Xin Zong",
+        "Yuning Yang",
+        "Jixiang Bi",
+        "Yuan Wang",
+        "Chuyi Peng",
+        "Shiyao Geng",
+        "Qi Zhang",
+        "Kuan Lu",
+        "Mengzhu Li",
+        "Weiwang Xu",
+        "Peishan Xiang",
+        "Chengjun Liu",
+        "Chengrui Wei",
+        "Fangchen Yu",
+        "Shengji Tang",
+        "Yichen Jiang",
+        "Jingqi Ye",
+        "Cheng Yang",
+        "Tao Hu",
+        "Jianbiao Mei",
+        "Qinglong Cao",
+        "Kun Li",
+        "Yixin Chen",
+        "Shengyuan Xu",
+        "Juncheng Xiao",
+        "Yiheng Wang",
+        "Ruizhe Chen",
+        "Shiyang Feng",
+        "Runmin Ma",
+        "Xiangchao Yan",
+        "Zongsheng Cao",
+        "Haomeng Hu",
+        "Yu Ke",
+        "Taihui Wu",
+        "Meng Dai",
+        "Xu Guo",
+        "Haoyang Peng",
+        "Yinglong Ni",
+        "Pingsen Shi",
+        "Xiaosong Wang",
+        "Shuyue Hu",
+        "Haijun Li",
+        "Sherry Dongqi Bao",
+        "Yang Yang",
+        "Chao Yang",
+        "Jie Hou",
+        "Tianfan Fu",
+        "Yi Gong",
+        "Jin Zeng",
+        "Mao Su",
+        "Hongxia Hao",
+        "Fanyang Mo",
+        "Fenghua Ling",
+        "Tianshu Yu",
+        "Yunqi Cai",
+        "Baihong Chi",
+        "Jingwei Wang",
+        "Lei Wang",
+        "Chuncheng Bu",
+        "Shide Lv",
+        "Guangyu Wang",
+        "Yuqiang Li",
+        "Chunfeng Song",
+        "Lei Bai",
+        "Hui Wang",
+        "Xujun Fu",
+        "Li Cao",
+        "Lei Chen",
+        "Dahua Lin",
+        "Xing Xie",
+        "Bowen Zhou",
+        "Wenlong Zhang",
+        "Pinlong Cai",
+        "Peng Ye",
+        "Aiwen Lei",
+        "Jie Li",
+        "Shengchun Wang",
+        "Bo Zhang",
+        "Shufei Zhang"
+      ],
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "upvotes": 49,
+      "keywords": [],
+      "categories": [
+        "AI 과학자",
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "",
+        "ko": ""
+      },
+      "abstract": {
+        "en": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Taiyi-Bench, an AI co-scientist ideation benchmark comprising 265 tasks from 50 papers across ten disciplines, Sage-Taiyi ranks first on all eight metrics of historical rediscovery and open-ended ideation, achieving an Overall score of 54.0 compared with 47.9 for the strongest baseline, AI Scientist-v2. It also performs well on two external scientific ideation benchmarks. Five expert-guided collaborations further connect its proposals to experimental and computational validation across chemistry, materials science, and engineering. In chemistry, reaction-condition optimization raises the yield of cobalt-catalyzed carbonylation from trace amounts to 84% and photocatalytic allylic amination from 13% to 69%. These results support metacognitive regulation as an approach to scientific ideation and its progression toward practical validation.",
+        "ko": "우리는 축적된 과학적 이해를 바탕으로 다음에 무엇을 어떻게 탐구해야 할지指导(가이드)하는 메타인지 영감 기반 아키텍처인 Sage-Taiyi를 소개합니다. 명시적 모니터링과 제어를 통해, 이 시스템은 증거, 가정, 미해결 질문에 대한 이해를 수정하고, 이러한 평가를 활용하여 연구 목표를 조정하며 재사용 가능한 추론 방법을 선택합니다. 10개 분야 50편의 논문에서 추출된 265개의 태스크로 구성된 AI 공동 과학자 아이디어 발굴 벤치마크인 Taiyi-Bench에서, Sage-Taiyi는 역사적 재발견 및 개방형 아이디어 발굴의 8가지 지표 모두에서 1위 를 차지했으며, 가장 강력한 베이스라인인 AI Scientist-v2의 47.9점에 비해 54.0점의 종합 점수를 기록했습니다. 또한 두 개의 외부 과학적 아이디어 발굴 벤치마크에서도 우수한 성능을 보입니다. 전문가 주도의 5가지 공동 연구를 통해 화학, 재료과학, 공학 전반에 걸쳐 그 제안을 실험 및 계산 검증으로 더욱 연결합니다. 화학 분야에서는 반응 조건 최적화를 통해 코발트 촉매 카르보닐화 반응의 수율을 흔적량 수준에서 84%로, 광촉매 알릴성 아미노화 반응의 수율을 13%에서 69%로 향상시켰습니다. 이러한 결과는 과학적 아이디어 발굴 및 실제 검증을 향한 진화에 있어 메타인지적 조절이 유효한 접근 방식임을 뒷받침합니다."
+      },
+      "sentences": [
+        {
+          "en": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it.",
+          "ko": "우리는 축적된 과학적 이해를 바탕으로 다음에 무엇을 어떻게 탐구해야 할지指导(가이드)하는 메타인지 영감 기반 아키텍처인 Sage-Taiyi를 소개합니다."
+        },
+        {
+          "en": "Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods.",
+          "ko": "명시적 모니터링과 제어를 통해, 이 시스템은 증거, 가정, 미해결 질문에 대한 이해를 수정하고, 이러한 평가를 활용하여 연구 목표를 조정하며 재사용 가능한 추론 방법을 선택합니다."
+        },
+        {
+          "en": "On Taiyi-Bench, an AI co-scientist ideation benchmark comprising 265 tasks from 50 papers across ten disciplines, Sage-Taiyi ranks first on all eight metrics of historical rediscovery and open-ended ideation, achieving an Overall score of 54.0 compared with 47.9 for the strongest baseline, AI Scientist-v2.",
+          "ko": "10개 분야 50편의 논문에서 추출된 265개의 태스크로 구성된 AI 공동 과학자 아이디어 발굴 벤치마크인 Taiyi-Bench에서, Sage-Taiyi는 역사적 재발견 및 개방형 아이디어 발굴의 8가지 지표 모두에서 1위 를 차지했으며, 가장 강력한 베이스라인인 AI Scientist-v2의 47.9점에 비해 54.0점의 종합 점수를 기록했습니다."
+        },
+        {
+          "en": "It also performs well on two external scientific ideation benchmarks.",
+          "ko": "또한 두 개의 외부 과학적 아이디어 발굴 벤치마크에서도 우수한 성능을 보입니다."
+        },
+        {
+          "en": "Five expert-guided collaborations further connect its proposals to experimental and computational validation across chemistry, materials science, and engineering.",
+          "ko": "전문가 주도의 5가지 공동 연구를 통해 화학, 재료과학, 공학 전반에 걸쳐 그 제안을 실험 및 계산 검증으로 더욱 연결합니다."
+        },
+        {
+          "en": "In chemistry, reaction-condition optimization raises the yield of cobalt-catalyzed carbonylation from trace amounts to 84% and photocatalytic allylic amination from 13% to 69%.",
+          "ko": "화학 분야에서는 반응 조건 최적화를 통해 코발트 촉매 카르보닐화 반응의 수율을 흔적량 수준에서 84%로, 광촉매 알릴성 아미노화 반응의 수율을 13%에서 69%로 향상시켰습니다."
+        },
+        {
+          "en": "These results support metacognitive regulation as an approach to scientific ideation and its progression toward practical validation.",
+          "ko": "이러한 결과는 과학적 아이디어 발굴 및 실제 검증을 향한 진화에 있어 메타인지적 조절이 유효한 접근 방식임을 뒷받침합니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods.",
+            "ko": "명시적 모니터링과 제어를 통해, 이 시스템은 증거, 가정, 미해결 질문에 대한 이해를 수정하고, 이러한 평가를 활용하여 연구 목표를 조정하며 재사용 가능한 추론 방법을 선택합니다."
+          },
+          {
+            "en": "It also performs well on two external scientific ideation benchmarks.",
+            "ko": "또한 두 개의 외부 과학적 아이디어 발굴 벤치마크에서도 우수한 성능을 보입니다."
+          },
+          {
+            "en": "Five expert-guided collaborations further connect its proposals to experimental and computational validation across chemistry, materials science, and engineering.",
+            "ko": "전문가 주도의 5가지 공동 연구를 통해 화학, 재료과학, 공학 전반에 걸쳐 그 제안을 실험 및 계산 검증으로 더욱 연결합니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it.",
+            "ko": "우리는 축적된 과학적 이해를 바탕으로 다음에 무엇을 어떻게 탐구해야 할지指导(가이드)하는 메타인지 영감 기반 아키텍처인 Sage-Taiyi를 소개합니다."
+          },
+          {
+            "en": "These results support metacognitive regulation as an approach to scientific ideation and its progression toward practical validation.",
+            "ko": "이러한 결과는 과학적 아이디어 발굴 및 실제 검증을 향한 진화에 있어 메타인지적 조절이 유효한 접근 방식임을 뒷받침합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "On Taiyi-Bench, an AI co-scientist ideation benchmark comprising 265 tasks from 50 papers across ten disciplines, Sage-Taiyi ranks first on all eight metrics of historical rediscovery and open-ended ideation, achieving an Overall score of 54.0 compared with 47.9 for the strongest baseline, AI Scientist-v2.",
+            "ko": "10개 분야 50편의 논문에서 추출된 265개의 태스크로 구성된 AI 공동 과학자 아이디어 발굴 벤치마크인 Taiyi-Bench에서, Sage-Taiyi는 역사적 재발견 및 개방형 아이디어 발굴의 8가지 지표 모두에서 1위 를 차지했으며, 가장 강력한 베이스라인인 AI Scientist-v2의 47.9점에 비해 54.0점의 종합 점수를 기록했습니다."
+          },
+          {
+            "en": "In chemistry, reaction-condition optimization raises the yield of cobalt-catalyzed carbonylation from trace amounts to 84% and photocatalytic allylic amination from 13% to 69%.",
+            "ko": "화학 분야에서는 반응 조건 최적화를 통해 코발트 촉매 카르보닐화 반응의 수율을 흔적량 수준에서 84%로, 광촉매 알릴성 아미노화 반응의 수율을 13%에서 69%로 향상시켰습니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "ideation",
+          "ko": "아이디어 발굴",
+          "sentence": "On Taiyi-Bench, an AI co-scientist ideation benchmark comprising 265 tasks from 50 papers across ten disciplines, Sage-Taiyi ranks first on all eight metrics of historical rediscovery and open-ended ideation, achieving an Overall score of 54.0 compared with 47.9 for the strongest baseline, AI Scientist-v2.",
+          "sentenceKo": "10개 분야 50편의 논문에서 추출된 265개의 태스크로 구성된 AI 공동 과학자 아이디어 발굴 벤치마크인 Taiyi-Bench에서, Sage-Taiyi는 역사적 재발견 및 개방형 아이디어 발굴의 8가지 지표 모두에서 1위 를 차지했으며, 가장 강력한 베이스라인인 AI Scientist-v2의 47.9점에 비해 54.0점의 종합 점수를 기록했습니다."
+        },
+        {
+          "word": "reaction-condition",
+          "ko": "반응 조건",
+          "sentence": "In chemistry, reaction-condition optimization raises the yield of cobalt-catalyzed carbonylation from trace amounts to 84% and photocatalytic allylic amination from 13% to 69%.",
+          "sentenceKo": "화학 분야에서는 반응 조건 최적화를 통해 코발트 촉매 카르보닐화 반응의 수율을 흔적량 수준에서 84%로, 광촉매 알릴성 아미노화 반응의 수율을 13%에서 69%로 향상시켰습니다."
+        },
+        {
+          "word": "carbonylation",
+          "ko": "카르보닐화",
+          "sentence": "In chemistry, reaction-condition optimization raises the yield of cobalt-catalyzed carbonylation from trace amounts to 84% and photocatalytic allylic amination from 13% to 69%.",
+          "sentenceKo": "화학 분야에서는 반응 조건 최적화를 통해 코발트 촉매 카르보닐화 반응의 수율을 흔적량 수준에서 84%로, 광촉매 알릴성 아미노화 반응의 수율을 13%에서 69%로 향상시켰습니다."
+        },
+        {
+          "word": "metacognitive",
+          "ko": "메타인지적",
+          "sentence": "These results support metacognitive regulation as an approach to scientific ideation and its progression toward practical validation.",
+          "sentenceKo": "이러한 결과는 과학적 아이디어 발굴 및 실제 검증을 향한 진화에 있어 메타인지적 조절이 유효한 접근 방식임을 뒷받침합니다."
+        },
+        {
+          "word": "understanding",
+          "ko": "이해",
+          "sentence": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it.",
+          "sentenceKo": "우리는 축적된 과학적 이해를 바탕으로 다음에 무엇을 어떻게 탐구해야 할지指导(가이드)하는 메타인지 영감 기반 아키텍처인 Sage-Taiyi를 소개합니다."
+        },
+        {
+          "word": "validation",
+          "ko": "검증",
+          "sentence": "Five expert-guided collaborations further connect its proposals to experimental and computational validation across chemistry, materials science, and engineering.",
+          "sentenceKo": "전문가 주도의 5가지 공동 연구를 통해 화학, 재료과학, 공학 전반에 걸쳐 그 제안을 실험 및 계산 검증으로 더욱 연결합니다."
+        },
+        {
+          "word": "optimization",
+          "ko": "최적화",
+          "sentence": "In chemistry, reaction-condition optimization raises the yield of cobalt-catalyzed carbonylation from trace amounts to 84% and photocatalytic allylic amination from 13% to 69%.",
+          "sentenceKo": "화학 분야에서는 반응 조건 최적화를 통해 코발트 촉매 카르보닐화 반응의 수율을 흔적량 수준에서 84%로, 광촉매 알릴성 아미노화 반응의 수율을 13%에서 69%로 향상시켰습니다."
+        },
+        {
+          "word": "scientific",
+          "ko": "과학적",
+          "sentence": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it.",
+          "sentenceKo": "우리는 축적된 과학적 이해를 바탕으로 다음에 무엇을 어떻게 탐구해야 할지指导(가이드)하는 메타인지 영감 기반 아키텍처인 Sage-Taiyi를 소개합니다."
+        },
+        {
+          "word": "investigate",
+          "ko": "탐구하다",
+          "sentence": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it.",
+          "sentenceKo": "우리는 축적된 과학적 이해를 바탕으로 다음에 무엇을 어떻게 탐구해야 할지指导(가이드)하는 메타인지 영감 기반 아키텍처인 Sage-Taiyi를 소개합니다."
+        },
+        {
+          "word": "historical",
+          "ko": "역사적",
+          "sentence": "On Taiyi-Bench, an AI co-scientist ideation benchmark comprising 265 tasks from 50 papers across ten disciplines, Sage-Taiyi ranks first on all eight metrics of historical rediscovery and open-ended ideation, achieving an Overall score of 54.0 compared with 47.9 for the strongest baseline, AI Scientist-v2.",
+          "sentenceKo": "10개 분야 50편의 논문에서 추출된 265개의 태스크로 구성된 AI 공동 과학자 아이디어 발굴 벤치마크인 Taiyi-Bench에서, Sage-Taiyi는 역사적 재발견 및 개방형 아이디어 발굴의 8가지 지표 모두에서 1위 를 차지했으며, 가장 강력한 베이스라인인 AI Scientist-v2의 47.9점에 비해 54.0점의 종합 점수를 기록했습니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2611.12762",
+        "arxiv": "https://arxiv.org/abs/2611.12762",
+        "pdf": "https://arxiv.org/pdf/2611.12762",
+        "github": "https://github.com/Alpha-Innovator/Sage-Taiyi"
+      },
+      "githubStars": 3,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-10T19:10:09.558Z",
+      "citations": {
+        "count": null,
+        "source": null
+      }
+    },
     {
       "id": "2611.08922",
       "title": "Glyph: An Interpretability Engine for AI-Driven Scientific Discovery in Clinical Data",
@@ -1033,7 +1285,7 @@
         "Kaipeng Zhang"
       ],
       "publishedAt": "2026-10-31T00:00:00.000Z",
-      "upvotes": 23,
+      "upvotes": 19,
       "keywords": [
         "cross-game streaming commentary",
         "StreamDuo",
@@ -7048,7 +7300,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 171,
+      "githubStars": 173,
       "translatedBy": "gemini",
       "citations": {
         "count": 2,
