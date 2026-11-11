@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T05:34:55.688Z",
+  "updatedAt": "2026-11-11T19:06:15.853Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -11,6 +11,567 @@
     "automated scientific experiment robotics"
   ],
   "papers": [
+    {
+      "id": "2611.12184",
+      "title": "Blind Variation, Selective Retention: Improving Creative Idea Generation in AI Scientists",
+      "authors": [
+        "Guowei Xu",
+        "Jiaru Zou",
+        "Mete Erdogan",
+        "Haotian Ye",
+        "Pan Lu",
+        "James Zou"
+      ],
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "upvotes": 3,
+      "keywords": [],
+      "categories": [
+        "AI 과학자",
+        "가설·문헌 생성",
+        "화학·소재"
+      ],
+      "aiSummary": {
+        "en": "",
+        "ko": ""
+      },
+      "abstract": {
+        "en": "Scientific discovery requires ideas that are original, useful, and non-obvious. Yet AI scientists are typically given as much task information as possible during idea generation, which can anchor generation toward familiar approaches. Inspired by the cognitive framework of Blind Variation and Selective Retention (BVSR), we propose a discovery framework that separates these two roles of information: it generates proposals under deliberately limited task information to broaden exploration, then learns from proposals previously verified on the same task and their outcomes to retain promising candidates for costly empirical evaluation. We evaluate BVSR across five proposer models and 12 scientific tasks. Limiting task information substantially increases proposal originality and non-obviousness, and produces a larger share of highly creative and high-utility proposals than existing state-of-the-art prompting-based baselines. Learning from prior proposal outcomes on the task further improves candidate selection, discarding half of the candidates while retaining most top-performing proposals. When incorporated into existing AI-scientist workflows, BVSR achieves stronger discoveries across gene expression analysis, drug response prediction, anomaly detection, scaling law discovery, and brain activity prediction. These results suggest that effective AI scientists should use information differently across stages of discovery: constrain task-specific information during exploration while exploiting accumulated empirical experience on the task.",
+        "ko": "과학적 발견에는 독창적이고 유용하며 자명하지 않은 아이디어가 필요하다. 그러나 AI 과학자들은 아이디어 생성 과정에서 통상 가능한 한 많은 태스크 정보를 제공받으며, 이는 친숙한 접근 방식으로 생성을 고정시키는 경향이 있다. 우리는 맹목적 변이와 선택적 유지(BVSR, Blind Variation and Selective Retention)라는 인지적 프레임워크에서 영감을 받아, 정보의 이러한 두 가지 역할을 분리하는 발견 프레임워크를 제안합니다. 이 프레임워크는 탐색을 넓히기 위해 고의로 제한된 태스크 정보 하에서 제안을 생성하고, 비용이 많이 드는 경험적 평가를 위해 유망한 후보를 유지하고자 동일한 태스크에서 이전에 검증된 제안과 그 결과로부터 학습합니다. 우리는 5개의 제안자 모델과 12개의 과학적 태스크에 걸쳐 BVSR을 평가합니다. 태스크 정보를 제한하면 제안의 독창성과 자명하지 않음이 크게 증가하며, 기존의 최신 프롬프트 기반 베이스라인보다 더 높은 비율의 창의적이고 유용한 제안을출해냅니다. 해당 태스크에 대한 이전 제안 결과로부터의 학습은 후보 선택을 더욱 개선하여, 최고 성능의 제안 대부분을 유지하면서도 후보의 절반을 폐기합니다. 기존 AI 과학자 워크플로에 통합될 때, BVSR은 유전자 발현 분석, 약물 반응 예측, 이상 탐지, 스케일링 법칙 발견, 뇌 활동 예측 전반에 걸쳐 더 강력한 발견을 달성합니다. 이러한 결과는 효과적인 AI 과학자가 발견의 단계에 따라 정보를 다르게 사용해야 함을 시사합니다. 즉, 탐색 중에는 태스크 특화 정보를 제한하는 동시에 해당 태스크에 대한 축적된 경험적 경험을 활용해야 합니다."
+      },
+      "sentences": [
+        {
+          "en": "Scientific discovery requires ideas that are original, useful, and non-obvious.",
+          "ko": "과학적 발견에는 독창적이고 유용하며 자명하지 않은 아이디어가 필요하다."
+        },
+        {
+          "en": "Yet AI scientists are typically given as much task information as possible during idea generation, which can anchor generation toward familiar approaches.",
+          "ko": "그러나 AI 과학자들은 아이디어 생성 과정에서 통상 가능한 한 많은 태스크 정보를 제공받으며, 이는 친숙한 접근 방식으로 생성을 고정시키는 경향이 있다."
+        },
+        {
+          "en": "Inspired by the cognitive framework of Blind Variation and Selective Retention (BVSR), we propose a discovery framework that separates these two roles of information: it generates proposals under deliberately limited task information to broaden exploration, then learns from proposals previously verified on the same task and their outcomes to retain promising candidates for costly empirical evaluation.",
+          "ko": "우리는 맹목적 변이와 선택적 유지(BVSR, Blind Variation and Selective Retention)라는 인지적 프레임워크에서 영감을 받아, 정보의 이러한 두 가지 역할을 분리하는 발견 프레임워크를 제안합니다. 이 프레임워크는 탐색을 넓히기 위해 고의로 제한된 태스크 정보 하에서 제안을 생성하고, 비용이 많이 드는 경험적 평가를 위해 유망한 후보를 유지하고자 동일한 태스크에서 이전에 검증된 제안과 그 결과로부터 학습합니다."
+        },
+        {
+          "en": "We evaluate BVSR across five proposer models and 12 scientific tasks.",
+          "ko": "우리는 5개의 제안자 모델과 12개의 과학적 태스크에 걸쳐 BVSR을 평가합니다."
+        },
+        {
+          "en": "Limiting task information substantially increases proposal originality and non-obviousness, and produces a larger share of highly creative and high-utility proposals than existing state-of-the-art prompting-based baselines.",
+          "ko": "태스크 정보를 제한하면 제안의 독창성과 자명하지 않음이 크게 증가하며, 기존의 최신 프롬프트 기반 베이스라인보다 더 높은 비율의 창의적이고 유용한 제안을출해냅니다."
+        },
+        {
+          "en": "Learning from prior proposal outcomes on the task further improves candidate selection, discarding half of the candidates while retaining most top-performing proposals.",
+          "ko": "해당 태스크에 대한 이전 제안 결과로부터의 학습은 후보 선택을 더욱 개선하여, 최고 성능의 제안 대부분을 유지하면서도 후보의 절반을 폐기합니다."
+        },
+        {
+          "en": "When incorporated into existing AI-scientist workflows, BVSR achieves stronger discoveries across gene expression analysis, drug response prediction, anomaly detection, scaling law discovery, and brain activity prediction.",
+          "ko": "기존 AI 과학자 워크플로에 통합될 때, BVSR은 유전자 발현 분석, 약물 반응 예측, 이상 탐지, 스케일링 법칙 발견, 뇌 활동 예측 전반에 걸쳐 더 강력한 발견을 달성합니다."
+        },
+        {
+          "en": "These results suggest that effective AI scientists should use information differently across stages of discovery: constrain task-specific information during exploration while exploiting accumulated empirical experience on the task.",
+          "ko": "이러한 결과는 효과적인 AI 과학자가 발견의 단계에 따라 정보를 다르게 사용해야 함을 시사합니다. 즉, 탐색 중에는 태스크 특화 정보를 제한하는 동시에 해당 태스크에 대한 축적된 경험적 경험을 활용해야 합니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Scientific discovery requires ideas that are original, useful, and non-obvious.",
+            "ko": "과학적 발견에는 독창적이고 유용하며 자명하지 않은 아이디어가 필요하다."
+          },
+          {
+            "en": "We evaluate BVSR across five proposer models and 12 scientific tasks.",
+            "ko": "우리는 5개의 제안자 모델과 12개의 과학적 태스크에 걸쳐 BVSR을 평가합니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "Yet AI scientists are typically given as much task information as possible during idea generation, which can anchor generation toward familiar approaches.",
+            "ko": "그러나 AI 과학자들은 아이디어 생성 과정에서 통상 가능한 한 많은 태스크 정보를 제공받으며, 이는 친숙한 접근 방식으로 생성을 고정시키는 경향이 있다."
+          },
+          {
+            "en": "Inspired by the cognitive framework of Blind Variation and Selective Retention (BVSR), we propose a discovery framework that separates these two roles of information: it generates proposals under deliberately limited task information to broaden exploration, then learns from proposals previously verified on the same task and their outcomes to retain promising candidates for costly empirical evaluation.",
+            "ko": "우리는 맹목적 변이와 선택적 유지(BVSR, Blind Variation and Selective Retention)라는 인지적 프레임워크에서 영감을 받아, 정보의 이러한 두 가지 역할을 분리하는 발견 프레임워크를 제안합니다. 이 프레임워크는 탐색을 넓히기 위해 고의로 제한된 태스크 정보 하에서 제안을 생성하고, 비용이 많이 드는 경험적 평가를 위해 유망한 후보를 유지하고자 동일한 태스크에서 이전에 검증된 제안과 그 결과로부터 학습합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "Limiting task information substantially increases proposal originality and non-obviousness, and produces a larger share of highly creative and high-utility proposals than existing state-of-the-art prompting-based baselines.",
+            "ko": "태스크 정보를 제한하면 제안의 독창성과 자명하지 않음이 크게 증가하며, 기존의 최신 프롬프트 기반 베이스라인보다 더 높은 비율의 창의적이고 유용한 제안을출해냅니다."
+          },
+          {
+            "en": "Learning from prior proposal outcomes on the task further improves candidate selection, discarding half of the candidates while retaining most top-performing proposals.",
+            "ko": "해당 태스크에 대한 이전 제안 결과로부터의 학습은 후보 선택을 더욱 개선하여, 최고 성능의 제안 대부분을 유지하면서도 후보의 절반을 폐기합니다."
+          },
+          {
+            "en": "When incorporated into existing AI-scientist workflows, BVSR achieves stronger discoveries across gene expression analysis, drug response prediction, anomaly detection, scaling law discovery, and brain activity prediction.",
+            "ko": "기존 AI 과학자 워크플로에 통합될 때, BVSR은 유전자 발현 분석, 약물 반응 예측, 이상 탐지, 스케일링 법칙 발견, 뇌 활동 예측 전반에 걸쳐 더 강력한 발견을 달성합니다."
+          },
+          {
+            "en": "These results suggest that effective AI scientists should use information differently across stages of discovery: constrain task-specific information during exploration while exploiting accumulated empirical experience on the task.",
+            "ko": "이러한 결과는 효과적인 AI 과학자가 발견의 단계에 따라 정보를 다르게 사용해야 함을 시사합니다. 즉, 탐색 중에는 태스크 특화 정보를 제한하는 동시에 해당 태스크에 대한 축적된 경험적 경험을 활용해야 합니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "information",
+          "ko": "정보",
+          "sentence": "Yet AI scientists are typically given as much task information as possible during idea generation, which can anchor generation toward familiar approaches.",
+          "sentenceKo": "그러나 AI 과학자들은 아이디어 생성 과정에서 통상 가능한 한 많은 태스크 정보를 제공받으며, 이는 친숙한 접근 방식으로 생성을 고정시키는 경향이 있다."
+        },
+        {
+          "word": "exploration",
+          "ko": "탐색",
+          "sentence": "Inspired by the cognitive framework of Blind Variation and Selective Retention (BVSR), we propose a discovery framework that separates these two roles of information: it generates proposals under deliberately limited task information to broaden exploration, then learns from proposals previously verified on the same task and their outcomes to retain promising candidates for costly empirical evaluation.",
+          "sentenceKo": "우리는 맹목적 변이와 선택적 유지(BVSR, Blind Variation and Selective Retention)라는 인지적 프레임워크에서 영감을 받아, 정보의 이러한 두 가지 역할을 분리하는 발견 프레임워크를 제안합니다. 이 프레임워크는 탐색을 넓히기 위해 고의로 제한된 태스크 정보 하에서 제안을 생성하고, 비용이 많이 드는 경험적 평가를 위해 유망한 후보를 유지하고자 동일한 태스크에서 이전에 검증된 제안과 그 결과로부터 학습합니다."
+        },
+        {
+          "word": "discovery",
+          "ko": "발견",
+          "sentence": "Scientific discovery requires ideas that are original, useful, and non-obvious.",
+          "sentenceKo": "과학적 발견에는 독창적이고 유용하며 자명하지 않은 아이디어가 필요하다."
+        },
+        {
+          "word": "generation",
+          "ko": "생성",
+          "sentence": "Yet AI scientists are typically given as much task information as possible during idea generation, which can anchor generation toward familiar approaches.",
+          "sentenceKo": "그러나 AI 과학자들은 아이디어 생성 과정에서 통상 가능한 한 많은 태스크 정보를 제공받으며, 이는 친숙한 접근 방식으로 생성을 고정시키는 경향이 있다."
+        },
+        {
+          "word": "proposals",
+          "ko": "제안",
+          "sentence": "Inspired by the cognitive framework of Blind Variation and Selective Retention (BVSR), we propose a discovery framework that separates these two roles of information: it generates proposals under deliberately limited task information to broaden exploration, then learns from proposals previously verified on the same task and their outcomes to retain promising candidates for costly empirical evaluation.",
+          "sentenceKo": "우리는 맹목적 변이와 선택적 유지(BVSR, Blind Variation and Selective Retention)라는 인지적 프레임워크에서 영감을 받아, 정보의 이러한 두 가지 역할을 분리하는 발견 프레임워크를 제안합니다. 이 프레임워크는 탐색을 넓히기 위해 고의로 제한된 태스크 정보 하에서 제안을 생성하고, 비용이 많이 드는 경험적 평가를 위해 유망한 후보를 유지하고자 동일한 태스크에서 이전에 검증된 제안과 그 결과로부터 학습합니다."
+        },
+        {
+          "word": "high-utility",
+          "ko": "고유용성",
+          "sentence": "Limiting task information substantially increases proposal originality and non-obviousness, and produces a larger share of highly creative and high-utility proposals than existing state-of-the-art prompting-based baselines.",
+          "sentenceKo": "태스크 정보를 제한하면 제안의 독창성과 자명하지 않음이 크게 증가하며, 기존의 최신 프롬프트 기반 베이스라인보다 더 높은 비율의 창의적이고 유용한 제안을출해냅니다."
+        },
+        {
+          "word": "prediction",
+          "ko": "예측",
+          "sentence": "When incorporated into existing AI-scientist workflows, BVSR achieves stronger discoveries across gene expression analysis, drug response prediction, anomaly detection, scaling law discovery, and brain activity prediction.",
+          "sentenceKo": "기존 AI 과학자 워크플로에 통합될 때, BVSR은 유전자 발현 분석, 약물 반응 예측, 이상 탐지, 스케일링 법칙 발견, 뇌 활동 예측 전반에 걸쳐 더 강력한 발견을 달성합니다."
+        },
+        {
+          "word": "non-obvious",
+          "ko": "자명하지 않은",
+          "sentence": "Scientific discovery requires ideas that are original, useful, and non-obvious.",
+          "sentenceKo": "과학적 발견에는 독창적이고 유용하며 자명하지 않은 아이디어가 필요하다."
+        },
+        {
+          "word": "empirical",
+          "ko": "경험적",
+          "sentence": "Inspired by the cognitive framework of Blind Variation and Selective Retention (BVSR), we propose a discovery framework that separates these two roles of information: it generates proposals under deliberately limited task information to broaden exploration, then learns from proposals previously verified on the same task and their outcomes to retain promising candidates for costly empirical evaluation.",
+          "sentenceKo": "우리는 맹목적 변이와 선택적 유지(BVSR, Blind Variation and Selective Retention)라는 인지적 프레임워크에서 영감을 받아, 정보의 이러한 두 가지 역할을 분리하는 발견 프레임워크를 제안합니다. 이 프레임워크는 탐색을 넓히기 위해 고의로 제한된 태스크 정보 하에서 제안을 생성하고, 비용이 많이 드는 경험적 평가를 위해 유망한 후보를 유지하고자 동일한 태스크에서 이전에 검증된 제안과 그 결과로부터 학습합니다."
+        },
+        {
+          "word": "originality",
+          "ko": "독창성",
+          "sentence": "Limiting task information substantially increases proposal originality and non-obviousness, and produces a larger share of highly creative and high-utility proposals than existing state-of-the-art prompting-based baselines.",
+          "sentenceKo": "태스크 정보를 제한하면 제안의 독창성과 자명하지 않음이 크게 증가하며, 기존의 최신 프롬프트 기반 베이스라인보다 더 높은 비율의 창의적이고 유용한 제안을출해냅니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2611.12184",
+        "arxiv": "https://arxiv.org/abs/2611.12184",
+        "pdf": "https://arxiv.org/pdf/2611.12184",
+        "github": "https://github.com/zou-group/BVSR"
+      },
+      "githubStars": 7,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-11T19:06:15.853Z",
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
+    {
+      "id": "2611.10235",
+      "title": "Agibot: An Open-Source Modular Swerve-Drive Robot Platform for Agricultural Robotics Research and Education",
+      "authors": [
+        "Moeen Ul Islam",
+        "Bishal Adhikari",
+        "Kori Edwards",
+        "Lorien Harvey",
+        "J. Alex Thomasson",
+        "Dong Chen"
+      ],
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "upvotes": 0,
+      "keywords": [],
+      "categories": [
+        "자율 실험실"
+      ],
+      "aiSummary": {
+        "en": "",
+        "ko": ""
+      },
+      "abstract": {
+        "en": "Agricultural production faces persistent labor shortages and increasing demand for automation, yet progress in agricultural robotics remains constrained by the limited availability of affordable, flexible, and accessible research platforms. This paper presents Agibot, an open-source, modular, low-cost agricultural robotics platform designed for autonomy research and experimentation, with potential applications in hands-on robotics education. The platform integrates four-wheel independent swerve drive, swappable computing, distributed embedded control, multimodal sensing, and configurable manipulation within a unified sense-plan-act-verify framework supporting perception, control, navigation, manipulation, and autonomous task verification. The platform was evaluated through representative row-crop navigation and manipulation tasks under varying lighting and soil conditions. Experiments demonstrated reliable lane following, autonomous row-to-row navigation, target identification, seed dispensing, plant manipulation, and closed-loop verification of task success. Its modular architecture supports independent testing, modification, and validation of autonomy components for rapid prototyping and experimentation. These proof-of-concept tasks, controller-tuning studies, and integrated trials demonstrate the platform's research capabilities, while its accessible and reconfigurable design supports its use for hands-on robotics education. By combining affordability, modularity, open-source accessibility, configurable manipulation, and end-to-end sense-plan-act-verify autonomy, Agibot provides a practical platform for agricultural robotics research, technology development, and workforce training.",
+        "ko": "농업 생산은 지속적인 노동력 부족과 자동화에 대한 수요 증가에 직면해 있지만, 농업용 로봇 공학의 발전은 저렴하고 유연하며 접근하기 쉬운 연구 플랫폼의 부족으로 인해 여전히 제한을 받고 있습니다. 본 논문에서는 자율성 연구 및 실험을 위해 설계된 오픈소스 모듈형 저비용 농업용 로봇 플랫폼인 Agibot을 소개하며, 실습 중심의 로봇 교육에도 활용될 수 있는 잠재력을 가지고 있습니다. 이 플랫폼은 4륜 독립 조향(four-wheel independent swerve drive), 교체 가능한 컴퓨팅, 분산 임베디드 제어, 멀티모달 센싱, 그리고 설정 가능한 조작(manipulation) 기능을 통합하여 인식, 제어, 내비게이션, 조작, 그리고 자율 작업 검증을 지원하는 통합된 인지-계획-행동-검증(sense-plan-act-verify) 프레임워크를 제공합니다. 본 플랫폼은 다양한 조명 및 토양 조건에서 대표적인 작물 열(row-crop) 내비게이션 및 조작 작업을 통해 평가되었습니다. 실험을 통해 신뢰할 수 있는 차선 유지, 자율적인 열 간(row-to-row) 내비게이션, 목표물 식별, 종자 배출, 작물 조작, 그리고 작업 성공에 대한 폐루프 검증이 입증되었습니다. 모듈식 아키텍처는 신속한 시제품 제작과 실험을 위해 자율성 구성 요소의 독립적인 테스트, 수정, 검증을 지원합니다. 이러한 개념 증명 작업, 제어기 튜닝 연구, 통합 시험은 플랫폼의 연구 역량을 입증하는 동시에, 접근하기 쉽고 재구성 가능한 디자인은 실습 중심의 로봇 교육에서의 활용을 지원합니다. 경제성, 모듈화, 오픈소스 접근성, 설정 가능한 조작, 그리고 엔드투엔드 인지-계획-행동-검증 자율성을 결합한 Agibot은 농업용 로봇 연구, 기술 개발, 그리고 인력 양성을 위한 실용적인 플랫폼을 제공합니다."
+      },
+      "sentences": [
+        {
+          "en": "Agricultural production faces persistent labor shortages and increasing demand for automation, yet progress in agricultural robotics remains constrained by the limited availability of affordable, flexible, and accessible research platforms.",
+          "ko": "농업 생산은 지속적인 노동력 부족과 자동화에 대한 수요 증가에 직면해 있지만, 농업용 로봇 공학의 발전은 저렴하고 유연하며 접근하기 쉬운 연구 플랫폼의 부족으로 인해 여전히 제한을 받고 있습니다."
+        },
+        {
+          "en": "This paper presents Agibot, an open-source, modular, low-cost agricultural robotics platform designed for autonomy research and experimentation, with potential applications in hands-on robotics education.",
+          "ko": "본 논문에서는 자율성 연구 및 실험을 위해 설계된 오픈소스 모듈형 저비용 농업용 로봇 플랫폼인 Agibot을 소개하며, 실습 중심의 로봇 교육에도 활용될 수 있는 잠재력을 가지고 있습니다."
+        },
+        {
+          "en": "The platform integrates four-wheel independent swerve drive, swappable computing, distributed embedded control, multimodal sensing, and configurable manipulation within a unified sense-plan-act-verify framework supporting perception, control, navigation, manipulation, and autonomous task verification.",
+          "ko": "이 플랫폼은 4륜 독립 조향(four-wheel independent swerve drive), 교체 가능한 컴퓨팅, 분산 임베디드 제어, 멀티모달 센싱, 그리고 설정 가능한 조작(manipulation) 기능을 통합하여 인식, 제어, 내비게이션, 조작, 그리고 자율 작업 검증을 지원하는 통합된 인지-계획-행동-검증(sense-plan-act-verify) 프레임워크를 제공합니다."
+        },
+        {
+          "en": "The platform was evaluated through representative row-crop navigation and manipulation tasks under varying lighting and soil conditions.",
+          "ko": "본 플랫폼은 다양한 조명 및 토양 조건에서 대표적인 작물 열(row-crop) 내비게이션 및 조작 작업을 통해 평가되었습니다."
+        },
+        {
+          "en": "Experiments demonstrated reliable lane following, autonomous row-to-row navigation, target identification, seed dispensing, plant manipulation, and closed-loop verification of task success.",
+          "ko": "실험을 통해 신뢰할 수 있는 차선 유지, 자율적인 열 간(row-to-row) 내비게이션, 목표물 식별, 종자 배출, 작물 조작, 그리고 작업 성공에 대한 폐루프 검증이 입증되었습니다."
+        },
+        {
+          "en": "Its modular architecture supports independent testing, modification, and validation of autonomy components for rapid prototyping and experimentation.",
+          "ko": "모듈식 아키텍처는 신속한 시제품 제작과 실험을 위해 자율성 구성 요소의 독립적인 테스트, 수정, 검증을 지원합니다."
+        },
+        {
+          "en": "These proof-of-concept tasks, controller-tuning studies, and integrated trials demonstrate the platform's research capabilities, while its accessible and reconfigurable design supports its use for hands-on robotics education.",
+          "ko": "이러한 개념 증명 작업, 제어기 튜닝 연구, 통합 시험은 플랫폼의 연구 역량을 입증하는 동시에, 접근하기 쉽고 재구성 가능한 디자인은 실습 중심의 로봇 교육에서의 활용을 지원합니다."
+        },
+        {
+          "en": "By combining affordability, modularity, open-source accessibility, configurable manipulation, and end-to-end sense-plan-act-verify autonomy, Agibot provides a practical platform for agricultural robotics research, technology development, and workforce training.",
+          "ko": "경제성, 모듈화, 오픈소스 접근성, 설정 가능한 조작, 그리고 엔드투엔드 인지-계획-행동-검증 자율성을 결합한 Agibot은 농업용 로봇 연구, 기술 개발, 그리고 인력 양성을 위한 실용적인 플랫폼을 제공합니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Agricultural production faces persistent labor shortages and increasing demand for automation, yet progress in agricultural robotics remains constrained by the limited availability of affordable, flexible, and accessible research platforms.",
+            "ko": "농업 생산은 지속적인 노동력 부족과 자동화에 대한 수요 증가에 직면해 있지만, 농업용 로봇 공학의 발전은 저렴하고 유연하며 접근하기 쉬운 연구 플랫폼의 부족으로 인해 여전히 제한을 받고 있습니다."
+          },
+          {
+            "en": "This paper presents Agibot, an open-source, modular, low-cost agricultural robotics platform designed for autonomy research and experimentation, with potential applications in hands-on robotics education.",
+            "ko": "본 논문에서는 자율성 연구 및 실험을 위해 설계된 오픈소스 모듈형 저비용 농업용 로봇 플랫폼인 Agibot을 소개하며, 실습 중심의 로봇 교육에도 활용될 수 있는 잠재력을 가지고 있습니다."
+          },
+          {
+            "en": "The platform was evaluated through representative row-crop navigation and manipulation tasks under varying lighting and soil conditions.",
+            "ko": "본 플랫폼은 다양한 조명 및 토양 조건에서 대표적인 작물 열(row-crop) 내비게이션 및 조작 작업을 통해 평가되었습니다."
+          },
+          {
+            "en": "By combining affordability, modularity, open-source accessibility, configurable manipulation, and end-to-end sense-plan-act-verify autonomy, Agibot provides a practical platform for agricultural robotics research, technology development, and workforce training.",
+            "ko": "경제성, 모듈화, 오픈소스 접근성, 설정 가능한 조작, 그리고 엔드투엔드 인지-계획-행동-검증 자율성을 결합한 Agibot은 농업용 로봇 연구, 기술 개발, 그리고 인력 양성을 위한 실용적인 플랫폼을 제공합니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "The platform integrates four-wheel independent swerve drive, swappable computing, distributed embedded control, multimodal sensing, and configurable manipulation within a unified sense-plan-act-verify framework supporting perception, control, navigation, manipulation, and autonomous task verification.",
+            "ko": "이 플랫폼은 4륜 독립 조향(four-wheel independent swerve drive), 교체 가능한 컴퓨팅, 분산 임베디드 제어, 멀티모달 센싱, 그리고 설정 가능한 조작(manipulation) 기능을 통합하여 인식, 제어, 내비게이션, 조작, 그리고 자율 작업 검증을 지원하는 통합된 인지-계획-행동-검증(sense-plan-act-verify) 프레임워크를 제공합니다."
+          },
+          {
+            "en": "Its modular architecture supports independent testing, modification, and validation of autonomy components for rapid prototyping and experimentation.",
+            "ko": "모듈식 아키텍처는 신속한 시제품 제작과 실험을 위해 자율성 구성 요소의 독립적인 테스트, 수정, 검증을 지원합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "Experiments demonstrated reliable lane following, autonomous row-to-row navigation, target identification, seed dispensing, plant manipulation, and closed-loop verification of task success.",
+            "ko": "실험을 통해 신뢰할 수 있는 차선 유지, 자율적인 열 간(row-to-row) 내비게이션, 목표물 식별, 종자 배출, 작물 조작, 그리고 작업 성공에 대한 폐루프 검증이 입증되었습니다."
+          },
+          {
+            "en": "These proof-of-concept tasks, controller-tuning studies, and integrated trials demonstrate the platform's research capabilities, while its accessible and reconfigurable design supports its use for hands-on robotics education.",
+            "ko": "이러한 개념 증명 작업, 제어기 튜닝 연구, 통합 시험은 플랫폼의 연구 역량을 입증하는 동시에, 접근하기 쉽고 재구성 가능한 디자인은 실습 중심의 로봇 교육에서의 활용을 지원합니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "manipulation",
+          "ko": "조작",
+          "sentence": "The platform integrates four-wheel independent swerve drive, swappable computing, distributed embedded control, multimodal sensing, and configurable manipulation within a unified sense-plan-act-verify framework supporting perception, control, navigation, manipulation, and autonomous task verification.",
+          "sentenceKo": "이 플랫폼은 4륜 독립 조향(four-wheel independent swerve drive), 교체 가능한 컴퓨팅, 분산 임베디드 제어, 멀티모달 센싱, 그리고 설정 가능한 조작(manipulation) 기능을 통합하여 인식, 제어, 내비게이션, 조작, 그리고 자율 작업 검증을 지원하는 통합된 인지-계획-행동-검증(sense-plan-act-verify) 프레임워크를 제공합니다."
+        },
+        {
+          "word": "agricultural",
+          "ko": "농업의",
+          "sentence": "Agricultural production faces persistent labor shortages and increasing demand for automation, yet progress in agricultural robotics remains constrained by the limited availability of affordable, flexible, and accessible research platforms.",
+          "sentenceKo": "농업 생산은 지속적인 노동력 부족과 자동화에 대한 수요 증가에 직면해 있지만, 농업용 로봇 공학의 발전은 저렴하고 유연하며 접근하기 쉬운 연구 플랫폼의 부족으로 인해 여전히 제한을 받고 있습니다."
+        },
+        {
+          "word": "experimentation",
+          "ko": "실험",
+          "sentence": "This paper presents Agibot, an open-source, modular, low-cost agricultural robotics platform designed for autonomy research and experimentation, with potential applications in hands-on robotics education.",
+          "sentenceKo": "본 논문에서는 자율성 연구 및 실험을 위해 설계된 오픈소스 모듈형 저비용 농업용 로봇 플랫폼인 Agibot을 소개하며, 실습 중심의 로봇 교육에도 활용될 수 있는 잠재력을 가지고 있습니다."
+        },
+        {
+          "word": "navigation",
+          "ko": "내비게이션",
+          "sentence": "The platform integrates four-wheel independent swerve drive, swappable computing, distributed embedded control, multimodal sensing, and configurable manipulation within a unified sense-plan-act-verify framework supporting perception, control, navigation, manipulation, and autonomous task verification.",
+          "sentenceKo": "이 플랫폼은 4륜 독립 조향(four-wheel independent swerve drive), 교체 가능한 컴퓨팅, 분산 임베디드 제어, 멀티모달 센싱, 그리고 설정 가능한 조작(manipulation) 기능을 통합하여 인식, 제어, 내비게이션, 조작, 그리고 자율 작업 검증을 지원하는 통합된 인지-계획-행동-검증(sense-plan-act-verify) 프레임워크를 제공합니다."
+        },
+        {
+          "word": "verification",
+          "ko": "검증",
+          "sentence": "The platform integrates four-wheel independent swerve drive, swappable computing, distributed embedded control, multimodal sensing, and configurable manipulation within a unified sense-plan-act-verify framework supporting perception, control, navigation, manipulation, and autonomous task verification.",
+          "sentenceKo": "이 플랫폼은 4륜 독립 조향(four-wheel independent swerve drive), 교체 가능한 컴퓨팅, 분산 임베디드 제어, 멀티모달 센싱, 그리고 설정 가능한 조작(manipulation) 기능을 통합하여 인식, 제어, 내비게이션, 조작, 그리고 자율 작업 검증을 지원하는 통합된 인지-계획-행동-검증(sense-plan-act-verify) 프레임워크를 제공합니다."
+        },
+        {
+          "word": "robotics",
+          "ko": "로봇 공학",
+          "sentence": "Agricultural production faces persistent labor shortages and increasing demand for automation, yet progress in agricultural robotics remains constrained by the limited availability of affordable, flexible, and accessible research platforms.",
+          "sentenceKo": "농업 생산은 지속적인 노동력 부족과 자동화에 대한 수요 증가에 직면해 있지만, 농업용 로봇 공학의 발전은 저렴하고 유연하며 접근하기 쉬운 연구 플랫폼의 부족으로 인해 여전히 제한을 받고 있습니다."
+        },
+        {
+          "word": "platform",
+          "ko": "플랫폼",
+          "sentence": "This paper presents Agibot, an open-source, modular, low-cost agricultural robotics platform designed for autonomy research and experimentation, with potential applications in hands-on robotics education.",
+          "sentenceKo": "본 논문에서는 자율성 연구 및 실험을 위해 설계된 오픈소스 모듈형 저비용 농업용 로봇 플랫폼인 Agibot을 소개하며, 실습 중심의 로봇 교육에도 활용될 수 있는 잠재력을 가지고 있습니다."
+        },
+        {
+          "word": "representative",
+          "ko": "대표적인",
+          "sentence": "The platform was evaluated through representative row-crop navigation and manipulation tasks under varying lighting and soil conditions.",
+          "sentenceKo": "본 플랫폼은 다양한 조명 및 토양 조건에서 대표적인 작물 열(row-crop) 내비게이션 및 조작 작업을 통해 평가되었습니다."
+        },
+        {
+          "word": "identification",
+          "ko": "식별",
+          "sentence": "Experiments demonstrated reliable lane following, autonomous row-to-row navigation, target identification, seed dispensing, plant manipulation, and closed-loop verification of task success.",
+          "sentenceKo": "실험을 통해 신뢰할 수 있는 차선 유지, 자율적인 열 간(row-to-row) 내비게이션, 목표물 식별, 종자 배출, 작물 조작, 그리고 작업 성공에 대한 폐루프 검증이 입증되었습니다."
+        },
+        {
+          "word": "affordability",
+          "ko": "경제성",
+          "sentence": "By combining affordability, modularity, open-source accessibility, configurable manipulation, and end-to-end sense-plan-act-verify autonomy, Agibot provides a practical platform for agricultural robotics research, technology development, and workforce training.",
+          "sentenceKo": "경제성, 모듈화, 오픈소스 접근성, 설정 가능한 조작, 그리고 엔드투엔드 인지-계획-행동-검증 자율성을 결합한 Agibot은 농업용 로봇 연구, 기술 개발, 그리고 인력 양성을 위한 실용적인 플랫폼을 제공합니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2611.10235",
+        "arxiv": "https://arxiv.org/abs/2611.10235",
+        "pdf": "https://arxiv.org/pdf/2611.10235",
+        "github": null
+      },
+      "githubStars": null,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-11T19:06:15.853Z",
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
+    {
+      "id": "2611.01527",
+      "title": "From Tool State to Scientific Action: Auditing Decision Provenance in Biomedical Research Agents",
+      "authors": [
+        "Xingyu Yi",
+        "Xinya Zhang",
+        "Yunshen Zhou",
+        "Haoyu Bao"
+      ],
+      "publishedAt": "2026-11-01T03:58:26.000Z",
+      "upvotes": 6,
+      "keywords": [],
+      "categories": [
+        "기타"
+      ],
+      "aiSummary": {
+        "en": "",
+        "ko": ""
+      },
+      "abstract": {
+        "en": "A scientific agent can give the same verdict while reading and citing different evidence. BioAgent-DF tests this separation using paired reference and candidate values saved at the same scientific computation site. It restores or transplants those values at their original coordinates, then runs the agent on healthy hardware. Across eight SciFact batches, Qwen3.5-4B shows repeatable citation changes in three capture-claim combinations, and Gemma 3 4B IT shows repeatable read and citation changes in four. These seven combinations cover two claims. Full restoration recovers the reference evidence sets while verdicts remain unchanged. Verdict changes observed under the baseline prompt did not recur under the explicit-example prompt. Complementary tool and optimizer experiments distinguish recovery of numerical state, recovery of ranked lists, and restoration of an agent's visible history. These results show that an audit should track both the evidence an agent uses and its final answer. In hERG cardiac-safety assay allocation, silent numerical faults changed testing decisions while the fixed-budget shortlist kept the same number of compounds labeled as blockers. After the agent had used faulty values, restoring its earlier execution state and supplying certified scores recovered all 39 changed decisions, whereas replacing the prediction file recovered none; no incorrect action was committed. A streaming implementation of the arithmetic checks reduced the total time for forward execution and verification by 42.4% relative to the original FP64 implementation, with identical flags and recovery outputs.",
+        "ko": "과학적 에이전트는 서로 다른 근거를 읽고 인용하면서도 동일한 판정을 내릴 수 있습니다. BioAgent-DF는 동일한 과학적 연산 지점에 저장된 쌍을 이루는 참조값과 후보값을 사용하여 이러한 분리를 테스트합니다. 원래 좌표에서 해당 값들을 복원 또는 이식한 다음, 정상적인 하드웨어에서 에이전트를 실행합니다. 8개의 SciFact 배치 전반에 걸쳐, Qwen3.5-4B는 3개의 캡처-주장 조합에서 반복 가능한 인용 변화를 보이고, Gemma 3 4B IT는 4개에서 반복 가능한 읽기 및 인용 변화를 보입니다. 이 7가지 조합은 2개의 주장을 다룹니다. 완전한 복원은 판정이 유지되는 동안 참조 근거 세트를 복구합니다. 기본 프롬프트 하에서 관찰된 판정 변화는 명시적 예시 프롬프트 하에서는 재발하지 않았습니다. 상보적 도구 및 최적화 도구 실험은 수치 상태의 복구, 순위가 매겨진 리스트의 복구, 그리고 에이전트의 가시적 이력 복원을 구분합니다. 이러한 결과는 감사(audit) 시 에이전트가 사용하는 근거와 최종 답변을 모두 추적해야 함을 보여줍니다. hERG 심장 안전성 분석(assay) 할당에서, 침묵 수치 결함은 테스트 결정을 변경한 반면, 고정 예산 단기 목록(shortlist)은 차단제로 분류된 화합물의 수를 동일하게 유지했습니다. 에이전트가 결함이 있는 값을 사용한 후, 이전 실행 상태를 복원하고 인증된 점수를 제공하면 변경된 39개의 결정을 모두 복구한 반면, 예측 파일을 교체하는 것은 아무것도 복구하지 못했으며, 잘못된 조치는 수행되지 않았습니다. 산술 검사의 스트리밍 구현은 동일한 플래그 및 복구 출력과 함께, 원래의 FP64 구현에 비해 순방향 실행 및 검증에 소요되는 총 시간을 42.4% 단축했습니다."
+      },
+      "sentences": [
+        {
+          "en": "A scientific agent can give the same verdict while reading and citing different evidence.",
+          "ko": "과학적 에이전트는 서로 다른 근거를 읽고 인용하면서도 동일한 판정을 내릴 수 있습니다."
+        },
+        {
+          "en": "BioAgent-DF tests this separation using paired reference and candidate values saved at the same scientific computation site.",
+          "ko": "BioAgent-DF는 동일한 과학적 연산 지점에 저장된 쌍을 이루는 참조값과 후보값을 사용하여 이러한 분리를 테스트합니다."
+        },
+        {
+          "en": "It restores or transplants those values at their original coordinates, then runs the agent on healthy hardware.",
+          "ko": "원래 좌표에서 해당 값들을 복원 또는 이식한 다음, 정상적인 하드웨어에서 에이전트를 실행합니다."
+        },
+        {
+          "en": "Across eight SciFact batches, Qwen3.5-4B shows repeatable citation changes in three capture-claim combinations, and Gemma 3 4B IT shows repeatable read and citation changes in four.",
+          "ko": "8개의 SciFact 배치 전반에 걸쳐, Qwen3.5-4B는 3개의 캡처-주장 조합에서 반복 가능한 인용 변화를 보이고, Gemma 3 4B IT는 4개에서 반복 가능한 읽기 및 인용 변화를 보입니다."
+        },
+        {
+          "en": "These seven combinations cover two claims.",
+          "ko": "이 7가지 조합은 2개의 주장을 다룹니다."
+        },
+        {
+          "en": "Full restoration recovers the reference evidence sets while verdicts remain unchanged.",
+          "ko": "완전한 복원은 판정이 유지되는 동안 참조 근거 세트를 복구합니다."
+        },
+        {
+          "en": "Verdict changes observed under the baseline prompt did not recur under the explicit-example prompt.",
+          "ko": "기본 프롬프트 하에서 관찰된 판정 변화는 명시적 예시 프롬프트 하에서는 재발하지 않았습니다."
+        },
+        {
+          "en": "Complementary tool and optimizer experiments distinguish recovery of numerical state, recovery of ranked lists, and restoration of an agent's visible history.",
+          "ko": "상보적 도구 및 최적화 도구 실험은 수치 상태의 복구, 순위가 매겨진 리스트의 복구, 그리고 에이전트의 가시적 이력 복원을 구분합니다."
+        },
+        {
+          "en": "These results show that an audit should track both the evidence an agent uses and its final answer.",
+          "ko": "이러한 결과는 감사(audit) 시 에이전트가 사용하는 근거와 최종 답변을 모두 추적해야 함을 보여줍니다."
+        },
+        {
+          "en": "In hERG cardiac-safety assay allocation, silent numerical faults changed testing decisions while the fixed-budget shortlist kept the same number of compounds labeled as blockers.",
+          "ko": "hERG 심장 안전성 분석(assay) 할당에서, 침묵 수치 결함은 테스트 결정을 변경한 반면, 고정 예산 단기 목록(shortlist)은 차단제로 분류된 화합물의 수를 동일하게 유지했습니다."
+        },
+        {
+          "en": "After the agent had used faulty values, restoring its earlier execution state and supplying certified scores recovered all 39 changed decisions, whereas replacing the prediction file recovered none; no incorrect action was committed.",
+          "ko": "에이전트가 결함이 있는 값을 사용한 후, 이전 실행 상태를 복원하고 인증된 점수를 제공하면 변경된 39개의 결정을 모두 복구한 반면, 예측 파일을 교체하는 것은 아무것도 복구하지 못했으며, 잘못된 조치는 수행되지 않았습니다."
+        },
+        {
+          "en": "A streaming implementation of the arithmetic checks reduced the total time for forward execution and verification by 42.4% relative to the original FP64 implementation, with identical flags and recovery outputs.",
+          "ko": "산술 검사의 스트리밍 구현은 동일한 플래그 및 복구 출력과 함께, 원래의 FP64 구현에 비해 순방향 실행 및 검증에 소요되는 총 시간을 42.4% 단축했습니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "A scientific agent can give the same verdict while reading and citing different evidence.",
+            "ko": "과학적 에이전트는 서로 다른 근거를 읽고 인용하면서도 동일한 판정을 내릴 수 있습니다."
+          },
+          {
+            "en": "BioAgent-DF tests this separation using paired reference and candidate values saved at the same scientific computation site.",
+            "ko": "BioAgent-DF는 동일한 과학적 연산 지점에 저장된 쌍을 이루는 참조값과 후보값을 사용하여 이러한 분리를 테스트합니다."
+          },
+          {
+            "en": "It restores or transplants those values at their original coordinates, then runs the agent on healthy hardware.",
+            "ko": "원래 좌표에서 해당 값들을 복원 또는 이식한 다음, 정상적인 하드웨어에서 에이전트를 실행합니다."
+          },
+          {
+            "en": "Across eight SciFact batches, Qwen3.5-4B shows repeatable citation changes in three capture-claim combinations, and Gemma 3 4B IT shows repeatable read and citation changes in four.",
+            "ko": "8개의 SciFact 배치 전반에 걸쳐, Qwen3.5-4B는 3개의 캡처-주장 조합에서 반복 가능한 인용 변화를 보이고, Gemma 3 4B IT는 4개에서 반복 가능한 읽기 및 인용 변화를 보입니다."
+          },
+          {
+            "en": "These seven combinations cover two claims.",
+            "ko": "이 7가지 조합은 2개의 주장을 다룹니다."
+          },
+          {
+            "en": "Full restoration recovers the reference evidence sets while verdicts remain unchanged.",
+            "ko": "완전한 복원은 판정이 유지되는 동안 참조 근거 세트를 복구합니다."
+          },
+          {
+            "en": "Verdict changes observed under the baseline prompt did not recur under the explicit-example prompt.",
+            "ko": "기본 프롬프트 하에서 관찰된 판정 변화는 명시적 예시 프롬프트 하에서는 재발하지 않았습니다."
+          },
+          {
+            "en": "Complementary tool and optimizer experiments distinguish recovery of numerical state, recovery of ranked lists, and restoration of an agent's visible history.",
+            "ko": "상보적 도구 및 최적화 도구 실험은 수치 상태의 복구, 순위가 매겨진 리스트의 복구, 그리고 에이전트의 가시적 이력 복원을 구분합니다."
+          },
+          {
+            "en": "In hERG cardiac-safety assay allocation, silent numerical faults changed testing decisions while the fixed-budget shortlist kept the same number of compounds labeled as blockers.",
+            "ko": "hERG 심장 안전성 분석(assay) 할당에서, 침묵 수치 결함은 테스트 결정을 변경한 반면, 고정 예산 단기 목록(shortlist)은 차단제로 분류된 화합물의 수를 동일하게 유지했습니다."
+          },
+          {
+            "en": "After the agent had used faulty values, restoring its earlier execution state and supplying certified scores recovered all 39 changed decisions, whereas replacing the prediction file recovered none; no incorrect action was committed.",
+            "ko": "에이전트가 결함이 있는 값을 사용한 후, 이전 실행 상태를 복원하고 인증된 점수를 제공하면 변경된 39개의 결정을 모두 복구한 반면, 예측 파일을 교체하는 것은 아무것도 복구하지 못했으며, 잘못된 조치는 수행되지 않았습니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "Verdict changes observed under the baseline prompt did not recur under the explicit-example prompt.",
+            "ko": "기본 프롬프트 하에서 관찰된 판정 변화는 명시적 예시 프롬프트 하에서는 재발하지 않았습니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "These results show that an audit should track both the evidence an agent uses and its final answer.",
+            "ko": "이러한 결과는 감사(audit) 시 에이전트가 사용하는 근거와 최종 답변을 모두 추적해야 함을 보여줍니다."
+          },
+          {
+            "en": "A streaming implementation of the arithmetic checks reduced the total time for forward execution and verification by 42.4% relative to the original FP64 implementation, with identical flags and recovery outputs.",
+            "ko": "산술 검사의 스트리밍 구현은 동일한 플래그 및 복구 출력과 함께, 원래의 FP64 구현에 비해 순방향 실행 및 검증에 소요되는 총 시간을 42.4% 단축했습니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "implementation",
+          "ko": "구현",
+          "sentence": "A streaming implementation of the arithmetic checks reduced the total time for forward execution and verification by 42.4% relative to the original FP64 implementation, with identical flags and recovery outputs.",
+          "sentenceKo": "산술 검사의 스트리밍 구현은 동일한 플래그 및 복구 출력과 함께, 원래의 FP64 구현에 비해 순방향 실행 및 검증에 소요되는 총 시간을 42.4% 단축했습니다."
+        },
+        {
+          "word": "restoration",
+          "ko": "복원",
+          "sentence": "Full restoration recovers the reference evidence sets while verdicts remain unchanged.",
+          "sentenceKo": "완전한 복원은 판정이 유지되는 동안 참조 근거 세트를 복구합니다."
+        },
+        {
+          "word": "evidence",
+          "ko": "근거",
+          "sentence": "A scientific agent can give the same verdict while reading and citing different evidence.",
+          "sentenceKo": "과학적 에이전트는 서로 다른 근거를 읽고 인용하면서도 동일한 판정을 내릴 수 있습니다."
+        },
+        {
+          "word": "verification",
+          "ko": "검증",
+          "sentence": "A streaming implementation of the arithmetic checks reduced the total time for forward execution and verification by 42.4% relative to the original FP64 implementation, with identical flags and recovery outputs.",
+          "sentenceKo": "산술 검사의 스트리밍 구현은 동일한 플래그 및 복구 출력과 함께, 원래의 FP64 구현에 비해 순방향 실행 및 검증에 소요되는 총 시간을 42.4% 단축했습니다."
+        },
+        {
+          "word": "reference",
+          "ko": "참조",
+          "sentence": "BioAgent-DF tests this separation using paired reference and candidate values saved at the same scientific computation site.",
+          "sentenceKo": "BioAgent-DF는 동일한 과학적 연산 지점에 저장된 쌍을 이루는 참조값과 후보값을 사용하여 이러한 분리를 테스트합니다."
+        },
+        {
+          "word": "computation",
+          "ko": "연산",
+          "sentence": "BioAgent-DF tests this separation using paired reference and candidate values saved at the same scientific computation site.",
+          "sentenceKo": "BioAgent-DF는 동일한 과학적 연산 지점에 저장된 쌍을 이루는 참조값과 후보값을 사용하여 이러한 분리를 테스트합니다."
+        },
+        {
+          "word": "combinations",
+          "ko": "조합",
+          "sentence": "Across eight SciFact batches, Qwen3.5-4B shows repeatable citation changes in three capture-claim combinations, and Gemma 3 4B IT shows repeatable read and citation changes in four.",
+          "sentenceKo": "8개의 SciFact 배치 전반에 걸쳐, Qwen3.5-4B는 3개의 캡처-주장 조합에서 반복 가능한 인용 변화를 보이고, Gemma 3 4B IT는 4개에서 반복 가능한 읽기 및 인용 변화를 보입니다."
+        },
+        {
+          "word": "numerical",
+          "ko": "수치의",
+          "sentence": "Complementary tool and optimizer experiments distinguish recovery of numerical state, recovery of ranked lists, and restoration of an agent's visible history.",
+          "sentenceKo": "상보적 도구 및 최적화 도구 실험은 수치 상태의 복구, 순위가 매겨진 리스트의 복구, 그리고 에이전트의 가시적 이력 복원을 구분합니다."
+        },
+        {
+          "word": "execution",
+          "ko": "실행",
+          "sentence": "After the agent had used faulty values, restoring its earlier execution state and supplying certified scores recovered all 39 changed decisions, whereas replacing the prediction file recovered none; no incorrect action was committed.",
+          "sentenceKo": "에이전트가 결함이 있는 값을 사용한 후, 이전 실행 상태를 복원하고 인증된 점수를 제공하면 변경된 39개의 결정을 모두 복구한 반면, 예측 파일을 교체하는 것은 아무것도 복구하지 못했으며, 잘못된 조치는 수행되지 않았습니다."
+        },
+        {
+          "word": "separation",
+          "ko": "분리",
+          "sentence": "BioAgent-DF tests this separation using paired reference and candidate values saved at the same scientific computation site.",
+          "sentenceKo": "BioAgent-DF는 동일한 과학적 연산 지점에 저장된 쌍을 이루는 참조값과 후보값을 사용하여 이러한 분리를 테스트합니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2611.01527",
+        "arxiv": "https://arxiv.org/abs/2611.01527",
+        "pdf": "https://arxiv.org/pdf/2611.01527",
+        "github": null
+      },
+      "githubStars": null,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-11T19:06:15.853Z",
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
     {
       "id": "2611.12762",
       "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
@@ -255,12 +816,12 @@
         "pdf": "https://arxiv.org/pdf/2611.12762",
         "github": "https://github.com/Alpha-Innovator/Sage-Taiyi"
       },
-      "githubStars": 10,
+      "githubStars": 16,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-10T19:10:09.558Z",
       "citations": {
-        "count": null,
-        "source": null
+        "count": 0,
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -504,7 +1065,7 @@
       "collectedAt": "2026-11-09T21:48:58.600Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -684,7 +1245,7 @@
       "collectedAt": "2026-11-06T18:44:38.766Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -882,7 +1443,7 @@
       "collectedAt": "2026-11-05T19:19:31.559Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -1069,7 +1630,7 @@
       "collectedAt": "2026-11-04T19:12:40.058Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -1268,7 +1829,7 @@
       "collectedAt": "2026-11-04T05:41:19.738Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -1446,7 +2007,7 @@
       "collectedAt": "2026-11-04T05:41:19.738Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -1642,7 +2203,7 @@
       "collectedAt": "2026-11-02T21:14:49.554Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -1869,7 +2430,7 @@
       "collectedAt": "2026-11-02T21:14:49.554Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -2082,7 +2643,7 @@
       "collectedAt": "2026-11-02T05:23:15.084Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -2304,8 +2865,8 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-01T05:24:05.713Z",
       "citations": {
-        "count": 0,
-        "source": "OpenAlex"
+        "count": 1,
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -2508,7 +3069,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -2706,7 +3267,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -2900,7 +3461,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -3119,7 +3680,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -3506,7 +4067,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 4,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -3755,7 +4316,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -3936,7 +4497,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -4129,7 +4690,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -4311,7 +4872,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -4494,7 +5055,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -4870,7 +5431,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -5051,7 +5612,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -5243,8 +5804,8 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
-        "count": 0,
-        "source": "OpenAlex"
+        "count": 1,
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -5634,7 +6195,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -5844,12 +6405,12 @@
         "pdf": "https://arxiv.org/pdf/2610.35385",
         "github": "https://github.com/HexaFuture/EmbodiedLab"
       },
-      "githubStars": 19,
+      "githubStars": 20,
       "translatedBy": "gemini",
       "collectedAt": "2026-10-27T14:45:38.679Z",
       "citations": {
-        "count": 0,
-        "source": "OpenAlex"
+        "count": 1,
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -6046,7 +6607,7 @@
       "collectedAt": "2026-10-27T14:45:38.679Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -6251,8 +6812,8 @@
       "githubStars": null,
       "translatedBy": "gemini",
       "citations": {
-        "count": 0,
-        "source": "OpenAlex"
+        "count": 1,
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-27T04:28:31.378Z"
     },
@@ -6447,7 +7008,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 1,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-26T04:08:48.950Z"
     },
@@ -6640,7 +7201,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -6914,8 +7475,8 @@
       "githubStars": 607,
       "translatedBy": "gemini",
       "citations": {
-        "count": 0,
-        "source": "OpenAlex"
+        "count": 1,
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -7094,7 +7655,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -7300,11 +7861,11 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 173,
+      "githubStars": 175,
       "translatedBy": "gemini",
       "citations": {
-        "count": 3,
-        "source": "OpenAlex"
+        "count": 2,
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -7512,8 +8073,8 @@
       "githubStars": null,
       "translatedBy": "gemini",
       "citations": {
-        "count": 3,
-        "source": "OpenAlex"
+        "count": 4,
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     }
