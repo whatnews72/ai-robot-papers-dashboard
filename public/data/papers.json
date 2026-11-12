@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T19:06:15.853Z",
+  "updatedAt": "2026-11-12T06:40:36.494Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -23,7 +23,7 @@
         "James Zou"
       ],
       "publishedAt": "2026-11-09T00:00:00.000Z",
-      "upvotes": 3,
+      "upvotes": 4,
       "keywords": [],
       "categories": [
         "AI 과학자",
@@ -180,7 +180,7 @@
         "pdf": "https://arxiv.org/pdf/2611.12184",
         "github": "https://github.com/zou-group/BVSR"
       },
-      "githubStars": 7,
+      "githubStars": 8,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-11T19:06:15.853Z",
       "citations": {
@@ -373,7 +373,7 @@
         "Haoyu Bao"
       ],
       "publishedAt": "2026-11-01T03:58:26.000Z",
-      "upvotes": 6,
+      "upvotes": 10,
       "keywords": [],
       "categories": [
         "기타"
@@ -816,7 +816,7 @@
         "pdf": "https://arxiv.org/pdf/2611.12762",
         "github": "https://github.com/Alpha-Innovator/Sage-Taiyi"
       },
-      "githubStars": 16,
+      "githubStars": 17,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-10T19:10:09.558Z",
       "citations": {
@@ -1459,7 +1459,7 @@
         "Yang Yang"
       ],
       "publishedAt": "2026-11-02T14:17:43.000Z",
-      "upvotes": 2,
+      "upvotes": 3,
       "keywords": [
         "AlphaFold 3",
         "MSA",
@@ -7861,7 +7861,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 175,
+      "githubStars": 176,
       "translatedBy": "gemini",
       "citations": {
         "count": 2,
