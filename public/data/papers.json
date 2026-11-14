@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T05:46:11.881Z",
+  "updatedAt": "2026-11-14T17:32:06.235Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -23,7 +23,7 @@
         "James Zou"
       ],
       "publishedAt": "2026-11-09T00:00:00.000Z",
-      "upvotes": 4,
+      "upvotes": 5,
       "keywords": [],
       "categories": [
         "AI 과학자",
@@ -668,7 +668,7 @@
         "Shufei Zhang"
       ],
       "publishedAt": "2026-11-09T00:00:00.000Z",
-      "upvotes": 57,
+      "upvotes": 58,
       "keywords": [],
       "categories": [
         "AI 과학자",
@@ -7681,7 +7681,7 @@
         "Xiangyu Yue"
       ],
       "publishedAt": "2026-10-14T00:00:00.000Z",
-      "upvotes": 32,
+      "upvotes": 33,
       "keywords": [
         "vision-language-action models",
         "world models",
@@ -7861,7 +7861,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 176,
+      "githubStars": 177,
       "translatedBy": "gemini",
       "citations": {
         "count": 2,
