@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T17:32:06.235Z",
+  "updatedAt": "2026-11-15T05:46:24.620Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -7026,7 +7026,7 @@
         "Shiyu Chang"
       ],
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "upvotes": 17,
+      "upvotes": 18,
       "keywords": [],
       "categories": [
         "AI 과학자"
@@ -7861,7 +7861,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 177,
+      "githubStars": 178,
       "translatedBy": "gemini",
       "citations": {
         "count": 2,
