@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T18:20:49.044Z",
+  "updatedAt": "2026-11-16T05:45:36.462Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -11,6 +11,217 @@
     "automated scientific experiment robotics"
   ],
   "papers": [
+    {
+      "id": "2611.18359",
+      "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+      "authors": [
+        "Grid Robotics",
+        "Qingfeng Lan",
+        "Duo Li",
+        "Siyao Li",
+        "Yiheng Lyu",
+        "Shijian Lu",
+        "Zhenghao Qi",
+        "Shizun Wang",
+        "Xinchao Wang",
+        "Ming Yang",
+        "Zhiqin Yang",
+        "Zuhao Yang",
+        "Tao Yu"
+      ],
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "upvotes": 36,
+      "keywords": [
+        "agentic robotics",
+        "foundation model",
+        "agentic harnesses",
+        "task-specific policies",
+        "embodied benchmarks",
+        "closed-loop system",
+        "Embodied System 2",
+        "embodied harness",
+        "open-world embodied tasks",
+        "physical autonomy"
+      ],
+      "categories": [
+        "자율 실험실",
+        "로봇 조작",
+        "LLM 에이전트"
+      ],
+      "aiSummary": {
+        "en": "Agentic robotics, centered on an Embodied System 2 formed by a foundation model and embodied harness, requires a shared evaluation framework and research roadmap to achieve reliable physical autonomy.",
+        "ko": "파운데이션 모델과 체화 하네스로 구성된 체화된 시스템 2를 중심으로 하는 에이전트 로봇공학은 신뢰할 수 있는 물리적 자율성을 달성하기 위해 공통된 평가 프레임워크와 연구 로드맵이 필요합니다."
+      },
+      "abstract": {
+        "en": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks. It operates in a closed loop: observing the environment, interpreting user intent, reasoning about the task, invoking skills and tools, verifying outcomes, and adapting its strategy. Despite these advances, the community has yet to converge on a shared definition, a reliable evaluation framework, or a research roadmap. We argue that Embodied System 2, realized by a foundation model together with an embodied harness, forms the decision-making core of agentic robotics. Its central challenge is to translate general-purpose reasoning into effective and verifiable actions under physical constraints such as limited reaction time, mechanical limits, unpredictable environment changes, and irreversible consequences. Motivated by this perspective, we propose an evaluation framework that measures both model capabilities and closed-loop system performance. Furthermore, we identify the principles that carry over from digital to physical agents and the challenges that must be addressed to achieve reliable physical autonomy. On top of the Embodied System 2 and the evaluation framework, we envision a research roadmap toward sustained autonomy: the ability to perform work safely and reliably with progressively broader responsibility, from executing individual primitives to fulfilling standing roles.",
+        "ko": "GPT-6 Astra의 표면화는 로봇학 분야에 새로운 패러다임, 즉 에이전트 로봇공학(agentic robotics)의 등장을 알립니다. 수주 만에 에이전트 하네스(agentic harness)를 갖춘 프론티어 모델들은 많은 체화 벤치마크(embodied benchmarks)에서 태스크 전용 정책(task-specific policies)과 동등하거나 그 이상의 성능을 보였습니다. 작업군마다 전용 정책을 학습시키는 대신, 에이전트 로봇 시스템은 파운데이션 모델(foundation model)을 개방형 세계의 체화 작업(open-world embodied tasks)에 적용합니다. 이는 환경 관찰, 사용자 의도 해석, 작업 추론, 기술 및 도구 호출, 결과 검증, 전략 적응을 폐루프(closed loop) 방식으로 수행합니다. 이러한 발전에도 불구하고, 학계는 아직 공통된 정의, 신뢰할 수 있는 평가 프레임워크, 또는 연구 로드맵에 합의하지 못했습니다. 저자들은 파운데이션 모델과 체화 하네스(embodied harness)로 구현되는 체화된 시스템 2(Embodied System 2)가 에이전트 로봇공학의 의사결정 핵심을 형성한다고 주장합니다. 핵심 과제는 제한된 반응 시간, 기계적 한계, 예측 불가능한 환경 변화, 돌이킬 수 없는 결과 등 물리적 제약 속에서 범용 추론을 효과적이고 검증 가능한 행동으로 전환하는 것입니다. 이러한 관점에 동기부여되어, 모델 능력과 폐루프 시스템 성능을 모두 측정하는 평가 프레임워크를 제안합니다. 나아가 디지털 에이전트에서 물리적 에이전트로 이전되는 원칙들과, 신뢰할 수 있는 물리적 자율성(physical autonomy)을 달성하기 위해 해결해야 할 과제들을 식별합니다. 체화된 시스템 2와 평가 프레임워크를 바탕으로, 개별 프리미티브(primitive) 실행부터 상시 역할 수행에 이르기까지 점진적으로 더 넓은 책임을 가지고 안전하고 신뢰할 수 있게 작업을 수행하는 능력인 지속적 자율성(sustained autonomy)을 향한 연구 로드맵을 구상합니다."
+      },
+      "sentences": [
+        {
+          "en": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics.",
+          "ko": "GPT-6 Astra의 표면화는 로봇학 분야에 새로운 패러다임, 즉 에이전트 로봇공학(agentic robotics)의 등장을 알립니다."
+        },
+        {
+          "en": "Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks.",
+          "ko": "수주 만에 에이전트 하네스(agentic harness)를 갖춘 프론티어 모델들은 많은 체화 벤치마크(embodied benchmarks)에서 태스크 전용 정책(task-specific policies)과 동등하거나 그 이상의 성능을 보였습니다."
+        },
+        {
+          "en": "Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks.",
+          "ko": "작업군마다 전용 정책을 학습시키는 대신, 에이전트 로봇 시스템은 파운데이션 모델(foundation model)을 개방형 세계의 체화 작업(open-world embodied tasks)에 적용합니다."
+        },
+        {
+          "en": "It operates in a closed loop: observing the environment, interpreting user intent, reasoning about the task, invoking skills and tools, verifying outcomes, and adapting its strategy.",
+          "ko": "이는 환경 관찰, 사용자 의도 해석, 작업 추론, 기술 및 도구 호출, 결과 검증, 전략 적응을 폐루프(closed loop) 방식으로 수행합니다."
+        },
+        {
+          "en": "Despite these advances, the community has yet to converge on a shared definition, a reliable evaluation framework, or a research roadmap.",
+          "ko": "이러한 발전에도 불구하고, 학계는 아직 공통된 정의, 신뢰할 수 있는 평가 프레임워크, 또는 연구 로드맵에 합의하지 못했습니다."
+        },
+        {
+          "en": "We argue that Embodied System 2, realized by a foundation model together with an embodied harness, forms the decision-making core of agentic robotics.",
+          "ko": "저자들은 파운데이션 모델과 체화 하네스(embodied harness)로 구현되는 체화된 시스템 2(Embodied System 2)가 에이전트 로봇공학의 의사결정 핵심을 형성한다고 주장합니다."
+        },
+        {
+          "en": "Its central challenge is to translate general-purpose reasoning into effective and verifiable actions under physical constraints such as limited reaction time, mechanical limits, unpredictable environment changes, and irreversible consequences.",
+          "ko": "핵심 과제는 제한된 반응 시간, 기계적 한계, 예측 불가능한 환경 변화, 돌이킬 수 없는 결과 등 물리적 제약 속에서 범용 추론을 효과적이고 검증 가능한 행동으로 전환하는 것입니다."
+        },
+        {
+          "en": "Motivated by this perspective, we propose an evaluation framework that measures both model capabilities and closed-loop system performance.",
+          "ko": "이러한 관점에 동기부여되어, 모델 능력과 폐루프 시스템 성능을 모두 측정하는 평가 프레임워크를 제안합니다."
+        },
+        {
+          "en": "Furthermore, we identify the principles that carry over from digital to physical agents and the challenges that must be addressed to achieve reliable physical autonomy.",
+          "ko": "나아가 디지털 에이전트에서 물리적 에이전트로 이전되는 원칙들과, 신뢰할 수 있는 물리적 자율성(physical autonomy)을 달성하기 위해 해결해야 할 과제들을 식별합니다."
+        },
+        {
+          "en": "On top of the Embodied System 2 and the evaluation framework, we envision a research roadmap toward sustained autonomy: the ability to perform work safely and reliably with progressively broader responsibility, from executing individual primitives to fulfilling standing roles.",
+          "ko": "체화된 시스템 2와 평가 프레임워크를 바탕으로, 개별 프리미티브(primitive) 실행부터 상시 역할 수행에 이르기까지 점진적으로 더 넓은 책임을 가지고 안전하고 신뢰할 수 있게 작업을 수행하는 능력인 지속적 자율성(sustained autonomy)을 향한 연구 로드맵을 구상합니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics.",
+            "ko": "GPT-6 Astra의 표면화는 로봇학 분야에 새로운 패러다임, 즉 에이전트 로봇공학(agentic robotics)의 등장을 알립니다."
+          },
+          {
+            "en": "Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks.",
+            "ko": "수주 만에 에이전트 하네스(agentic harness)를 갖춘 프론티어 모델들은 많은 체화 벤치마크(embodied benchmarks)에서 태스크 전용 정책(task-specific policies)과 동등하거나 그 이상의 성능을 보였습니다."
+          },
+          {
+            "en": "Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks.",
+            "ko": "작업군마다 전용 정책을 학습시키는 대신, 에이전트 로봇 시스템은 파운데이션 모델(foundation model)을 개방형 세계의 체화 작업(open-world embodied tasks)에 적용합니다."
+          },
+          {
+            "en": "It operates in a closed loop: observing the environment, interpreting user intent, reasoning about the task, invoking skills and tools, verifying outcomes, and adapting its strategy.",
+            "ko": "이는 환경 관찰, 사용자 의도 해석, 작업 추론, 기술 및 도구 호출, 결과 검증, 전략 적응을 폐루프(closed loop) 방식으로 수행합니다."
+          },
+          {
+            "en": "We argue that Embodied System 2, realized by a foundation model together with an embodied harness, forms the decision-making core of agentic robotics.",
+            "ko": "저자들은 파운데이션 모델과 체화 하네스(embodied harness)로 구현되는 체화된 시스템 2(Embodied System 2)가 에이전트 로봇공학의 의사결정 핵심을 형성한다고 주장합니다."
+          },
+          {
+            "en": "Its central challenge is to translate general-purpose reasoning into effective and verifiable actions under physical constraints such as limited reaction time, mechanical limits, unpredictable environment changes, and irreversible consequences.",
+            "ko": "핵심 과제는 제한된 반응 시간, 기계적 한계, 예측 불가능한 환경 변화, 돌이킬 수 없는 결과 등 물리적 제약 속에서 범용 추론을 효과적이고 검증 가능한 행동으로 전환하는 것입니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "Despite these advances, the community has yet to converge on a shared definition, a reliable evaluation framework, or a research roadmap.",
+            "ko": "이러한 발전에도 불구하고, 학계는 아직 공통된 정의, 신뢰할 수 있는 평가 프레임워크, 또는 연구 로드맵에 합의하지 못했습니다."
+          },
+          {
+            "en": "Motivated by this perspective, we propose an evaluation framework that measures both model capabilities and closed-loop system performance.",
+            "ko": "이러한 관점에 동기부여되어, 모델 능력과 폐루프 시스템 성능을 모두 측정하는 평가 프레임워크를 제안합니다."
+          },
+          {
+            "en": "On top of the Embodied System 2 and the evaluation framework, we envision a research roadmap toward sustained autonomy: the ability to perform work safely and reliably with progressively broader responsibility, from executing individual primitives to fulfilling standing roles.",
+            "ko": "체화된 시스템 2와 평가 프레임워크를 바탕으로, 개별 프리미티브(primitive) 실행부터 상시 역할 수행에 이르기까지 점진적으로 더 넓은 책임을 가지고 안전하고 신뢰할 수 있게 작업을 수행하는 능력인 지속적 자율성(sustained autonomy)을 향한 연구 로드맵을 구상합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "Furthermore, we identify the principles that carry over from digital to physical agents and the challenges that must be addressed to achieve reliable physical autonomy.",
+            "ko": "나아가 디지털 에이전트에서 물리적 에이전트로 이전되는 원칙들과, 신뢰할 수 있는 물리적 자율성(physical autonomy)을 달성하기 위해 해결해야 할 과제들을 식별합니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "embodied",
+          "ko": "체화된",
+          "sentence": "Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks.",
+          "sentenceKo": "수주 만에 에이전트 하네스(agentic harness)를 갖춘 프론티어 모델들은 많은 체화 벤치마크(embodied benchmarks)에서 태스크 전용 정책(task-specific policies)과 동등하거나 그 이상의 성능을 보였습니다."
+        },
+        {
+          "word": "foundation",
+          "ko": "기반",
+          "sentence": "Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks.",
+          "sentenceKo": "작업군마다 전용 정책을 학습시키는 대신, 에이전트 로봇 시스템은 파운데이션 모델(foundation model)을 개방형 세계의 체화 작업(open-world embodied tasks)에 적용합니다."
+        },
+        {
+          "word": "physical",
+          "ko": "물리적인",
+          "sentence": "Its central challenge is to translate general-purpose reasoning into effective and verifiable actions under physical constraints such as limited reaction time, mechanical limits, unpredictable environment changes, and irreversible consequences.",
+          "sentenceKo": "핵심 과제는 제한된 반응 시간, 기계적 한계, 예측 불가능한 환경 변화, 돌이킬 수 없는 결과 등 물리적 제약 속에서 범용 추론을 효과적이고 검증 가능한 행동으로 전환하는 것입니다."
+        },
+        {
+          "word": "agentic",
+          "ko": "에이전트 기반의",
+          "sentence": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics.",
+          "sentenceKo": "GPT-6 Astra의 표면화는 로봇학 분야에 새로운 패러다임, 즉 에이전트 로봇공학(agentic robotics)의 등장을 알립니다."
+        },
+        {
+          "word": "robotics",
+          "ko": "로봇공학",
+          "sentence": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics.",
+          "sentenceKo": "GPT-6 Astra의 표면화는 로봇학 분야에 새로운 패러다임, 즉 에이전트 로봇공학(agentic robotics)의 등장을 알립니다."
+        },
+        {
+          "word": "evaluation",
+          "ko": "평가",
+          "sentence": "Despite these advances, the community has yet to converge on a shared definition, a reliable evaluation framework, or a research roadmap.",
+          "sentenceKo": "이러한 발전에도 불구하고, 학계는 아직 공통된 정의, 신뢰할 수 있는 평가 프레임워크, 또는 연구 로드맵에 합의하지 못했습니다."
+        },
+        {
+          "word": "benchmarks",
+          "ko": "벤치마크",
+          "sentence": "Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks.",
+          "sentenceKo": "수주 만에 에이전트 하네스(agentic harness)를 갖춘 프론티어 모델들은 많은 체화 벤치마크(embodied benchmarks)에서 태스크 전용 정책(task-specific policies)과 동등하거나 그 이상의 성능을 보였습니다."
+        },
+        {
+          "word": "environment",
+          "ko": "환경",
+          "sentence": "It operates in a closed loop: observing the environment, interpreting user intent, reasoning about the task, invoking skills and tools, verifying outcomes, and adapting its strategy.",
+          "sentenceKo": "이는 환경 관찰, 사용자 의도 해석, 작업 추론, 기술 및 도구 호출, 결과 검증, 전략 적응을 폐루프(closed loop) 방식으로 수행합니다."
+        },
+        {
+          "word": "autonomy",
+          "ko": "자율성",
+          "sentence": "Furthermore, we identify the principles that carry over from digital to physical agents and the challenges that must be addressed to achieve reliable physical autonomy.",
+          "sentenceKo": "나아가 디지털 에이전트에서 물리적 에이전트로 이전되는 원칙들과, 신뢰할 수 있는 물리적 자율성(physical autonomy)을 달성하기 위해 해결해야 할 과제들을 식별합니다."
+        },
+        {
+          "word": "responsibility",
+          "ko": "책임",
+          "sentence": "On top of the Embodied System 2 and the evaluation framework, we envision a research roadmap toward sustained autonomy: the ability to perform work safely and reliably with progressively broader responsibility, from executing individual primitives to fulfilling standing roles.",
+          "sentenceKo": "체화된 시스템 2와 평가 프레임워크를 바탕으로, 개별 프리미티브(primitive) 실행부터 상시 역할 수행에 이르기까지 점진적으로 더 넓은 책임을 가지고 안전하고 신뢰할 수 있게 작업을 수행하는 능력인 지속적 자율성(sustained autonomy)을 향한 연구 로드맵을 구상합니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2611.18359",
+        "arxiv": "https://arxiv.org/abs/2611.18359",
+        "pdf": "https://arxiv.org/pdf/2611.18359",
+        "github": null
+      },
+      "githubStars": null,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-16T05:45:36.462Z",
+      "citations": {
+        "count": null,
+        "source": null
+      }
+    },
     {
       "id": "2611.12184",
       "title": "Blind Variation, Selective Retention: Improving Creative Idea Generation in AI Scientists",
@@ -668,7 +879,7 @@
         "Shufei Zhang"
       ],
       "publishedAt": "2026-11-09T00:00:00.000Z",
-      "upvotes": 58,
+      "upvotes": 59,
       "keywords": [],
       "categories": [
         "AI 과학자",
@@ -7861,7 +8072,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 179,
+      "githubStars": 181,
       "translatedBy": "gemini",
       "citations": {
         "count": 2,
