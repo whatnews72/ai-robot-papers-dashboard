@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T06:49:44.249Z",
+  "updatedAt": "2026-11-19T19:49:32.353Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -30,7 +30,7 @@
         "Tao Yu"
       ],
       "publishedAt": "2026-11-13T00:00:00.000Z",
-      "upvotes": 127,
+      "upvotes": 130,
       "keywords": [
         "agentic robotics",
         "foundation model",
@@ -1271,7 +1271,7 @@
         "pdf": "https://arxiv.org/pdf/2611.08922",
         "github": null
       },
-      "githubStars": 2,
+      "githubStars": 14,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-09T21:48:58.600Z",
       "citations": {
@@ -4065,7 +4065,7 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
-        "count": 1,
+        "count": 2,
         "source": "Semantic Scholar"
       }
     },
@@ -4526,7 +4526,7 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
-        "count": 1,
+        "count": 2,
         "source": "Semantic Scholar"
       }
     },
@@ -5082,7 +5082,7 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
-        "count": 0,
+        "count": 1,
         "source": "Semantic Scholar"
       }
     },
@@ -6620,7 +6620,7 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-10-27T14:45:38.679Z",
       "citations": {
-        "count": 1,
+        "count": 0,
         "source": "Semantic Scholar"
       }
     },
@@ -8072,7 +8072,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 191,
+      "githubStars": 192,
       "translatedBy": "gemini",
       "citations": {
         "count": 2,
