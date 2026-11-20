@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T06:38:28.467Z",
+  "updatedAt": "2026-11-20T19:29:13.158Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -11,6 +11,178 @@
     "automated scientific experiment robotics"
   ],
   "papers": [
+    {
+      "id": "2611.26248",
+      "title": "TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs",
+      "authors": [
+        "Yang Wan",
+        "Linchao Zhu"
+      ],
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "upvotes": 3,
+      "keywords": [],
+      "categories": [
+        "LLM 에이전트",
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "",
+        "ko": ""
+      },
+      "abstract": {
+        "en": "AI agents are increasingly expected to act as AI scientists, which requires three increasingly open abilities: carrying out a given computational workflow correctly, choosing the next measurements from a given design space, and designing their own experiments. Existing benchmarks mainly evaluate the first two abilities, in a terminal or in a closed loop that selects from predefined candidates. Evaluating the third ability requires reliably executing an experiment that an agent designs, with readings grounded in a real laboratory. We introduce TwinLab-Bench, which evaluates AI scientists on self-designed experiments in 52 tasks from laboratories in the physical sciences, the life sciences, and engineering. The benchmark supports more than 100 experimental action types, and the agent's report is scored by comparison with a hidden answer taken from real laboratory records. Each task has its own TwinLab agent, an agent that serves as the environment and executes the experiments that the tested agent designs, reading the raw materials of the laboratory and calling calculators that are built from its records. Compared with a language model that sees only the task description, the TwinLab agent almost eliminates readings that deviate from the real records and inconsistent answers to a repeated request, and closed-book probes control for answers recalled from memory. We find that these tasks remain hard for frontier models: the strongest, Claude Fable 5.2, averages a score of only 45.0, and we conduct an empirical study of where it fails.",
+        "ko": "AI 에이전트는 점점 더 AI 과학자로서의 역할을 수행할 것으로 기대되며, 이를 위해서는 주어진 계산 워크플로를 올바르게 실행하는 것, 주어진 설계 공간에서 다음 측정값을 선택하는 것, 그리고 자체 실험을 설계하는 세 가지 점진적으로 개방된 능력이 요구된다. 기존 벤치마크는 주로 터미널 환경이나 미리 정의된 후보 중에서 선택하는 폐쇄 루프 내에서 앞의 두 가지 능력만을 평가한다. 세 번째 능력을 평가하려면 에이전트가 설계한 실험을 실제 실험실의 측정값과 연동하여 안정적으로 실행해야 한다. 우리는 물리과학, 생명과학, 공학 분야의 실험실에서 가져온 52개의 태스크에서 AI 과학자의 자체 설계 실험 능력을 평가하는 TwinLab-Bench를 소개한다. 이 벤치마크는 100개 이상의 실험적 액션 타입을 지원하며, 에이전트의 보고서는 실제 실험실 기록에서 가져온 숨겨진 정답과의 비교를 통해 채점된다. 각 태스크에는 환경 역할을 하며 테스트 대상 에이전트가 설계한 실험을 실행하고, 실험실의 원자재를 읽어들이며, 그 기록을 바탕으로 구축된 계산기를 호출하는 자체 TwinLab 에이전트가 존재한다. 태스크 설명만 접하는 언어 모델과 비교할 때, TwinLab 에이전트는 실제 기록에서 벗어난 측정값과 반복된 요청에 대한 일관성 없는 답변을 거의 없애주며, 닫힌 책(closed-book) 방식의 프로브를 통해 기억으로부터의 단순 회답을 통제한다. 이러한 태스크들은 최첨단 모델에게도 여전히 어렵다는 것을 발견했는데, 가장 강력한 모델인 Claude Fable 5.2조차 평균 45.0점에 불과했으며, 우리는 이 모델이 실패하는 원인에 대한 실증적 연구를 수행한다."
+      },
+      "sentences": [
+        {
+          "en": "AI agents are increasingly expected to act as AI scientists, which requires three increasingly open abilities: carrying out a given computational workflow correctly, choosing the next measurements from a given design space, and designing their own experiments.",
+          "ko": "AI 에이전트는 점점 더 AI 과학자로서의 역할을 수행할 것으로 기대되며, 이를 위해서는 주어진 계산 워크플로를 올바르게 실행하는 것, 주어진 설계 공간에서 다음 측정값을 선택하는 것, 그리고 자체 실험을 설계하는 세 가지 점진적으로 개방된 능력이 요구된다."
+        },
+        {
+          "en": "Existing benchmarks mainly evaluate the first two abilities, in a terminal or in a closed loop that selects from predefined candidates.",
+          "ko": "기존 벤치마크는 주로 터미널 환경이나 미리 정의된 후보 중에서 선택하는 폐쇄 루프 내에서 앞의 두 가지 능력만을 평가한다."
+        },
+        {
+          "en": "Evaluating the third ability requires reliably executing an experiment that an agent designs, with readings grounded in a real laboratory.",
+          "ko": "세 번째 능력을 평가하려면 에이전트가 설계한 실험을 실제 실험실의 측정값과 연동하여 안정적으로 실행해야 한다."
+        },
+        {
+          "en": "We introduce TwinLab-Bench, which evaluates AI scientists on self-designed experiments in 52 tasks from laboratories in the physical sciences, the life sciences, and engineering.",
+          "ko": "우리는 물리과학, 생명과학, 공학 분야의 실험실에서 가져온 52개의 태스크에서 AI 과학자의 자체 설계 실험 능력을 평가하는 TwinLab-Bench를 소개한다."
+        },
+        {
+          "en": "The benchmark supports more than 100 experimental action types, and the agent's report is scored by comparison with a hidden answer taken from real laboratory records.",
+          "ko": "이 벤치마크는 100개 이상의 실험적 액션 타입을 지원하며, 에이전트의 보고서는 실제 실험실 기록에서 가져온 숨겨진 정답과의 비교를 통해 채점된다."
+        },
+        {
+          "en": "Each task has its own TwinLab agent, an agent that serves as the environment and executes the experiments that the tested agent designs, reading the raw materials of the laboratory and calling calculators that are built from its records.",
+          "ko": "각 태스크에는 환경 역할을 하며 테스트 대상 에이전트가 설계한 실험을 실행하고, 실험실의 원자재를 읽어들이며, 그 기록을 바탕으로 구축된 계산기를 호출하는 자체 TwinLab 에이전트가 존재한다."
+        },
+        {
+          "en": "Compared with a language model that sees only the task description, the TwinLab agent almost eliminates readings that deviate from the real records and inconsistent answers to a repeated request, and closed-book probes control for answers recalled from memory.",
+          "ko": "태스크 설명만 접하는 언어 모델과 비교할 때, TwinLab 에이전트는 실제 기록에서 벗어난 측정값과 반복된 요청에 대한 일관성 없는 답변을 거의 없애주며, 닫힌 책(closed-book) 방식의 프로브를 통해 기억으로부터의 단순 회답을 통제한다."
+        },
+        {
+          "en": "We find that these tasks remain hard for frontier models: the strongest, Claude Fable 5.2, averages a score of only 45.0, and we conduct an empirical study of where it fails.",
+          "ko": "이러한 태스크들은 최첨단 모델에게도 여전히 어렵다는 것을 발견했는데, 가장 강력한 모델인 Claude Fable 5.2조차 평균 45.0점에 불과했으며, 우리는 이 모델이 실패하는 원인에 대한 실증적 연구를 수행한다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "AI agents are increasingly expected to act as AI scientists, which requires three increasingly open abilities: carrying out a given computational workflow correctly, choosing the next measurements from a given design space, and designing their own experiments.",
+            "ko": "AI 에이전트는 점점 더 AI 과학자로서의 역할을 수행할 것으로 기대되며, 이를 위해서는 주어진 계산 워크플로를 올바르게 실행하는 것, 주어진 설계 공간에서 다음 측정값을 선택하는 것, 그리고 자체 실험을 설계하는 세 가지 점진적으로 개방된 능력이 요구된다."
+          },
+          {
+            "en": "Existing benchmarks mainly evaluate the first two abilities, in a terminal or in a closed loop that selects from predefined candidates.",
+            "ko": "기존 벤치마크는 주로 터미널 환경이나 미리 정의된 후보 중에서 선택하는 폐쇄 루프 내에서 앞의 두 가지 능력만을 평가한다."
+          },
+          {
+            "en": "Evaluating the third ability requires reliably executing an experiment that an agent designs, with readings grounded in a real laboratory.",
+            "ko": "세 번째 능력을 평가하려면 에이전트가 설계한 실험을 실제 실험실의 측정값과 연동하여 안정적으로 실행해야 한다."
+          },
+          {
+            "en": "The benchmark supports more than 100 experimental action types, and the agent's report is scored by comparison with a hidden answer taken from real laboratory records.",
+            "ko": "이 벤치마크는 100개 이상의 실험적 액션 타입을 지원하며, 에이전트의 보고서는 실제 실험실 기록에서 가져온 숨겨진 정답과의 비교를 통해 채점된다."
+          },
+          {
+            "en": "Each task has its own TwinLab agent, an agent that serves as the environment and executes the experiments that the tested agent designs, reading the raw materials of the laboratory and calling calculators that are built from its records.",
+            "ko": "각 태스크에는 환경 역할을 하며 테스트 대상 에이전트가 설계한 실험을 실행하고, 실험실의 원자재를 읽어들이며, 그 기록을 바탕으로 구축된 계산기를 호출하는 자체 TwinLab 에이전트가 존재한다."
+          },
+          {
+            "en": "Compared with a language model that sees only the task description, the TwinLab agent almost eliminates readings that deviate from the real records and inconsistent answers to a repeated request, and closed-book probes control for answers recalled from memory.",
+            "ko": "태스크 설명만 접하는 언어 모델과 비교할 때, TwinLab 에이전트는 실제 기록에서 벗어난 측정값과 반복된 요청에 대한 일관성 없는 답변을 거의 없애주며, 닫힌 책(closed-book) 방식의 프로브를 통해 기억으로부터의 단순 회답을 통제한다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "We introduce TwinLab-Bench, which evaluates AI scientists on self-designed experiments in 52 tasks from laboratories in the physical sciences, the life sciences, and engineering.",
+            "ko": "우리는 물리과학, 생명과학, 공학 분야의 실험실에서 가져온 52개의 태스크에서 AI 과학자의 자체 설계 실험 능력을 평가하는 TwinLab-Bench를 소개한다."
+          }
+        ],
+        "results": [
+          {
+            "en": "We find that these tasks remain hard for frontier models: the strongest, Claude Fable 5.2, averages a score of only 45.0, and we conduct an empirical study of where it fails.",
+            "ko": "이러한 태스크들은 최첨단 모델에게도 여전히 어렵다는 것을 발견했는데, 가장 강력한 모델인 Claude Fable 5.2조차 평균 45.0점에 불과했으며, 우리는 이 모델이 실패하는 원인에 대한 실증적 연구를 수행한다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "experiments",
+          "ko": "실험",
+          "sentence": "AI agents are increasingly expected to act as AI scientists, which requires three increasingly open abilities: carrying out a given computational workflow correctly, choosing the next measurements from a given design space, and designing their own experiments.",
+          "sentenceKo": "AI 에이전트는 점점 더 AI 과학자로서의 역할을 수행할 것으로 기대되며, 이를 위해서는 주어진 계산 워크플로를 올바르게 실행하는 것, 주어진 설계 공간에서 다음 측정값을 선택하는 것, 그리고 자체 실험을 설계하는 세 가지 점진적으로 개방된 능력이 요구된다."
+        },
+        {
+          "word": "increasingly",
+          "ko": "점진적으로",
+          "sentence": "AI agents are increasingly expected to act as AI scientists, which requires three increasingly open abilities: carrying out a given computational workflow correctly, choosing the next measurements from a given design space, and designing their own experiments.",
+          "sentenceKo": "AI 에이전트는 점점 더 AI 과학자로서의 역할을 수행할 것으로 기대되며, 이를 위해서는 주어진 계산 워크플로를 올바르게 실행하는 것, 주어진 설계 공간에서 다음 측정값을 선택하는 것, 그리고 자체 실험을 설계하는 세 가지 점진적으로 개방된 능력이 요구된다."
+        },
+        {
+          "word": "laboratory",
+          "ko": "실험실",
+          "sentence": "Evaluating the third ability requires reliably executing an experiment that an agent designs, with readings grounded in a real laboratory.",
+          "sentenceKo": "세 번째 능력을 평가하려면 에이전트가 설계한 실험을 실제 실험실의 측정값과 연동하여 안정적으로 실행해야 한다."
+        },
+        {
+          "word": "environment",
+          "ko": "환경",
+          "sentence": "Each task has its own TwinLab agent, an agent that serves as the environment and executes the experiments that the tested agent designs, reading the raw materials of the laboratory and calling calculators that are built from its records.",
+          "sentenceKo": "각 태스크에는 환경 역할을 하며 테스트 대상 에이전트가 설계한 실험을 실행하고, 실험실의 원자재를 읽어들이며, 그 기록을 바탕으로 구축된 계산기를 호출하는 자체 TwinLab 에이전트가 존재한다."
+        },
+        {
+          "word": "description",
+          "ko": "설명",
+          "sentence": "Compared with a language model that sees only the task description, the TwinLab agent almost eliminates readings that deviate from the real records and inconsistent answers to a repeated request, and closed-book probes control for answers recalled from memory.",
+          "sentenceKo": "태스크 설명만 접하는 언어 모델과 비교할 때, TwinLab 에이전트는 실제 기록에서 벗어난 측정값과 반복된 요청에 대한 일관성 없는 답변을 거의 없애주며, 닫힌 책(closed-book) 방식의 프로브를 통해 기억으로부터의 단순 회답을 통제한다."
+        },
+        {
+          "word": "computational",
+          "ko": "계산의",
+          "sentence": "AI agents are increasingly expected to act as AI scientists, which requires three increasingly open abilities: carrying out a given computational workflow correctly, choosing the next measurements from a given design space, and designing their own experiments.",
+          "sentenceKo": "AI 에이전트는 점점 더 AI 과학자로서의 역할을 수행할 것으로 기대되며, 이를 위해서는 주어진 계산 워크플로를 올바르게 실행하는 것, 주어진 설계 공간에서 다음 측정값을 선택하는 것, 그리고 자체 실험을 설계하는 세 가지 점진적으로 개방된 능력이 요구된다."
+        },
+        {
+          "word": "self-designed",
+          "ko": "자체 설계된",
+          "sentence": "We introduce TwinLab-Bench, which evaluates AI scientists on self-designed experiments in 52 tasks from laboratories in the physical sciences, the life sciences, and engineering.",
+          "sentenceKo": "우리는 물리과학, 생명과학, 공학 분야의 실험실에서 가져온 52개의 태스크에서 AI 과학자의 자체 설계 실험 능력을 평가하는 TwinLab-Bench를 소개한다."
+        },
+        {
+          "word": "scientists",
+          "ko": "과학자들",
+          "sentence": "AI agents are increasingly expected to act as AI scientists, which requires three increasingly open abilities: carrying out a given computational workflow correctly, choosing the next measurements from a given design space, and designing their own experiments.",
+          "sentenceKo": "AI 에이전트는 점점 더 AI 과학자로서의 역할을 수행할 것으로 기대되며, 이를 위해서는 주어진 계산 워크플로를 올바르게 실행하는 것, 주어진 설계 공간에서 다음 측정값을 선택하는 것, 그리고 자체 실험을 설계하는 세 가지 점진적으로 개방된 능력이 요구된다."
+        },
+        {
+          "word": "measurements",
+          "ko": "측정값",
+          "sentence": "AI agents are increasingly expected to act as AI scientists, which requires three increasingly open abilities: carrying out a given computational workflow correctly, choosing the next measurements from a given design space, and designing their own experiments.",
+          "sentenceKo": "AI 에이전트는 점점 더 AI 과학자로서의 역할을 수행할 것으로 기대되며, 이를 위해서는 주어진 계산 워크플로를 올바르게 실행하는 것, 주어진 설계 공간에서 다음 측정값을 선택하는 것, 그리고 자체 실험을 설계하는 세 가지 점진적으로 개방된 능력이 요구된다."
+        },
+        {
+          "word": "inconsistent",
+          "ko": "일관성 없는",
+          "sentence": "Compared with a language model that sees only the task description, the TwinLab agent almost eliminates readings that deviate from the real records and inconsistent answers to a repeated request, and closed-book probes control for answers recalled from memory.",
+          "sentenceKo": "태스크 설명만 접하는 언어 모델과 비교할 때, TwinLab 에이전트는 실제 기록에서 벗어난 측정값과 반복된 요청에 대한 일관성 없는 답변을 거의 없애주며, 닫힌 책(closed-book) 방식의 프로브를 통해 기억으로부터의 단순 회답을 통제한다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2611.26248",
+        "arxiv": "https://arxiv.org/abs/2611.26248",
+        "pdf": "https://arxiv.org/pdf/2611.26248",
+        "github": "https://github.com/ZJUSCL/TwinLab-Bench"
+      },
+      "githubStars": 3,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-20T19:29:13.158Z",
+      "citations": {
+        "count": null,
+        "source": null
+      }
+    },
     {
       "id": "2611.18359",
       "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
@@ -30,7 +202,7 @@
         "Tao Yu"
       ],
       "publishedAt": "2026-11-13T00:00:00.000Z",
-      "upvotes": 134,
+      "upvotes": 136,
       "keywords": [
         "agentic robotics",
         "foundation model",
@@ -1063,7 +1235,7 @@
         "Sergios Gatidis"
       ],
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "upvotes": 9,
+      "upvotes": 10,
       "keywords": [
         "foundation models",
         "latent embeddings",
@@ -1271,7 +1443,7 @@
         "pdf": "https://arxiv.org/pdf/2611.08922",
         "github": null
       },
-      "githubStars": 14,
+      "githubStars": 15,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-09T21:48:58.600Z",
       "citations": {
