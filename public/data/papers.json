@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T19:49:32.353Z",
+  "updatedAt": "2026-11-20T06:38:28.467Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -30,7 +30,7 @@
         "Tao Yu"
       ],
       "publishedAt": "2026-11-13T00:00:00.000Z",
-      "upvotes": 130,
+      "upvotes": 134,
       "keywords": [
         "agentic robotics",
         "foundation model",
@@ -1063,7 +1063,7 @@
         "Sergios Gatidis"
       ],
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "upvotes": 6,
+      "upvotes": 9,
       "keywords": [
         "foundation models",
         "latent embeddings",
@@ -8072,7 +8072,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 192,
+      "githubStars": 193,
       "translatedBy": "gemini",
       "citations": {
         "count": 2,
