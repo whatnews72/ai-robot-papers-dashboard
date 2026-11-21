@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T06:30:34.363Z",
+  "updatedAt": "2026-11-21T18:32:22.191Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -175,12 +175,12 @@
         "pdf": "https://arxiv.org/pdf/2611.26248",
         "github": "https://github.com/ZJUSCL/TwinLab-Bench"
       },
-      "githubStars": 4,
+      "githubStars": 6,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-20T19:29:13.158Z",
       "citations": {
-        "count": null,
-        "source": null
+        "count": 0,
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -391,7 +391,7 @@
       "collectedAt": "2026-11-16T05:45:36.462Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -563,12 +563,12 @@
         "pdf": "https://arxiv.org/pdf/2611.12184",
         "github": "https://github.com/zou-group/BVSR"
       },
-      "githubStars": 11,
+      "githubStars": 12,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-11T19:06:15.853Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -743,7 +743,7 @@
       "collectedAt": "2026-11-11T19:06:15.853Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -952,7 +952,7 @@
       "collectedAt": "2026-11-11T19:06:15.853Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -1204,7 +1204,7 @@
       "collectedAt": "2026-11-10T19:10:09.558Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -1448,7 +1448,7 @@
       "collectedAt": "2026-11-09T21:48:58.600Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -1628,7 +1628,7 @@
       "collectedAt": "2026-11-06T18:44:38.766Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -1825,8 +1825,8 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-05T19:19:31.559Z",
       "citations": {
-        "count": 0,
-        "source": "OpenAlex"
+        "count": 1,
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -2013,7 +2013,7 @@
       "collectedAt": "2026-11-04T19:12:40.058Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -2211,8 +2211,8 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-04T05:41:19.738Z",
       "citations": {
-        "count": 0,
-        "source": "OpenAlex"
+        "count": 1,
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -2390,7 +2390,7 @@
       "collectedAt": "2026-11-04T05:41:19.738Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -2586,7 +2586,7 @@
       "collectedAt": "2026-11-02T21:14:49.554Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -2813,7 +2813,7 @@
       "collectedAt": "2026-11-02T21:14:49.554Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -3026,7 +3026,7 @@
       "collectedAt": "2026-11-02T05:23:15.084Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -3248,8 +3248,8 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-01T05:24:05.713Z",
       "citations": {
-        "count": 0,
-        "source": "OpenAlex"
+        "count": 1,
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -3452,7 +3452,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -3650,7 +3650,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -3844,7 +3844,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -4063,7 +4063,7 @@
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
         "count": 1,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -4237,8 +4237,8 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
-        "count": 1,
-        "source": "OpenAlex"
+        "count": 2,
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -4449,8 +4449,8 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
-        "count": 6,
-        "source": "OpenAlex"
+        "count": 5,
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -4698,8 +4698,8 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
-        "count": 1,
-        "source": "OpenAlex"
+        "count": 2,
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -4880,7 +4880,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -5073,7 +5073,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -5254,8 +5254,8 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
-        "count": 0,
-        "source": "OpenAlex"
+        "count": 1,
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -5438,7 +5438,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -5619,7 +5619,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -5814,7 +5814,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -5995,7 +5995,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -6187,8 +6187,8 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
-        "count": 1,
-        "source": "OpenAlex"
+        "count": 2,
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -6578,7 +6578,7 @@
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -6793,7 +6793,7 @@
       "collectedAt": "2026-10-27T14:45:38.679Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -6990,7 +6990,7 @@
       "collectedAt": "2026-10-27T14:45:38.679Z",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       }
     },
     {
@@ -7195,8 +7195,8 @@
       "githubStars": null,
       "translatedBy": "gemini",
       "citations": {
-        "count": 2,
-        "source": "OpenAlex"
+        "count": 1,
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-27T04:28:31.378Z"
     },
@@ -7390,8 +7390,8 @@
       "githubStars": null,
       "translatedBy": "gemini",
       "citations": {
-        "count": 1,
-        "source": "OpenAlex"
+        "count": 2,
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-26T04:08:48.950Z"
     },
@@ -7584,7 +7584,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -7859,7 +7859,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 1,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -8038,7 +8038,7 @@
       "translatedBy": "gemini",
       "citations": {
         "count": 0,
-        "source": "OpenAlex"
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -8244,11 +8244,11 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 195,
+      "githubStars": 196,
       "translatedBy": "gemini",
       "citations": {
-        "count": 4,
-        "source": "OpenAlex"
+        "count": 2,
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     },
@@ -8456,8 +8456,8 @@
       "githubStars": null,
       "translatedBy": "gemini",
       "citations": {
-        "count": 4,
-        "source": "OpenAlex"
+        "count": 5,
+        "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
     }
