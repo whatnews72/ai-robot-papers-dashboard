@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T05:58:50.682Z",
+  "updatedAt": "2026-11-22T18:54:22.818Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -19,7 +19,7 @@
         "Linchao Zhu"
       ],
       "publishedAt": "2026-11-19T00:00:00.000Z",
-      "upvotes": 5,
+      "upvotes": 7,
       "keywords": [],
       "categories": [
         "LLM 에이전트",
@@ -563,7 +563,7 @@
         "pdf": "https://arxiv.org/pdf/2611.12184",
         "github": "https://github.com/zou-group/BVSR"
       },
-      "githubStars": 12,
+      "githubStars": 13,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-11T19:06:15.853Z",
       "citations": {
@@ -1443,7 +1443,7 @@
         "pdf": "https://arxiv.org/pdf/2611.08922",
         "github": null
       },
-      "githubStars": 15,
+      "githubStars": 16,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-09T21:48:58.600Z",
       "citations": {
@@ -7855,7 +7855,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28578",
         "github": "https://github.com/InternScience/Agents-A1"
       },
-      "githubStars": 608,
+      "githubStars": 609,
       "translatedBy": "gemini",
       "citations": {
         "count": 1,
@@ -8244,7 +8244,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 197,
+      "githubStars": 201,
       "translatedBy": "gemini",
       "citations": {
         "count": 2,
