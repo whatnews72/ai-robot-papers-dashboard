@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T06:51:07.451Z",
+  "updatedAt": "2026-11-23T23:11:10.471Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -202,7 +202,7 @@
         "Tao Yu"
       ],
       "publishedAt": "2026-11-13T00:00:00.000Z",
-      "upvotes": 139,
+      "upvotes": 141,
       "keywords": [
         "agentic robotics",
         "foundation model",
@@ -1443,7 +1443,7 @@
         "pdf": "https://arxiv.org/pdf/2611.08922",
         "github": null
       },
-      "githubStars": 16,
+      "githubStars": 28,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-09T21:48:58.600Z",
       "citations": {
@@ -8244,7 +8244,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 202,
+      "githubStars": 204,
       "translatedBy": "gemini",
       "citations": {
         "count": 2,
