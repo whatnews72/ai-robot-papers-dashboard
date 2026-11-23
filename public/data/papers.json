@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T18:54:22.818Z",
+  "updatedAt": "2026-11-23T06:51:07.451Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -202,7 +202,7 @@
         "Tao Yu"
       ],
       "publishedAt": "2026-11-13T00:00:00.000Z",
-      "upvotes": 136,
+      "upvotes": 139,
       "keywords": [
         "agentic robotics",
         "foundation model",
@@ -7409,7 +7409,7 @@
         "Shiyu Chang"
       ],
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "upvotes": 18,
+      "upvotes": 19,
       "keywords": [],
       "categories": [
         "AI 과학자"
@@ -7693,7 +7693,7 @@
         "Bo Zhang"
       ],
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "upvotes": 71,
+      "upvotes": 72,
       "keywords": [
         "Mixture-of-Experts",
         "agentic model",
@@ -8244,7 +8244,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 201,
+      "githubStars": 202,
       "translatedBy": "gemini",
       "citations": {
         "count": 2,
