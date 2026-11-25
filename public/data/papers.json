@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T07:52:39.231Z",
+  "updatedAt": "2026-11-25T20:55:52.295Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -175,7 +175,7 @@
         "pdf": "https://arxiv.org/pdf/2611.26248",
         "github": "https://github.com/ZJUSCL/TwinLab-Bench"
       },
-      "githubStars": 7,
+      "githubStars": 8,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-20T19:29:13.158Z",
       "citations": {
@@ -202,7 +202,7 @@
         "Tao Yu"
       ],
       "publishedAt": "2026-11-13T00:00:00.000Z",
-      "upvotes": 142,
+      "upvotes": 143,
       "keywords": [
         "agentic robotics",
         "foundation model",
@@ -1235,7 +1235,7 @@
         "Sergios Gatidis"
       ],
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "upvotes": 10,
+      "upvotes": 11,
       "keywords": [
         "foundation models",
         "latent embeddings",
@@ -4698,7 +4698,7 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-11-01T03:54:13.141Z",
       "citations": {
-        "count": 2,
+        "count": 3,
         "source": "Semantic Scholar"
       }
     },
@@ -8247,7 +8247,7 @@
       "githubStars": 207,
       "translatedBy": "gemini",
       "citations": {
-        "count": 3,
+        "count": 4,
         "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
