@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T20:55:52.295Z",
+  "updatedAt": "2026-11-26T07:43:11.320Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -202,7 +202,7 @@
         "Tao Yu"
       ],
       "publishedAt": "2026-11-13T00:00:00.000Z",
-      "upvotes": 143,
+      "upvotes": 145,
       "keywords": [
         "agentic robotics",
         "foundation model",
@@ -1443,7 +1443,7 @@
         "pdf": "https://arxiv.org/pdf/2611.08922",
         "github": null
       },
-      "githubStars": 32,
+      "githubStars": 34,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-09T21:48:58.600Z",
       "citations": {
