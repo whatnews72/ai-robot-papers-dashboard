@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T07:43:11.320Z",
+  "updatedAt": "2026-11-26T20:46:42.366Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -11,6 +11,197 @@
     "automated scientific experiment robotics"
   ],
   "papers": [
+    {
+      "id": "2611.28244",
+      "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+      "authors": [
+        "Kelvin Kiu-Wai Tam",
+        "Newt Hue-Nam K. Nguyen",
+        "Tianshi Zheng",
+        "Yunxiang Mo",
+        "Weihan Li",
+        "Zhongwei Xie",
+        "Chiu Yeung Tang",
+        "Jui-Yu Ho",
+        "Yangqiu Song",
+        "Ginny Y. Wong",
+        "Simon See"
+      ],
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "upvotes": 5,
+      "keywords": [
+        "autoresearch agents",
+        "harness design",
+        "long-horizon self-evolving agents",
+        "context management",
+        "skill management",
+        "recency-truncation baseline",
+        "context folding",
+        "skill deletion",
+        "rolling summary",
+        "standing rules"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "aiSummary": {
+        "en": "A systematic study of harness design for long-horizon self-evolving autoresearch agents finds that context folding and selective skill deletion improve performance, enabling MLEvolver to achieve strong results on MLE-Bench Lite and KernelBench Level 3.",
+        "ko": "장기 자기 진화형 자동 연구 에이전트를 위한 하네스 설계에 대한 체계적인 연구를 통해, 문맥 폴딩과 선택적 기술 삭제가 성능을 향상시키며, 이를 통해 MLEvolver가 MLE-Bench Lite와 KernelBench Level 3에서 뛰어난 결과를 달성할 수 있음을 밝혔습니다."
+      },
+      "abstract": {
+        "en": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research. However, existing agents rely on harnesses that combine multiple mechanisms, making it difficult to determine how individual components contribute to performance. We systematically study harness design for long-horizon, self-evolving autoresearch agents along two dimensions: context management, which determines what an agent retains from its past attempts, and skill management, which governs how it stores and reuses lessons from those attempts. Across MLE-Bench and KernelBench with gpt-oss-120b, gpt-6-luna, and gpt-6-sol, we isolate the effects of individual harness design choices by evaluating each against a recency-truncation baseline within a shared agent framework. For context management, we find that preserving individually accessible records of past attempts is more effective than maintaining a rolling summary, with context folding performing best across all six settings and improving upon the baseline by up to 19.2%. For skill management, selectively discarding persistently unused lessons is more effective on average than consolidating them or promoting them to standing rules. Building on these findings, we combine context folding and skill deletion in MLEvolver, which achieves a 72.7% medal rate on MLE-Bench Lite and a 94% fast_1 score on KernelBench Level 3, substantially outperforming AIDE and OpenEvolve under the same inference budget. Overall, our study distills design principles for preserving experimental history and curating reusable lessons in autoresearch harnesses, paving the way for agents that turn accumulated experience into sustained progress.",
+        "ko": "실험을 자율적으로 설계, 실행, 개선하는 자동 연구 에이전트(autoresearch agent)는 특히 AI 연구 분야에서 과학적 진보를 가속화하고 있습니다. 그러나 기존 에이전트는 여러 메커니즘을 결합한 하네스(harness)에 의존하므로, 개별 구성 요소가 성능에 미치는 기여도를 파악하기 어렵습니다. 본 연구에서는 장기적이고 자기 진화하는 자동 연구 에이전트를 위한 하네스 설계를 두 가지 차원, 즉 에이전트가 과거 시도에서 유지하는 내용을 결정하는 '문맥 관리(context management)'와 그러한 시도에서 얻은 교훈을 저장하고 재사용하는 방법을 제어하는 '기술 관리(skill management)'를 중심으로 체계적으로 연구합니다. gpt-oss-120b, gpt-6-luna, gpt-6-sol을 사용한 MLE-Bench 및 KernelBench 실험에서, 공통된 에이전트 프레임워크 내에서 각 요소를 최신순 절단 기준선(recency-truncation baseline)과 비교하여 개별 하네스 설계 선택의 효과를 분리하여 평가합니다. 문맥 관리와 관련하여, 과거 시도의 개별 접근 가능한 기록을 보존하는 것이 누적 요약(rolling summary)을 유지하는 것보다 더 효과적이며, '문맥 폴딩(context folding)'이 6가지 설정 모두에서 가장 우수한 성능을 보이며 기준선 대비 최대 19.2% 향상되었습니다. 기술 관리와 관련하여, 지속적으로 사용되지 않는 교훈을 선택적으로 폐기하는 것이 이를 통합하거나 상시 규칙으로 승격시키는 것보다 평균적으로 더 효과적입니다. 이러한 발견을 바탕으로, 우리는 문맥 폴딩과 기술 삭제(skill deletion)를 결합한 MLEvolver를 개발했으며, 이는 동일한 추론 예산 하에서 AIDE와 OpenEvolve를 크게 능가하여 MLE-Bench Lite에서 72.7%의 메달 획득률과 KernelBench Level 3에서 94%의 fast_1 점수를 달성했습니다. 종합적으로, 본 연구는 자동 연구 하네스에서 실험 이력을 보존하고 재사용 가능한 교훈을 선별하기 위한 설계 원칙을 도출하여, 축적된 경험을 지속적인 발전으로 전환하는 에이전트의 기반을 마련합니다."
+      },
+      "sentences": [
+        {
+          "en": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research.",
+          "ko": "실험을 자율적으로 설계, 실행, 개선하는 자동 연구 에이전트(autoresearch agent)는 특히 AI 연구 분야에서 과학적 진보를 가속화하고 있습니다."
+        },
+        {
+          "en": "However, existing agents rely on harnesses that combine multiple mechanisms, making it difficult to determine how individual components contribute to performance.",
+          "ko": "그러나 기존 에이전트는 여러 메커니즘을 결합한 하네스(harness)에 의존하므로, 개별 구성 요소가 성능에 미치는 기여도를 파악하기 어렵습니다."
+        },
+        {
+          "en": "We systematically study harness design for long-horizon, self-evolving autoresearch agents along two dimensions: context management, which determines what an agent retains from its past attempts, and skill management, which governs how it stores and reuses lessons from those attempts.",
+          "ko": "본 연구에서는 장기적이고 자기 진화하는 자동 연구 에이전트를 위한 하네스 설계를 두 가지 차원, 즉 에이전트가 과거 시도에서 유지하는 내용을 결정하는 '문맥 관리(context management)'와 그러한 시도에서 얻은 교훈을 저장하고 재사용하는 방법을 제어하는 '기술 관리(skill management)'를 중심으로 체계적으로 연구합니다."
+        },
+        {
+          "en": "Across MLE-Bench and KernelBench with gpt-oss-120b, gpt-6-luna, and gpt-6-sol, we isolate the effects of individual harness design choices by evaluating each against a recency-truncation baseline within a shared agent framework.",
+          "ko": "gpt-oss-120b, gpt-6-luna, gpt-6-sol을 사용한 MLE-Bench 및 KernelBench 실험에서, 공통된 에이전트 프레임워크 내에서 각 요소를 최신순 절단 기준선(recency-truncation baseline)과 비교하여 개별 하네스 설계 선택의 효과를 분리하여 평가합니다."
+        },
+        {
+          "en": "For context management, we find that preserving individually accessible records of past attempts is more effective than maintaining a rolling summary, with context folding performing best across all six settings and improving upon the baseline by up to 19.2%.",
+          "ko": "문맥 관리와 관련하여, 과거 시도의 개별 접근 가능한 기록을 보존하는 것이 누적 요약(rolling summary)을 유지하는 것보다 더 효과적이며, '문맥 폴딩(context folding)'이 6가지 설정 모두에서 가장 우수한 성능을 보이며 기준선 대비 최대 19.2% 향상되었습니다."
+        },
+        {
+          "en": "For skill management, selectively discarding persistently unused lessons is more effective on average than consolidating them or promoting them to standing rules.",
+          "ko": "기술 관리와 관련하여, 지속적으로 사용되지 않는 교훈을 선택적으로 폐기하는 것이 이를 통합하거나 상시 규칙으로 승격시키는 것보다 평균적으로 더 효과적입니다."
+        },
+        {
+          "en": "Building on these findings, we combine context folding and skill deletion in MLEvolver, which achieves a 72.7% medal rate on MLE-Bench Lite and a 94% fast_1 score on KernelBench Level 3, substantially outperforming AIDE and OpenEvolve under the same inference budget.",
+          "ko": "이러한 발견을 바탕으로, 우리는 문맥 폴딩과 기술 삭제(skill deletion)를 결합한 MLEvolver를 개발했으며, 이는 동일한 추론 예산 하에서 AIDE와 OpenEvolve를 크게 능가하여 MLE-Bench Lite에서 72.7%의 메달 획득률과 KernelBench Level 3에서 94%의 fast_1 점수를 달성했습니다."
+        },
+        {
+          "en": "Overall, our study distills design principles for preserving experimental history and curating reusable lessons in autoresearch harnesses, paving the way for agents that turn accumulated experience into sustained progress.",
+          "ko": "종합적으로, 본 연구는 자동 연구 하네스에서 실험 이력을 보존하고 재사용 가능한 교훈을 선별하기 위한 설계 원칙을 도출하여, 축적된 경험을 지속적인 발전으로 전환하는 에이전트의 기반을 마련합니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research.",
+            "ko": "실험을 자율적으로 설계, 실행, 개선하는 자동 연구 에이전트(autoresearch agent)는 특히 AI 연구 분야에서 과학적 진보를 가속화하고 있습니다."
+          },
+          {
+            "en": "However, existing agents rely on harnesses that combine multiple mechanisms, making it difficult to determine how individual components contribute to performance.",
+            "ko": "그러나 기존 에이전트는 여러 메커니즘을 결합한 하네스(harness)에 의존하므로, 개별 구성 요소가 성능에 미치는 기여도를 파악하기 어렵습니다."
+          },
+          {
+            "en": "We systematically study harness design for long-horizon, self-evolving autoresearch agents along two dimensions: context management, which determines what an agent retains from its past attempts, and skill management, which governs how it stores and reuses lessons from those attempts.",
+            "ko": "본 연구에서는 장기적이고 자기 진화하는 자동 연구 에이전트를 위한 하네스 설계를 두 가지 차원, 즉 에이전트가 과거 시도에서 유지하는 내용을 결정하는 '문맥 관리(context management)'와 그러한 시도에서 얻은 교훈을 저장하고 재사용하는 방법을 제어하는 '기술 관리(skill management)'를 중심으로 체계적으로 연구합니다."
+          },
+          {
+            "en": "For skill management, selectively discarding persistently unused lessons is more effective on average than consolidating them or promoting them to standing rules.",
+            "ko": "기술 관리와 관련하여, 지속적으로 사용되지 않는 교훈을 선택적으로 폐기하는 것이 이를 통합하거나 상시 규칙으로 승격시키는 것보다 평균적으로 더 효과적입니다."
+          },
+          {
+            "en": "Overall, our study distills design principles for preserving experimental history and curating reusable lessons in autoresearch harnesses, paving the way for agents that turn accumulated experience into sustained progress.",
+            "ko": "종합적으로, 본 연구는 자동 연구 하네스에서 실험 이력을 보존하고 재사용 가능한 교훈을 선별하기 위한 설계 원칙을 도출하여, 축적된 경험을 지속적인 발전으로 전환하는 에이전트의 기반을 마련합니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "Across MLE-Bench and KernelBench with gpt-oss-120b, gpt-6-luna, and gpt-6-sol, we isolate the effects of individual harness design choices by evaluating each against a recency-truncation baseline within a shared agent framework.",
+            "ko": "gpt-oss-120b, gpt-6-luna, gpt-6-sol을 사용한 MLE-Bench 및 KernelBench 실험에서, 공통된 에이전트 프레임워크 내에서 각 요소를 최신순 절단 기준선(recency-truncation baseline)과 비교하여 개별 하네스 설계 선택의 효과를 분리하여 평가합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "For context management, we find that preserving individually accessible records of past attempts is more effective than maintaining a rolling summary, with context folding performing best across all six settings and improving upon the baseline by up to 19.2%.",
+            "ko": "문맥 관리와 관련하여, 과거 시도의 개별 접근 가능한 기록을 보존하는 것이 누적 요약(rolling summary)을 유지하는 것보다 더 효과적이며, '문맥 폴딩(context folding)'이 6가지 설정 모두에서 가장 우수한 성능을 보이며 기준선 대비 최대 19.2% 향상되었습니다."
+          },
+          {
+            "en": "Building on these findings, we combine context folding and skill deletion in MLEvolver, which achieves a 72.7% medal rate on MLE-Bench Lite and a 94% fast_1 score on KernelBench Level 3, substantially outperforming AIDE and OpenEvolve under the same inference budget.",
+            "ko": "이러한 발견을 바탕으로, 우리는 문맥 폴딩과 기술 삭제(skill deletion)를 결합한 MLEvolver를 개발했으며, 이는 동일한 추론 예산 하에서 AIDE와 OpenEvolve를 크게 능가하여 MLE-Bench Lite에서 72.7%의 메달 획득률과 KernelBench Level 3에서 94%의 fast_1 점수를 달성했습니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "management",
+          "ko": "관리",
+          "sentence": "We systematically study harness design for long-horizon, self-evolving autoresearch agents along two dimensions: context management, which determines what an agent retains from its past attempts, and skill management, which governs how it stores and reuses lessons from those attempts.",
+          "sentenceKo": "본 연구에서는 장기적이고 자기 진화하는 자동 연구 에이전트를 위한 하네스 설계를 두 가지 차원, 즉 에이전트가 과거 시도에서 유지하는 내용을 결정하는 '문맥 관리(context management)'와 그러한 시도에서 얻은 교훈을 저장하고 재사용하는 방법을 제어하는 '기술 관리(skill management)'를 중심으로 체계적으로 연구합니다."
+        },
+        {
+          "word": "autoresearch",
+          "ko": "자동 연구",
+          "sentence": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research.",
+          "sentenceKo": "실험을 자율적으로 설계, 실행, 개선하는 자동 연구 에이전트(autoresearch agent)는 특히 AI 연구 분야에서 과학적 진보를 가속화하고 있습니다."
+        },
+        {
+          "word": "context",
+          "ko": "문맥",
+          "sentence": "We systematically study harness design for long-horizon, self-evolving autoresearch agents along two dimensions: context management, which determines what an agent retains from its past attempts, and skill management, which governs how it stores and reuses lessons from those attempts.",
+          "sentenceKo": "본 연구에서는 장기적이고 자기 진화하는 자동 연구 에이전트를 위한 하네스 설계를 두 가지 차원, 즉 에이전트가 과거 시도에서 유지하는 내용을 결정하는 '문맥 관리(context management)'와 그러한 시도에서 얻은 교훈을 저장하고 재사용하는 방법을 제어하는 '기술 관리(skill management)'를 중심으로 체계적으로 연구합니다."
+        },
+        {
+          "word": "agents",
+          "ko": "에이전트",
+          "sentence": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research.",
+          "sentenceKo": "실험을 자율적으로 설계, 실행, 개선하는 자동 연구 에이전트(autoresearch agent)는 특히 AI 연구 분야에서 과학적 진보를 가속화하고 있습니다."
+        },
+        {
+          "word": "design",
+          "ko": "설계",
+          "sentence": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research.",
+          "sentenceKo": "실험을 자율적으로 설계, 실행, 개선하는 자동 연구 에이전트(autoresearch agent)는 특히 AI 연구 분야에서 과학적 진보를 가속화하고 있습니다."
+        },
+        {
+          "word": "inference",
+          "ko": "추론",
+          "sentence": "Building on these findings, we combine context folding and skill deletion in MLEvolver, which achieves a 72.7% medal rate on MLE-Bench Lite and a 94% fast_1 score on KernelBench Level 3, substantially outperforming AIDE and OpenEvolve under the same inference budget.",
+          "sentenceKo": "이러한 발견을 바탕으로, 우리는 문맥 폴딩과 기술 삭제(skill deletion)를 결합한 MLEvolver를 개발했으며, 이는 동일한 추론 예산 하에서 AIDE와 OpenEvolve를 크게 능가하여 MLE-Bench Lite에서 72.7%의 메달 획득률과 KernelBench Level 3에서 94%의 fast_1 점수를 달성했습니다."
+        },
+        {
+          "word": "deletion",
+          "ko": "삭제",
+          "sentence": "Building on these findings, we combine context folding and skill deletion in MLEvolver, which achieves a 72.7% medal rate on MLE-Bench Lite and a 94% fast_1 score on KernelBench Level 3, substantially outperforming AIDE and OpenEvolve under the same inference budget.",
+          "sentenceKo": "이러한 발견을 바탕으로, 우리는 문맥 폴딩과 기술 삭제(skill deletion)를 결합한 MLEvolver를 개발했으며, 이는 동일한 추론 예산 하에서 AIDE와 OpenEvolve를 크게 능가하여 MLE-Bench Lite에서 72.7%의 메달 획득률과 KernelBench Level 3에서 94%의 fast_1 점수를 달성했습니다."
+        },
+        {
+          "word": "recency-truncation",
+          "ko": "최신순 절단",
+          "sentence": "Across MLE-Bench and KernelBench with gpt-oss-120b, gpt-6-luna, and gpt-6-sol, we isolate the effects of individual harness design choices by evaluating each against a recency-truncation baseline within a shared agent framework.",
+          "sentenceKo": "gpt-oss-120b, gpt-6-luna, gpt-6-sol을 사용한 MLE-Bench 및 KernelBench 실험에서, 공통된 에이전트 프레임워크 내에서 각 요소를 최신순 절단 기준선(recency-truncation baseline)과 비교하여 개별 하네스 설계 선택의 효과를 분리하여 평가합니다."
+        },
+        {
+          "word": "baseline",
+          "ko": "기준선",
+          "sentence": "Across MLE-Bench and KernelBench with gpt-oss-120b, gpt-6-luna, and gpt-6-sol, we isolate the effects of individual harness design choices by evaluating each against a recency-truncation baseline within a shared agent framework.",
+          "sentenceKo": "gpt-oss-120b, gpt-6-luna, gpt-6-sol을 사용한 MLE-Bench 및 KernelBench 실험에서, 공통된 에이전트 프레임워크 내에서 각 요소를 최신순 절단 기준선(recency-truncation baseline)과 비교하여 개별 하네스 설계 선택의 효과를 분리하여 평가합니다."
+        },
+        {
+          "word": "harness",
+          "ko": "하네스",
+          "sentence": "We systematically study harness design for long-horizon, self-evolving autoresearch agents along two dimensions: context management, which determines what an agent retains from its past attempts, and skill management, which governs how it stores and reuses lessons from those attempts.",
+          "sentenceKo": "본 연구에서는 장기적이고 자기 진화하는 자동 연구 에이전트를 위한 하네스 설계를 두 가지 차원, 즉 에이전트가 과거 시도에서 유지하는 내용을 결정하는 '문맥 관리(context management)'와 그러한 시도에서 얻은 교훈을 저장하고 재사용하는 방법을 제어하는 '기술 관리(skill management)'를 중심으로 체계적으로 연구합니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2611.28244",
+        "arxiv": "https://arxiv.org/abs/2611.28244",
+        "pdf": "https://arxiv.org/pdf/2611.28244",
+        "github": null
+      },
+      "githubStars": null,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-26T20:46:42.366Z",
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
     {
       "id": "2611.26248",
       "title": "TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs",
@@ -1443,7 +1634,7 @@
         "pdf": "https://arxiv.org/pdf/2611.08922",
         "github": null
       },
-      "githubStars": 34,
+      "githubStars": 35,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-09T21:48:58.600Z",
       "citations": {
@@ -6187,7 +6378,7 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-10-29T20:30:04.733Z",
       "citations": {
-        "count": 3,
+        "count": 4,
         "source": "Semantic Scholar"
       }
     },
@@ -6989,7 +7180,7 @@
       "translatedBy": "gemini",
       "collectedAt": "2026-10-27T14:45:38.679Z",
       "citations": {
-        "count": 0,
+        "count": 2,
         "source": "Semantic Scholar"
       }
     },
@@ -8244,10 +8435,10 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 207,
+      "githubStars": 208,
       "translatedBy": "gemini",
       "citations": {
-        "count": 4,
+        "count": 5,
         "source": "Semantic Scholar"
       },
       "collectedAt": "2026-10-24T21:17:00.121Z"
