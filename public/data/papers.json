@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T20:46:42.366Z",
+  "updatedAt": "2026-11-27T07:41:50.638Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -11,6 +11,397 @@
     "automated scientific experiment robotics"
   ],
   "papers": [
+    {
+      "id": "2611.34852",
+      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+      "authors": [
+        "Han Huang",
+        "Yuchen Yan",
+        "Xingyu Wu",
+        "Yijun Li",
+        "Chao Deng",
+        "Jie Liu",
+        "Jin Ma",
+        "Yongliang Shen"
+      ],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "upvotes": 15,
+      "keywords": [],
+      "categories": [
+        "AI 과학자",
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "",
+        "ko": ""
+      },
+      "abstract": {
+        "en": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores them. We introduce DRBench Pro, a benchmark that makes structured knowledge coverage the primary evaluation target. Our automated pipeline builds local knowledge trees from Wikipedia and uses sampled subgraphs to generate research queries and evidence-grounded rubrics. Each rubric corresponds to a relation in the tree, preserving the structure of the knowledge being evaluated. Agents receive only the research query. This structure allows us to measure breadth across major research directions and depth along related knowledge chains, with their geometric mean giving overall coverage. The benchmark includes 144 cases across 24 domains and 44,102 rubrics. Evaluating 16 deep research agents reveals different strengths in breadth and depth, with the best-performing agent reaching 57.04% overall coverage. Rubric judgments agree closely with human annotations, and agent rankings remain stable across the tested metric configurations.",
+        "ko": "심층 연구 에이전트는 여러 출처에서 정보를 수집하여 복잡하고 개방형 질문에 대한 보고서로 종합합니다. 기존 벤치마크는 여러 차원에서 보고서의 품질을 평가하지만, 보고서가 어떤 연구 방향을 다루고 얼마나 깊이 탐구하는지에 대한 전용 지식 중심 평가가 부족합니다. 저희는 구조화된 지식 커버리지를 주요 평가 목표로 하는 벤치마크인 DRBench Pro를 소개합니다. 당사의 자동화된 파이프라인은 위키백과에서 로컬 지식 트리를 구축하고 샘플링된 서브그래프를 사용하여 연구 쿼리와 근거 기반 평가 기준(rubric)을 생성합니다. 각 평가는 트리의 관계에 해당하며, 평가되는 지식의 구조를 보존합니다. 에이전트는 연구 쿼리만 받습니다. 이 구조를 통해 주요 연구 방향에 걸친 폭과 관련 지식 체인을 따라가는 깊이를 측정할 수 있으며, 그 기하평균이 전체 커버리지를 나타냅니다. 이 벤치마크는 24개 도메인에 걸친 144개의 케이스와 44,102개의 평가 기준으로 구성됩니다. 16개의 심층 연구 에이전트를 평가한 결과 폭과 깊이에서 서로 다른 강점이 드러났으며, 가장 우수한 성능을 보인 에이전트는 57.04%의 전체 커버리지를 달성했습니다. 평가 기준에 따른 판정은 인간의 주석과 긴밀하게 일치하며, 에이전트 순위는 테스트된 지표 구성 전반에 걸쳐 안정적으로 유지됩니다."
+      },
+      "sentences": [
+        {
+          "en": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions.",
+          "ko": "심층 연구 에이전트는 여러 출처에서 정보를 수집하여 복잡하고 개방형 질문에 대한 보고서로 종합합니다."
+        },
+        {
+          "en": "Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores them.",
+          "ko": "기존 벤치마크는 여러 차원에서 보고서의 품질을 평가하지만, 보고서가 어떤 연구 방향을 다루고 얼마나 깊이 탐구하는지에 대한 전용 지식 중심 평가가 부족합니다."
+        },
+        {
+          "en": "We introduce DRBench Pro, a benchmark that makes structured knowledge coverage the primary evaluation target.",
+          "ko": "저희는 구조화된 지식 커버리지를 주요 평가 목표로 하는 벤치마크인 DRBench Pro를 소개합니다."
+        },
+        {
+          "en": "Our automated pipeline builds local knowledge trees from Wikipedia and uses sampled subgraphs to generate research queries and evidence-grounded rubrics.",
+          "ko": "당사의 자동화된 파이프라인은 위키백과에서 로컬 지식 트리를 구축하고 샘플링된 서브그래프를 사용하여 연구 쿼리와 근거 기반 평가 기준(rubric)을 생성합니다."
+        },
+        {
+          "en": "Each rubric corresponds to a relation in the tree, preserving the structure of the knowledge being evaluated.",
+          "ko": "각 평가는 트리의 관계에 해당하며, 평가되는 지식의 구조를 보존합니다."
+        },
+        {
+          "en": "Agents receive only the research query.",
+          "ko": "에이전트는 연구 쿼리만 받습니다."
+        },
+        {
+          "en": "This structure allows us to measure breadth across major research directions and depth along related knowledge chains, with their geometric mean giving overall coverage.",
+          "ko": "이 구조를 통해 주요 연구 방향에 걸친 폭과 관련 지식 체인을 따라가는 깊이를 측정할 수 있으며, 그 기하평균이 전체 커버리지를 나타냅니다."
+        },
+        {
+          "en": "The benchmark includes 144 cases across 24 domains and 44,102 rubrics.",
+          "ko": "이 벤치마크는 24개 도메인에 걸친 144개의 케이스와 44,102개의 평가 기준으로 구성됩니다."
+        },
+        {
+          "en": "Evaluating 16 deep research agents reveals different strengths in breadth and depth, with the best-performing agent reaching 57.04% overall coverage.",
+          "ko": "16개의 심층 연구 에이전트를 평가한 결과 폭과 깊이에서 서로 다른 강점이 드러났으며, 가장 우수한 성능을 보인 에이전트는 57.04%의 전체 커버리지를 달성했습니다."
+        },
+        {
+          "en": "Rubric judgments agree closely with human annotations, and agent rankings remain stable across the tested metric configurations.",
+          "ko": "평가 기준에 따른 판정은 인간의 주석과 긴밀하게 일치하며, 에이전트 순위는 테스트된 지표 구성 전반에 걸쳐 안정적으로 유지됩니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions.",
+            "ko": "심층 연구 에이전트는 여러 출처에서 정보를 수집하여 복잡하고 개방형 질문에 대한 보고서로 종합합니다."
+          },
+          {
+            "en": "Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores them.",
+            "ko": "기존 벤치마크는 여러 차원에서 보고서의 품질을 평가하지만, 보고서가 어떤 연구 방향을 다루고 얼마나 깊이 탐구하는지에 대한 전용 지식 중심 평가가 부족합니다."
+          },
+          {
+            "en": "Each rubric corresponds to a relation in the tree, preserving the structure of the knowledge being evaluated.",
+            "ko": "각 평가는 트리의 관계에 해당하며, 평가되는 지식의 구조를 보존합니다."
+          },
+          {
+            "en": "Agents receive only the research query.",
+            "ko": "에이전트는 연구 쿼리만 받습니다."
+          },
+          {
+            "en": "This structure allows us to measure breadth across major research directions and depth along related knowledge chains, with their geometric mean giving overall coverage.",
+            "ko": "이 구조를 통해 주요 연구 방향에 걸친 폭과 관련 지식 체인을 따라가는 깊이를 측정할 수 있으며, 그 기하평균이 전체 커버리지를 나타냅니다."
+          },
+          {
+            "en": "The benchmark includes 144 cases across 24 domains and 44,102 rubrics.",
+            "ko": "이 벤치마크는 24개 도메인에 걸친 144개의 케이스와 44,102개의 평가 기준으로 구성됩니다."
+          },
+          {
+            "en": "Rubric judgments agree closely with human annotations, and agent rankings remain stable across the tested metric configurations.",
+            "ko": "평가 기준에 따른 판정은 인간의 주석과 긴밀하게 일치하며, 에이전트 순위는 테스트된 지표 구성 전반에 걸쳐 안정적으로 유지됩니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "We introduce DRBench Pro, a benchmark that makes structured knowledge coverage the primary evaluation target.",
+            "ko": "저희는 구조화된 지식 커버리지를 주요 평가 목표로 하는 벤치마크인 DRBench Pro를 소개합니다."
+          },
+          {
+            "en": "Our automated pipeline builds local knowledge trees from Wikipedia and uses sampled subgraphs to generate research queries and evidence-grounded rubrics.",
+            "ko": "당사의 자동화된 파이프라인은 위키백과에서 로컬 지식 트리를 구축하고 샘플링된 서브그래프를 사용하여 연구 쿼리와 근거 기반 평가 기준(rubric)을 생성합니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "Evaluating 16 deep research agents reveals different strengths in breadth and depth, with the best-performing agent reaching 57.04% overall coverage.",
+            "ko": "16개의 심층 연구 에이전트를 평가한 결과 폭과 깊이에서 서로 다른 강점이 드러났으며, 가장 우수한 성능을 보인 에이전트는 57.04%의 전체 커버리지를 달성했습니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "evaluation",
+          "ko": "평가",
+          "sentence": "Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores them.",
+          "sentenceKo": "기존 벤치마크는 여러 차원에서 보고서의 품질을 평가하지만, 보고서가 어떤 연구 방향을 다루고 얼마나 깊이 탐구하는지에 대한 전용 지식 중심 평가가 부족합니다."
+        },
+        {
+          "word": "knowledge",
+          "ko": "지식",
+          "sentence": "We introduce DRBench Pro, a benchmark that makes structured knowledge coverage the primary evaluation target.",
+          "sentenceKo": "저희는 구조화된 지식 커버리지를 주요 평가 목표로 하는 벤치마크인 DRBench Pro를 소개합니다."
+        },
+        {
+          "word": "information",
+          "ko": "정보",
+          "sentence": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions.",
+          "sentenceKo": "심층 연구 에이전트는 여러 출처에서 정보를 수집하여 복잡하고 개방형 질문에 대한 보고서로 종합합니다."
+        },
+        {
+          "word": "synthesize",
+          "ko": "종합하다",
+          "sentence": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions.",
+          "sentenceKo": "심층 연구 에이전트는 여러 출처에서 정보를 수집하여 복잡하고 개방형 질문에 대한 보고서로 종합합니다."
+        },
+        {
+          "word": "evidence-grounded",
+          "ko": "근거 기반의",
+          "sentence": "Our automated pipeline builds local knowledge trees from Wikipedia and uses sampled subgraphs to generate research queries and evidence-grounded rubrics.",
+          "sentenceKo": "당사의 자동화된 파이프라인은 위키백과에서 로컬 지식 트리를 구축하고 샘플링된 서브그래프를 사용하여 연구 쿼리와 근거 기반 평가 기준(rubric)을 생성합니다."
+        },
+        {
+          "word": "best-performing",
+          "ko": "최고 성능의",
+          "sentence": "Evaluating 16 deep research agents reveals different strengths in breadth and depth, with the best-performing agent reaching 57.04% overall coverage.",
+          "sentenceKo": "16개의 심층 연구 에이전트를 평가한 결과 폭과 깊이에서 서로 다른 강점이 드러났으며, 가장 우수한 성능을 보인 에이전트는 57.04%의 전체 커버리지를 달성했습니다."
+        },
+        {
+          "word": "configurations",
+          "ko": "구성",
+          "sentence": "Rubric judgments agree closely with human annotations, and agent rankings remain stable across the tested metric configurations.",
+          "sentenceKo": "평가 기준에 따른 판정은 인간의 주석과 긴밀하게 일치하며, 에이전트 순위는 테스트된 지표 구성 전반에 걸쳐 안정적으로 유지됩니다."
+        },
+        {
+          "word": "directions",
+          "ko": "방향",
+          "sentence": "Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores them.",
+          "sentenceKo": "기존 벤치마크는 여러 차원에서 보고서의 품질을 평가하지만, 보고서가 어떤 연구 방향을 다루고 얼마나 깊이 탐구하는지에 대한 전용 지식 중심 평가가 부족합니다."
+        },
+        {
+          "word": "coverage",
+          "ko": "커버리지",
+          "sentence": "We introduce DRBench Pro, a benchmark that makes structured knowledge coverage the primary evaluation target.",
+          "sentenceKo": "저희는 구조화된 지식 커버리지를 주요 평가 목표로 하는 벤치마크인 DRBench Pro를 소개합니다."
+        },
+        {
+          "word": "benchmark",
+          "ko": "벤치마크",
+          "sentence": "We introduce DRBench Pro, a benchmark that makes structured knowledge coverage the primary evaluation target.",
+          "sentenceKo": "저희는 구조화된 지식 커버리지를 주요 평가 목표로 하는 벤치마크인 DRBench Pro를 소개합니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2611.34852",
+        "arxiv": "https://arxiv.org/abs/2611.34852",
+        "pdf": "https://arxiv.org/pdf/2611.34852",
+        "github": "https://github.com/ZJU-REAL/DRBenchPro"
+      },
+      "githubStars": 19,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-27T07:41:50.638Z",
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
+    {
+      "id": "2611.34646",
+      "title": "REE: A Scientific Research Entrance Exam for AI Agents",
+      "authors": [
+        "Zeqi Zhou",
+        "Minghao Liu",
+        "Jiarui Liu",
+        "Qingcheng Zeng",
+        "Rui Yang",
+        "Tianyu Liu",
+        "Zetao Yang",
+        "Wenqiang Zu",
+        "Enduo Zhao",
+        "Heng-Jui Chang",
+        "Lun-Hsin Kuo",
+        "Meng-Fu Chen",
+        "Haokai Zhao",
+        "Weijia Zhang",
+        "Jen-Tse Huang",
+        "Stephen Huang",
+        "Eli Cheung",
+        "Zhijing Jin",
+        "Mona Diab",
+        "Weihao Xuan"
+      ],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "upvotes": 0,
+      "keywords": [],
+      "categories": [
+        "벤치마크·평가"
+      ],
+      "aiSummary": {
+        "en": "",
+        "ko": ""
+      },
+      "abstract": {
+        "en": "Autonomous research agents are emerging as a promising approach to scientific problem-solving across disciplines, owing to their growing ability to improve a solution through repeated experiments. Evaluating this ability requires benchmarks that pose open-ended research problems and measure improvements over established scientific methods. We introduce REE (Research Entrance Exam), a benchmark that tests AI agents on scientific research. It consists of 100 open-ended research problems spanning five broad scientific areas and 23 domains. To ensure high quality, every problem is drawn from active research in its field and individually reviewed by domain experts. Each problem is posed as a task of iterative improvement: an agent has up to 12 hours to improve a working starter solution, and REE scores the result on a common scale against an established expert solution evaluated under comparable conditions. By this measure, two of the four frontier agents we evaluate, Claude Opus 5.5 and GPT-6.1 Sol, outperform the expert solutions on 86% and 81% of problems, across all five scientific areas. Their runs also show how they do so: both agents surpass the expert solutions within the first two hours on average, and their best solutions mostly tailor or combine established methods of the field. REE thus provides a unified framework for evaluating autonomous scientific research, capturing both improvements over established methods and the research processes behind them.",
+        "ko": "자율 연구 에이전트(autonomous research agents)는 반복적인 실험을 통해 솔루션을 개선하는 능력이 향상됨에 따라, 다양한 학문 분야에서 과학적 문제 해결을 위한 유망한 접근 방식으로 부상하고 있습니다. 이러한 능력을 평가하려면 개방형 연구 문제를 제시하고 기존 과학적 방법에 비해 향상된 정도를 측정할 수 있는 벤치마크가 필요합니다. 저희는 AI 에이전트의 과학적 research 능력을 테스트하는 벤치마크인 REE(Research Entrance Exam)를 소개합니다. 이는 5개의 광범위한 과학 분야와 23개의 도메인에 걸쳐 있는 100개의 개방형 연구 문제로 구성되어 있습니다. 높은 품질을 보장하기 위해, 모든 문제는 해당 분야의 활발한 연구에서 도출되었으며 도메인 전문가들에 의해 개별적으로 검토되었습니다. 각 문제는 반복적 개선(iterative improvement) 작업으로 제시됩니다. 에이전트는 작동하는 초기 솔루션을 개선하기 위해 최대 12 시간이 주어지며, REE는 유사한 조건에서 평가된 기존 전문가 솔루션과 공통 척도로 그 결과를 채점합니다. 이 측정에 따르면, 평가 대상인 4개의 최첨단 에이전트(frontier agents) 중 Claude Opus 5.5와 GPT-6.1 Sol 두 에이전트는 5개 과학 분야 전체에서 문제의 86%와 81%에 대해 전문가 솔루션을 능가했습니다. 또한 이들의 실행 결과는 그들이 어떻게 그러한 성과를 거두었는지 보여줍니다. 두 에이전트 모두 평균적으로 처음 2시간 이내에 전문가 솔루션을 뛰어넘었으며, 이들의 최적 솔루션은 주로 해당 분야의 기존 방법을 맞춤화하거나 결합한 것이었습니다. 따라서 REE는 기존 방법에 대한 개선과 그 이면의 연구 과정을 모두 포착하여, 자율 과학 연구를 평가하기 위한 통합 프레임워크를 제공합니다."
+      },
+      "sentences": [
+        {
+          "en": "Autonomous research agents are emerging as a promising approach to scientific problem-solving across disciplines, owing to their growing ability to improve a solution through repeated experiments.",
+          "ko": "자율 연구 에이전트(autonomous research agents)는 반복적인 실험을 통해 솔루션을 개선하는 능력이 향상됨에 따라, 다양한 학문 분야에서 과학적 문제 해결을 위한 유망한 접근 방식으로 부상하고 있습니다."
+        },
+        {
+          "en": "Evaluating this ability requires benchmarks that pose open-ended research problems and measure improvements over established scientific methods.",
+          "ko": "이러한 능력을 평가하려면 개방형 연구 문제를 제시하고 기존 과학적 방법에 비해 향상된 정도를 측정할 수 있는 벤치마크가 필요합니다."
+        },
+        {
+          "en": "We introduce REE (Research Entrance Exam), a benchmark that tests AI agents on scientific research.",
+          "ko": "저희는 AI 에이전트의 과학적 research 능력을 테스트하는 벤치마크인 REE(Research Entrance Exam)를 소개합니다."
+        },
+        {
+          "en": "It consists of 100 open-ended research problems spanning five broad scientific areas and 23 domains.",
+          "ko": "이는 5개의 광범위한 과학 분야와 23개의 도메인에 걸쳐 있는 100개의 개방형 연구 문제로 구성되어 있습니다."
+        },
+        {
+          "en": "To ensure high quality, every problem is drawn from active research in its field and individually reviewed by domain experts.",
+          "ko": "높은 품질을 보장하기 위해, 모든 문제는 해당 분야의 활발한 연구에서 도출되었으며 도메인 전문가들에 의해 개별적으로 검토되었습니다."
+        },
+        {
+          "en": "Each problem is posed as a task of iterative improvement: an agent has up to 12 hours to improve a working starter solution, and REE scores the result on a common scale against an established expert solution evaluated under comparable conditions.",
+          "ko": "각 문제는 반복적 개선(iterative improvement) 작업으로 제시됩니다. 에이전트는 작동하는 초기 솔루션을 개선하기 위해 최대 12 시간이 주어지며, REE는 유사한 조건에서 평가된 기존 전문가 솔루션과 공통 척도로 그 결과를 채점합니다."
+        },
+        {
+          "en": "By this measure, two of the four frontier agents we evaluate, Claude Opus 5.5 and GPT-6.1 Sol, outperform the expert solutions on 86% and 81% of problems, across all five scientific areas.",
+          "ko": "이 측정에 따르면, 평가 대상인 4개의 최첨단 에이전트(frontier agents) 중 Claude Opus 5.5와 GPT-6.1 Sol 두 에이전트는 5개 과학 분야 전체에서 문제의 86%와 81%에 대해 전문가 솔루션을 능가했습니다."
+        },
+        {
+          "en": "Their runs also show how they do so: both agents surpass the expert solutions within the first two hours on average, and their best solutions mostly tailor or combine established methods of the field.",
+          "ko": "또한 이들의 실행 결과는 그들이 어떻게 그러한 성과를 거두었는지 보여줍니다. 두 에이전트 모두 평균적으로 처음 2시간 이내에 전문가 솔루션을 뛰어넘었으며, 이들의 최적 솔루션은 주로 해당 분야의 기존 방법을 맞춤화하거나 결합한 것이었습니다."
+        },
+        {
+          "en": "REE thus provides a unified framework for evaluating autonomous scientific research, capturing both improvements over established methods and the research processes behind them.",
+          "ko": "따라서 REE는 기존 방법에 대한 개선과 그 이면의 연구 과정을 모두 포착하여, 자율 과학 연구를 평가하기 위한 통합 프레임워크를 제공합니다."
+        }
+      ],
+      "sections": {
+        "background": [
+          {
+            "en": "To ensure high quality, every problem is drawn from active research in its field and individually reviewed by domain experts.",
+            "ko": "높은 품질을 보장하기 위해, 모든 문제는 해당 분야의 활발한 연구에서 도출되었으며 도메인 전문가들에 의해 개별적으로 검토되었습니다."
+          }
+        ],
+        "methodology": [
+          {
+            "en": "Autonomous research agents are emerging as a promising approach to scientific problem-solving across disciplines, owing to their growing ability to improve a solution through repeated experiments.",
+            "ko": "자율 연구 에이전트(autonomous research agents)는 반복적인 실험을 통해 솔루션을 개선하는 능력이 향상됨에 따라, 다양한 학문 분야에서 과학적 문제 해결을 위한 유망한 접근 방식으로 부상하고 있습니다."
+          },
+          {
+            "en": "We introduce REE (Research Entrance Exam), a benchmark that tests AI agents on scientific research.",
+            "ko": "저희는 AI 에이전트의 과학적 research 능력을 테스트하는 벤치마크인 REE(Research Entrance Exam)를 소개합니다."
+          },
+          {
+            "en": "It consists of 100 open-ended research problems spanning five broad scientific areas and 23 domains.",
+            "ko": "이는 5개의 광범위한 과학 분야와 23개의 도메인에 걸쳐 있는 100개의 개방형 연구 문제로 구성되어 있습니다."
+          }
+        ],
+        "results": [
+          {
+            "en": "Evaluating this ability requires benchmarks that pose open-ended research problems and measure improvements over established scientific methods.",
+            "ko": "이러한 능력을 평가하려면 개방형 연구 문제를 제시하고 기존 과학적 방법에 비해 향상된 정도를 측정할 수 있는 벤치마크가 필요합니다."
+          },
+          {
+            "en": "Each problem is posed as a task of iterative improvement: an agent has up to 12 hours to improve a working starter solution, and REE scores the result on a common scale against an established expert solution evaluated under comparable conditions.",
+            "ko": "각 문제는 반복적 개선(iterative improvement) 작업으로 제시됩니다. 에이전트는 작동하는 초기 솔루션을 개선하기 위해 최대 12 시간이 주어지며, REE는 유사한 조건에서 평가된 기존 전문가 솔루션과 공통 척도로 그 결과를 채점합니다."
+          },
+          {
+            "en": "By this measure, two of the four frontier agents we evaluate, Claude Opus 5.5 and GPT-6.1 Sol, outperform the expert solutions on 86% and 81% of problems, across all five scientific areas.",
+            "ko": "이 측정에 따르면, 평가 대상인 4개의 최첨단 에이전트(frontier agents) 중 Claude Opus 5.5와 GPT-6.1 Sol 두 에이전트는 5개 과학 분야 전체에서 문제의 86%와 81%에 대해 전문가 솔루션을 능가했습니다."
+          },
+          {
+            "en": "Their runs also show how they do so: both agents surpass the expert solutions within the first two hours on average, and their best solutions mostly tailor or combine established methods of the field.",
+            "ko": "또한 이들의 실행 결과는 그들이 어떻게 그러한 성과를 거두었는지 보여줍니다. 두 에이전트 모두 평균적으로 처음 2시간 이내에 전문가 솔루션을 뛰어넘었으며, 이들의 최적 솔루션은 주로 해당 분야의 기존 방법을 맞춤화하거나 결합한 것이었습니다."
+          },
+          {
+            "en": "REE thus provides a unified framework for evaluating autonomous scientific research, capturing both improvements over established methods and the research processes behind them.",
+            "ko": "따라서 REE는 기존 방법에 대한 개선과 그 이면의 연구 과정을 모두 포착하여, 자율 과학 연구를 평가하기 위한 통합 프레임워크를 제공합니다."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "word": "scientific",
+          "ko": "과학의",
+          "sentence": "Autonomous research agents are emerging as a promising approach to scientific problem-solving across disciplines, owing to their growing ability to improve a solution through repeated experiments.",
+          "sentenceKo": "자율 연구 에이전트(autonomous research agents)는 반복적인 실험을 통해 솔루션을 개선하는 능력이 향상됨에 따라, 다양한 학문 분야에서 과학적 문제 해결을 위한 유망한 접근 방식으로 부상하고 있습니다."
+        },
+        {
+          "word": "established",
+          "ko": "기존의",
+          "sentence": "Evaluating this ability requires benchmarks that pose open-ended research problems and measure improvements over established scientific methods.",
+          "sentenceKo": "이러한 능력을 평가하려면 개방형 연구 문제를 제시하고 기존 과학적 방법에 비해 향상된 정도를 측정할 수 있는 벤치마크가 필요합니다."
+        },
+        {
+          "word": "autonomous",
+          "ko": "자율적인",
+          "sentence": "Autonomous research agents are emerging as a promising approach to scientific problem-solving across disciplines, owing to their growing ability to improve a solution through repeated experiments.",
+          "sentenceKo": "자율 연구 에이전트(autonomous research agents)는 반복적인 실험을 통해 솔루션을 개선하는 능력이 향상됨에 따라, 다양한 학문 분야에서 과학적 문제 해결을 위한 유망한 접근 방식으로 부상하고 있습니다."
+        },
+        {
+          "word": "solution",
+          "ko": "솔루션",
+          "sentence": "Autonomous research agents are emerging as a promising approach to scientific problem-solving across disciplines, owing to their growing ability to improve a solution through repeated experiments.",
+          "sentenceKo": "자율 연구 에이전트(autonomous research agents)는 반복적인 실험을 통해 솔루션을 개선하는 능력이 향상됨에 따라, 다양한 학문 분야에서 과학적 문제 해결을 위한 유망한 접근 방식으로 부상하고 있습니다."
+        },
+        {
+          "word": "improvements",
+          "ko": "개선",
+          "sentence": "Evaluating this ability requires benchmarks that pose open-ended research problems and measure improvements over established scientific methods.",
+          "sentenceKo": "이러한 능력을 평가하려면 개방형 연구 문제를 제시하고 기존 과학적 방법에 비해 향상된 정도를 측정할 수 있는 벤치마크가 필요합니다."
+        },
+        {
+          "word": "problem-solving",
+          "ko": "문제 해결",
+          "sentence": "Autonomous research agents are emerging as a promising approach to scientific problem-solving across disciplines, owing to their growing ability to improve a solution through repeated experiments.",
+          "sentenceKo": "자율 연구 에이전트(autonomous research agents)는 반복적인 실험을 통해 솔루션을 개선하는 능력이 향상됨에 따라, 다양한 학문 분야에서 과학적 문제 해결을 위한 유망한 접근 방식으로 부상하고 있습니다."
+        },
+        {
+          "word": "agents",
+          "ko": "에이전트",
+          "sentence": "Autonomous research agents are emerging as a promising approach to scientific problem-solving across disciplines, owing to their growing ability to improve a solution through repeated experiments.",
+          "sentenceKo": "자율 연구 에이전트(autonomous research agents)는 반복적인 실험을 통해 솔루션을 개선하는 능력이 향상됨에 따라, 다양한 학문 분야에서 과학적 문제 해결을 위한 유망한 접근 방식으로 부상하고 있습니다."
+        },
+        {
+          "word": "ability",
+          "ko": "능력",
+          "sentence": "Autonomous research agents are emerging as a promising approach to scientific problem-solving across disciplines, owing to their growing ability to improve a solution through repeated experiments.",
+          "sentenceKo": "자율 연구 에이전트(autonomous research agents)는 반복적인 실험을 통해 솔루션을 개선하는 능력이 향상됨에 따라, 다양한 학문 분야에서 과학적 문제 해결을 위한 유망한 접근 방식으로 부상하고 있습니다."
+        },
+        {
+          "word": "evaluating",
+          "ko": "평가",
+          "sentence": "Evaluating this ability requires benchmarks that pose open-ended research problems and measure improvements over established scientific methods.",
+          "sentenceKo": "이러한 능력을 평가하려면 개방형 연구 문제를 제시하고 기존 과학적 방법에 비해 향상된 정도를 측정할 수 있는 벤치마크가 필요합니다."
+        },
+        {
+          "word": "open-ended",
+          "ko": "개방형의",
+          "sentence": "Evaluating this ability requires benchmarks that pose open-ended research problems and measure improvements over established scientific methods.",
+          "sentenceKo": "이러한 능력을 평가하려면 개방형 연구 문제를 제시하고 기존 과학적 방법에 비해 향상된 정도를 측정할 수 있는 벤치마크가 필요합니다."
+        }
+      ],
+      "links": {
+        "hf": "https://huggingface.co/papers/2611.34646",
+        "arxiv": "https://arxiv.org/abs/2611.34646",
+        "pdf": "https://arxiv.org/pdf/2611.34646",
+        "github": null
+      },
+      "githubStars": null,
+      "translatedBy": "gemini",
+      "collectedAt": "2026-11-27T07:41:50.638Z",
+      "citations": {
+        "count": 0,
+        "source": "Semantic Scholar"
+      }
+    },
     {
       "id": "2611.28244",
       "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
