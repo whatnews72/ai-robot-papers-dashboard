@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T07:41:50.638Z",
+  "updatedAt": "2026-11-27T20:32:09.849Z",
   "queries": [
     "AI scientist autonomous research",
     "robot scientist",
@@ -25,7 +25,7 @@
         "Yongliang Shen"
       ],
       "publishedAt": "2026-11-25T00:00:00.000Z",
-      "upvotes": 15,
+      "upvotes": 17,
       "keywords": [],
       "categories": [
         "AI 과학자",
@@ -197,7 +197,7 @@
         "pdf": "https://arxiv.org/pdf/2611.34852",
         "github": "https://github.com/ZJU-REAL/DRBenchPro"
       },
-      "githubStars": 19,
+      "githubStars": 21,
       "translatedBy": "gemini",
       "collectedAt": "2026-11-27T07:41:50.638Z",
       "citations": {
@@ -784,7 +784,7 @@
         "Tao Yu"
       ],
       "publishedAt": "2026-11-13T00:00:00.000Z",
-      "upvotes": 145,
+      "upvotes": 144,
       "keywords": [
         "agentic robotics",
         "foundation model",
@@ -8437,7 +8437,7 @@
         "pdf": "https://arxiv.org/pdf/2610.28578",
         "github": "https://github.com/InternScience/Agents-A1"
       },
-      "githubStars": 609,
+      "githubStars": 610,
       "translatedBy": "gemini",
       "citations": {
         "count": 1,
@@ -8826,7 +8826,7 @@
         "pdf": "https://arxiv.org/pdf/2610.20442",
         "github": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
       },
-      "githubStars": 208,
+      "githubStars": 211,
       "translatedBy": "gemini",
       "citations": {
         "count": 5,
